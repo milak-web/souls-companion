@@ -1,0 +1,2786 @@
+[
+  {
+    "id": "majula",
+    "name": "Majula",
+    "image": "assets/areas/Majula.png",
+    "recommended_level": "1-100 (Hub)",
+    "bonfires": [
+      "The Far Fire"
+    ],
+    "bosses": [],
+    "enemies": [
+      "Enslaved Pig",
+      "Skeleton",
+      "Goblin"
+    ],
+    "npcs": [
+      "Benhart of Jugo",
+      "Blacksmith Lenigrast",
+      "Cale the Cartographer",
+      "Carhillion of the Fold",
+      "Emerald Herald",
+      "Laddersmith Gilligan",
+      "Licia of Lindeldt",
+      "Maughlin the Armourer",
+      "Merchant Hag Melentia",
+      "Rosabeth of Melfia",
+      "Saulden, the Crestfallen Warrior",
+      "Stone Trader Chloanne",
+      "Sweet Shalquoir"
+    ],
+    "items": [
+      "Estus Flask",
+      "Estus Flask Shard",
+      "Soul Vessel",
+      "Bluemoon Greatsword",
+      "Morning Star",
+      "Cleric's Sacred Chime",
+      "Binoculars",
+      "Short Bow",
+      "Crimson Parma",
+      "Moon Butterfly Shield"
+    ],
+    "secrets": [
+      "The pit (requires Silvercat Ring)",
+      "Mansion basement"
+    ],
+    "description": "A sunny coastal town that serves as a sanctuary for the weary. The hub of Drangleic.",
+    "source_url": "https://darksouls2.wikidot.com/majula",
+    "connections": [
+      "Things Betwixt",
+      "Forest of Fallen Giants",
+      "Heide's Tower of Flame",
+      "Huntsman's Copse",
+      "The Pit",
+      "Shaded Woods"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Central Hub Level up here Upgrade Estus Flask here Way of Blue Covenant Company of Champions Covenant",
+    "region": "Drangleic",
+    "version_notes": "Enslaved Pig Skeleton Goblin",
+    "bonfire_details": [
+      {
+        "name": "The Far Fire",
+        "location": "Near the cliff in front of the blacksmith's house.",
+        "source_url": "https://darksouls2.wikidot.com/majula",
+        "screenshots": [
+          {
+            "image": "assets/bonfires/far-fire.jpg",
+            "caption": "The Far Fire on the cliff overlooking Majula.",
+            "source_url": "https://www.svg.com/939253/tragic-details-you-missed-in-dark-souls-2/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "forest_of_fallen_giants",
+    "name": "Forest of Fallen Giants",
+    "image": "assets/areas/Forest_of_Fallen_Giants.png",
+    "recommended_level": "10-25",
+    "bonfires": [
+      "The Crestfallen's Retreat",
+      "Cardinal Tower",
+      "Soldier's Rest",
+      "The Place Unbeknownst"
+    ],
+    "bosses": [
+      "The Last Giant",
+      "The Pursuer"
+    ],
+    "enemies": [
+      "Hollow Infantry",
+      "Hollow Soldier",
+      "Old Ironclad Soldier",
+      "Flame Salamander",
+      "Crystal Lizard",
+      "Royal Sorcerer Navlaan",
+      "Heide Knight",
+      "Ogre",
+      "Royal Swordsman",
+      "Invisible Hollow",
+      "Armorer Dennis",
+      "Knight Phantom",
+      "Syan Knight Phantom",
+      "Catarina Knight"
+    ],
+    "npcs": [
+      "Cale the Cartographer",
+      "Mild Mannered Pate",
+      "Merchant Hag Melentia",
+      "Benhart of Jugo",
+      "Ruined Aflis"
+    ],
+    "items": [
+      "White Sign Soapstone",
+      "Small White Sign Soapstone",
+      "Estus Flask Shard",
+      "Seed of a Tree of Giants",
+      "House Key",
+      "Shortsword",
+      "Hand Axe",
+      "Halberd",
+      "Light Crossbow",
+      "Mail Breaker",
+      "Sorcerer's Staff",
+      "Bastard Sword",
+      "Longsword",
+      "Great Soul Arrow"
+    ],
+    "secrets": [
+      "Hidden wall near Cardinal Tower",
+      "Pharros Lockstone in the basement"
+    ],
+    "description": "A desolate forest containing the remains of a great war between giants and humans.",
+    "source_url": "https://darksouls2.wikidot.com/forest-of-fallen-giants",
+    "connections": [
+      "The Lost Bastille",
+      "Majula",
+      "Memory of Jeigh",
+      "Memory of Orro",
+      "Memory of Vammar"
+    ],
+    "mini_bosses": [
+      "Heide Knight",
+      "Royal Sorcerer Navlaan"
+    ],
+    "overview_notes": "Merchant Hag Melentia",
+    "region": "Drangleic",
+    "version_notes": "Hollow Infantry Hollow Soldier Old Ironclad Soldier Flame Salamander Crystal Lizard Invader Royal Sorcerer Navlaan Dark Souls II: Heide Knight Scholar of the First Sin: Ogre Royal Swordsman Invisible Hollow Armorer Dennis Bonfire Intensity 2+ only enemies: Red Phantom Old Ironclad Soldier Red Phantom Hollow Soldier Roaming Soul Knight Phantom Roaming Soul Syan Knight Phantom Roaming Soul Catarina Knight",
+    "bonfire_details": [
+      {
+        "name": "The Crestfallen's Retreat",
+        "location": "In the area with the first hollows, before climbing the ladder to the fort.",
+        "source_url": "https://darksouls2.wikidot.com/forest-of-fallen-giants",
+        "screenshots": []
+      },
+      {
+        "name": "Cardinal Tower",
+        "location": "After the first firebomb-throwing Hollow Soldier , behind a set of doors after climbing the ladder.",
+        "source_url": "https://darksouls2.wikidot.com/forest-of-fallen-giants",
+        "screenshots": [
+          {
+            "image": "assets/bonfires/cardinal-tower.jpg",
+            "caption": "Cardinal Tower bonfire, identified by its in-game bonfire menu.",
+            "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=254338375"
+          }
+        ]
+      },
+      {
+        "name": "Soldier's Rest",
+        "location": "After opening the door under the Cardinal Tower (in the room before the massive roots), continue until you find the bonfire at the back of the area. Requires Soldier Key .",
+        "source_url": "https://darksouls2.wikidot.com/forest-of-fallen-giants",
+        "screenshots": []
+      },
+      {
+        "name": "The Place Unbeknownst",
+        "location": "Behind the King's Door. Requires King's Ring or a tricky jump ( Video ).",
+        "source_url": "https://darksouls2.wikidot.com/forest-of-fallen-giants",
+        "screenshots": []
+      }
+    ],
+    "bonfire_video": "https://www.youtube.com/watch?v=fHkXSLde_Hs",
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+  },
+  {
+    "id": "heides_tower_of_flame",
+    "name": "Heide's Tower of Flame",
+    "image": "assets/areas/Heide_s_Tower_of_Flame.webp",
+    "recommended_level": "20-40",
+    "bonfires": [
+      "Heide's Ruin",
+      "Tower of Flame"
+    ],
+    "bosses": [
+      "Dragonrider"
+    ],
+    "enemies": [
+      "Old Knights",
+      "Executioner Phantom",
+      "Sentinel Phantom",
+      "Heide Knight",
+      "Guardian Dragon"
+    ],
+    "npcs": [
+      "Licia of Lindeldt",
+      "Masterless Glencour"
+    ],
+    "items": [
+      "Ring of Binding",
+      "Human Effigy",
+      "Knight Set",
+      "Old Knight Halberd"
+    ],
+    "secrets": [
+      "Lever system to expand the arena",
+      "Hidden path to Blue Cathedral"
+    ],
+    "description": "A sunken city partially submerged in the sea, once home to a great civilization.",
+    "source_url": "https://darksouls2.wikidot.com/heide-s-tower-of-flame",
+    "connections": [
+      "Majula",
+      "Cathedral of Blue",
+      "No-man's Wharf"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Licia of Lindeldt",
+    "region": "Drangleic",
+    "version_notes": "Old Knights Bonfire Intensity 2+ only enemies: Roaming Soul Executioner Phantom Roaming Soul Sentinel Phantom Scholar of the First Sin: Heide Knight Guardian Dragon",
+    "bonfire_details": [
+      {
+        "name": "Heide's Ruin",
+        "location": "After exiting the sewer tunnel from Majula , head forward until you reach two statues of knights. To the right of them there is a path leading downwards, the bonfire is located there.",
+        "source_url": "https://darksouls2.wikidot.com/heide-s-tower-of-flame",
+        "screenshots": []
+      },
+      {
+        "name": "Tower of Flame",
+        "location": "After defeating the Dragonrider boss, head up the stairs to the right. At the top of the stairs, you will find the bonfire.",
+        "source_url": "https://darksouls2.wikidot.com/heide-s-tower-of-flame",
+        "screenshots": []
+      }
+    ],
+    "bonfire_video": "https://www.youtube.com/watch?v=nEQbov82x9Q",
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+  },
+  {
+    "id": "lost_bastille",
+    "name": "The Lost Bastille",
+    "image": "assets/areas/Lost_Bastille.png",
+    "recommended_level": "35-50",
+    "bonfires": [
+      "Exile Holding Cells",
+      "McDuff's Workshop",
+      "Servants' Quarters",
+      "Straid's Cell",
+      "The Tower Apart"
+    ],
+    "bosses": [
+      "Ruin Sentinels"
+    ],
+    "enemies": [
+      "Royal Swordsman",
+      "Stray Dog",
+      "Undead Citizen",
+      "Undead Jailer",
+      "Heide Knight"
+    ],
+    "npcs": [
+      "Lucatiel of Mirrah",
+      "Steady Hand McDuff",
+      "Straid of Olaphis",
+      "Pilgrim Bellclaire"
+    ],
+    "items": [
+      "Archdrake Robes",
+      "Wanderer Set",
+      "Bracing Knuckle Ring",
+      "Covetous Silver Serpent Ring",
+      "Antiquated Key",
+      "Estus Flask Shard",
+      "Bonfire Ascetic",
+      "Soul Vessel",
+      "Twinkling Titanite",
+      "Hush"
+    ],
+    "secrets": [
+      "Hidden walls in the sentinel arena",
+      "Fragrant Branch of Yore"
+    ],
+    "description": "A massive prison fortress where the undead were cast away and forgotten.",
+    "aliases": [
+      "Lost Bastille"
+    ],
+    "source_url": "https://darksouls2.wikidot.com/the-lost-bastille",
+    "connections": [
+      "Forest of Fallen Giants",
+      "Belfry Luna",
+      "Sinner's Rise",
+      "No-man's Wharf"
+    ],
+    "mini_bosses": [
+      "Heide Knight"
+    ],
+    "overview_notes": "You can travel to The Lost Bastille after defeating The Pursuer or Flexile Sentry Straid of Olaphis",
+    "region": "Drangleic",
+    "version_notes": "Royal Swordsman Stray Dog Undead Citizen Undead Jailer Heide Knight",
+    "bonfire_details": [
+      {
+        "name": "Exile Holding Cells",
+        "location": "Accessible after defeating Flexile Sentry in No-man's Wharf . Inside a cell after the elevator ride.",
+        "source_url": "https://darksouls2.wikidot.com/the-lost-bastille",
+        "screenshots": []
+      },
+      {
+        "name": "McDuff's Workshop",
+        "location": "Behind a breakable wall openable only by explosives, next to the three dogs and a gate. Alternatively use the Bastille Key to open the door next to the wall.",
+        "source_url": "https://darksouls2.wikidot.com/the-lost-bastille",
+        "screenshots": []
+      },
+      {
+        "name": "Servants' Quarters",
+        "location": "After the Ruin Sentinels boss fight.",
+        "source_url": "https://darksouls2.wikidot.com/the-lost-bastille",
+        "screenshots": []
+      },
+      {
+        "name": "Straid's Cell",
+        "location": "Behind petrified Straid of Olaphis , in a tower near the bridge to Sinner's Rise .",
+        "source_url": "https://darksouls2.wikidot.com/the-lost-bastille",
+        "screenshots": []
+      },
+      {
+        "name": "The Tower Apart",
+        "location": "Accessible only by examining the bird's nest found after the Pursuer boss in Forest of Fallen Giants .",
+        "source_url": "https://darksouls2.wikidot.com/the-lost-bastille",
+        "screenshots": []
+      }
+    ],
+    "bonfire_video": "https://www.youtube.com/watch?v=iUVp7KGTpq4",
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+  },
+  {
+    "id": "no_mans_wharf",
+    "name": "No-man's Wharf",
+    "image": "assets/areas/No_man_s_Wharf.webp",
+    "recommended_level": "30-45",
+    "bonfires": [
+      "Unseen Path to Heide"
+    ],
+    "bosses": [
+      "Flexile Sentry"
+    ],
+    "enemies": [
+      "Hollow Infantry",
+      "Varangian Sailor",
+      "Dark Stalker",
+      "Stray Dog",
+      "Crystal Lizard",
+      "Suspicious Shadow",
+      "Aurous Knight",
+      "Basilisk",
+      "Undead Laborer",
+      "Rusted Primal Knight"
+    ],
+    "npcs": [
+      "Carhillion of the Fold",
+      "Lonesome Gavlan",
+      "Lucatiel of Mirrah"
+    ],
+    "items": [
+      "Estus Flask Shard",
+      "Emit Force",
+      "Greatsword",
+      "Bandit Axe",
+      "Brigand Set",
+      "Ring of Life Protection",
+      "Royal Soldier's Ring",
+      "Pyromancy Flame",
+      "Fireball"
+    ],
+    "secrets": [
+      "Pharros contraption to light the wharf",
+      "Gavlan's hidden room"
+    ],
+    "description": "A dark, seaside port used by smugglers and pirates. Infested with creatures that fear the light.",
+    "source_url": "https://darksouls2.wikidot.com/no-man-s-wharf",
+    "connections": [
+      "Heide's Tower of Flame",
+      "The Lost Bastille"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "One way trip to The Lost Bastille Lonesome Gavlan first location",
+    "region": "Drangleic",
+    "version_notes": "Hollow Infantry Varangian Sailor Dark Stalker Stray Dog Crystal Lizard Bonfire Intensity 2+ only enemies: Suspicious Shadow Roaming Soul Aurous Knight Scholar of the First Sin: Basilisk Undead Laborer Rusted Primal Knight",
+    "bonfire_details": [
+      {
+        "name": "Unseen Path to Heide",
+        "location": "After leaving the damp tunnels from Heide's Tower, the bonfire is near many stalagmites.",
+        "source_url": "https://darksouls2.wikidot.com/no-man-s-wharf",
+        "screenshots": []
+      }
+    ]
+  },
+  {
+    "id": "things-betwixt",
+    "name": "Things Betwixt",
+    "image": "assets/areas/Things_Betwixt.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Fire Keepers' Dwelling"
+    ],
+    "bosses": [],
+    "enemies": [
+      "Kobold",
+      "Undead Traveler",
+      "Ogre",
+      "Falconer",
+      "Goblin",
+      "Foreign Wanderer Phantom",
+      "Basilisk",
+      "Pursuer"
+    ],
+    "npcs": [
+      "Strowen",
+      "Griant",
+      "Morrel",
+      "Housekeeper Milibeth",
+      "Dyna and Tillo"
+    ],
+    "items": [
+      "Rusted Coin",
+      "Small Smooth & Silky Stone",
+      "Human Effigy",
+      "Gold Pine Resin",
+      "Amber Herb",
+      "Cracked Red Eye Orb",
+      "Dagger",
+      "Handmaid's Ladle",
+      "Estus Flask Shard"
+    ],
+    "secrets": [],
+    "description": "Things Betwixt is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/things-betwixt",
+    "connections": [
+      "Majula"
+    ],
+    "mini_bosses": [
+      "Ogre",
+      "Pursuer"
+    ],
+    "overview_notes": "Tutorial Level Reset character stats here",
+    "region": "Drangleic",
+    "version_notes": "Kobold Undead Traveler Ogre Bonfire Intensity 2+ only enemies : Falconer Red Phantom Goblin Roaming Soul Foreign Wanderer Phantom Dark Souls II: Scholar of the First Sin : Basilisk Pursuer",
+    "bonfire_details": [
+      {
+        "name": "Fire Keepers' Dwelling",
+        "location": "Behind the back door of the house.",
+        "source_url": "https://darksouls2.wikidot.com/things-betwixt",
+        "screenshots": []
+      }
+    ]
+  },
+  {
+    "id": "huntsman-s-copse",
+    "name": "Huntsman's Copse",
+    "image": "assets/areas/Huntsman_s_Copse.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Undead Refuge",
+      "Bridge Approach",
+      "Undead Lockaway"
+    ],
+    "bosses": [
+      "Skeleton Lords"
+    ],
+    "enemies": [
+      "Captive Undead",
+      "Undead Laborer",
+      "Rogue",
+      "Artificial Undead",
+      "Great Moth",
+      "Giant Basilisk",
+      "Skeleton",
+      "Armored Skeleton",
+      "Necromancer",
+      "Crystal Lizard",
+      "Torturer",
+      "Curse Jar",
+      "Merciless Roenna"
+    ],
+    "npcs": [
+      "Felkin the Outcast",
+      "Creighton the Wanderer"
+    ],
+    "items": [
+      "Bandit's Knife",
+      "Foot Soldier Shield",
+      "Notched Whip",
+      "Ricard's Rapier",
+      "Morning Star",
+      "Mace",
+      "Rogue Set",
+      "Undead Lockaway Key",
+      "Soul Spear",
+      "Combustion"
+    ],
+    "secrets": [],
+    "description": "Huntsman's Copse is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/huntsman-s-copse",
+    "connections": [
+      "Majula",
+      "Harvest Valley",
+      "Undead Purgatory"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Felkin the Outcast",
+    "region": "Drangleic",
+    "version_notes": "Captive Undead Undead Laborer Rogue Artificial Undead Great Moth Giant Basilisk (SotFS) Skeleton Armored Skeleton Necromancer Crystal Lizard Torturer Curse Jar Invader Merciless Roenna Bonfire Intensity 2+ only enemies: Red Phantom Artificial Undead Red Phantom Torturer",
+    "bonfire_details": [
+      {
+        "name": "Undead Refuge",
+        "location": "After arriving in the area, the bonfire will be in a small clearing, to the left. Felkin the Outcast is located very close to this bonfire. He is sitting on a chair in the cave leading to Majula .",
+        "source_url": "https://darksouls2.wikidot.com/huntsman-s-copse",
+        "screenshots": []
+      },
+      {
+        "name": "Bridge Approach",
+        "location": "After passing the dark room filled with enemies, travel across the path under the bridge until you reach a section with a ladder. Descend the ladder and move under the bridge. The bonfire is inside a small room under the bridge.",
+        "source_url": "https://darksouls2.wikidot.com/huntsman-s-copse",
+        "screenshots": []
+      },
+      {
+        "name": "Undead Lockaway",
+        "location": "From the Bridge Approach, after acquiring the Undead Lockaway Key , travel into Huntsman's Copse towards the first raised bridge. The bonfire is inside a locked room near a pyre on the other side. Creighton the Wanderer is found here.",
+        "source_url": "https://darksouls2.wikidot.com/huntsman-s-copse",
+        "screenshots": []
+      }
+    ],
+    "bonfire_video": "https://www.youtube.com/watch?v=CcMDhtGSf0A",
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+  },
+  {
+    "id": "undead-purgatory",
+    "name": "Undead Purgatory",
+    "image": "assets/areas/Undead_Purgatory.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Undead Purgatory"
+    ],
+    "bosses": [
+      "Executioner's Chariot"
+    ],
+    "enemies": [
+      "Skeleton",
+      "Armored Skeleton",
+      "Necromancer",
+      "Greatsword Phantom"
+    ],
+    "npcs": [
+      "Titchy Gren"
+    ],
+    "items": [
+      "Sublime Bone Dust",
+      "Fire Seed",
+      "Cracked Red Eye Orb"
+    ],
+    "secrets": [],
+    "description": "Undead Purgatory is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/undead-purgatory",
+    "connections": [
+      "Huntsman's Copse"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Brotherhood of Blood covenant PVP Arena",
+    "region": "Drangleic",
+    "version_notes": "Skeleton Armored Skeleton Necromancer Roaming Soul Greatsword Phantom",
+    "bonfire_details": [
+      {
+        "name": "Undead Purgatory",
+        "location": "Next to Titchy Gren after the boss.",
+        "source_url": "https://darksouls2.wikidot.com/undead-purgatory",
+        "screenshots": []
+      }
+    ]
+  },
+  {
+    "id": "cathedral-of-blue",
+    "name": "Cathedral of Blue",
+    "image": "assets/areas/Cathedral_of_Blue.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "The Blue Cathedral"
+    ],
+    "bosses": [
+      "Old Dragonslayer"
+    ],
+    "enemies": [],
+    "npcs": [
+      "Blue Sentinel Targray"
+    ],
+    "items": [
+      "Ring of Binding",
+      "Heide Knight Iron Mask",
+      "Tower Shield"
+    ],
+    "secrets": [],
+    "description": "Cathedral of Blue is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/cathedral-of-blue",
+    "connections": [
+      "Heide's Tower of Flame"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Blue Sentinels Covenant",
+    "region": "Drangleic",
+    "version_notes": "None",
+    "bonfire_details": [
+      {
+        "name": "The Blue Cathedral",
+        "location": "Down the stairs next to Targray.",
+        "source_url": "https://darksouls2.wikidot.com/cathedral-of-blue",
+        "screenshots": []
+      }
+    ]
+  },
+  {
+    "id": "sinners-rise",
+    "name": "Sinner's Rise",
+    "image": "assets/areas/Sinners_Rise.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "The Saltfort"
+    ],
+    "bosses": [
+      "The Lost Sinner"
+    ],
+    "enemies": [
+      "Enhanced Undead",
+      "Royal Swordsman",
+      "Undead Citizen",
+      "Flexile Sentry",
+      "Undead Jailer",
+      "Prisoned Sinner"
+    ],
+    "npcs": [
+      "Lucatiel of Mirrah"
+    ],
+    "items": [
+      "Human Effigy",
+      "Sublime Bone Dust",
+      "Northern Ritual Band",
+      "Pharros' Lockstone",
+      "Smooth & Silky Stone",
+      "Fragrant Branch of Yore"
+    ],
+    "secrets": [],
+    "description": "Sinner's Rise is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "aliases": [
+      "Sinners' Rise"
+    ],
+    "source_url": "https://darksouls2.wikidot.com/sinner-s-rise",
+    "connections": [
+      "The Lost Bastille"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Primal Bonfire Location",
+    "region": "Drangleic",
+    "version_notes": "Enhanced Undead Royal Swordsman Undead Citizen Flexile Sentry (SotFS) Red Phantom Undead Citizen - Bonfire Intensity 2+ Red Phantom Undead Jailer - Bonfire Intensity 2+ Prisoned Sinner (NG+ only)",
+    "bonfire_details": [
+      {
+        "name": "The Saltfort",
+        "location": "In the tower full of Royal Swordsmen .",
+        "source_url": "https://darksouls2.wikidot.com/sinner-s-rise",
+        "screenshots": []
+      }
+    ]
+  },
+  {
+    "id": "shaded-woods",
+    "name": "Shaded Woods",
+    "image": "assets/areas/Shaded_Woods.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Old Akelarre",
+      "Ruined Fork Road",
+      "Shaded Ruins"
+    ],
+    "bosses": [
+      "Scorpioness Najka"
+    ],
+    "enemies": [
+      "Goblin",
+      "Basilisk",
+      "Lion Clan Warrior",
+      "Forest Guardian",
+      "Curse Jar",
+      "Crystal Lizard"
+    ],
+    "npcs": [
+      "Creighton the Wanderer",
+      "Head of Vengarl",
+      "Weaponsmith Ornifex",
+      "Manscorpion Tark",
+      "Darkdiver Grandahl"
+    ],
+    "items": [
+      "Dragonslayer's Crescent Axe",
+      "Black Knight Halberd",
+      "Scythe",
+      "Golden Falcon Shield",
+      "Lion Mage Set",
+      "Old Sun Ring",
+      "Chloranthy Ring",
+      "Clear Bluestone Ring",
+      "Soul of a Nameless Soldier",
+      "Old Radiant Lifegem",
+      "Amber Herb",
+      "Soul of a Proud Knight",
+      "Human Effigy",
+      "Red Tearstone Ring",
+      "Ring of Life Protection",
+      "Gower's Ring of Protection",
+      "Estus Flask Shard",
+      "Sublime Bone Dust",
+      "Twinkling Titanite",
+      "Fire Seed",
+      "Skeptic's Spice",
+      "Fragrant Branch of Yore",
+      "Fang Key"
+    ],
+    "secrets": [],
+    "description": "Shaded Woods is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/shaded-woods",
+    "connections": [
+      "Doors of Pharros",
+      "Majula",
+      "Dark Chasm of Old",
+      "Shrine of Winter",
+      "Aldia's Keep"
+    ],
+    "mini_bosses": [
+      "Flexile Sentry",
+      "Giant Basilisk"
+    ],
+    "overview_notes": "Head of Vengarl Manscorpion Tark Darkdiver Grandahl",
+    "region": "Drangleic",
+    "version_notes": "Goblin Basilisk Lion Clan Warrior Forest Guardian Curse Jar Crystal Lizard",
+    "bonfire_details": [
+      {
+        "name": "Old Akelarre",
+        "location": "After opening the gate blocked by Rosabeth of Melfia , behind a door on the left side.",
+        "source_url": "https://darksouls2.wikidot.com/shaded-woods",
+        "screenshots": []
+      },
+      {
+        "name": "Ruined Fork Road",
+        "location": "Not far away from the previous bonfire.",
+        "source_url": "https://darksouls2.wikidot.com/shaded-woods",
+        "screenshots": []
+      },
+      {
+        "name": "Shaded Ruins",
+        "location": "Right after exiting the misty woods.",
+        "source_url": "https://darksouls2.wikidot.com/shaded-woods",
+        "screenshots": []
+      }
+    ],
+    "bonfire_video": "https://www.youtube.com/watch?v=4Ey8rBqLYZk",
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+  },
+  {
+    "id": "earthen-peak",
+    "name": "Earthen Peak",
+    "image": "assets/areas/Earthen_Peak.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Lower Earthen Peak",
+      "Central Earthen Peak",
+      "Upper Earthen Peak"
+    ],
+    "bosses": [
+      "Covetous Demon",
+      "Mytha, the Baneful Queen"
+    ],
+    "enemies": [
+      "Undead Steelworker",
+      "Manikin",
+      "Desert Sorceress",
+      "Grave Warden",
+      "Poison Horn Beetle",
+      "Mimic",
+      "Crescent Sickle Phantom"
+    ],
+    "npcs": [
+      "Lucatiel of Mirrah",
+      "Laddersmith Gilligan",
+      "Mild Mannered Pate",
+      "Jester Thomas"
+    ],
+    "items": [
+      "Estus Flask Shard",
+      "Petrified Something",
+      "Manikin Mask",
+      "Poisonbite Ring",
+      "Spell Quartz Ring",
+      "Twinkling Titanite",
+      "Skeptic's Spice",
+      "Pharros' Lockstone",
+      "Mirrah Shield",
+      "Heavy Crossbow",
+      "Broadsword",
+      "Pike",
+      "Great Heavy Soul Arrow",
+      "Lightning Spear"
+    ],
+    "secrets": [],
+    "description": "Earthen Peak is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/earthen-peak",
+    "connections": [
+      "Harvest Valley",
+      "Iron Keep"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Laddersmith Gilligan Mild-mannered Pate",
+    "region": "Drangleic",
+    "version_notes": "Undead Steelworker Manikin Desert Sorceress Grave Warden Poison Horn Beetle Mimic Crescent Sickle Phantom",
+    "bonfire_details": [
+      {
+        "name": "Lower Earthen Peak",
+        "location": "In the room just after Covetous Demon , where Lucatiel of Mirrah may be standing.",
+        "source_url": "https://darksouls2.wikidot.com/earthen-peak",
+        "screenshots": []
+      },
+      {
+        "name": "Central Earthen Peak",
+        "location": "In the room found to the right of the windmill after climbing up the ladder next to the dart trap.",
+        "source_url": "https://darksouls2.wikidot.com/earthen-peak",
+        "screenshots": []
+      },
+      {
+        "name": "Upper Earthen Peak",
+        "location": "Found inside of an illusory wall after the Crescent Sickle Phantom and to the right.",
+        "source_url": "https://darksouls2.wikidot.com/earthen-peak",
+        "screenshots": []
+      }
+    ],
+    "bonfire_video": "https://www.youtube.com/watch?v=Njm8_1bOjxs",
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+  },
+  {
+    "id": "harvest-valley",
+    "name": "Harvest Valley",
+    "image": "assets/areas/Harvest_Valley.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Poison Pool",
+      "The Mines"
+    ],
+    "bosses": [],
+    "enemies": [
+      "Mounted Overseer",
+      "Skeleton",
+      "Artificial Undead",
+      "Undead Laborer",
+      "Undead Steelworker",
+      "Crystal Lizard",
+      "Desert Sorceress",
+      "Undead Supplicant"
+    ],
+    "npcs": [
+      "Stone Trader Chloanne",
+      "Lonesome Gavlan"
+    ],
+    "items": [
+      "Fragrant Branch of Yore",
+      "Titanite Chunk",
+      "Fire Seed",
+      "Skeptic's Spice",
+      "Simpleton's Spice",
+      "Chameleon",
+      "Old Knight Pike",
+      "Old Knight Greatshield"
+    ],
+    "secrets": [],
+    "description": "Harvest Valley is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/harvest-valley",
+    "connections": [
+      "Huntsman's Copse",
+      "Earthen Peak"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Heirs of the Sun covenant",
+    "region": "Drangleic",
+    "version_notes": "Mounted Overseer Skeleton Artificial Undead Undead Laborer Undead Steelworker Crystal Lizard Scholar of the First Sin: Desert Sorceress Undead Supplicant Red Phantom Artificial Undead - Bonfire Intensity 2+",
+    "bonfire_details": [
+      {
+        "name": "Poison Pool",
+        "location": "Soon after entering the area, the bonfire is to your right through a pool of poison.",
+        "source_url": "https://darksouls2.wikidot.com/harvest-valley",
+        "screenshots": []
+      },
+      {
+        "name": "The Mines",
+        "location": "After you open a gate, the bonfire is to your right.",
+        "source_url": "https://darksouls2.wikidot.com/harvest-valley",
+        "screenshots": []
+      }
+    ],
+    "bonfire_video": "https://www.youtube.com/watch?v=Njm8_1bOjxs",
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+  },
+  {
+    "id": "brightstone-cove-tseldora",
+    "name": "Brightstone Cove Tseldora",
+    "image": "assets/areas/Brightstone_Cove_Tseldora.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Royal Army Campsite",
+      "Chapel Threshold",
+      "Lower Brightstone Cove",
+      "Primal Bonfire"
+    ],
+    "bosses": [
+      "Prowling Magus and Congregation",
+      "The Duke's Dear Freja"
+    ],
+    "enemies": [
+      "Undead Boar",
+      "Undead Peasant",
+      "Parasite Spider",
+      "Parasitized Undead",
+      "Basilisk",
+      "Hollow Mage",
+      "Crystal Lizard",
+      "Red Crystal Lizard",
+      "Royal Sorcerer Navlaan",
+      "Porcine Peasant",
+      "Giant Undead Boar",
+      "Dual Wielding Swordsman",
+      "Hollow Priest"
+    ],
+    "npcs": [
+      "Cromwell the Pardoner",
+      "Weaponsmith Ornifex",
+      "Benhart of Jugo",
+      "Ashen Knight Boyd"
+    ],
+    "items": [
+      "Black Knight Ultra Greatsword",
+      "Crescent Axe",
+      "Pickaxe",
+      "Cleric's Small Shield",
+      "Engraved Gauntlets",
+      "Soul Vortex",
+      "Great Fireball",
+      "Southern Ritual Band",
+      "Bonfire Ascetic",
+      "Fire Seed",
+      "Estus Flask Shard",
+      "Petrified Dragon Bone",
+      "Human Effigy",
+      "Skeptic's Spice"
+    ],
+    "secrets": [],
+    "description": "Brightstone Cove Tseldora is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/brightstone-cove-tseldora",
+    "connections": [
+      "Doors of Pharros",
+      "Lord's Private Chamber",
+      "Dragon Memories"
+    ],
+    "mini_bosses": [
+      "Royal Sorcerer Navlaan"
+    ],
+    "overview_notes": "Weaponsmith Ornifex (after rescue in Shaded Woods) Creighton the Wanderer & Mild Mannered Pate event",
+    "region": "Drangleic",
+    "version_notes": "Undead Boar Undead Peasant Parasite Spider Parasitized Undead Basilisk Hollow Mage Crystal Lizard Red Crystal Lizard Invader Royal Sorcerer Navlaan Roaming Soul Porcine Peasant Bonfire Intensity 2+ only enemies: Giant Undead Boar Roaming Soul Dual Wielding Swordsman Red Phantom Hollow Priest",
+    "bonfire_details": [
+      {
+        "name": "Royal Army Campsite",
+        "location": "In the second tent after entering the area. It's the biggest tent.",
+        "source_url": "https://darksouls2.wikidot.com/brightstone-cove-tseldora",
+        "screenshots": []
+      },
+      {
+        "name": "Chapel Threshold",
+        "location": "To the right of the exit from the Prowling Magus & Congregation cathedral.",
+        "source_url": "https://darksouls2.wikidot.com/brightstone-cove-tseldora",
+        "screenshots": []
+      },
+      {
+        "name": "Lower Brightstone Cove",
+        "location": "Head down the stairs from the Chapel Threshold bonfire, once back outside roll down to the right, there will be a spider and hollow mage, on that level continue through the doorway where two more mages await around a big hole, take them out and head to the room on the left where there is a ladder leading down to the bonfire (you have to open the door from the inside in order to access it from ground level).",
+        "source_url": "https://darksouls2.wikidot.com/brightstone-cove-tseldora",
+        "screenshots": []
+      },
+      {
+        "name": "Primal Bonfire",
+        "location": "After defeating the Duke's Dear Freja .",
+        "source_url": "https://darksouls2.wikidot.com/brightstone-cove-tseldora",
+        "screenshots": []
+      }
+    ],
+    "bonfire_video": "https://www.youtube.com/watch?v=kqDbmL0Rpuk",
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+  },
+  {
+    "id": "grave-of-saints",
+    "name": "Grave of Saints",
+    "image": "assets/areas/Grave_of_Saints.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Harval's Resting Place",
+      "Grave Entrance"
+    ],
+    "bosses": [
+      "Royal Rat Vanguard"
+    ],
+    "enemies": [
+      "Undead Prisoner",
+      "Corpse Rat",
+      "Undead Citizen",
+      "Crystal Lizard",
+      "Rhoy the Explorer",
+      "Dingy Cleric Phantom",
+      "Faraam Knight Phantom"
+    ],
+    "npcs": [
+      "The Rat King"
+    ],
+    "items": [
+      "Pharros' Lockstone",
+      "Ash Knuckle Ring",
+      "Great Heal",
+      "Disc Chime",
+      "Whisper of Despair",
+      "Crest of the Rat"
+    ],
+    "secrets": [],
+    "description": "Grave of Saints is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/grave-of-saints",
+    "connections": [
+      "Majula",
+      "The Gutter"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Rat King Covenant",
+    "region": "Drangleic",
+    "version_notes": "Undead Prisoner Corpse Rat Undead Citizen Crystal Lizard Invader Rhoy the Explorer - Offline only Bonfire Intensity 2+ only enemies: Roaming Soul Dingy Cleric Phantom Roaming Soul Faraam Knight Phantom",
+    "bonfire_details": [
+      {
+        "name": "Harval's Resting Place",
+        "location": "Before the grave proper.",
+        "source_url": "https://darksouls2.wikidot.com/grave-of-saints",
+        "screenshots": []
+      },
+      {
+        "name": "Grave Entrance",
+        "location": "Before the boss fog wall.",
+        "source_url": "https://darksouls2.wikidot.com/grave-of-saints",
+        "screenshots": []
+      }
+    ],
+    "bonfire_video": "https://www.youtube.com/watch?v=n7wLGtNIE6A",
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+  },
+  {
+    "id": "belfry-luna",
+    "name": "Belfry Luna",
+    "image": "assets/areas/Belfry_Luna.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Upper Ramparts"
+    ],
+    "bosses": [
+      "Belfry Gargoyles"
+    ],
+    "enemies": [
+      "Bell Keeper",
+      "Vorgol the Sinner",
+      "Stray Dog"
+    ],
+    "npcs": [
+      "Belfry Guard"
+    ],
+    "items": [
+      "Skeptic's Spice",
+      "Blue Tearstone Ring",
+      "Southern Ritual Band",
+      "Dragon Tooth",
+      "Petrified Something",
+      "Falchion",
+      "Bastille Key"
+    ],
+    "secrets": [],
+    "description": "Belfry Luna is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/belfry-luna",
+    "connections": [
+      "The Lost Bastille"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Need Pharros' Lockstone to access Bell Keepers covenant",
+    "region": "Drangleic",
+    "version_notes": "Bell Keeper Invader Bell Keeper Invader Vorgol the Sinner Stray Dog Red Phantom Stray Dog (Bonfire Intensity 2+)",
+    "bonfire_details": [
+      {
+        "name": "Upper Ramparts",
+        "location": "After the Belfry Gargoyles .",
+        "source_url": "https://darksouls2.wikidot.com/belfry-luna",
+        "screenshots": []
+      }
+    ]
+  },
+  {
+    "id": "iron-keep",
+    "name": "Iron Keep",
+    "image": "assets/areas/Iron_Keep.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Threshold Bridge",
+      "Ironhearth Hall",
+      "Eygil's Idol"
+    ],
+    "bosses": [
+      "Smelter Demon",
+      "Old Iron King"
+    ],
+    "enemies": [
+      "Ironclad Soldier",
+      "Alonne Knight",
+      "Alonne Knight Captain",
+      "Mimic",
+      "Crystal Lizard",
+      "Ironclad Warrior Phantom"
+    ],
+    "npcs": [
+      "Magerold of Lanafir",
+      "Lucatiel of Mirrah"
+    ],
+    "items": [
+      "Dull Ember",
+      "Chaos Storm",
+      "Covetous Gold Serpent Ring",
+      "Life Ring",
+      "Thunder Quartz Ring",
+      "Simpleton's Spice",
+      "Zweihander",
+      "Black Knight Greataxe",
+      "Short Bow",
+      "Sublime Bone Dust",
+      "Bonfire Ascetic"
+    ],
+    "secrets": [],
+    "description": "Iron Keep is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/iron-keep",
+    "connections": [
+      "Earthen Peak",
+      "Belfry Sol"
+    ],
+    "mini_bosses": [
+      "The Pursuer"
+    ],
+    "overview_notes": "Magerold of Lanafir Dragon Remnants covenant Primal Bonfire Location",
+    "region": "Drangleic",
+    "version_notes": "Ironclad Soldier Alonne Knight Alonne Knight Captain Mimic (DS II only) Crystal Lizard (DS II only) Bonfire Intensity 2+ only enemies: Red Phantom Alonne Knight Red Phantom Alonne Knight Captain Roaming Soul Ironclad Warrior Phantom",
+    "bonfire_details": [
+      {
+        "name": "Threshold Bridge",
+        "location": "Down the stairs on the left when you enter the area.",
+        "source_url": "https://darksouls2.wikidot.com/iron-keep",
+        "screenshots": []
+      },
+      {
+        "name": "Ironhearth Hall",
+        "location": "Directly after the Smelter Demon boss.",
+        "source_url": "https://darksouls2.wikidot.com/iron-keep",
+        "screenshots": []
+      },
+      {
+        "name": "Eygil's Idol",
+        "location": "In the last rectangular room before you fight the Old Iron King boss. Look to the left, past the fire spitting bulls; there's a ladder leading to the bonfire.",
+        "source_url": "https://darksouls2.wikidot.com/iron-keep",
+        "screenshots": []
+      }
+    ],
+    "bonfire_video": "https://www.youtube.com/watch?v=jpGw41qSTAo",
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+  },
+  {
+    "id": "doors-of-pharros",
+    "name": "Doors of Pharros",
+    "image": "assets/areas/Doors_of_Pharros.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Gyrm's Respite",
+      "Ordeal's End"
+    ],
+    "bosses": [
+      "Royal Rat Authority"
+    ],
+    "enemies": [
+      "Dog Rat",
+      "Gyrm Warrior",
+      "Gyrm",
+      "Primal Knight",
+      "Mimic",
+      "Crystal Lizard",
+      "Bowman Guthry"
+    ],
+    "npcs": [
+      "Lonesome Gavlan",
+      "The Rat King"
+    ],
+    "items": [
+      "Santier's Spear",
+      "Twisted Barricade"
+    ],
+    "secrets": [],
+    "description": "Doors of Pharros is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/doors-of-pharros",
+    "connections": [
+      "Shaded Woods",
+      "Brightstone Cove Tseldora"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Rat King Covenant",
+    "region": "Drangleic",
+    "version_notes": "Dog Rat Gyrm Warrior Gyrm Primal Knight Mimic Crystal Lizard Invader Bowman Guthry",
+    "bonfire_details": [
+      {
+        "name": "Gyrm's Respite",
+        "location": "Behind the first Primal Knight .",
+        "source_url": "https://darksouls2.wikidot.com/doors-of-pharros",
+        "screenshots": []
+      },
+      {
+        "name": "Ordeal's End",
+        "location": "Near the Royal Rat Authority boss fog wall.",
+        "source_url": "https://darksouls2.wikidot.com/doors-of-pharros",
+        "screenshots": []
+      }
+    ],
+    "bonfire_video": "https://www.youtube.com/watch?v=4Ey8rBqLYZk",
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+  },
+  {
+    "id": "the-gutter",
+    "name": "The Gutter",
+    "image": "assets/areas/The_Gutter.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Upper Gutter",
+      "Central Gutter"
+    ],
+    "bosses": [],
+    "enemies": [
+      "Captive Undead",
+      "Undead Prisoner",
+      "Hunting Dog",
+      "Undead Citizen",
+      "Poison Horn Beetle",
+      "Corrosive Ant Queen",
+      "Melinda the Butcher",
+      "Royal Sorcerer Navlaan",
+      "Gutter Denizen"
+    ],
+    "npcs": [],
+    "items": [
+      "Ring of Soul Protection",
+      "Ring of the Evil Eye",
+      "Dark Pyromancy Flame",
+      "Bandit Greataxe",
+      "Great Club",
+      "Dark Fog",
+      "Tattered Cloth Set",
+      "Havel's Set",
+      "Havel's Greatshield",
+      "Wicked Eye Greatshield",
+      "Fragrant Branch of Yore",
+      "Winged Spear",
+      "Dark Armor",
+      "Black Witch Set"
+    ],
+    "secrets": [],
+    "description": "The Gutter is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/the-gutter",
+    "connections": [
+      "Grave of Saints",
+      "Black Gulch"
+    ],
+    "mini_bosses": [
+      "Melinda the Butcher",
+      "Royal Sorcerer Navlaan"
+    ],
+    "overview_notes": "Torch recommended",
+    "region": "Drangleic",
+    "version_notes": "Captive Undead Undead Prisoner Hunting Dog Undead Citizen Poison Horn Beetle Corrosive Ant Queen Invader Melinda the Butcher Invader Royal Sorcerer Navlaan Invader Gutter Denizen",
+    "bonfire_details": [
+      {
+        "name": "Upper Gutter",
+        "location": "On a platform right at the start.",
+        "source_url": "https://darksouls2.wikidot.com/the-gutter",
+        "screenshots": []
+      },
+      {
+        "name": "Central Gutter",
+        "location": "Just after the fog wall.",
+        "source_url": "https://darksouls2.wikidot.com/the-gutter",
+        "screenshots": []
+      }
+    ],
+    "bonfire_video": "https://www.youtube.com/watch?v=i8UTGPkj8Kk",
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+  },
+  {
+    "id": "belfry-sol",
+    "name": "Belfry Sol",
+    "image": "assets/areas/Belfry_Sol.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Belfry Sol Approach"
+    ],
+    "bosses": [],
+    "enemies": [
+      "Bell Keeper",
+      "Greatsword Bell Keeper",
+      "Bell Keeper Mage",
+      "Dual Avelyn Bell Keeper",
+      "Mad Warrior"
+    ],
+    "npcs": [
+      "Belfry Guard"
+    ],
+    "items": [
+      "Simpleton's Spice",
+      "Immolation",
+      "Black Knight Greatsword",
+      "Protective Chime",
+      "Grand Spirit Tree Shield"
+    ],
+    "secrets": [],
+    "description": "Belfry Sol is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/belfry-sol",
+    "connections": [
+      "Iron Keep"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Need Pharros' Lockstone to access Bell Keepers covenant",
+    "region": "Drangleic",
+    "version_notes": "Bell Keeper Roaming Soul Greatsword Bell Keeper Roaming Soul Bell Keeper Mage Roaming Soul Dual Avelyn Bell Keeper Red Phantom Mad Warrior Invader Bell Keeper",
+    "bonfire_details": [
+      {
+        "name": "Belfry Sol Approach",
+        "location": "Behind a Pharros contraption after the Ironhearth Hall bonfire in Iron Keep.",
+        "source_url": "https://darksouls2.wikidot.com/belfry-sol",
+        "screenshots": []
+      }
+    ]
+  },
+  {
+    "id": "black-gulch",
+    "name": "Black Gulch",
+    "image": "assets/areas/Black_Gulch.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Black Gulch Mouth",
+      "Hidden Chambe"
+    ],
+    "bosses": [
+      "The Rotten"
+    ],
+    "enemies": [
+      "Poison Shooting Statue",
+      "Coal Tar",
+      "Razorback Nightcrawler",
+      "Elite Giant"
+    ],
+    "npcs": [
+      "Darkdiver Grandahl",
+      "Lucatiel of Mirrah",
+      "Lone Hunter Schmidt",
+      "Bashful Ray"
+    ],
+    "items": [
+      "Shotel",
+      "Great Magic Weapon",
+      "Scraps of Life",
+      "Pharros' Lockstone",
+      "Ring of Giants",
+      "Fire Seed",
+      "Sublime Bone Dust"
+    ],
+    "secrets": [],
+    "description": "Black Gulch is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/black-gulch",
+    "connections": [
+      "The Gutter",
+      "Dark Chasm of Old"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Darkdiver Grandahl . Primal Bonfire Location",
+    "region": "Drangleic",
+    "version_notes": "Poison Shooting Statue Coal Tar Razorback Nightcrawler Elite Giant",
+    "bonfire_details": [
+      {
+        "name": "Black Gulch Mouth",
+        "location": "To the left after entering the area.",
+        "source_url": "https://darksouls2.wikidot.com/black-gulch",
+        "screenshots": []
+      },
+      {
+        "name": "Hidden Chambe",
+        "location": "r Continue along the right hand-side next to the bottomless pit until you reach its end. There is a thin path that leads to a chamber with the bonfire. In Scholar of the First Sin, a Fragrant Branch of Yore is required to access the bonfire, as there is a petrified hollow blocking the path.",
+        "source_url": "https://darksouls2.wikidot.com/black-gulch",
+        "screenshots": []
+      }
+    ],
+    "bonfire_video": "https://www.youtube.com/watch?v=i8UTGPkj8Kk",
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+  },
+  {
+    "id": "shrine-of-amana",
+    "name": "Shrine of Amana",
+    "image": "assets/areas/Shrine_of_Amana.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Tower of Prayer",
+      "Crumbled Ruins",
+      "Rhoy's Resting Place",
+      "Rise of the Dead"
+    ],
+    "bosses": [
+      "Demon of Song"
+    ],
+    "enemies": [
+      "Lindelt Cleric",
+      "Amana Shrine Maiden",
+      "Lizardman",
+      "Ogre",
+      "Acid Horn Beetle",
+      "Giant Acid Horn Beetle",
+      "Undead Supplicant",
+      "Prowling Magus",
+      "Peculiar Kindalur",
+      "Butcher Phantom",
+      "Dragonrider",
+      "Basilisk",
+      "Royal Guard"
+    ],
+    "npcs": [
+      "Milfanito",
+      "Felicia the Brave"
+    ],
+    "items": [
+      "Fire Tempest",
+      "Sunlight Blade",
+      "Homing Crystal Soulmass",
+      "Life Ring",
+      "Singer's Dress",
+      "King's Set",
+      "Manslayer",
+      "Helix Halberd",
+      "Red Iron Twinblade",
+      "Key to the Embedded",
+      "Fire Seed",
+      "Skeptic's Spice",
+      "Estus Flask Shard",
+      "Soul of the King"
+    ],
+    "secrets": [],
+    "description": "Shrine of Amana is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/shrine-of-amana",
+    "connections": [
+      "King's Passage",
+      "Undead Crypt"
+    ],
+    "mini_bosses": [
+      "Prowling Magus"
+    ],
+    "overview_notes": "Soul of the King",
+    "region": "Drangleic",
+    "version_notes": "Lindelt Cleric Amana Shrine Maiden Lizardman Ogre Acid Horn Beetle Giant Acid Horn Beetle Undead Supplicant Prowling Magus Invader Peculiar Kindalur Butcher Phantom - NG+ Scholar of the First Sin : Dragonrider Basilisk Royal Guard",
+    "bonfire_details": [
+      {
+        "name": "Tower of Prayer",
+        "location": "On top of the tower before descending down to the water.",
+        "source_url": "https://darksouls2.wikidot.com/shrine-of-amana",
+        "screenshots": []
+      },
+      {
+        "name": "Crumbled Ruins",
+        "location": "After passing through the first fog gate, run towards the ruins straight in front of you.",
+        "source_url": "https://darksouls2.wikidot.com/shrine-of-amana",
+        "screenshots": []
+      },
+      {
+        "name": "Rhoy's Resting Place",
+        "location": "After passing through the second fog gate, on the left side. It is possible to kite the enemies and light the bonfire without killing them.",
+        "source_url": "https://darksouls2.wikidot.com/shrine-of-amana",
+        "screenshots": []
+      },
+      {
+        "name": "Rise of the Dead",
+        "location": "After defeating the Demon of Song , take the passage on the right before entering the elevator to Undead Crypt . In Scholar of the First Sin , this bonfire is blocked by a petrified Hollow.",
+        "source_url": "https://darksouls2.wikidot.com/shrine-of-amana",
+        "screenshots": []
+      }
+    ],
+    "bonfire_video": "https://www.youtube.com/watch?v=K5JVw6Ws7uc",
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+  },
+  {
+    "id": "drangleic-castle",
+    "name": "Drangleic Castle",
+    "image": "assets/areas/Drangleic_Castle.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "King's Gate",
+      "Forgotten Chamber",
+      "Under Castle Drangleic",
+      "Central Castle Drangleic"
+    ],
+    "bosses": [
+      "Dragonriders"
+    ],
+    "enemies": [
+      "Primal Knight",
+      "Royal Swordsman",
+      "Royal Guard",
+      "Stone Soldier",
+      "Ruin Sentinel",
+      "Alonne Knight Captain",
+      "Nameless Usurper",
+      "Royal Sorcerer Navlaan",
+      "Drakekeeper Knight Phantom",
+      "Elite Knight Phantom",
+      "Greatbow Phantom",
+      "Washing Pole Phantom",
+      "Executioner's Chariot",
+      "Belfry Gargoyle",
+      "Dark Stalker",
+      "Suspicious Shadow"
+    ],
+    "npcs": [
+      "Chancellor Wellager",
+      "Darkdiver Grandahl",
+      "Nashandra"
+    ],
+    "items": [
+      "Royal Soldier's Ring",
+      "Faraam Set",
+      "Great Combustion",
+      "Firestorm",
+      "Strong Magic Shield",
+      "Soul Greatsword",
+      "Hunter's Blackbow",
+      "Soul Vessel",
+      "Old Knight Hammer",
+      "Caitha's Chime",
+      "Fire Seed",
+      "Estus Flask Shard"
+    ],
+    "secrets": [],
+    "description": "Drangleic Castle is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/drangleic-castle",
+    "connections": [
+      "Shrine of Winter",
+      "King's Passage",
+      "Dark Chasm of Old",
+      "Throne of Want"
+    ],
+    "mini_bosses": [
+      "The Pursuer",
+      "Nameless Usurper"
+    ],
+    "overview_notes": "Chancellor Wellager Darkdiver Grandahl",
+    "region": "Drangleic",
+    "version_notes": "Primal Knight Royal Swordsman Royal Guard Stone Soldier Ruin Sentinel Alonne Knight Captain Invader Nameless Usurper Invader Royal Sorcerer Navlaan Bonfire Intensity 2+ only enemies: Roaming Soul Drakekeeper Knight Phantom Roaming Soul Elite Knight Phantom Roaming Soul Greatbow Phantom Roaming Soul Washing Pole Phantom Scholar of the First Sin: Executioner's Chariot Belfry Gargoyle (x1) Dark Stalker Suspicious Shadow",
+    "bonfire_details": [
+      {
+        "name": "King's Gate",
+        "location": "Found immediately infront of you after descending the ladder down from the entrance hall of Drangleic Castle.",
+        "source_url": "https://darksouls2.wikidot.com/drangleic-castle",
+        "screenshots": []
+      },
+      {
+        "name": "Forgotten Chamber",
+        "location": "Following the stairways upwards toward the room containing three Royal Guards and a painting of the Queen. Continue up the stairs to the first bowman and kill him. Look to the left for a ladder. Go down the ladder and around the corner. There will be two panels on the wall. Press the interact button on the left side to reveal a hidden bonfire.",
+        "source_url": "https://darksouls2.wikidot.com/drangleic-castle",
+        "screenshots": []
+      },
+      {
+        "name": "Under Castle Drangleic",
+        "location": "Found in the room under the gauntlet room near the King's Gate, accessed through the third door on the left side.",
+        "source_url": "https://darksouls2.wikidot.com/drangleic-castle",
+        "screenshots": []
+      },
+      {
+        "name": "Central Castle Drangleic",
+        "location": "In the room after the dual Dragonriders boss.",
+        "source_url": "https://darksouls2.wikidot.com/drangleic-castle",
+        "screenshots": []
+      }
+    ],
+    "bonfire_video": "https://www.youtube.com/watch?v=6gQzgZNlbmY",
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+  },
+  {
+    "id": "dragon-aerie",
+    "name": "Dragon Aerie",
+    "image": "assets/areas/Dragon_Aerie.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Dragon Aerie"
+    ],
+    "bosses": [],
+    "enemies": [
+      "Guardian Dragon",
+      "Crystal Lizard",
+      "Undead Citizen",
+      "Royal Sorcerer Navlaan",
+      "Fencer Sharron"
+    ],
+    "npcs": [
+      "Emerald Herald"
+    ],
+    "items": [
+      "Aged Feather",
+      "Dragon Tooth",
+      "Pharros' Lockstone",
+      "Ring of the Evil Eye"
+    ],
+    "secrets": [],
+    "description": "Dragon Aerie is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/dragon-aerie",
+    "connections": [
+      "Aldia's Keep",
+      "Dragon Shrine"
+    ],
+    "mini_bosses": [
+      "Guardian Dragon",
+      "Royal Sorcerer Navlaan"
+    ],
+    "overview_notes": "Crystal Lizard x11",
+    "region": "Drangleic",
+    "version_notes": "3x Guardian Dragon 11x Crystal Lizard Undead Citizen Invader Royal Sorcerer Navlaan Dark Souls II: Scholar of the First Sin : Invader Fencer Sharron",
+    "bonfire_details": [
+      {
+        "name": "Dragon Aerie",
+        "location": "In a cave soon after entering the area.",
+        "source_url": "https://darksouls2.wikidot.com/dragon-aerie",
+        "screenshots": []
+      }
+    ]
+  },
+  {
+    "id": "aldia-s-keep",
+    "name": "Aldia's Keep",
+    "image": "assets/areas/Aldia_s_Keep.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Foregarden",
+      "Ritual Site"
+    ],
+    "bosses": [
+      "Guardian Dragon"
+    ],
+    "enemies": [
+      "Rabid Kobold",
+      "Mimic",
+      "Ogre",
+      "Mirror Squire",
+      "Red Crystal Lizard",
+      "Basilisk",
+      "Giant Basilisk",
+      "Dragon Acolyte",
+      "Enhanced Undead",
+      "Hunting Dog",
+      "Giant Acid Horn Beetle",
+      "Aslatiel of Mirrah",
+      "Royal Sorcerer Navlaan",
+      "Belfry Gargoyle",
+      "Prowling Magus",
+      "Painting Guardian Phantom"
+    ],
+    "npcs": [
+      "Royal Sorcerer Navlaan"
+    ],
+    "items": [
+      "Northern Ritual Band",
+      "Soul Geyser",
+      "Great Magic Barrier",
+      "Malformed Shell",
+      "Aldia Key",
+      "Fire Seed",
+      "Petrified Dragon Bone",
+      "Bonfire Ascetic"
+    ],
+    "secrets": [],
+    "description": "Aldia's Keep is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/aldia-s-keep",
+    "connections": [
+      "Shaded Woods",
+      "Dragon Aerie"
+    ],
+    "mini_bosses": [
+      "Royal Sorcerer Navlaan",
+      "Ogre"
+    ],
+    "overview_notes": "Royal Sorcerer Navlaan Requires King's Ring to access",
+    "region": "Drangleic",
+    "version_notes": "Rabid Kobold Mimic Ogre Mirror Squire Red Crystal Lizard Basilisk Giant Basilisk Dragon Acolyte Enhanced Undead Hunting Dog Giant Acid Horn Beetle Invader Aslatiel of Mirrah Invader Royal Sorcerer Navlaan Scholar of the First Sin: Belfry Gargoyle (x1) Prowling Magus Bonfire Intensity 2+ only enemies: Roaming Soul Painting Guardian Phantom",
+    "bonfire_details": [
+      {
+        "name": "Foregarden",
+        "location": "Inside a wooden hut in the courtyard.",
+        "source_url": "https://darksouls2.wikidot.com/aldia-s-keep",
+        "screenshots": []
+      },
+      {
+        "name": "Ritual Site",
+        "location": "Once past the dragon statue and in the hall, enter the room behind and to the left of the caged ogre. You should see a staircase going down, in the middle of the staircase will be a landing, there is an illusionary wall on the left here concealing the bonfire.",
+        "source_url": "https://darksouls2.wikidot.com/aldia-s-keep",
+        "screenshots": []
+      }
+    ],
+    "bonfire_video": "https://www.youtube.com/watch?v=ILFLbH_f02E",
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+  },
+  {
+    "id": "dragon-shrine",
+    "name": "Dragon Shrine",
+    "image": "assets/areas/Dragon_Shrine.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Shrine Entrance"
+    ],
+    "bosses": [
+      "Ancient Dragon"
+    ],
+    "enemies": [
+      "Drakekeeper",
+      "Dragon Knight",
+      "Dark Priestess",
+      "Mimic",
+      "Dragonfang Villard"
+    ],
+    "npcs": [
+      "Ancient Dragon",
+      "Head of Vengarl",
+      "Melinda the Butcher",
+      "Bashful Ray"
+    ],
+    "items": [
+      "Titanite Slab",
+      "Petrified Egg",
+      "Watchdragon Parma",
+      "Crystal Magic Weapon",
+      "Judgment Set",
+      "Staff of Wisdom",
+      "Drakekeeper's Greatshield",
+      "Drakekeeper's Greataxe",
+      "Fragrant Branch of Yore",
+      "Ashen Mist Heart"
+    ],
+    "secrets": [],
+    "description": "Dragon Shrine is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/dragon-shrine",
+    "connections": [
+      "Dragon Aerie"
+    ],
+    "mini_bosses": [
+      "Dragonfang Villard"
+    ],
+    "overview_notes": "Petrified Egg location for Dragon Remnants Covenant",
+    "region": "Drangleic",
+    "version_notes": "Drakekeeper Dragon Knight Dark Priestess Mimic (DS II only) Invader Dragonfang Villard",
+    "bonfire_details": [
+      {
+        "name": "Shrine Entrance",
+        "location": "At the entrance to Dragon Shrine, inside the small building on the left after crossing the bridge from Dragon Aerie.",
+        "source_url": "https://darksouls2.wikidot.com/dragon-shrine",
+        "screenshots": [],
+        "landmark": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "shrine-of-winter",
+    "name": "Shrine of Winter",
+    "image": "assets/areas/Shrine_of_Winter.webp",
+    "recommended_level": "",
+    "bonfires": [],
+    "bosses": [],
+    "enemies": [
+      "Heide Knight",
+      "Royal Swordsman",
+      "Crystal Lizard"
+    ],
+    "npcs": [],
+    "items": [
+      "Repair",
+      "Soul of a Hero"
+    ],
+    "secrets": [],
+    "description": "Shrine of Winter is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/shrine-of-winter",
+    "connections": [
+      "Shaded Woods",
+      "Drangleic Castle",
+      "Frozen Eleum Loyce"
+    ],
+    "mini_bosses": [
+      "Heide Knight"
+    ],
+    "overview_notes": "Opens after the Four Primal Bonfires are lit.",
+    "region": "Drangleic",
+    "version_notes": "Heide Knight Royal Swordsman Crystal Lizard",
+    "bonfire_details": []
+  },
+  {
+    "id": "throne-of-want",
+    "name": "Throne of Want",
+    "image": "assets/areas/Throne_of_Want.webp",
+    "recommended_level": "",
+    "bonfires": [],
+    "bosses": [
+      "Throne Watcher and Defender",
+      "Nashandra",
+      "Aldia, Scholar of the First Sin"
+    ],
+    "enemies": [],
+    "npcs": [],
+    "items": [],
+    "secrets": [],
+    "description": "Throne of Want is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/throne-of-want",
+    "connections": [
+      "Drangleic Castle"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Requires King's Ring to access Final boss available after acquiring Giant's Kinship",
+    "region": "Drangleic",
+    "bonfire_details": []
+  },
+  {
+    "id": "memory-of-jeigh",
+    "name": "Memory of Jeigh",
+    "image": "assets/areas/Memory_of_Jeigh.webp",
+    "recommended_level": "",
+    "bonfires": [],
+    "bosses": [
+      "Giant Lord"
+    ],
+    "enemies": [
+      "Royal Soldier",
+      "Elite Giant"
+    ],
+    "npcs": [],
+    "items": [
+      "Bonfire Ascetic",
+      "Divine Blessing",
+      "Fire Seed",
+      "Soul of a Giant"
+    ],
+    "secrets": [],
+    "description": "Memory of Jeigh is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/memory-of-jeigh",
+    "connections": [
+      "Forest of Fallen Giants"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Your visit here has a time limit",
+    "region": "Drangleic",
+    "version_notes": "Royal Soldier Elite Giant",
+    "bonfire_details": []
+  },
+  {
+    "id": "lord-s-private-chamber",
+    "name": "Lord's Private Chamber",
+    "image": "assets/areas/Lord_s_Private_Chamber.webp",
+    "recommended_level": "",
+    "bonfires": [],
+    "bosses": [],
+    "enemies": [
+      "Duke Tseldora",
+      "Vengarl's Body"
+    ],
+    "npcs": [],
+    "items": [],
+    "secrets": [],
+    "description": "Lord's Private Chamber is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/lord-s-private-chamber",
+    "connections": [
+      "Brightstone Cove Tseldora"
+    ],
+    "mini_bosses": [
+      "Vengarl's Body"
+    ],
+    "overview_notes": "Primal Bonfire Location",
+    "region": "Drangleic",
+    "version_notes": "Duke Tseldora Vengarl's Body",
+    "bonfire_details": []
+  },
+  {
+    "id": "undead-crypt",
+    "name": "Undead Crypt",
+    "image": "assets/areas/Undead_Crypt.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Undead Crypt Entrance",
+      "Undead Ditch"
+    ],
+    "bosses": [
+      "Velstadt, the Royal Aegis",
+      "Vendrick"
+    ],
+    "enemies": [
+      "Undead Laborer",
+      "Leydia Witch",
+      "Skeleton",
+      "Leydia Pyromancer",
+      "Grave Warden",
+      "Royal Guard",
+      "Wall Warrior",
+      "Imperious Knight",
+      "Nameless Usurper",
+      "Insolent Knight"
+    ],
+    "npcs": [
+      "Grave Warden Agdayne"
+    ],
+    "items": [
+      "King's Ring",
+      "Bracing Knuckle Ring",
+      "Avelyn",
+      "Mace of the Insolent",
+      "Olenford's Staff",
+      "Great Lightning Spear",
+      "Dried Fingers",
+      "Crushed Eye Orb",
+      "Soul Vessel",
+      "Simpleton's Spice"
+    ],
+    "secrets": [],
+    "description": "Undead Crypt is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/undead-crypt",
+    "connections": [
+      "Shrine of Amana"
+    ],
+    "mini_bosses": [
+      "Nameless Usurper"
+    ],
+    "overview_notes": "Grave Warden Agdayne King's Ring Location King Vendrick boss requires at least 3 Soul of a Giant",
+    "region": "Drangleic",
+    "version_notes": "Undead Laborer Leydia Witch Skeleton Leydia Pyromancer Grave Warden Royal Guard Wall Warrior Imperious Knight Invader Nameless Usurper Scholar of the First Sin: Insolent Knight",
+    "bonfire_details": [
+      {
+        "name": "Undead Crypt Entrance",
+        "location": "In the room filled with old headstones, from the entrance it is to the immediate left.",
+        "source_url": "https://darksouls2.wikidot.com/undead-crypt",
+        "screenshots": []
+      },
+      {
+        "name": "Undead Ditch",
+        "location": "After going past the fog wall, the bonfire is to your left.",
+        "source_url": "https://darksouls2.wikidot.com/undead-crypt",
+        "screenshots": []
+      }
+    ],
+    "bonfire_video": "https://www.youtube.com/watch?v=K5JVw6Ws7uc",
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+  },
+  {
+    "id": "dark-chasm-of-old",
+    "name": "Dark Chasm of Old",
+    "image": "assets/areas/Dark_Chasm_of_Old.webp",
+    "recommended_level": "",
+    "bonfires": [],
+    "bosses": [
+      "Darklurker"
+    ],
+    "enemies": [
+      "Forest Spirit",
+      "Abyss Ironclad",
+      "Pretender to the Xanthous Throne",
+      "Tenebrous Rogue",
+      "Underworld Deadeye",
+      "Shadowveil Assasin",
+      "The Ghost of Princes Past",
+      "A Chip Off the Ol' Rock"
+    ],
+    "npcs": [],
+    "items": [],
+    "secrets": [],
+    "description": "Dark Chasm of Old is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/dark-chasm-of-old",
+    "connections": [
+      "Black Gulch",
+      "Shaded Woods",
+      "Drangleic Castle"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Only accessible through the Pilgrims of Dark covenant",
+    "region": "Drangleic",
+    "version_notes": "Forest Spirit Roaming Soul Abyss Ironclad Roaming Soul Pretender to the Xanthous Throne Roaming Soul Tenebrous Rogue Roaming Soul Underworld Deadeye Roaming Soul Shadowveil Assasin Roaming Soul The Ghost of Princes Past Roaming Soul A Chip Off the Ol' Rock",
+    "bonfire_details": []
+  },
+  {
+    "id": "dragon-memories",
+    "name": "Dragon Memories",
+    "image": "assets/areas/Dragon_Memories.webp",
+    "recommended_level": "",
+    "bonfires": [],
+    "bosses": [],
+    "enemies": [],
+    "npcs": [],
+    "items": [],
+    "secrets": [],
+    "description": "Dragon Memories is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/ancient-dragon-s-memories",
+    "connections": [
+      "Brightstone Cove Tseldora"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Your visit here has a time limit",
+    "region": "Drangleic",
+    "bonfire_details": []
+  },
+  {
+    "id": "memory-of-vammar",
+    "name": "Memory of Vammar",
+    "image": "assets/areas/Memory_of_Vammar.webp",
+    "recommended_level": "",
+    "bonfires": [],
+    "bosses": [],
+    "enemies": [
+      "Royal Soldier",
+      "Giant",
+      "Elite Giant"
+    ],
+    "npcs": [
+      "Captain Drummond"
+    ],
+    "items": [
+      "Giant Warrior Club",
+      "Fire Seed",
+      "Drangleic Helm",
+      "Soul of a Giant",
+      "Blossom Kite Shield",
+      "Petrified Something"
+    ],
+    "secrets": [],
+    "description": "Memory of Vammar is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/memory-of-vammar",
+    "connections": [
+      "Forest of Fallen Giants"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Your visit here has a time limit",
+    "region": "Drangleic",
+    "version_notes": "Royal Soldier Giant Elite Giant",
+    "bonfire_details": []
+  },
+  {
+    "id": "memory-of-the-king",
+    "name": "Memory of the King",
+    "image": "assets/areas/Memory_of_the_King.webp",
+    "recommended_level": "",
+    "bonfires": [],
+    "bosses": [],
+    "enemies": [],
+    "npcs": [
+      "Vendrick"
+    ],
+    "items": [],
+    "secrets": [],
+    "description": "Memory of the King is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/memory-of-the-king",
+    "connections": [
+      "Undead Crypt"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Your visit here has a time limit. Vendrick is an NPC. Requires Crown of the Sunken King DLC",
+    "region": "Drangleic",
+    "version_notes": "None",
+    "bonfire_details": []
+  },
+  {
+    "id": "memory-of-orro",
+    "name": "Memory of Orro",
+    "image": "assets/areas/Memory_of_Orro.webp",
+    "recommended_level": "",
+    "bonfires": [],
+    "bosses": [],
+    "enemies": [
+      "Royal Soldier",
+      "Royal Infantry",
+      "Giant",
+      "Elite Giant"
+    ],
+    "npcs": [
+      "Benhart of Jugo"
+    ],
+    "items": [
+      "Soul Vessel",
+      "Grand Lance",
+      "Steel Set",
+      "Fire Seed",
+      "Soul of a Giant"
+    ],
+    "secrets": [],
+    "description": "Memory of Orro is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/memory-of-orro",
+    "connections": [
+      "Forest of Fallen Giants"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Your visit here has a time limit",
+    "region": "Drangleic",
+    "version_notes": "Royal Soldier Royal Infantry Giant Elite Giant",
+    "bonfire_details": []
+  },
+  {
+    "id": "shulva-sanctum-city",
+    "name": "Shulva, Sanctum City",
+    "image": "assets/areas/Shulva_Sanctum_City.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Sanctum Walk",
+      "Tower of Prayer",
+      "Priestess' Chamber"
+    ],
+    "bosses": [],
+    "enemies": [
+      "Sanctum Soldiers",
+      "Poison Statue Clusters",
+      "Corrosive Egg Insect",
+      "Pagan Tree",
+      "Rockshield Baldyr"
+    ],
+    "npcs": [],
+    "items": [
+      "Poisonbite Ring",
+      "Dark Quartz Ring",
+      "Thunder Quartz Ring",
+      "Cracked Red Eye Orb",
+      "Lifegem",
+      "Sanctum Mace",
+      "Long Bow",
+      "Notched Whip",
+      "Focus Souls",
+      "Poison Stone",
+      "Promised Walk of Peace",
+      "Dark Greatsword"
+    ],
+    "secrets": [],
+    "description": "Shulva, Sanctum City is a playable DLC location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/shulva-sanctum-city",
+    "connections": [
+      "Black Gulch",
+      "Dragon's Sanctum",
+      "Cave of the Dead"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Crown of the Sunken King DLC",
+    "region": "DLC",
+    "version_notes": "Sanctum Soldiers Poison Statue Clusters Corrosive Egg Insect Pagan Tree Invader Rockshield Baldyr",
+    "bonfire_details": [
+      {
+        "name": "Sanctum Walk",
+        "location": "Near the beginning of the level.",
+        "source_url": "https://darksouls2.wikidot.com/shulva-sanctum-city",
+        "screenshots": []
+      },
+      {
+        "name": "Tower of Prayer",
+        "location": "Rise the platforms in the open area full of enemies and use them to access the tower.",
+        "source_url": "https://darksouls2.wikidot.com/shulva-sanctum-city",
+        "screenshots": []
+      },
+      {
+        "name": "Priestess' Chamber",
+        "location": "Use the Eternal Sanctum Key to open the door in Dragon's Sanctum , then continue until you find the bonfire.",
+        "source_url": "https://darksouls2.wikidot.com/shulva-sanctum-city",
+        "screenshots": []
+      }
+    ]
+  },
+  {
+    "id": "dragon-s-rest",
+    "name": "Dragon's Rest",
+    "image": "assets/areas/Dragon_s_Rest.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Sanctum Nadir"
+    ],
+    "bosses": [
+      "Elana, the Squalid Queen",
+      "Sinh, the Slumbering Dragon"
+    ],
+    "enemies": [
+      "Skeleton",
+      "Velstadt, the Royal Aegis",
+      "Enslaved Pig"
+    ],
+    "npcs": [
+      "Benhart of Jugo",
+      "Steelheart Ellie",
+      "Transcendent Edde",
+      "Abbess Feeva"
+    ],
+    "items": [
+      "Yorgh's Ring",
+      "Crown of the Sunken King"
+    ],
+    "secrets": [],
+    "description": "Dragon's Rest is a playable DLC location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/dragon-s-rest",
+    "connections": [
+      "Dragon's Sanctum"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Crown of the Sunken King DLC",
+    "region": "DLC",
+    "version_notes": "Skeleton Velstadt, the Royal Aegis Enslaved Pig",
+    "bonfire_details": [
+      {
+        "name": "Sanctum Nadir",
+        "location": "After Elana, the Squalid Queen .",
+        "source_url": "https://darksouls2.wikidot.com/dragon-s-rest",
+        "screenshots": []
+      }
+    ]
+  },
+  {
+    "id": "dragon-s-sanctum",
+    "name": "Dragon's Sanctum",
+    "image": "assets/areas/Dragon_s_Sanctum.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Hidden Sanctum Chamber",
+      "Lair of the Imperfect",
+      "Sanctum Interior"
+    ],
+    "bosses": [],
+    "enemies": [
+      "Sanctum Soldier",
+      "Sanctum Knight",
+      "Sanctum Priestess",
+      "Drakeblood Knight",
+      "Corrosive Egg Insect",
+      "Crystal Lizard",
+      "Sanctum Dragon",
+      "Jester Thomas"
+    ],
+    "npcs": [],
+    "items": [
+      "Lightning Clutch Ring",
+      "Flynn's Ring",
+      "Bloodbite Ring",
+      "Catarina Helm",
+      "Sanctum Knight Helm",
+      "Sanctum Shield",
+      "Puzzling Stone Sword",
+      "Sanctum Crossbow",
+      "Drakeblood Greatsword",
+      "Drakeblood Set",
+      "Denial",
+      "Dragon Stone",
+      "Eternal Sanctum Key",
+      "Soul Vessel",
+      "Bonfire Ascetic",
+      "Twinkling Titanite"
+    ],
+    "secrets": [],
+    "description": "Dragon's Sanctum is a playable DLC location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/dragon-s-sanctum",
+    "connections": [
+      "Shulva, Sanctum City",
+      "Dragon's Rest"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Crown of the Sunken King DLC",
+    "region": "DLC",
+    "version_notes": "Sanctum Soldier Sanctum Knight Sanctum Priestess Drakeblood Knight Corrosive Egg Insect 4x Crystal Lizard Sanctum Dragon Invader Jester Thomas",
+    "bonfire_details": [
+      {
+        "name": "Hidden Sanctum Chamber",
+        "location": "To the left of the bridge above the spiked floor. Activated by hitting a switch on a wall near the narrow, broken staircase. ( Video )",
+        "source_url": "https://darksouls2.wikidot.com/dragon-s-sanctum",
+        "screenshots": []
+      },
+      {
+        "name": "Lair of the Imperfect",
+        "location": "In the watery area.",
+        "source_url": "https://darksouls2.wikidot.com/dragon-s-sanctum",
+        "screenshots": []
+      },
+      {
+        "name": "Sanctum Interior",
+        "location": "Before the two Drakeblood Knights . at the top of a long staircase behind an illusory wall . Above the room with empty chests and the Drakeblood Set .",
+        "source_url": "https://darksouls2.wikidot.com/dragon-s-sanctum",
+        "screenshots": []
+      }
+    ]
+  },
+  {
+    "id": "iron-passage",
+    "name": "Iron Passage",
+    "image": "assets/areas/Iron_Passage.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Iron Hallway Entrance"
+    ],
+    "bosses": [
+      "Smelter Demon (Iron Passage)"
+    ],
+    "enemies": [
+      "Ashen Warrior",
+      "Iron Warrior",
+      "Possessed Armor",
+      "Fume Sorcerer",
+      "Astrologist"
+    ],
+    "npcs": [
+      "Steel-willed Lorrie",
+      "Drifter Swordsman Aidel"
+    ],
+    "items": [
+      "Pharros Mask",
+      "Large Titanite Shard",
+      "Simpleton's Spice"
+    ],
+    "secrets": [],
+    "description": "Iron Passage is a playable DLC location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/iron-passage",
+    "connections": [
+      "Brume Tower"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Crown of the Old Iron King DLC",
+    "region": "DLC",
+    "version_notes": "Ashen Warrior Iron Warrior Possessed Armor Fume Sorcerer Astrologist",
+    "bonfire_details": [
+      {
+        "name": "Iron Hallway Entrance",
+        "location": "After having received the Tower Key , you can access this bonfire from the giant chamber that contains the Fume Knight .",
+        "source_url": "https://darksouls2.wikidot.com/iron-passage",
+        "screenshots": []
+      }
+    ]
+  },
+  {
+    "id": "memory-of-the-old-iron-king",
+    "name": "Memory of the Old Iron King",
+    "image": "assets/areas/Memory_of_the_Old_Iron_King.webp",
+    "recommended_level": "",
+    "bonfires": [],
+    "bosses": [
+      "Sir Alonne"
+    ],
+    "enemies": [
+      "Flame Salamander",
+      "Alonne Knight",
+      "Alonne Knight Captain"
+    ],
+    "npcs": [
+      "Steel-willed Lorrie",
+      "Drifter Swordsman Aidel"
+    ],
+    "items": [
+      "Smelter Wedge",
+      "Skeptic's Spice",
+      "Twinblade"
+    ],
+    "secrets": [],
+    "description": "Memory of the Old Iron King is a playable DLC location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/memory-of-the-old-iron-king",
+    "connections": [
+      "Brume Tower"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Crown of the Old Iron King DLC",
+    "region": "DLC",
+    "version_notes": "Flame Salamander Alonne Knight Alonne Knight Captain",
+    "bonfire_details": []
+  },
+  {
+    "id": "brume-tower",
+    "name": "Brume Tower",
+    "image": "assets/areas/Brume_Tower.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Throne Floor",
+      "Upper Floor",
+      "Foyer",
+      "Lowermost Floor",
+      "The Smelter Throne"
+    ],
+    "bosses": [
+      "Fume Knight"
+    ],
+    "enemies": [
+      "Ashen Warrior",
+      "Iron Warrior",
+      "Possessed Armor",
+      "Cask Runner",
+      "Fume Sorcerer",
+      "Scorcher",
+      "Ashen Idol",
+      "Crystal Lizard",
+      "Quicksword Rachel",
+      "Maldron the Assassin",
+      "Prowlers"
+    ],
+    "npcs": [
+      "Carhillion of the Fold",
+      "Steelheart Ellie"
+    ],
+    "items": [
+      "Crown of the Old Iron King",
+      "Simpleton's Ring",
+      "Dexterity Ring",
+      "Strength Ring",
+      "Baneful Bird Ring",
+      "Sorcery Clutch Ring",
+      "Life Ring",
+      "Flame Quartz Ring",
+      "Spell Quartz Ring",
+      "Dispelling Ring",
+      "Recollection",
+      "Fire Snake",
+      "Dance of Fire",
+      "Scorching Iron Scepter",
+      "Tower Key",
+      "Smelter Wedge"
+    ],
+    "secrets": [],
+    "description": "Brume Tower is a playable DLC location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/brume-tower",
+    "connections": [
+      "Iron Keep",
+      "Iron Passage",
+      "Memory of the Old Iron King"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Crown of the Old Iron King DLC",
+    "region": "DLC",
+    "version_notes": "Ashen Warrior Iron Warrior Possessed Armor Cask Runner Fume Sorcerer Scorcher Ashen Idol Crystal Lizard Invader Quicksword Rachel Invader Maldron the Assassin Invader Prowlers",
+    "bonfire_details": [
+      {
+        "name": "Throne Floor",
+        "location": "Right after walking over the first chain.",
+        "source_url": "https://darksouls2.wikidot.com/brume-tower",
+        "screenshots": []
+      },
+      {
+        "name": "Upper Floor",
+        "location": "When you reach the multi-level outside structure with the Caestus +8 chest, go through the doorway and take a right.",
+        "source_url": "https://darksouls2.wikidot.com/brume-tower",
+        "screenshots": []
+      },
+      {
+        "name": "Foyer",
+        "location": "In the main room of the level near the Scorching Iron Scepter contraption.",
+        "source_url": "https://darksouls2.wikidot.com/brume-tower",
+        "screenshots": []
+      },
+      {
+        "name": "Lowermost Floor",
+        "location": "After taking the elevators to the bottom floor, the bonfire is in a side room next to the Fume Knight boss arena.",
+        "source_url": "https://darksouls2.wikidot.com/brume-tower",
+        "screenshots": []
+      },
+      {
+        "name": "The Smelter Throne",
+        "location": "After a series of lifts left of the Scorching Iron Scepter contraption, past the Prowlers .",
+        "source_url": "https://darksouls2.wikidot.com/brume-tower",
+        "screenshots": []
+      }
+    ]
+  },
+  {
+    "id": "cave-of-the-dead",
+    "name": "Cave of the Dead",
+    "image": "assets/areas/Cave_of_the_Dead.webp",
+    "recommended_level": "",
+    "bonfires": [],
+    "bosses": [
+      "Afflicted Graverobber, Ancient Soldier Varg, and Cerah the Old Explorer"
+    ],
+    "enemies": [
+      "Sanctum Soldier",
+      "Razorback Nightcrawler",
+      "Petrifying Statue Cluster"
+    ],
+    "npcs": [
+      "Rapacious Andrei",
+      "Ruined Aflis"
+    ],
+    "items": [
+      "Flower Skirt",
+      "Brightbug"
+    ],
+    "secrets": [],
+    "description": "Cave of the Dead is a playable DLC location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/cave-of-the-dead",
+    "connections": [
+      "Shulva, Sanctum City"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Crown of the Sunken King DLC",
+    "region": "DLC",
+    "version_notes": "Sanctum Soldier Razorback Nightcrawler Petrifying Statue Cluster",
+    "bonfire_details": []
+  },
+  {
+    "id": "frigid-outskirts",
+    "name": "Frigid Outskirts",
+    "image": "assets/areas/Frigid_Outskirts.webp",
+    "recommended_level": "",
+    "bonfires": [],
+    "bosses": [
+      "Lud, the King's Pet & Zallen, the King's Pet"
+    ],
+    "enemies": [
+      "Ice Stallion",
+      "Exiled Brave",
+      "Undead Laborer",
+      "Rampart Golem"
+    ],
+    "npcs": [
+      "Head of Vengarl",
+      "Abbess Feeva",
+      "Manhunter O'Harrah"
+    ],
+    "items": [
+      "Mirrah Hat",
+      "Ring of the Living"
+    ],
+    "secrets": [],
+    "description": "Frigid Outskirts is a playable DLC location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/frigid-outskirts",
+    "connections": [
+      "Frozen Eleum Loyce"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Crown of the Ivory King DLC",
+    "region": "DLC",
+    "version_notes": "Ice Stallion Exiled Brave Undead Laborer Rampart Golem",
+    "bonfire_details": []
+  },
+  {
+    "id": "frozen-eleum-loyce",
+    "name": "Frozen Eleum Loyce",
+    "image": "assets/areas/Frozen_Eleum_Loyce.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Outer Wall",
+      "Abandoned Dwelling",
+      "Inner Wall",
+      "Lower Garrison",
+      "Expulsion Chamber"
+    ],
+    "bosses": [
+      "Aava, the King's Pet"
+    ],
+    "enemies": [
+      "Spellsword",
+      "Ice Golem",
+      "Rampart Golem",
+      "Retainer",
+      "Wall Watchman",
+      "Facsimile Giant",
+      "Ice Rat",
+      "Stray Dog",
+      "Undead Laborer",
+      "Mimic",
+      "Forest Spirit",
+      "Covetous Demon (Ivory King DLC)",
+      "Flexile Sentry (Ivory King DLC)",
+      "Maldron the Assassin",
+      "Holy Knight Aurheim",
+      "Hexer Nicholai",
+      "Castaway Witch Donna"
+    ],
+    "npcs": [
+      "Loyce Knight",
+      "Steelheart Ellie",
+      "Masterless Glencour"
+    ],
+    "items": [
+      "Ring of the Embedded",
+      "Dark Clutch Ring",
+      "Fire Clutch Ring",
+      "Ring of Resistance +1",
+      "Winged Spear",
+      "Large Club",
+      "Priest's Chime",
+      "Sorcerer's Twinblade",
+      "Curved Nil Greatsword",
+      "Twin-headed Greatbow",
+      "Bone Fist",
+      "Retainer Staff",
+      "Azal's Staff"
+    ],
+    "secrets": [],
+    "description": "Frozen Eleum Loyce is a playable DLC location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/frozen-eleum-loyce",
+    "connections": [
+      "Grand Cathedral"
+    ],
+    "mini_bosses": [
+      "Covetous Demon"
+    ],
+    "overview_notes": "Crown of the Ivory King DLC",
+    "region": "DLC",
+    "version_notes": "Spellsword Ice Golem Rampart Golem Retainer Wall Watchman Facsimile Giant Ice Rat Stray Dog Undead Laborer Mimic Forest Spirit Covetous Demon (Ivory King DLC) Flexile Sentry (Ivory King DLC) Maldron the Assassin Invader Holy Knight Aurheim Invader Hexer Nicholai Invader Castaway Witch Donna",
+    "bonfire_details": [
+      {
+        "name": "Outer Wall",
+        "location": "The initial bonfire, found after opening the metal gate with the Frozen Flower .",
+        "source_url": "https://darksouls2.wikidot.com/frozen-eleum-loyce",
+        "screenshots": []
+      },
+      {
+        "name": "Abandoned Dwelling",
+        "location": "Found in a building containing a broken wooden floor. Cannot backtrack to the Outer Wall bonfire from here.",
+        "source_url": "https://darksouls2.wikidot.com/frozen-eleum-loyce",
+        "screenshots": []
+      },
+      {
+        "name": "Inner Wall",
+        "location": "Found after picking up the Eye of the Priestess .",
+        "source_url": "https://darksouls2.wikidot.com/frozen-eleum-loyce",
+        "screenshots": []
+      },
+      {
+        "name": "Lower Garrison",
+        "location": "Only accessible after defeating Aava, the King's Pet and speaking to Alsanna, Silent Oracle , melting the ice in front of the elevator in the Outer Wall area.",
+        "source_url": "https://darksouls2.wikidot.com/frozen-eleum-loyce",
+        "screenshots": []
+      },
+      {
+        "name": "Expulsion Chamber",
+        "location": "After collecting the Garrison Ward Key , go to the locked door that is immediately to the left of the first lever gate in the Abandoned Dwelling area. There is a coffin here that leads to Frigid Outskirts when used.",
+        "source_url": "https://darksouls2.wikidot.com/frozen-eleum-loyce",
+        "screenshots": []
+      }
+    ]
+  },
+  {
+    "id": "the-old-chaos",
+    "name": "The Old Chaos",
+    "image": "assets/areas/The_Old_Chaos.webp",
+    "recommended_level": "",
+    "bonfires": [],
+    "bosses": [
+      "Burnt Ivory King"
+    ],
+    "enemies": [
+      "Charred Loyce Knights"
+    ],
+    "npcs": [
+      "Loyce Knight"
+    ],
+    "items": [
+      "Crown of the Ivory King"
+    ],
+    "secrets": [],
+    "description": "The Old Chaos is a playable DLC location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/the-old-chaos",
+    "connections": [
+      "Grand Cathedral"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Crown of the Ivory King DLC",
+    "region": "DLC",
+    "version_notes": "Charred Loyce Knights",
+    "bonfire_details": []
+  },
+  {
+    "id": "grand-cathedral",
+    "name": "Grand Cathedral",
+    "image": "assets/areas/Grand_Cathedral.webp",
+    "recommended_level": "",
+    "bonfires": [
+      "Grand Cathedral"
+    ],
+    "bosses": [],
+    "enemies": [],
+    "npcs": [
+      "Alsanna, Silent Oracle",
+      "Lucatiel of Mirrah",
+      "Twiggy Shei"
+    ],
+    "items": [
+      "Vessel Shield",
+      "Loyce Set",
+      "Soul of Alsanna, Silent Oracle"
+    ],
+    "secrets": [],
+    "description": "Grand Cathedral is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/grand-cathedral",
+    "connections": [
+      "Frozen Eleum Loyce"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Crown of the Ivory King DLC",
+    "region": "DLC",
+    "version_notes": "None",
+    "bonfire_details": [
+      {
+        "name": "Grand Cathedral",
+        "location": "Found immediately after opening the large, metal doors after the Aava, the King's Pet fight.",
+        "source_url": "https://darksouls2.wikidot.com/grand-cathedral",
+        "screenshots": []
+      }
+    ]
+  },
+  {
+    "id": "king-s-passage",
+    "name": "King's Passage",
+    "image": "assets/areas/King_s_Passage.webp",
+    "recommended_level": "",
+    "bonfires": [],
+    "bosses": [
+      "Looking Glass Knight"
+    ],
+    "enemies": [
+      "Stone Knight",
+      "Royal Guard"
+    ],
+    "npcs": [
+      "Benhart of Jugo"
+    ],
+    "items": [
+      "Twinkling Titanite"
+    ],
+    "secrets": [],
+    "description": "King's Passage is a playable Drangleic location. Its bonfires, inhabitants, bosses and connected areas are listed below.",
+    "source_url": "https://darksouls2.wikidot.com/king-s-passage",
+    "connections": [
+      "Drangleic Castle",
+      "Shrine of Amana"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Players can be summoned by Looking Glass Knight Candles indicate if online. Candles increase every death to Looking Glass Knight",
+    "region": "Drangleic",
+    "version_notes": "Stone Knight Royal Guard",
+    "bonfire_details": []
+  },
+  {
+    "id": "the-pit",
+    "name": "The Pit",
+    "image": "assets/areas/Majula.png",
+    "recommended_level": "",
+    "bonfires": [],
+    "bosses": [],
+    "enemies": [],
+    "npcs": [],
+    "items": [
+      "Pharros' Lockstone",
+      "Ring of the Evil Eye",
+      "Great Lightning Spear",
+      "Witchtree Branch",
+      "Witchtree Bellvine",
+      "Soul Vortex",
+      "Dragon Talon",
+      "Disc Chime"
+    ],
+    "description": "The vertical route beneath Majula, connecting the hub to the Grave of Saints and the Gutter.",
+    "source_url": "https://darksouls2.wikidot.com/the-pit",
+    "connections": [
+      "Majula",
+      "Grave of Saints",
+      "The Gutter"
+    ],
+    "mini_bosses": [],
+    "overview_notes": "Forgotten Key door Not official location",
+    "region": "Drangleic",
+    "version_notes": "None",
+    "bonfire_details": []
+  }
+]

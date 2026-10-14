@@ -1,0 +1,30 @@
+[
+    {
+        "id": "agility",
+        "name": "Agility (AGL)",
+        "description": "Determines the number of invincibility frames (i-frames) during your roll and the speed at which you use items like Estus Flasks.",
+        "details": "Increased by leveling up Adaptability (ADP) and Attunement (ATN). 99 AGL is a common breakpoint for 12 i-frames, similar to DS1 fast roll.",
+        "icon": "🏃"
+    },
+    {
+        "id": "poise",
+        "name": "Poise",
+        "description": "Determines your resistance to being staggered when hit by an attack.",
+        "details": "Unlike DS3, DS2 poise is always active. Heavier armor typically provides more poise. Getting hit reduces your poise meter; when it hits zero, you stagger.",
+        "icon": "🛡"
+    },
+    {
+        "id": "soul_memory",
+        "name": "Soul Memory",
+        "description": "The total number of souls you have ever collected. This determines your matchmaking tier for co-op and invasions.",
+        "details": "This system prevents high-level players from invading low-level players, but it also counts souls spent on items or lost upon death. Use the Agape Ring to stop collecting souls.",
+        "icon": "💀"
+    },
+    {
+        "id": "power_stance",
+        "name": "Power Stance",
+        "description": "A unique mechanic in DS2 that allows you to dual-wield weapons with a special moveset.",
+        "details": "Requires 1.5x the Strength and Dexterity requirements of the weapons. Hold the 'two-hand' button to enter Power Stance if compatible weapons are equipped.",
+        "icon": "⚔"
+    }
+]

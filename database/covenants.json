@@ -1,0 +1,406 @@
+[
+  {
+    "id": "way_of_blue",
+    "name": "Way of Blue",
+    "purpose": "Summon Blue Sentinel covenant players to your world when you have been invaded.",
+    "image": "assets/icons/Way_of_Blue.webp",
+    "rank_progress": {
+      "current": 0,
+      "target": 10.0,
+      "item": "rank requirements (see below)"
+    },
+    "rewards": [
+      {
+        "rank": 0,
+        "requirement": "Join covenant.",
+        "name": "Blue Seal",
+        "received": false
+      },
+      {
+        "rank": 1,
+        "requirement": "1 invading Dark Spirit killed.",
+        "name": "Bloodbite Ring",
+        "received": false
+      },
+      {
+        "rank": 2,
+        "requirement": "5 invading Dark Spirits killed.",
+        "name": "Hush sorcery",
+        "received": false
+      },
+      {
+        "rank": 3,
+        "requirement": "10 invading Dark Spirits killed.",
+        "name": "Blue Tearstone Ring",
+        "received": false
+      }
+    ],
+    "farming": [],
+    "online_method": "Equip the ring and wait for a Blue Sentinel to assist you when invaded.",
+    "source_url": "https://darksouls2.wikidot.com/way-of-blue",
+    "join_notes": "Speak to Saulden, the Crestfallen Warrior , at the monument in Majula . Go through his dialogue until he offers the option to join."
+  },
+  {
+    "id": "heirs_of_the_sun",
+    "name": "Heirs of the Sun",
+    "purpose": "Participate in Jolly Cooperation! Replaces your white summon sign with a gold sign; rank up by helping other players defeat bosses.",
+    "image": "assets/icons/Heirs_of_the_Sun.webp",
+    "rank_progress": {
+      "current": 0,
+      "target": 30.0,
+      "item": "rank requirements (see below)"
+    },
+    "rewards": [
+      {
+        "rank": 0,
+        "requirement": "0",
+        "name": "Sun Seal",
+        "received": false
+      },
+      {
+        "rank": 1,
+        "requirement": "10",
+        "name": "Sunlight Parma",
+        "received": false
+      },
+      {
+        "rank": 2,
+        "requirement": "20",
+        "name": "Sun Sword",
+        "received": false
+      },
+      {
+        "rank": 3,
+        "requirement": "30",
+        "name": "Sunlight Spear miracle",
+        "received": false
+      }
+    ],
+    "farming": [
+      {
+        "area": "Brightstone Cove",
+        "enemy": "Falconers",
+        "efficiency": 4,
+        "notes": "Drop rate is low. Use all discovery gear."
+      }
+    ],
+    "online_method": "Help other players defeat bosses as a gold phantom.",
+    "source_url": "https://darksouls2.wikidot.com/heirs-of-the-sun",
+    "join_notes": "In Harvest Valley , take the right path in the area after The Mines bonfire. Cross the bridge over the poison gas and fight the hammer-wielding Undead Steelworker . Before going inside Earthen Peak , venture left down a path. At the end of this path, there will be an altar bathed in sunlight (and an Artificial Undead guarding it). Kneeling at the altar and joining the covenant will grant you the Sun Seal ."
+  },
+  {
+    "id": "blue_sentinels",
+    "name": "Blue Sentinels",
+    "purpose": "Assist players in the Way of Blue covenant that have been invaded in the form of Blue Spirit, and invade players who have acquired sin .",
+    "image": "assets/icons/Blue_Sentinels.webp",
+    "rank_progress": {
+      "current": 0,
+      "target": 500.0,
+      "item": "rank requirements (see below)"
+    },
+    "rewards": [
+      {
+        "rank": 0,
+        "requirement": "Join covenant.",
+        "name": "Guardian's Seal",
+        "received": false
+      },
+      {
+        "rank": 1,
+        "requirement": "50 kills",
+        "name": "Spirit Tree Shield Blue aura upgraded",
+        "received": false
+      },
+      {
+        "rank": 2,
+        "requirement": "150 kills",
+        "name": "Wrath of the Gods miracle Blue aura upgraded",
+        "received": false
+      },
+      {
+        "rank": 3,
+        "requirement": "500 kills",
+        "name": "Bountiful Sunlight miracle Targray's Set",
+        "received": false
+      }
+    ],
+    "farming": [],
+    "online_method": "Use the Guardian's Seal to be summoned to help Way of Blue members.",
+    "source_url": "https://darksouls2.wikidot.com/blue-sentinels",
+    "join_notes": "To join, you must speak to Blue Sentinel Targray while having at least one Token of Fidelity in your inventory. Targray is located in the Cathedral of Blue after defeating the Old Dragonslayer . Tokens of Fidelity are awarded after successful White Phantom co-op . A single Token of Fidelity can also be found on a secluded platform just outside of the Bridge Approach bonfire in Huntsman's Copse . The tokens may be used at one of the statues in the basement of the cathedral to spar with another member of the Sentinels."
+  },
+  {
+    "id": "bell_keepers",
+    "name": "Bell Keepers",
+    "purpose": "Invade players in the Belfry Luna and Belfry Sol areas as a Gray Spirit.",
+    "image": "assets/icons/Bell_Keepers.webp",
+    "rank_progress": {
+      "current": 0,
+      "target": 100.0,
+      "item": "rank requirements (see below)"
+    },
+    "rewards": [
+      {
+        "rank": 0,
+        "requirement": "0",
+        "name": "Bell Keeper's Seal",
+        "received": false
+      },
+      {
+        "rank": 1,
+        "requirement": "10",
+        "name": "Titanite Slab",
+        "received": false
+      },
+      {
+        "rank": 2,
+        "requirement": "30",
+        "name": "Hidden Weapon sorcery",
+        "received": false
+      },
+      {
+        "rank": 3,
+        "requirement": "100",
+        "name": "Bell Keeper Set",
+        "received": false
+      }
+    ],
+    "farming": [
+      {
+        "area": "Belfry Sol",
+        "enemy": "Mad Warrior",
+        "efficiency": 5,
+        "notes": "Respawn at bonfire and use Unveil or check memory usage to see if he spawned."
+      }
+    ],
+    "online_method": "Equip the Bell Keeper's Seal to be summoned to invade players in the Belfries.",
+    "source_url": "https://darksouls2.wikidot.com/bell-keepers",
+    "join_notes": "Talk to the Belfry Guard in Belfry Luna or Belfry Sol just inside either belfry. He is sitting on a piece of furniture to the right of the entrance."
+  },
+  {
+    "id": "rat_king",
+    "name": "Rat King Covenant",
+    "purpose": "While in the Grave of Saints or Doors of Pharros areas; draw players who have entered the corresponding area into your world.",
+    "image": "assets/icons/Rat_King_covenant.webp",
+    "rank_progress": {
+      "current": 0,
+      "target": 35.0,
+      "item": "rank requirements (see below)"
+    },
+    "rewards": [
+      {
+        "rank": 0,
+        "requirement": "0",
+        "name": "Crest of the Rat",
+        "received": false
+      },
+      {
+        "rank": 1,
+        "requirement": "10",
+        "name": "10x Small Smooth & Silky Stone",
+        "received": false
+      },
+      {
+        "rank": 2,
+        "requirement": "20",
+        "name": "10x Smooth & Silky Stone",
+        "received": false
+      },
+      {
+        "rank": 3,
+        "requirement": "35",
+        "name": "Slumbering Dragoncrest Ring",
+        "received": false
+      }
+    ],
+    "farming": [
+      {
+        "area": "Doors of Pharros / Grave of Saints",
+        "enemy": "Rats",
+        "efficiency": 3,
+        "notes": "Rats drop tails fairly often."
+      }
+    ],
+    "online_method": "Force players in your world and defeat them using the area's traps.",
+    "source_url": "https://darksouls2.wikidot.com/rat-king-covenant",
+    "join_notes": "Royal Rat Vanguard OR Royal Rat Authority must be killed before joining the covenant. Talk to the the Rat King . He gives the player the Crest of the Rat ring. Wearing this ring in the Grave of Saints and Doors of Pharros automatically summons other players to your world for PvP as a Gray Phantom."
+  },
+  {
+    "id": "pilgrims_of_dark",
+    "name": "Pilgrims of Dark",
+    "purpose": "Delve into ancient abyss dungeons and conquer them to earn powerful and dark rewards.",
+    "image": "assets/icons/Pilgrims_of_Dark.webp",
+    "rank_progress": {
+      "current": 0,
+      "target": 1,
+      "item": "rank requirements (see below)"
+    },
+    "rewards": [
+      {
+        "rank": 0,
+        "requirement": "Join covenant.",
+        "name": "Abyss Seal ring",
+        "received": false
+      },
+      {
+        "rank": 1,
+        "requirement": "Clear one Dark Chasm of Old .",
+        "name": "Resonant Soul hex",
+        "received": false
+      },
+      {
+        "rank": 2,
+        "requirement": "Clear all three Dark Chasms of Old . Light all three sconces.",
+        "name": "Great Resonant Soul hex",
+        "received": false
+      },
+      {
+        "rank": 3,
+        "requirement": "Defeat Darklurker .",
+        "name": "Climax hex, Xanthous Set",
+        "received": false
+      }
+    ],
+    "farming": [],
+    "online_method": "Single-player focus. Complete all three Dark Chasm of Old dungeons and defeat Darklurker.",
+    "source_url": "https://darksouls2.wikidot.com/pilgrims-of-dark",
+    "join_notes": "Talk to Darkdiver Grandahl in all three of his locations and exhaust his dialogue. You can visit him in any order. Black Gulch Drop down near the two worms, you should see a door. In order to open it, drop down again. Continue into the cave to find two Elite Giants , killing them will give you the Forgotten Key to the door. He can be found behind it. Shaded Woods Go right from the Giant Basilisk (after the Shaded Ruins bonfire) until you come to the path to the boss between the two buildings. Instead of going through, look"
+  },
+  {
+    "id": "company_of_champions",
+    "name": "Company of Champions",
+    "purpose": "Increase game difficulty by eliminating co-op functions and increasing enemies and boss's strength and health.",
+    "image": "assets/icons/Company_of_Champions.webp",
+    "rank_progress": {
+      "current": 0,
+      "target": 50.0,
+      "item": "rank requirements (see below)"
+    },
+    "rewards": [
+      {
+        "rank": 0,
+        "requirement": "0",
+        "name": "Champion's Tablet",
+        "received": false
+      },
+      {
+        "rank": 1,
+        "requirement": "10",
+        "name": "Great Magic Weapon",
+        "received": false
+      },
+      {
+        "rank": 2,
+        "requirement": "25",
+        "name": "First Dragon Ring",
+        "received": false
+      },
+      {
+        "rank": 3,
+        "requirement": "50",
+        "name": "Vanquisher's Seal",
+        "received": false
+      }
+    ],
+    "farming": [
+      {
+        "area": "Grave of Saints",
+        "enemy": "Rhoy the Explorer",
+        "efficiency": 5,
+        "notes": "Farm Rhoy 50 times (requires bonfire ascetic in NG)."
+      }
+    ],
+    "online_method": "N/A - This covenant disables co-op and makes enemies tougher.",
+    "source_url": "https://darksouls2.wikidot.com/company-of-champions",
+    "join_notes": ""
+  },
+  {
+    "id": "brotherhood_of_blood",
+    "name": "Brotherhood of Blood",
+    "purpose": "Invade other players as a Red Spirit.",
+    "image": "assets/icons/Brotherhood_of_Blood.webp",
+    "rank_progress": {
+      "current": 0,
+      "target": 500.0,
+      "item": "rank requirements (see below)"
+    },
+    "rewards": [
+      {
+        "rank": 0,
+        "requirement": "0",
+        "name": "Crest of Blood",
+        "received": false
+      },
+      {
+        "rank": 1,
+        "requirement": "50",
+        "name": "Curved Twinblade Red 'smokey' aura added to player while in Dark Spirit form.",
+        "received": false
+      },
+      {
+        "rank": 2,
+        "requirement": "150",
+        "name": "Crescent Sickle Dark Spirit form will gain white coloured rimlighting.",
+        "received": false
+      },
+      {
+        "rank": 3,
+        "requirement": "500",
+        "name": "Great Chaos Fireball pyromancy Nahr Alma Set Scythe of Nahr Alma .",
+        "received": false
+      }
+    ],
+    "farming": [],
+    "online_method": "Win duels in the arena or successfully invade players as a red phantom.",
+    "source_url": "https://darksouls2.wikidot.com/brotherhood-of-blood",
+    "join_notes": "Defeat the Executioner's Chariot in Undead Purgatory and proceed through the boss fight area. You need to have a Token of Spite in order to join. Talk to Titchy Gren and accept his offer to join the Brotherhood of Blood."
+  },
+  {
+    "id": "dragon_remnants",
+    "name": "Dragon Remnants",
+    "purpose": "Rank up by fighting other players as a summoned phantom; become more draconic as you rank up and gain special abilities.",
+    "image": "assets/icons/Dragon_Remnants.webp",
+    "rank_progress": {
+      "current": 0,
+      "target": 30.0,
+      "item": "rank requirements (see below)"
+    },
+    "rewards": [
+      {
+        "rank": 0,
+        "requirement": "0",
+        "name": "Dragon Eye , Ancient dragon seal",
+        "received": false
+      },
+      {
+        "rank": 1,
+        "requirement": "10",
+        "name": "Dragon Head Stone",
+        "received": false
+      },
+      {
+        "rank": 2,
+        "requirement": "20",
+        "name": "Dragon Torso Stone",
+        "received": false
+      },
+      {
+        "rank": 3,
+        "requirement": "30",
+        "name": "Black Dragon Greatsword",
+        "received": false
+      }
+    ],
+    "farming": [
+      {
+        "area": "Dragon Shrine",
+        "enemy": "Dragon Warriors",
+        "efficiency": 3,
+        "notes": "Low drop rate, but they drop scales."
+      }
+    ],
+    "online_method": "Place your Dragon Eye for 1v1 duels. Winner gets a Dragon Scale.",
+    "source_url": "https://darksouls2.wikidot.com/dragon-remnants",
+    "join_notes": "You must acquire the Petrified Egg from the Dragon Shrine . After doing so, give the egg to Magerold of Lanafir , a merchant who resides in Iron Keep ."
+  }
+]

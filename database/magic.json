@@ -1,0 +1,3691 @@
+[
+  {
+    "id": "acid-surge",
+    "name": "Acid Surge",
+    "type": "Pyromancy",
+    "image": "assets/items/Acid_Surge.webp",
+    "description": "Pyromancy - Sprays an equipment eroding acid. Does not directly damage foes, but eats away at their equipment instead.",
+    "usage": "Sprays an equipment eroding acid. Does not directly damage foes, but eats away at their equipment instead.",
+    "obtaining": "Trade Royal Rat Authority Soul with Straid of Olaphis .",
+    "source_url": "https://darksouls2.wikidot.com/acid-surge",
+    "acquisition_refs": [
+      {
+        "name": "Royal Rat Authority Soul",
+        "source_url": "https://darksouls2.wikidot.com/royal-rat-authority-soul"
+      },
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-5",
+      "Slots": "1",
+      "Type / Affinity": "Cloud / Acid"
+    },
+    "trades": [],
+    "mechanics_notes": "Degrades the durability of enemy equipment while they are in the cloud. Has no effect in PvE, only useful for PvP.",
+    "filter_stats": {
+      "uses_min": 2,
+      "slots": 1
+    }
+  },
+  {
+    "id": "blinding-bolt",
+    "name": "Blinding Bolt",
+    "type": "Miracle",
+    "image": "assets/items/Blinding_Bolt.webp",
+    "description": "Miracle - Releases an orb of energy that travels for a short distance before unleashing several Lightning Spears in random directions.",
+    "usage": "Releases an orb of energy that travels for a short distance before unleashing several Lightning Spears in random directions.",
+    "obtaining": "Trade Old King Soul with Straid of Olaphis .",
+    "source_url": "https://darksouls2.wikidot.com/blinding-bolt",
+    "acquisition_refs": [
+      {
+        "name": "Old King Soul",
+        "source_url": "https://darksouls2.wikidot.com/old-king-soul"
+      },
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Faith": "65",
+      "Slots": "1",
+      "Type / Affinity": "AoE / Lightning"
+    },
+    "trades": [],
+    "mechanics_notes": "Releases an orb of energy which travels for a short distance, then remains stationary while firing 15 Lightning Spears in random directions. If the orb collides with a wall, the spell will dissipate. If the orb collides with an enemy, it will deal the damage of approximately one spear.",
+    "filter_stats": {
+      "uses_min": 4,
+      "faith_required": 65,
+      "slots": 1
+    }
+  },
+  {
+    "id": "crystal-magic-weapon",
+    "name": "Crystal Magic Weapon",
+    "type": "Sorcery",
+    "image": "assets/items/Crystal_Magic_Weapon.webp",
+    "description": "Sorcery - Buffs weapon with a very strong magic effect.",
+    "usage": "Buffs weapon with a very strong magic effect.",
+    "obtaining": "Treasure in Dragon Shrine .",
+    "source_url": "https://darksouls2.wikidot.com/crystal-magic-weapon",
+    "acquisition_refs": [
+      {
+        "name": "Dragon Shrine",
+        "source_url": "https://darksouls2.wikidot.com/dragon-shrine"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "1-3",
+      "Int": "28",
+      "Slots": "1",
+      "Type / Affinity": "Self / Buff",
+      "Spell Type": "Self/Buff",
+      "Duration": "27-99 sec",
+      "Intelligence Required": "28"
+    },
+    "trades": [],
+    "mechanics_notes": "Increases weapon's magic damage by (TotalAR * 0.3) + 5 . Duration depends on Intelligence .",
+    "filter_stats": {
+      "uses_min": 1,
+      "int_required": 28,
+      "slots": 1
+    }
+  },
+  {
+    "id": "crystal-soul-spear",
+    "name": "Crystal Soul Spear",
+    "type": "Sorcery",
+    "image": "assets/items/Crystal_Soul_Spear.webp",
+    "description": "Sorcery - Soul spear sharpened through crystallization. Pierces enemies, causing heavy damage.",
+    "usage": "Soul spear sharpened through crystallization. Pierces enemies, causing heavy damage.",
+    "obtaining": "Trade Old Paledrake Soul with Straid of Olaphis .",
+    "source_url": "https://darksouls2.wikidot.com/crystal-soul-spear",
+    "acquisition_refs": [
+      {
+        "name": "Old Paledrake Soul",
+        "source_url": "https://darksouls2.wikidot.com/old-paledrake-soul"
+      },
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-5",
+      "Int": "53",
+      "Slots": "2",
+      "Type / Affinity": "Ranged / Magic",
+      "Spell Type": "Ranged/Magic",
+      "Duration": "N/A",
+      "Intelligence Required": "53"
+    },
+    "trades": [],
+    "mechanics_notes": "Fire an even more powerful version of Soul Spear that pierces enemies and deals heavy damage. Base damage (before enemy resistance) is approximately : 600 + 2 * catalysts magic attack.",
+    "filter_stats": {
+      "uses_min": 2,
+      "int_required": 53,
+      "slots": 2
+    }
+  },
+  {
+    "id": "dark-weapon",
+    "name": "Dark Weapon",
+    "type": "Hex",
+    "image": "assets/items/Dark_Weapon.webp",
+    "description": "Hex - Buffs weapon with Dark for a period of time.",
+    "usage": "Buffs weapon with Dark for a period of time.",
+    "obtaining": "Sold by Felkin the Outcast .",
+    "source_url": "https://darksouls2.wikidot.com/dark-weapon",
+    "acquisition_refs": [
+      {
+        "name": "Felkin the Outcast",
+        "source_url": "https://darksouls2.wikidot.com/felkin-the-outcast"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Slots": "1",
+      "Int": "16",
+      "Faith": "14",
+      "Type / Affinity": "Self / Buff",
+      "Spell Type": "Self/Buff",
+      "Duration": "Up to 99 sec",
+      "Intelligence Required": "16",
+      "Faith Required": "14",
+      "Catalyst Required": "Staff"
+    },
+    "trades": [],
+    "mechanics_notes": "Temporarily increases weapon's dark damage by (BaseAR * 0.3) + 5 . Duration is determined by Intelligence .",
+    "filter_stats": {
+      "uses_min": 4,
+      "slots": 1,
+      "int_required": 16,
+      "faith_required": 14
+    }
+  },
+  {
+    "id": "flame-weapon",
+    "name": "Flame Weapon",
+    "type": "Pyromancy",
+    "image": "assets/items/Flame_Weapon.webp",
+    "description": "Pyromancy - Buffs weapon with Fire.",
+    "usage": "Buffs weapon with Fire.",
+    "obtaining": "Trade Old Witch Soul with Straid of Olaphis .",
+    "source_url": "https://darksouls2.wikidot.com/flame-weapon",
+    "acquisition_refs": [
+      {
+        "name": "Old Witch Soul",
+        "source_url": "https://darksouls2.wikidot.com/old-witch-soul"
+      },
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Slots": "1",
+      "Type / Affinity": "Self / Buff"
+    },
+    "trades": [],
+    "mechanics_notes": "Increases target weapon's fire damage for 90 seconds. The exact formula is still unknown, but it's reasonable to assume that it performs similarly to magic weapon . Testing was reported here and here.",
+    "filter_stats": {
+      "uses_min": 4,
+      "slots": 1
+    }
+  },
+  {
+    "id": "great-magic-weapon",
+    "name": "Great Magic Weapon",
+    "type": "Sorcery",
+    "image": "assets/items/Great_Magic_Weapon.webp",
+    "description": "Sorcery - Buffs weapon with a strong magic effect.",
+    "usage": "Buffs weapon with a strong magic effect.",
+    "obtaining": "Rank 1 Company of Champions reward. Sold by Royal Sorcerer Navlaan . Treasure in Black Gulch .",
+    "source_url": "https://darksouls2.wikidot.com/great-magic-weapon",
+    "acquisition_refs": [
+      {
+        "name": "Company of Champions",
+        "source_url": "https://darksouls2.wikidot.com/company-of-champions"
+      },
+      {
+        "name": "Royal Sorcerer Navlaan",
+        "source_url": "https://darksouls2.wikidot.com/royal-sorcerer-navlaan"
+      },
+      {
+        "name": "Black Gulch",
+        "source_url": "https://darksouls2.wikidot.com/black-gulch"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "3-6",
+      "Int": "18",
+      "Slots": "1",
+      "Type / Affinity": "Self / Buff",
+      "Spell Type": "Self/Buff",
+      "Duration": "28-108 sec",
+      "Intelligence Required": "18"
+    },
+    "trades": [],
+    "mechanics_notes": "Increases weapon's Magic damage by [(Weapon's original Magic damage + 50) x 1.2]. Duration depends on Intelligence . Based on some testing done and posted here , it is clear that the above formula is wrong. However, great magic weapon was not specifically tested. If the formula follows the pattern, we can infer that the bonus given by this spell is most likely [(total base damage * 0.2) +5] Availability",
+    "filter_stats": {
+      "uses_min": 3,
+      "int_required": 18,
+      "slots": 1
+    }
+  },
+  {
+    "id": "heavy-homing-soul-arrow",
+    "name": "Heavy Homing Soul Arrow",
+    "type": "Sorcery",
+    "image": "assets/items/Heavy_Homing_Soul_Arrow.webp",
+    "description": "Sorcery - A stronger spell than Homing Soul Arrow. Fires a thick, powerful soul arrow.",
+    "usage": "A stronger spell than Homing Soul Arrow. Fires a thick, powerful soul arrow.",
+    "obtaining": "Trade Ruin Sentinel Soul with Straid of Olaphis .",
+    "source_url": "https://darksouls2.wikidot.com/heavy-homing-soul-arrow",
+    "acquisition_refs": [
+      {
+        "name": "Ruin Sentinel Soul",
+        "source_url": "https://darksouls2.wikidot.com/ruin-sentinel-soul"
+      },
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "8-15",
+      "Int": "35",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Magic",
+      "Spell Type": "Ranged/Magic",
+      "Duration": "N/A",
+      "Intelligence Required": "35"
+    },
+    "trades": [],
+    "mechanics_notes": "Similar to Homing Soul Arrow but more powerful and with a slower cast time. Fires a Soul Arrow that will lock on to it's target and track them in an attempt to connect. The projectile is slower than a regular soul arrow, but it can chase nimble enemies. Unfortunately it does very little damage. Base damage (before enemy resistance) is approximately : 58 + 0.85 * catalysts magic attack.",
+    "filter_stats": {
+      "uses_min": 8,
+      "int_required": 35,
+      "slots": 1
+    }
+  },
+  {
+    "id": "lifedrain-patch",
+    "name": "Lifedrain Patch",
+    "type": "Hex",
+    "image": "assets/items/Lifedrain_Patch.webp",
+    "description": "Hex - Consume 2,000 souls and affix dark to a certain spot. Inflicts damage upon those who touch it, including you and allies.",
+    "usage": "Consume 2,000 souls and affix dark to a certain spot. Inflicts damage upon those who touch it, including you and allies.",
+    "obtaining": "Trade Darklurker Soul with Straid of Olaphis .",
+    "source_url": "https://darksouls2.wikidot.com/lifedrain-patch",
+    "acquisition_refs": [
+      {
+        "name": "Darklurker Soul",
+        "source_url": "https://darksouls2.wikidot.com/darklurker-soul"
+      },
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "3-6",
+      "Slots": "1",
+      "Int": "20",
+      "Faith": "35",
+      "Type / Affinity": "Ranged / Dark",
+      "Spell Type": "Ranged/Dark",
+      "Duration": "5 sec",
+      "Intelligence Required": "20",
+      "Faith Required": "35",
+      "Catalyst Required": "Chime"
+    },
+    "trades": [],
+    "mechanics_notes": "Casting Lifedrain Patch will release a swirling mass of dark energy that comes to rest a short distance in front of you and stays in place for 5 seconds. Anything that comes in contact with this mass of energy will start taking constant damage until they move out of it, and that includes you; make sure you have plenty of space when casting this spell, because if you get caught within it you'll start taking the same damage you wanted to inflict on the enemy. The amount of damage done by the spell is dependent on the number of Souls that are available when you cast it, with 3,000 being the highest amount you can use them to effectively block access to area is you wish. The long casting time does mean, however, that using in the heat of battle",
+    "filter_stats": {
+      "uses_min": 3,
+      "slots": 1,
+      "int_required": 20,
+      "faith_required": 35
+    }
+  },
+  {
+    "id": "magic-weapon",
+    "name": "Magic Weapon",
+    "type": "Sorcery",
+    "image": "assets/items/Magic_Weapon.webp",
+    "description": "Sorcery - Buffs weapon with magic.",
+    "usage": "Buffs weapon with magic.",
+    "obtaining": "Sold by Carhillion of the Fold .",
+    "source_url": "https://darksouls2.wikidot.com/magic-weapon",
+    "acquisition_refs": [
+      {
+        "name": "Carhillion of the Fold",
+        "source_url": "https://darksouls2.wikidot.com/carhillion-of-the-fold"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "8-15",
+      "Int": "10",
+      "Slots": "1",
+      "Type / Affinity": "Self / Buff",
+      "Spell Type": "Self/Buff",
+      "Duration": "63-135 sec",
+      "Intelligence Required": "10"
+    },
+    "trades": [],
+    "mechanics_notes": "Increases weapon's Magic damage by [(Weapon's original Magic damage + 50) x 1.15]. Duration depends on Intelligence . Based on some testing done and posted here , it is clear that the above formula is wrong. However, magic weapon was not specifically tested. If the formula follows the pattern, we can infer that the bonus given by this spell is most likely [(total base damage * 0.15) +5]",
+    "filter_stats": {
+      "uses_min": 8,
+      "int_required": 10,
+      "slots": 1
+    }
+  },
+  {
+    "id": "numbness",
+    "name": "Numbness",
+    "type": "Hex",
+    "image": "assets/items/Numbness.webp",
+    "description": "Hex - Reduces all incoming damage by 15% for 20 seconds, but induces tunnel vision.",
+    "usage": "Reduces all incoming damage by 15% for 20 seconds, but induces tunnel vision.",
+    "obtaining": "Trade Old Dead One Soul with Straid of Olaphis .",
+    "source_url": "https://darksouls2.wikidot.com/numbness",
+    "acquisition_refs": [
+      {
+        "name": "Old Dead One Soul",
+        "source_url": "https://darksouls2.wikidot.com/old-dead-one-soul"
+      },
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "3-6",
+      "Slots": "2",
+      "Int": "42",
+      "Faith": "30",
+      "Type / Affinity": "Self / Buff",
+      "Spell Type": "Self/Buff",
+      "Duration": "20-90 sec",
+      "Intelligence Required": "42",
+      "Faith Required": "30",
+      "Catalyst Required": "Staff"
+    },
+    "trades": [],
+    "mechanics_notes": "Reduces all incoming damage by 15%. Duration depends on Intelligence . Such a useful spell does come with downsides, and in this instance, as soon as it is cast, the peripheries of the screen will darken and you'll essentially have tunnel vision for the duration. Against most enemies you should be able to manipulate the camera enough to keep them in your narrow field of view, but against faster enemies and evasive human opponents, losing sight of them is a very distinct possibility.",
+    "filter_stats": {
+      "uses_min": 3,
+      "slots": 2,
+      "int_required": 42,
+      "faith_required": 30
+    }
+  },
+  {
+    "id": "outcry",
+    "name": "Outcry",
+    "type": "Pyromancy",
+    "image": "assets/items/Outcry.webp",
+    "description": "Pyromancy - Summon huge towers of very powerful black flames upon an enemy. DLC item.",
+    "usage": "Summon huge towers of very powerful black flames upon an enemy. DLC item.",
+    "obtaining": "Trade Soul of Nadalia, Bride of Ash with Straid of Olaphis .",
+    "source_url": "https://darksouls2.wikidot.com/outcry",
+    "acquisition_refs": [
+      {
+        "name": "Soul of Nadalia, Bride of Ash",
+        "source_url": "https://darksouls2.wikidot.com/soul-of-nadalia-bride-of-ash"
+      },
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "1-2",
+      "Slots": "2",
+      "Type / Affinity": "AoE / Fire"
+    },
+    "trades": [],
+    "mechanics_notes": "Summon huge towers of very powerful black flames that inflict both high Fire and Dark damage upon an enemy; strongest and fastest version of Firestorm .",
+    "filter_stats": {
+      "uses_min": 1,
+      "slots": 2
+    }
+  },
+  {
+    "id": "repel",
+    "name": "Repel",
+    "type": "Hex",
+    "image": "assets/items/Repel.webp",
+    "description": "Hex - Gives you complete invulnerability for 1.5 seconds after the initial cast.",
+    "usage": "Gives you complete invulnerability for 1.5 seconds after the initial cast.",
+    "obtaining": "Trade Giant Lord Soul with Straid of Olaphis .",
+    "source_url": "https://darksouls2.wikidot.com/repel",
+    "acquisition_refs": [
+      {
+        "name": "Giant Lord Soul",
+        "source_url": "https://darksouls2.wikidot.com/giant-lord-soul"
+      },
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "15-20",
+      "Slots": "3",
+      "Int": "35",
+      "Faith": "27",
+      "Type / Affinity": "Support",
+      "Spell Type": "Support",
+      "Duration": "1.5sec",
+      "Intelligence Required": "35",
+      "Faith Required": "27",
+      "Catalyst Required": "Staff"
+    },
+    "trades": [],
+    "mechanics_notes": "After a short casting time, creates a transparent bubble around you for 1.5 seconds, making you invulnerable for that duration.",
+    "filter_stats": {
+      "uses_min": 15,
+      "slots": 3,
+      "int_required": 35,
+      "faith_required": 27
+    }
+  },
+  {
+    "id": "resonant-weapon",
+    "name": "Resonant Weapon",
+    "type": "Hex",
+    "image": "assets/items/Resonant_Weapon.webp",
+    "description": "Hex - Greatly buffs weapon with dark damage at the cost of 2,000 souls for a period of time.",
+    "usage": "Greatly buffs weapon with dark damage at the cost of 2,000 souls for a period of time.",
+    "obtaining": "Sold by Felkin the Outcast .",
+    "source_url": "https://darksouls2.wikidot.com/resonant-weapon",
+    "acquisition_refs": [
+      {
+        "name": "Felkin the Outcast",
+        "source_url": "https://darksouls2.wikidot.com/felkin-the-outcast"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-5",
+      "Slots": "2",
+      "Int": "15",
+      "Faith": "24",
+      "Type / Affinity": "Self / Buff",
+      "Spell Type": "Self/Buff",
+      "Duration": "18-110",
+      "Intelligence Required": "15",
+      "Faith Required": "24",
+      "Catalyst Required": "Chime"
+    },
+    "trades": [],
+    "mechanics_notes": "",
+    "filter_stats": {
+      "uses_min": 2,
+      "slots": 2,
+      "int_required": 15,
+      "faith_required": 24
+    }
+  },
+  {
+    "id": "sacred-oath",
+    "name": "Sacred Oath",
+    "type": "Miracle",
+    "image": "assets/items/Sacred_Oath.webp",
+    "description": "Miracle - Increases Physical Attack damage by 50 and Physical Defence by 75 for 60 seconds for the caster and nearby allies.",
+    "usage": "Increases Physical Attack damage by 50 and Physical Defence by 75 for 60 seconds for the caster and nearby allies.",
+    "obtaining": "Trade Soul of Velstadt with Straid of Olaphis .",
+    "source_url": "https://darksouls2.wikidot.com/sacred-oath",
+    "acquisition_refs": [
+      {
+        "name": "Soul of Velstadt",
+        "source_url": "https://darksouls2.wikidot.com/soul-of-velstadt"
+      },
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "3-6",
+      "Faith": "25",
+      "Slots": "4",
+      "Type / Affinity": "Self / Buff"
+    },
+    "trades": [],
+    "mechanics_notes": "Increases Physical Attack damage by 50 and Physical Defence by 75 for you and nearby allies. Duration depends on Faith . Only gives bonus of 25 Physical Attack if normal weapon (non-boss with only base physical damage) is infused (other weapons need testing).",
+    "filter_stats": {
+      "uses_min": 3,
+      "faith_required": 25,
+      "slots": 4
+    }
+  },
+  {
+    "id": "soul-shower",
+    "name": "Soul Shower",
+    "type": "Sorcery",
+    "image": "assets/items/Soul_Shower.webp",
+    "description": "Sorcery - Fires a large mass of souls into the air that explodes to rain over the area in front of the caster.",
+    "usage": "Fires a large mass of souls into the air that explodes to rain over the area in front of the caster.",
+    "obtaining": "Trade Scorpioness Najka Soul with Straid of Olaphis .",
+    "source_url": "https://darksouls2.wikidot.com/soul-shower",
+    "acquisition_refs": [
+      {
+        "name": "Scorpioness Najka Soul",
+        "source_url": "https://darksouls2.wikidot.com/scorpioness-najka-soul"
+      },
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Int": "22",
+      "Slots": "1",
+      "Type / Affinity": "Ranged/ Magic",
+      "Spell Type": "Ranged/Magic",
+      "Duration": "N/A",
+      "Intelligence Required": "22"
+    },
+    "trades": [],
+    "mechanics_notes": "Fires a large orb of souls into the air above that will split into small souls which rain down on enemies.",
+    "filter_stats": {
+      "uses_min": 4,
+      "int_required": 22,
+      "slots": 1
+    }
+  },
+  {
+    "id": "sunlight-blade",
+    "name": "Sunlight Blade",
+    "type": "Miracle",
+    "image": "assets/items/Sunlight_Blade.webp",
+    "description": "Miracle - Temporarily increases weapon's lightning damage.",
+    "usage": "Temporarily increases weapon's lightning damage.",
+    "obtaining": "Sold by Straid of Olaphis . Treasure in Shrine of Amana .",
+    "source_url": "https://darksouls2.wikidot.com/sunlight-blade",
+    "acquisition_refs": [
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      },
+      {
+        "name": "Shrine of Amana",
+        "source_url": "https://darksouls2.wikidot.com/shrine-of-amana"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "1-3",
+      "Faith": "36",
+      "Slots": "1",
+      "Type / Affinity": "Self / Buff",
+      "Spell Type": "Self/Buff",
+      "Duration": "26-99 sec",
+      "Faith Required": "36"
+    },
+    "trades": [],
+    "mechanics_notes": "Temporarily increases weapon's lightning damage by (TotalAR * 0.3) + 5 . Duration is dependent on Faith .",
+    "filter_stats": {
+      "uses_min": 1,
+      "faith_required": 36,
+      "slots": 1
+    }
+  },
+  {
+    "id": "toxic-mist",
+    "name": "Toxic Mist",
+    "type": "Pyromancy",
+    "image": "assets/items/Toxic_Mist.webp",
+    "description": "Pyromancy - Creates a powerful cloud of poison mist.",
+    "usage": "Creates a powerful cloud of poison mist.",
+    "obtaining": "Trade Royal Rat Vanguard Soul with Straid of Olaphis .",
+    "source_url": "https://darksouls2.wikidot.com/toxic-mist",
+    "acquisition_refs": [
+      {
+        "name": "Royal Rat Vanguard Soul",
+        "source_url": "https://darksouls2.wikidot.com/royal-rat-vanguard-soul"
+      },
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "3-6",
+      "Slots": "1",
+      "Type / Affinity": "Cloud / Poison"
+    },
+    "trades": [],
+    "mechanics_notes": "Causes enemies who linger in the cloud to become toxic .",
+    "filter_stats": {
+      "uses_min": 3,
+      "slots": 1
+    }
+  },
+  {
+    "id": "cast-light",
+    "name": "Cast Light",
+    "image": "assets/items/audit-cast-light.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/cast-light",
+    "usage": "Casts a light that illuminates the area.",
+    "description": "Sorcery - Casts a light that illuminates the area.",
+    "obtaining": "Sold by Darkdiver Grandahl . Sold by Straid of Olaphis",
+    "acquisition_refs": [
+      {
+        "name": "Darkdiver Grandahl",
+        "source_url": "https://darksouls2.wikidot.com/darkdiver-grandahl"
+      },
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Int": "14",
+      "Slots": "1",
+      "Type / Affinity": "Self / Support",
+      "Spell Type": "Self/Buff",
+      "Duration": "45",
+      "Intelligence Required": "14"
+    },
+    "mechanics_notes": "Produces a orb of light above the user's head. This bluish light is not visible to other players.",
+    "image_source": "https://i.imgur.com/qbPhPCx.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 4,
+      "int_required": 14,
+      "slots": 1
+    }
+  },
+  {
+    "id": "chameleon",
+    "name": "Chameleon",
+    "image": "assets/items/audit-chameleon.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/chameleon",
+    "usage": "Transforms the caster into an inanimate object suiting the environment (PvP effect only). Any action other than walking, blocking, or aiming will break the spell.",
+    "description": "Sorcery - Transforms the caster into an inanimate object suiting the environment (PvP effect only). Any action other than walking, blocking, or aiming will break the spell.",
+    "obtaining": "Treasure in Harvest Valley .",
+    "acquisition_refs": [
+      {
+        "name": "Harvest Valley",
+        "source_url": "https://darksouls2.wikidot.com/harvest-valley"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "10-20",
+      "Int": "14",
+      "Slots": "1",
+      "Type / Affinity": "Self / Support",
+      "Spell Type": "Self/Buff",
+      "Duration": "N/A",
+      "Intelligence Required": "14"
+    },
+    "mechanics_notes": "Turns you into an inanimate object that blends into your surroundings. Attacking, being attacked, taking damage, rolling or performing an action breaks the spell. You can sprint while morphed. You can block while morphed. Silences footsteps and sound from falls (but not armor) while the spell is active, making the use of Hush questionable.",
+    "image_source": "https://i.imgur.com/b9yyWZ5.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 10,
+      "int_required": 14,
+      "slots": 1
+    }
+  },
+  {
+    "id": "fall-control",
+    "name": "Fall Control",
+    "image": "assets/items/audit-fall-control.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/fall-control",
+    "usage": "Will not take damage from falls, but does not protect you from falls that would kill you anyway.",
+    "description": "Sorcery - Will not take damage from falls, but does not protect you from falls that would kill you anyway.",
+    "obtaining": "Sold by Weaponsmith Ornifex . Sold by Magerold of Lanafir .",
+    "acquisition_refs": [
+      {
+        "name": "Weaponsmith Ornifex",
+        "source_url": "https://darksouls2.wikidot.com/weaponsmith-ornifex"
+      },
+      {
+        "name": "Magerold of Lanafir",
+        "source_url": "https://darksouls2.wikidot.com/magerold-of-lanafir"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "10-20",
+      "Int": "15",
+      "Slots": "1",
+      "Type / Affinity": "Self / Support"
+    },
+    "mechanics_notes": "Reduces damage taken when falling from heights. Will not take damage from falls, however excessive falls will still kill the player.",
+    "image_source": "https://i.imgur.com/MipkIQW.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 10,
+      "int_required": 15,
+      "slots": 1
+    }
+  },
+  {
+    "id": "focus-souls",
+    "name": "Focus Souls",
+    "image": "assets/items/audit-focus-souls.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/focus-souls",
+    "usage": "Fires a focused beam of souls. DLC item.",
+    "description": "Sorcery - Fires a focused beam of souls. DLC item.",
+    "obtaining": "Treasure in Shulva, Sanctum City .",
+    "acquisition_refs": [
+      {
+        "name": "Shulva, Sanctum City",
+        "source_url": "https://darksouls2.wikidot.com/shulva-sanctum-city"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-5",
+      "Int": "60",
+      "Slots": "2",
+      "Type / Affinity": "Ranged / Magic",
+      "Spell Type": "Sorcery",
+      "Duration": "N/A",
+      "Intelligence Required": "60",
+      "Faith Required": "-",
+      "Catalyst Required": "Staff"
+    },
+    "mechanics_notes": "Creates a sphere with multiple soul beams attacking the target.",
+    "image_source": "https://i.imgur.com/diaFybV.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "int_required": 60,
+      "slots": 2
+    }
+  },
+  {
+    "id": "great-heavy-soul-arrow",
+    "name": "Great Heavy Soul Arrow",
+    "image": "assets/items/audit-great-heavy-soul-arrow.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/great-heavy-soul-arrow",
+    "usage": "A stronger version of Heavy Soul Arrow.",
+    "description": "Sorcery - A stronger version of Heavy Soul Arrow.",
+    "obtaining": "Treasure in Earthen Peak . Sold by Carhillion of the Fold . Sold by Magerold of Lanafir .",
+    "acquisition_refs": [
+      {
+        "name": "Earthen Peak",
+        "source_url": "https://darksouls2.wikidot.com/earthen-peak"
+      },
+      {
+        "name": "Carhillion of the Fold",
+        "source_url": "https://darksouls2.wikidot.com/carhillion-of-the-fold"
+      },
+      {
+        "name": "Magerold of Lanafir",
+        "source_url": "https://darksouls2.wikidot.com/magerold-of-lanafir"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "10-15",
+      "Int": "16",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Magic",
+      "Spell Type": "Ranged/Magic",
+      "Duration": "N/A",
+      "Intelligence Required": "16"
+    },
+    "mechanics_notes": "More powerful version of Heavy Soul Arrow . Base damage (before enemy resistance) is approximately : 175 + 1.10 * catalysts magic attack.",
+    "image_source": "https://i.imgur.com/P7oY8YO.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 10,
+      "int_required": 16,
+      "slots": 1
+    }
+  },
+  {
+    "id": "great-soul-arrow",
+    "name": "Great Soul Arrow",
+    "image": "assets/items/audit-great-soul-arrow.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/great-soul-arrow",
+    "usage": "A spell superior to Soul Arrow.",
+    "description": "Sorcery - A spell superior to Soul Arrow.",
+    "obtaining": "Treasure in Forest of Fallen Giants . Purchase from Carhillion of the Fold . Purchase from Magerold of Lanafir .",
+    "acquisition_refs": [
+      {
+        "name": "Forest of Fallen Giants",
+        "source_url": "https://darksouls2.wikidot.com/forest-of-fallen-giants"
+      },
+      {
+        "name": "Carhillion of the Fold",
+        "source_url": "https://darksouls2.wikidot.com/carhillion-of-the-fold"
+      },
+      {
+        "name": "Magerold of Lanafir",
+        "source_url": "https://darksouls2.wikidot.com/magerold-of-lanafir"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "15-20",
+      "Int": "14",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Magic",
+      "Spell Type": "Ranged/Magic",
+      "Duration": "N/A",
+      "Intelligence Required": "14"
+    },
+    "mechanics_notes": "More powerful version of Soul Arrow with slightly slower casting time. Fire a bolt of magical energy towards your target for decent damage. Base damage (before enemy resistance) is approximately : 135 + 0.9 * catalysts magic attack.",
+    "image_source": "https://i.imgur.com/akXjQkg.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 15,
+      "int_required": 14,
+      "slots": 1
+    }
+  },
+  {
+    "id": "heavy-soul-arrow",
+    "name": "Heavy Soul Arrow",
+    "image": "assets/items/audit-heavy-soul-arrow.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/heavy-soul-arrow",
+    "usage": "A stronger version of Soul Arrow but with higher casting time. Has the chance to poise-break and stagger the target.",
+    "description": "Sorcery - A stronger version of Soul Arrow but with higher casting time. Has the chance to poise-break and stagger the target.",
+    "obtaining": "Sold by Carhillion of the Fold . Sold by Magerold of Lanafir .",
+    "acquisition_refs": [
+      {
+        "name": "Carhillion of the Fold",
+        "source_url": "https://darksouls2.wikidot.com/carhillion-of-the-fold"
+      },
+      {
+        "name": "Magerold of Lanafir",
+        "source_url": "https://darksouls2.wikidot.com/magerold-of-lanafir"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "20-30",
+      "Int": "12",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Magic",
+      "Spell Type": "Ranged/Magic",
+      "Duration": "N/A",
+      "Intelligence Required": "12"
+    },
+    "mechanics_notes": "Very powerful version of Soul Arrow but with a slower casting time and less uses. Fire a bolt of magical energy towards your target for heavy damage. Base damage (before enemy resistance) is approximately : 65 + 0.95 * catalysts magic attack.",
+    "image_source": "https://i.imgur.com/PnQxQo6.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 20,
+      "int_required": 12,
+      "slots": 1
+    }
+  },
+  {
+    "id": "hidden-weapon",
+    "name": "Hidden Weapon",
+    "image": "assets/items/audit-hidden-weapon.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/hidden-weapon",
+    "usage": "Turn your weapon invisible for 90 seconds.",
+    "description": "Sorcery - Turn your weapon invisible for 90 seconds.",
+    "obtaining": "Rank 2 Bell Keepers reward.",
+    "acquisition_refs": [
+      {
+        "name": "Bell Keepers",
+        "source_url": "https://darksouls2.wikidot.com/bell-keepers"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "10-20",
+      "Int": "14",
+      "Slots": "1",
+      "Type / Affinity": "Self / Buff",
+      "Spell Type": "Buff",
+      "Duration": "90 seconds",
+      "Intelligence Required": "14"
+    },
+    "mechanics_notes": "Enchant weapon in the opposite hand of the spell catalyst, making it invisible.",
+    "image_source": "https://i.imgur.com/SIY9191.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 10,
+      "int_required": 14,
+      "slots": 1
+    }
+  },
+  {
+    "id": "homing-crystal-soulmass",
+    "name": "Homing Crystal Soulmass",
+    "image": "assets/items/audit-homing-crystal-soulmass.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/homing-crystal-soulmass",
+    "usage": "Soulbeads made more lethal with crystallisation. When fired, they home in on their target.",
+    "description": "Sorcery - Soulbeads made more lethal with crystallisation. When fired, they home in on their target.",
+    "obtaining": "Treasure in Shrine of Amana .",
+    "acquisition_refs": [
+      {
+        "name": "Shrine of Amana",
+        "source_url": "https://darksouls2.wikidot.com/shrine-of-amana"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "3-6",
+      "Int": "32",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Magic",
+      "Spell Type": "Ranged/Magic",
+      "Duration": "30 seconds",
+      "Intelligence Required": "32"
+    },
+    "mechanics_notes": "Create more powerful crystal soulbeads above your head that will fly towards an opponent with great speed when the opponent is within a certain proximity.",
+    "image_source": "https://i.imgur.com/XoJDVRy.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 3,
+      "int_required": 32,
+      "slots": 1
+    }
+  },
+  {
+    "id": "homing-soul-arrow",
+    "name": "Homing Soul Arrow",
+    "image": "assets/items/audit-homing-soul-arrow.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/homing-soul-arrow",
+    "usage": "A version of the Soul Arrow that tracks moving targets.",
+    "description": "Sorcery - A version of the Soul Arrow that tracks moving targets.",
+    "obtaining": "Sold by Straid of Olaphis . Sold by Weaponsmith Ornifex .",
+    "acquisition_refs": [
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      },
+      {
+        "name": "Weaponsmith Ornifex",
+        "source_url": "https://darksouls2.wikidot.com/weaponsmith-ornifex"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "10-20",
+      "Int": "25",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Magic",
+      "Spell Type": "Ranged/Magic",
+      "Duration": "N/A",
+      "Intelligence Required": "25"
+    },
+    "mechanics_notes": "Fire a weak Soul Arrow that will lock on to it's target and track them in an attempt to connect. Base damage (before enemy resistance) is approximately : 42 + 0.7 * catalysts magic attack.",
+    "image_source": "https://i.imgur.com/CwQNG8F.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 10,
+      "int_required": 25,
+      "slots": 1
+    }
+  },
+  {
+    "id": "homing-soulmass",
+    "name": "Homing Soulmass",
+    "image": "assets/items/audit-homing-soulmass.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/homing-soulmass",
+    "usage": "Multiple soul masses appear above the head. When near an enemy, they will fire at the target.",
+    "description": "Sorcery - Multiple soul masses appear above the head. When near an enemy, they will fire at the target.",
+    "obtaining": "Treasure in Shaded Woods . Sold by Weaponsmith Ornifex .",
+    "acquisition_refs": [
+      {
+        "name": "Shaded Woods",
+        "source_url": "https://darksouls2.wikidot.com/shaded-woods"
+      },
+      {
+        "name": "Weaponsmith Ornifex",
+        "source_url": "https://darksouls2.wikidot.com/weaponsmith-ornifex"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Int": "24",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Magic",
+      "Spell Type": "Ranged/Magic",
+      "Duration": "30 seconds",
+      "Intelligence Required": "24"
+    },
+    "mechanics_notes": "Create soulbeads above your head that will fly towards an opponent with great speed when the opponent is within a certain proximity.",
+    "image_source": "https://i.imgur.com/bVJcJeY.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 4,
+      "int_required": 24,
+      "slots": 1
+    }
+  },
+  {
+    "id": "hush",
+    "name": "Hush",
+    "image": "assets/items/audit-hush.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/hush",
+    "usage": "Reduces the sound made by its caster.",
+    "description": "Sorcery - Reduces the sound made by its caster.",
+    "obtaining": "Rank 2 Way of Blue reward. Treasure in the Lost Bastille .",
+    "acquisition_refs": [
+      {
+        "name": "Way of Blue",
+        "source_url": "https://darksouls2.wikidot.com/way-of-blue"
+      },
+      {
+        "name": "the Lost Bastille",
+        "source_url": "https://darksouls2.wikidot.com/the-lost-bastille"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "10-20",
+      "Int": "15",
+      "Slots": "1",
+      "Type / Affinity": "Self / Support",
+      "Spell Type": "Self/Buff",
+      "Duration": "90 seconds",
+      "Intelligence Required": "15"
+    },
+    "mechanics_notes": "Reduces the sound you make.",
+    "image_source": "https://i.imgur.com/N1YXktd.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 10,
+      "int_required": 15,
+      "slots": 1
+    }
+  },
+  {
+    "id": "repair",
+    "name": "Repair",
+    "image": "assets/items/audit-repair.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/repair",
+    "usage": "Restores durability of equipment.",
+    "description": "Sorcery - Restores durability of equipment.",
+    "obtaining": "Treasure in Shrine of Winter . Scholar of the First Sin: Treasure in Shaded Woods .",
+    "acquisition_refs": [
+      {
+        "name": "Shrine of Winter",
+        "source_url": "https://darksouls2.wikidot.com/shrine-of-winter"
+      },
+      {
+        "name": "Shaded Woods",
+        "source_url": "https://darksouls2.wikidot.com/shaded-woods"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-4",
+      "Int": "15",
+      "Slots": "1",
+      "Type / Affinity": "Self / Support",
+      "Spell Type": "Self/Buff",
+      "Duration": "N/A",
+      "Intelligence Required": "15"
+    },
+    "mechanics_notes": "Repairs durability of equipped items - weapons gain 20 durability, rings gain 10, and armor gains 30. Will not repair broken gear.",
+    "image_source": "https://i.imgur.com/Vvzz8ck.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "int_required": 15,
+      "slots": 1
+    }
+  },
+  {
+    "id": "shockwave",
+    "name": "Shockwave",
+    "image": "assets/items/audit-shockwave.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/shockwave",
+    "usage": "Does no damage, but unleashes a large shock wave, toppling opponents.",
+    "description": "Sorcery - Does no damage, but unleashes a large shock wave, toppling opponents.",
+    "obtaining": "Sold by Carhillion of the Fold .",
+    "acquisition_refs": [
+      {
+        "name": "Carhillion of the Fold",
+        "source_url": "https://darksouls2.wikidot.com/carhillion-of-the-fold"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "3-6",
+      "Int": "13",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Support",
+      "Spell Type": "Ranged/Magic",
+      "Duration": "N/A",
+      "Intelligence Required": "13"
+    },
+    "mechanics_notes": "Fire a slow moving ball of magical energy towards your target which knocks them back and/or to the ground upon impact. Has a fairly slow cast time and only hits a single target with no splash effect.",
+    "image_source": "https://i.imgur.com/gMvwx7K.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 3,
+      "int_required": 13,
+      "slots": 1
+    }
+  },
+  {
+    "id": "soul-arrow",
+    "name": "Soul Arrow",
+    "image": "assets/items/audit-soul-arrow.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/soul-arrow",
+    "usage": "Fires a small soul arrow straight ahead.",
+    "description": "Sorcery - Fires a small soul arrow straight ahead.",
+    "obtaining": "Starting item for Sorcerer class. Sold by Merchant Hag Melentia . Sold by Carhillion of the Fold . Sold by Magerold of Lanafir .",
+    "acquisition_refs": [
+      {
+        "name": "Sorcerer",
+        "source_url": "https://darksouls2.wikidot.com/sorcerer"
+      },
+      {
+        "name": "Merchant Hag Melentia",
+        "source_url": "https://darksouls2.wikidot.com/merchant-hag-melentia"
+      },
+      {
+        "name": "Carhillion of the Fold",
+        "source_url": "https://darksouls2.wikidot.com/carhillion-of-the-fold"
+      },
+      {
+        "name": "Magerold of Lanafir",
+        "source_url": "https://darksouls2.wikidot.com/magerold-of-lanafir"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "30-40",
+      "Int": "10",
+      "Slots": "1",
+      "Type / Affinity": "Ranged/ Magic",
+      "Spell Type": "Ranged/Magic",
+      "Duration": "N/A",
+      "Intelligence Required": "10"
+    },
+    "mechanics_notes": "Basic sorcery spell. Fire a bolt of magical energy towards your target for a small amount of damage. Base damage (before enemy resistance) is approximately : 49 + 0.855 * catalysts magic attack.",
+    "image_source": "https://i.imgur.com/iY6MBWz.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 30,
+      "int_required": 10,
+      "slots": 1
+    }
+  },
+  {
+    "id": "soul-bolt",
+    "name": "Soul Bolt",
+    "image": "assets/items/audit-soul-bolt.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/soul-bolt",
+    "usage": "Fires a beam of energy that hits the ground and then travels forward.",
+    "description": "Sorcery - Fires a beam of energy that hits the ground and then travels forward.",
+    "obtaining": "Treasure in Drangleic Castle .",
+    "acquisition_refs": [
+      {
+        "name": "Drangleic Castle",
+        "source_url": "https://darksouls2.wikidot.com/drangleic-castle"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-4",
+      "Int": "45",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Magic",
+      "Spell Type": "Ranged/Magic",
+      "Duration": "N/A",
+      "Intelligence Required": "45"
+    },
+    "mechanics_notes": "Fires a beam of energy that hits the ground then travels forward.",
+    "image_source": "https://i.imgur.com/WRlzSGK.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "int_required": 45,
+      "slots": 1
+    }
+  },
+  {
+    "id": "soul-flash",
+    "name": "Soul Flash",
+    "image": "assets/items/audit-soul-flash.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/soul-flash",
+    "usage": "A short range AoE around the caster that damage and knock down enemies. DLC item.",
+    "description": "Sorcery - A short range AoE around the caster that damage and knock down enemies. DLC item.",
+    "obtaining": "Treasure in Frozen Eleum Loyce .",
+    "acquisition_refs": [
+      {
+        "name": "Frozen Eleum Loyce",
+        "source_url": "https://darksouls2.wikidot.com/frozen-eleum-loyce"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-6",
+      "Int": "28",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Magic",
+      "Spell Type": "Ranged/Magic",
+      "Duration": "N/A",
+      "Intelligence Required": "28"
+    },
+    "mechanics_notes": "A short range AoE around the caster that damage and knock down enemies.",
+    "image_source": "https://i.imgur.com/Os0jX4f.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 4,
+      "int_required": 28,
+      "slots": 1
+    }
+  },
+  {
+    "id": "soul-geyser",
+    "name": "Soul Geyser",
+    "image": "assets/items/audit-soul-geyser.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/soul-geyser",
+    "usage": "Fires a mass of souls that immediately start homing toward a target. Upon hitting the target they break into smaller souls and hit multiple times.",
+    "description": "Sorcery - Fires a mass of souls that immediately start homing toward a target. Upon hitting the target they break into smaller souls and hit multiple times.",
+    "obtaining": "Treasure in Aldia's Keep .",
+    "acquisition_refs": [
+      {
+        "name": "Aldia's Keep",
+        "source_url": "https://darksouls2.wikidot.com/aldia-s-keep"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "1-3",
+      "Int": "64",
+      "Slots": "1",
+      "Type / Affinity": "Ranged/ Magic",
+      "Spell Type": "Ranged/Magic",
+      "Duration": "N/A",
+      "Intelligence Required": "64"
+    },
+    "mechanics_notes": "Fires mass of souls that immediately start homing toward a target. Upon hitting the target they break into smaller souls and hit multiple times. Can be absolutely devastating if it connects properly. Base damage (before enemy resistance) for each projectile is approximately : 1.3 * catalyst's magic attack.",
+    "image_source": "https://i.imgur.com/6mhovuT.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 1,
+      "int_required": 64,
+      "slots": 1
+    }
+  },
+  {
+    "id": "soul-greatsword",
+    "name": "Soul Greatsword",
+    "image": "assets/items/audit-soul-greatsword.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/soul-greatsword",
+    "usage": "Swings a Greatsword made of souls in front of the caster, damaging enemies.",
+    "description": "Sorcery - Swings a Greatsword made of souls in front of the caster, damaging enemies.",
+    "obtaining": "Treasure in Drangleic Castle .",
+    "acquisition_refs": [
+      {
+        "name": "Drangleic Castle",
+        "source_url": "https://darksouls2.wikidot.com/drangleic-castle"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "3-6",
+      "Int": "27",
+      "Slots": "1",
+      "Type / Affinity": "Melee / Magic",
+      "Spell Type": "Melee/Magic",
+      "Duration": "N/A",
+      "Intelligence Required": "27"
+    },
+    "mechanics_notes": "Swing a heavy greatsword made of souls in front of the caster.",
+    "image_source": "https://i.imgur.com/yieIRHw.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 3,
+      "int_required": 27,
+      "slots": 1
+    }
+  },
+  {
+    "id": "soul-spear",
+    "name": "Soul Spear",
+    "image": "assets/items/audit-soul-spear.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/soul-spear",
+    "usage": "Sorcery that fires souls shaped into a spear. Pierces enemies, causing heavy damage.",
+    "description": "Sorcery - Sorcery that fires souls shaped into a spear. Pierces enemies, causing heavy damage.",
+    "obtaining": "Sold by Grave Warden Agdayne . Treasure in Huntsman's Copse .",
+    "acquisition_refs": [
+      {
+        "name": "Grave Warden Agdayne",
+        "source_url": "https://darksouls2.wikidot.com/grave-warden-agdayne"
+      },
+      {
+        "name": "Huntsman's Copse",
+        "source_url": "https://darksouls2.wikidot.com/huntsman-s-copse"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-5",
+      "Int": "40",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Magic",
+      "Spell Type": "Ranged/Magic",
+      "Duration": "N/A",
+      "Intelligence Required": "40"
+    },
+    "mechanics_notes": "Fire a large and powerful soul arrow that will pierce through multiple enemies dealing heavy damage. Base damage (before enemy resistance) is approximately : 395 + 1.8 * catalysts magic attack.",
+    "image_source": "https://i.imgur.com/trFr6Ol.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "int_required": 40,
+      "slots": 1
+    }
+  },
+  {
+    "id": "soul-spear-barrage",
+    "name": "Soul Spear Barrage",
+    "image": "assets/items/audit-soul-spear-barrage.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/soul-spear-barrage",
+    "usage": "Fires many low damage Soul Spears in a cone-shaped area in front of the player.",
+    "description": "Sorcery - Fires many low damage Soul Spears in a cone-shaped area in front of the player.",
+    "obtaining": "Sold by Carhillion of the Fold .",
+    "acquisition_refs": [
+      {
+        "name": "Carhillion of the Fold",
+        "source_url": "https://darksouls2.wikidot.com/carhillion-of-the-fold"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "3-6",
+      "Int": "17",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Magic",
+      "Spell Type": "Ranged/Magic",
+      "Duration": "N/A",
+      "Intelligence Required": "17"
+    },
+    "mechanics_notes": "Fire a volley of soulbeads towards the target that have a slight horizontal spread. Multiple soulbeads can hit the same target in rapid succession. Due to this using the spell from a range is not recommended on single targets as most of the beads will miss, resulting in greatly reduced damage.",
+    "image_source": "https://i.imgur.com/xNz7mhS.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 3,
+      "int_required": 17,
+      "slots": 1
+    }
+  },
+  {
+    "id": "soul-vortex",
+    "name": "Soul Vortex",
+    "image": "assets/items/audit-soul-vortex.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/soul-vortex",
+    "usage": "Fire a swirling vortex of souls.",
+    "description": "Sorcery - Fire a swirling vortex of souls.",
+    "obtaining": "Treasure in Brightstone Cove Tseldora . Treasure in The Pit in Majula . Sold by Grave Warden Agdayne .",
+    "acquisition_refs": [
+      {
+        "name": "Brightstone Cove Tseldora",
+        "source_url": "https://darksouls2.wikidot.com/brightstone-cove-tseldora"
+      },
+      {
+        "name": "The Pit",
+        "source_url": "https://darksouls2.wikidot.com/the-pit"
+      },
+      {
+        "name": "Majula",
+        "source_url": "https://darksouls2.wikidot.com/majula"
+      },
+      {
+        "name": "Grave Warden Agdayne",
+        "source_url": "https://darksouls2.wikidot.com/grave-warden-agdayne"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Int": "37",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Magic",
+      "Spell Type": "Ranged/Magic",
+      "Duration": "N/A",
+      "Intelligence Required": "37"
+    },
+    "mechanics_notes": "Fires a large slow moving soul orb with a swirling vortex of soul particles surrounding it that damage enemies. Has a very slow cast time. This spell can do heavy damage if it connects properly with the bulk of the damage coming from the large orb.",
+    "image_source": "https://i.imgur.com/zELn4ak.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 4,
+      "int_required": 37,
+      "slots": 1
+    }
+  },
+  {
+    "id": "strong-magic-shield",
+    "name": "Strong Magic Shield",
+    "image": "assets/items/audit-strong-magic-shield.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/strong-magic-shield",
+    "usage": "Raises shield resistance to physical, elemental and status effects to 100%, and 10% increase to shield stability for 30 seconds.",
+    "description": "Sorcery - Raises shield resistance to physical, elemental and status effects to 100%, and 10% increase to shield stability for 30 seconds.",
+    "obtaining": "Royal Sorcerer Navlaan drop/gift. Sold by Straid of Olaphis Treasure in Drangleic Castle .",
+    "acquisition_refs": [
+      {
+        "name": "Royal Sorcerer Navlaan",
+        "source_url": "https://darksouls2.wikidot.com/royal-sorcerer-navlaan"
+      },
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      },
+      {
+        "name": "Drangleic Castle",
+        "source_url": "https://darksouls2.wikidot.com/drangleic-castle"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Int": "18",
+      "Slots": "1",
+      "Type / Affinity": "Self / Buff",
+      "Spell Type": "Self/Buff",
+      "Duration": "22-60 sec",
+      "Intelligence Required": "18",
+      "Catalyst Required": "Staff"
+    },
+    "mechanics_notes": "Increases the physical, elemental and status effect resistance of your off-hand shield to 100% and gives 10% increased shield stability. Duration depends on Intelligence . Does not protect from the Petrify status effect.",
+    "image_source": "https://i.imgur.com/zSwom5p.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 4,
+      "int_required": 18,
+      "slots": 1
+    }
+  },
+  {
+    "id": "unleash-magic",
+    "name": "Unleash Magic",
+    "image": "assets/items/audit-unleash-magic.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/unleash-magic",
+    "usage": "Increase magic attack by 20% and reduces your HP by 30% for a limited time.",
+    "description": "Sorcery - Increase magic attack by 20% and reduces your HP by 30% for a limited time.",
+    "obtaining": "Royal Sorcerer Navlaan quest reward.",
+    "acquisition_refs": [
+      {
+        "name": "Royal Sorcerer Navlaan",
+        "source_url": "https://darksouls2.wikidot.com/royal-sorcerer-navlaan"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "1-3",
+      "Int": "58",
+      "Slots": "3",
+      "Type / Affinity": "Self / Buff",
+      "Spell Type": "Self/Buff",
+      "Duration": "120 Seconds",
+      "Intelligence Required": "58"
+    },
+    "mechanics_notes": "Increase Sorceries and Hexes damage by 20% and reduces your HP by 30% for 60 seconds.",
+    "image_source": "https://i.imgur.com/kTlr9gR.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 1,
+      "int_required": 58,
+      "slots": 3
+    }
+  },
+  {
+    "id": "yearn",
+    "name": "Yearn",
+    "image": "assets/items/audit-yearn.png",
+    "type": "Sorcery",
+    "source_url": "https://darksouls2.wikidot.com/yearn",
+    "usage": "Creates a slow moving, sound-producing soul mass that attracts enemies for a moment.",
+    "description": "Sorcery - Creates a slow moving, sound-producing soul mass that attracts enemies for a moment.",
+    "obtaining": "Sold by Carhillion of the Fold .",
+    "acquisition_refs": [
+      {
+        "name": "Carhillion of the Fold",
+        "source_url": "https://darksouls2.wikidot.com/carhillion-of-the-fold"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Int": "19",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Support",
+      "Spell Type": "Ranged/Magic",
+      "Duration": "10 Seconds",
+      "Intelligence Required": "19"
+    },
+    "mechanics_notes": "Fires a projectile which creates a sound for a short time wherever it collides with a surface. Lasts for 10 seconds. Certain types of enemies will be lured towards the sound, allowing the player to be totally ignored by them.",
+    "image_source": "https://i.imgur.com/DRlxipf.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 4,
+      "int_required": 19,
+      "slots": 1
+    }
+  },
+  {
+    "id": "affinity",
+    "name": "Affinity",
+    "image": "assets/items/audit-affinity.png",
+    "type": "Hex",
+    "source_url": "https://darksouls2.wikidot.com/affinity",
+    "usage": "Creates a dark mass that seems to pursue its target with a will of its own.",
+    "description": "Hex - Creates a dark mass that seems to pursue its target with a will of its own.",
+    "obtaining": "Sold by Straid of Olaphis . Kobold drop.",
+    "acquisition_refs": [
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      },
+      {
+        "name": "Kobold",
+        "source_url": "https://darksouls2.wikidot.com/kobold"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "8-15",
+      "Slots": "3",
+      "Int": "40",
+      "Faith": "24",
+      "Type / Affinity": "Ranged / Dark",
+      "Spell Type": "Ranged/Dark",
+      "Duration": "N/A",
+      "Intelligence Required": "40",
+      "Faith Required": "24",
+      "Catalyst Required": "Staff"
+    },
+    "mechanics_notes": "Creates several dark orbs above the caster, similar to the Homing Soulmass sorceries, that slowly track the closest enemy the caster was facing when launched. The amount of orbs increases with your Intelligence stat up to five orbs at 60 INT.",
+    "image_source": "https://i.imgur.com/Q8UfiiU.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 8,
+      "slots": 3,
+      "int_required": 40,
+      "faith_required": 24
+    }
+  },
+  {
+    "id": "climax",
+    "name": "Climax",
+    "image": "assets/items/audit-climax.png",
+    "type": "Hex",
+    "source_url": "https://darksouls2.wikidot.com/climax",
+    "usage": "Fires a dark mass of energy at the target. Scales in damage from very weak at 0 souls to very strong at 5,000 souls. Will consume all souls on use.",
+    "description": "Hex - Fires a dark mass of energy at the target. Scales in damage from very weak at 0 souls to very strong at 5,000 souls. Will consume all souls on use.",
+    "obtaining": "Rank 3 Pilgrims of Dark reward.",
+    "acquisition_refs": [
+      {
+        "name": "Pilgrims of Dark",
+        "source_url": "https://darksouls2.wikidot.com/pilgrims-of-dark"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "3-6",
+      "Slots": "4",
+      "Int": "30",
+      "Faith": "47",
+      "Type / Affinity": "Ranged / Dark",
+      "Spell Type": "Ranged/Dark",
+      "Duration": "N/A",
+      "Intelligence Required": "30",
+      "Faith Required": "47",
+      "Catalyst Required": "Chime"
+    },
+    "mechanics_notes": "The Resonant Soul family of spells emit a dark mass of energy that gets fired directly towards the targeted area. They all have a slow initial casting time, but the projectile itself moves fairly quickly once it gets going. Each version of the spell does a good amount of damage for the number of uses you get, but unfortunately, getting the best damage out of the spell requires Souls. All of these spells can be cast even if you do not have any Souls, but the damage they do will be significantly less. Climax will use up every single soul you have on you at the time. To compound the harshness of Climax's Soul requirement, using anything over 5,000 souls to cast it will not actually result in any more damage, so you need to be extremely careful about when",
+    "image_source": "https://i.imgur.com/uM2zdlE.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 3,
+      "slots": 4,
+      "int_required": 30,
+      "faith_required": 47
+    }
+  },
+  {
+    "id": "darkstorm",
+    "name": "Darkstorm",
+    "image": "assets/items/audit-darkstorm.png",
+    "type": "Hex",
+    "source_url": "https://darksouls2.wikidot.com/darkstorm",
+    "usage": "Creates a local vortex of dark flame.",
+    "description": "Hex - Creates a local vortex of dark flame.",
+    "obtaining": "Sold by Darkdiver Grandahl Sold by Magerold of Lanafir .",
+    "acquisition_refs": [
+      {
+        "name": "Darkdiver Grandahl",
+        "source_url": "https://darksouls2.wikidot.com/darkdiver-grandahl"
+      },
+      {
+        "name": "Magerold of Lanafir",
+        "source_url": "https://darksouls2.wikidot.com/magerold-of-lanafir"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "3-6",
+      "Slots": "2",
+      "Int": "12",
+      "Faith": "21",
+      "Type / Affinity": "AoE / Dark",
+      "Spell Type": "AoE/Dark",
+      "Duration": "N/A",
+      "Intelligence Required": "12",
+      "Faith Required": "21",
+      "Catalyst Required": "Chime"
+    },
+    "mechanics_notes": "Creates a vortex of dark orbs that spin around you while gradually moving outwards, and any enemy caught within the radius of this spell will take huge amounts of damage from the continuously striking orbs until they dissipate. Caution must be undertaken when using this spell, however, as not only does it have a long cast time, but you will be unable to move for nearly the entire duration of this spell. Unfortunately that means that the spell will be extremely difficult and dangerous to use on other human opponents, since you'll rarely have enough time to cast it. It will also knock them down and out of range if it does happen to hit them.",
+    "image_source": "https://i.imgur.com/eJho8DA.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 3,
+      "slots": 2,
+      "int_required": 12,
+      "faith_required": 21
+    }
+  },
+  {
+    "id": "dark-dance",
+    "name": "Dark Dance",
+    "image": "assets/items/audit-dark-dance.png",
+    "type": "Hex",
+    "source_url": "https://darksouls2.wikidot.com/dark-dance",
+    "usage": "Unleash multiple homing Dark projectiles. DLC item.",
+    "description": "Hex - Unleash multiple homing Dark projectiles. DLC item.",
+    "obtaining": "Treasure in Frozen Eleum Loyce .",
+    "acquisition_refs": [
+      {
+        "name": "Frozen Eleum Loyce",
+        "source_url": "https://darksouls2.wikidot.com/frozen-eleum-loyce"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "3-6",
+      "Slots": "2",
+      "Int": "22",
+      "Faith": "60",
+      "Type / Affinity": "AoE / Ranged / Dark",
+      "Spell Type": "AoE/Ranged/Dark",
+      "Duration": "N/A",
+      "Intelligence Required": "22",
+      "Faith Required": "60",
+      "Catalyst Required": "Sacred Chime"
+    },
+    "mechanics_notes": "Emit a damaging force from your body which also sends out Dark projectiles that seek their target. Essentially a faster casting, less damaging Wrath of the Gods paired with Homing Crystal Soulmass . Consumes 5,000 souls on use.",
+    "image_source": "https://i.imgur.com/KJgqjNc.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 3,
+      "slots": 2,
+      "int_required": 22,
+      "faith_required": 60
+    }
+  },
+  {
+    "id": "dark-fog",
+    "name": "Dark Fog",
+    "image": "assets/items/audit-dark-fog.png",
+    "type": "Hex",
+    "source_url": "https://darksouls2.wikidot.com/dark-fog",
+    "usage": "A hex that releases a temporary localized mist. Enemies who breathe the fog are poisoned.",
+    "description": "Hex - A hex that releases a temporary localized mist. Enemies who breathe the fog are poisoned.",
+    "obtaining": "Sold by Straid of Olaphis . Treasure in the Gutter .",
+    "acquisition_refs": [
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      },
+      {
+        "name": "the Gutter",
+        "source_url": "https://darksouls2.wikidot.com/the-gutter"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Slots": "2",
+      "Int": "25",
+      "Faith": "14",
+      "Type / Affinity": "Cloud / Poison",
+      "Spell Type": "Cloud/Poison",
+      "Duration": "4sec",
+      "Intelligence Required": "25",
+      "Faith Required": "14",
+      "Catalyst Required": "Staff"
+    },
+    "mechanics_notes": "Places a dark fog cloud in front of the cast point that can poison foes, for four seconds. Unlike other poison spells, the cloud materializes at the target rather than at the caster's location. Once mastered, the spell has a deceptively long range, potentially longer even than soul arrow .",
+    "image_source": "https://i.imgur.com/uzsAYoA.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 4,
+      "slots": 2,
+      "int_required": 25,
+      "faith_required": 14
+    }
+  },
+  {
+    "id": "dark-greatsword",
+    "name": "Dark Greatsword",
+    "image": "assets/items/audit-dark-greatsword.png",
+    "type": "Hex",
+    "source_url": "https://darksouls2.wikidot.com/dark-greatsword",
+    "usage": "Brandish Dark like a sword. DLC item.",
+    "description": "Hex - Brandish Dark like a sword. DLC item.",
+    "obtaining": "Treasure in Shulva, Sanctum City .",
+    "acquisition_refs": [
+      {
+        "name": "Shulva, Sanctum City",
+        "source_url": "https://darksouls2.wikidot.com/shulva-sanctum-city"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "3-6",
+      "Slots": "2",
+      "Int": "55",
+      "Faith": "29",
+      "Type / Affinity": "Melee / Ranged / Dark",
+      "Spell Type": "Hex",
+      "Duration": "N/A",
+      "Intelligence Required": "55",
+      "Faith Required": "29",
+      "Catalyst Required": "Staff"
+    },
+    "mechanics_notes": "Similar to Soul Greatsword except does dark damage as well as a horizontal wave similar to the Moonlight Greatsword s strong attack.",
+    "image_source": "https://i.imgur.com/6it6cMI.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 3,
+      "slots": 2,
+      "int_required": 55,
+      "faith_required": 29
+    }
+  },
+  {
+    "id": "dark-hail",
+    "name": "Dark Hail",
+    "image": "assets/items/audit-dark-hail.png",
+    "type": "Hex",
+    "source_url": "https://darksouls2.wikidot.com/dark-hail",
+    "usage": "Fires several orbs of darkness.",
+    "description": "Hex - Fires several orbs of darkness.",
+    "obtaining": "Sold by Darkdiver Grandahl . Sold by Straid of Olaphis . Sold by Magerold of Lanafir .",
+    "acquisition_refs": [
+      {
+        "name": "Darkdiver Grandahl",
+        "source_url": "https://darksouls2.wikidot.com/darkdiver-grandahl"
+      },
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      },
+      {
+        "name": "Magerold of Lanafir",
+        "source_url": "https://darksouls2.wikidot.com/magerold-of-lanafir"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "8-15",
+      "Slots": "2",
+      "Int": "19",
+      "Faith": "12",
+      "Type / Affinity": "Ranged / Dark",
+      "Spell Type": "Ranged/Dark",
+      "Duration": "N/A",
+      "Intelligence Required": "19",
+      "Faith Required": "12",
+      "Catalyst Required": "Staff"
+    },
+    "mechanics_notes": "While Dark Orb is a medium range single target spell dealing decent damage, Dark Hail fires a spread of smaller, less damaging orbs in a cone in front of you. Each orb is smaller than Dark Orb, but the spread formation of the shot means that it covers a much wider area. Dark Hail is a much more close range spell than Dark Orb, however, because each of the orbs it fires do not travel very far. Because the orbs are fired in a spread, it does mean that you can either choose to cast it at the edge of its range to try hit multiple targets, or by using it up close you can guarantee that all orbs hit a single target to inflict maximum damage.",
+    "image_source": "https://i.imgur.com/tNCwTst.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 8,
+      "slots": 2,
+      "int_required": 19,
+      "faith_required": 12
+    }
+  },
+  {
+    "id": "dark-orb",
+    "name": "Dark Orb",
+    "image": "assets/items/audit-dark-orb.png",
+    "type": "Hex",
+    "source_url": "https://darksouls2.wikidot.com/dark-orb",
+    "usage": "Fires a heavy orb of darkness.",
+    "description": "Hex - Fires a heavy orb of darkness.",
+    "obtaining": "Sold by Straid of Olaphis . Sold by Felkin the Outcast . Sold by Darkdiver Grandahl .",
+    "acquisition_refs": [
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      },
+      {
+        "name": "Felkin the Outcast",
+        "source_url": "https://darksouls2.wikidot.com/felkin-the-outcast"
+      },
+      {
+        "name": "Darkdiver Grandahl",
+        "source_url": "https://darksouls2.wikidot.com/darkdiver-grandahl"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "20-30",
+      "Slots": "1",
+      "Int": "12",
+      "Faith": "10",
+      "Type / Affinity": "Ranged / Dark",
+      "Spell Type": "Ranged/Dark",
+      "Duration": "N/A",
+      "Intelligence Required": "12",
+      "Faith Required": "10",
+      "Catalyst Required": "Staff"
+    },
+    "mechanics_notes": "A similar spell to Soul Arrow , casting Dark Orb fires a heavy orb of darkness towards an enemy. The orb itself moves slower than Soul Arrows and doesn't travel as far, but it does about the same amount of damage and the size of it does mean that it has significantly larger impact point. Dark Orb does partial physical damage, and also reduces more stamina of those hit compared to other projectile spells.",
+    "image_source": "https://i.imgur.com/OJ0w14d.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 20,
+      "slots": 1,
+      "int_required": 12,
+      "faith_required": 10
+    }
+  },
+  {
+    "id": "dead-again",
+    "name": "Dead Again",
+    "image": "assets/items/audit-dead-again.png",
+    "type": "Hex",
+    "source_url": "https://darksouls2.wikidot.com/dead-again",
+    "usage": "Violently detonates nearby corpses.",
+    "description": "Hex - Violently detonates nearby corpses.",
+    "obtaining": "Sold by Stone Trader Chloanne . Razorback Nightcrawler drop.",
+    "acquisition_refs": [
+      {
+        "name": "Stone Trader Chloanne",
+        "source_url": "https://darksouls2.wikidot.com/stone-trader-chloanne"
+      },
+      {
+        "name": "Razorback Nightcrawler",
+        "source_url": "https://darksouls2.wikidot.com/razorback-nightcrawler"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "10-20",
+      "Slots": "2",
+      "Int": "22",
+      "Faith": "20",
+      "Type / Affinity": "AoE / Dark",
+      "Spell Type": "AoE/Dark",
+      "Duration": "N/A",
+      "Intelligence Required": "22",
+      "Faith Required": "20",
+      "Catalyst Required": "Staff"
+    },
+    "mechanics_notes": "Sends out a pulse of darkness, and any corpses within the pulse will explode in a shower of purple flames, dealing damage. Usable on the following creatures: Amana Shrine Maiden Armored Skeleton Captive Undead Desert Sorceress Goblin Grave Warden Hollow Infantry Hollow Soldier Lion Clan Warrior Lindelt Cleric Manikin Mongrel Rat Parasitized Undead Rogue Royal Swordsman Sanctum Soldier Skeleton Stray Dog Suspicious Shadow Undead Boar Undead Laborer Undead Peasant Undead Supplicant",
+    "image_source": "https://i.imgur.com/oCUnyJN.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 10,
+      "slots": 2,
+      "int_required": 22,
+      "faith_required": 20
+    }
+  },
+  {
+    "id": "great-resonant-soul",
+    "name": "Great Resonant Soul",
+    "image": "assets/items/audit-great-resonant-soul.png",
+    "type": "Hex",
+    "source_url": "https://darksouls2.wikidot.com/great-resonant-soul",
+    "usage": "Emits a large mass of dark at the cost of 500 souls.",
+    "description": "Hex - Emits a large mass of dark at the cost of 500 souls.",
+    "obtaining": "Rank 2 Pilgrims of Dark reward. Sold by Felkin the Outcast .",
+    "acquisition_refs": [
+      {
+        "name": "Pilgrims of Dark",
+        "source_url": "https://darksouls2.wikidot.com/pilgrims-of-dark"
+      },
+      {
+        "name": "Felkin the Outcast",
+        "source_url": "https://darksouls2.wikidot.com/felkin-the-outcast"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Slots": "2",
+      "Int": "13",
+      "Faith": "26",
+      "Type / Affinity": "Ranged / Dark",
+      "Spell Type": "Ranged/Dark",
+      "Duration": "N/A",
+      "Intelligence Required": "13",
+      "Faith Required": "26",
+      "Catalyst Required": "Chime"
+    },
+    "mechanics_notes": "Fires a bolt of Dark magic in a straight line. Consumes 500 souls per cast. If cast with 0 souls, damage is vastly reduced, to around 5% of full damage.",
+    "image_source": "https://i.imgur.com/3Irs6cQ.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 4,
+      "slots": 2,
+      "int_required": 13,
+      "faith_required": 26
+    }
+  },
+  {
+    "id": "profound-still",
+    "name": "Profound Still",
+    "image": "assets/items/audit-profound-still.png",
+    "type": "Hex",
+    "source_url": "https://darksouls2.wikidot.com/profound-still",
+    "usage": "Blocks the spells of nearby casters for 30 seconds.",
+    "description": "Hex - Blocks the spells of nearby casters for 30 seconds.",
+    "obtaining": "Sold by Darkdiver Grandahl .",
+    "acquisition_refs": [
+      {
+        "name": "Darkdiver Grandahl",
+        "source_url": "https://darksouls2.wikidot.com/darkdiver-grandahl"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "1-3",
+      "Slots": "2",
+      "Int": "20",
+      "Faith": "42",
+      "Type / Affinity": "AoE / Debuff",
+      "Spell Type": "AoE/Debuff",
+      "Duration": "30sec",
+      "Intelligence Required": "20",
+      "Faith Required": "42",
+      "Catalyst Required": "Chime"
+    },
+    "mechanics_notes": "After cast, all enemies that were in the area of effect are unable to cast any spells for 30 seconds. The user, however, can still cast spells.",
+    "image_source": "https://i.imgur.com/AgAIJOb.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 1,
+      "slots": 2,
+      "int_required": 20,
+      "faith_required": 42
+    }
+  },
+  {
+    "id": "promised-walk-of-peace",
+    "name": "Promised Walk of Peace",
+    "image": "assets/items/audit-promised-walk-of-peace.png",
+    "type": "Hex",
+    "source_url": "https://darksouls2.wikidot.com/promised-walk-of-peace",
+    "usage": "Slows the walking pace of its caster and those in the vicinity. DLC item.",
+    "description": "Hex - Slows the walking pace of its caster and those in the vicinity. DLC item.",
+    "obtaining": "Treasure in Shulva, Sanctum City .",
+    "acquisition_refs": [
+      {
+        "name": "Shulva, Sanctum City",
+        "source_url": "https://darksouls2.wikidot.com/shulva-sanctum-city"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-5",
+      "Slots": "2",
+      "Int": "30",
+      "Faith": "40",
+      "Type / Affinity": "Debuff",
+      "Spell Type": "Hex",
+      "Duration": "~15 seconds",
+      "Intelligence Required": "30",
+      "Faith Required": "40",
+      "Catalyst Required": "Chime"
+    },
+    "mechanics_notes": "Slows down caster and enemy movement for a brief period. Increases current equip percentage by 50%. Equip weights between 50% and 70% will now fat roll and weights between 85.7% and 120% will slow walk.",
+    "image_source": "https://i.imgur.com/DQ4TJZF.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "slots": 2,
+      "int_required": 30,
+      "faith_required": 40
+    }
+  },
+  {
+    "id": "recollection",
+    "name": "Recollection",
+    "image": "assets/items/audit-recollection.png",
+    "type": "Hex",
+    "source_url": "https://darksouls2.wikidot.com/recollection",
+    "usage": "Fire multiple Dark orbs that seek their target. DLC item.",
+    "description": "Hex - Fire multiple Dark orbs that seek their target. DLC item.",
+    "obtaining": "Treasure in Brume Tower",
+    "acquisition_refs": [
+      {
+        "name": "Brume Tower",
+        "source_url": "https://darksouls2.wikidot.com/brume-tower"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "6-8",
+      "Slots": "1",
+      "Int": "35",
+      "Faith": "30",
+      "Type / Affinity": "Ranged / Dark"
+    },
+    "mechanics_notes": "Fire multiple Dark orbs that seek their target. Seeking only occurs on a targeted enemy. Tracking of the orbs is rather underwhelming. Best used on large/slow enemies or bosses. Mostly good for PvP as the orbs can pressure enemies into making mistakes and stun them if they hit.",
+    "image_source": "https://i.imgur.com/TEcq8zG.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 6,
+      "slots": 1,
+      "int_required": 35,
+      "faith_required": 30
+    }
+  },
+  {
+    "id": "resonant-flesh",
+    "name": "Resonant Flesh",
+    "image": "assets/items/audit-resonant-flesh.png",
+    "type": "Hex",
+    "source_url": "https://darksouls2.wikidot.com/resonant-flesh",
+    "usage": "Increase maximum health at the cost of souls for a period of time.",
+    "description": "Hex - Increase maximum health at the cost of souls for a period of time.",
+    "obtaining": "Sold by Felkin the Outcast .",
+    "acquisition_refs": [
+      {
+        "name": "Felkin the Outcast",
+        "source_url": "https://darksouls2.wikidot.com/felkin-the-outcast"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-4",
+      "Slots": "1",
+      "Int": "11",
+      "Faith": "19",
+      "Type / Affinity": "Support",
+      "Spell Type": "Support",
+      "Duration": "60~180sec",
+      "Intelligence Required": "11",
+      "Faith Required": "19",
+      "Catalyst Required": "Chime"
+    },
+    "mechanics_notes": "Temporarily increase your max HP at the cost of souls, from 0 to 2,000. It won't stack multiple times and the duration scales with souls consumed. With 1,000 souls consumed, increase your HP by 5%. With 2,000 souls consumed, increase your HP by 20% for 60~180 seconds. (I timed at 11 int, 10 fth 54~ seconds. Where are you getting 180?)(I timed at 42int, 40 fth 180 seconds) *",
+    "image_source": "https://i.imgur.com/b94shTK.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "slots": 1,
+      "int_required": 11,
+      "faith_required": 19
+    }
+  },
+  {
+    "id": "resonant-soul",
+    "name": "Resonant Soul",
+    "image": "assets/items/audit-resonant-soul.png",
+    "type": "Hex",
+    "source_url": "https://darksouls2.wikidot.com/resonant-soul",
+    "usage": "Emits a dark mass at the cost of 100 souls.",
+    "description": "Hex - Emits a dark mass at the cost of 100 souls.",
+    "obtaining": "Rank 1 Pilgrims of Dark reward. Sold by Felkin the Outcast .",
+    "acquisition_refs": [
+      {
+        "name": "Pilgrims of Dark",
+        "source_url": "https://darksouls2.wikidot.com/pilgrims-of-dark"
+      },
+      {
+        "name": "Felkin the Outcast",
+        "source_url": "https://darksouls2.wikidot.com/felkin-the-outcast"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "20-30",
+      "Slots": "2",
+      "Int": "10",
+      "Faith": "18",
+      "Type / Affinity": "Ranged / Dark",
+      "Spell Type": "Ranged/Dark",
+      "Duration": "N/A",
+      "Intelligence Required": "10",
+      "Faith Required": "18",
+      "Catalyst Required": "Chime"
+    },
+    "mechanics_notes": "Fires a bolt of Dark magic in a straight line. Consumes 100 souls per cast. If cast with 0 souls, damage is vastly reduced, to around 5% of full damage.",
+    "image_source": "https://i.imgur.com/BkYyr9O.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 20,
+      "slots": 2,
+      "int_required": 10,
+      "faith_required": 18
+    }
+  },
+  {
+    "id": "scraps-of-life",
+    "name": "Scraps of Life",
+    "image": "assets/items/audit-scraps-of-life.png",
+    "type": "Hex",
+    "source_url": "https://darksouls2.wikidot.com/scraps-of-life",
+    "usage": "Conjures pillars of darkness.",
+    "description": "Hex - Conjures pillars of darkness.",
+    "obtaining": "Sold by Cromwell the Pardoner . Treasure in the Gutter .",
+    "acquisition_refs": [
+      {
+        "name": "Cromwell the Pardoner",
+        "source_url": "https://darksouls2.wikidot.com/cromwell-the-pardoner"
+      },
+      {
+        "name": "the Gutter",
+        "source_url": "https://darksouls2.wikidot.com/the-gutter"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Slots": "1",
+      "Int": "8",
+      "Faith": "12",
+      "Type / Affinity": "AoE / Dark",
+      "Spell Type": "AoE/Dark",
+      "Duration": "8sec",
+      "Intelligence Required": "8",
+      "Faith Required": "12",
+      "Catalyst Required": "Chime"
+    },
+    "mechanics_notes": "Causes a dark pulse to radiate out from the user and various swirling pillars of purple appear. Any enemies who pass through the pillars will take damage, while passing the white ring that encompasses the spell causes serious damage and major knockback.",
+    "image_source": "https://i.imgur.com/w3DEvZf.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 4,
+      "slots": 1,
+      "int_required": 8,
+      "faith_required": 12
+    }
+  },
+  {
+    "id": "twisted-barricade",
+    "name": "Twisted Barricade",
+    "image": "assets/items/audit-twisted-barricade.png",
+    "type": "Hex",
+    "source_url": "https://darksouls2.wikidot.com/twisted-barricade",
+    "usage": "For a brief moment, spells are deflected.",
+    "description": "Hex - For a brief moment, spells are deflected.",
+    "obtaining": "Treasure in Doors of Pharros .",
+    "acquisition_refs": [
+      {
+        "name": "Doors of Pharros",
+        "source_url": "https://darksouls2.wikidot.com/doors-of-pharros"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "20-30",
+      "Slots": "2",
+      "Int": "38",
+      "Faith": "25",
+      "Type / Affinity": "Support",
+      "Spell Type": "Support",
+      "Duration": "2sec",
+      "Intelligence Required": "38",
+      "Faith Required": "25",
+      "Catalyst Required": "Staff"
+    },
+    "mechanics_notes": "Surrounds the user in a bubble of dark fog that deflects spells. Effect persists until bubble has dissipated.",
+    "image_source": "https://i.imgur.com/bAdp9aq.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 20,
+      "slots": 2,
+      "int_required": 38,
+      "faith_required": 25
+    }
+  },
+  {
+    "id": "whisper-of-despair",
+    "name": "Whisper of Despair",
+    "image": "assets/items/audit-whisper-of-despair.png",
+    "type": "Hex",
+    "source_url": "https://darksouls2.wikidot.com/whisper-of-despair",
+    "usage": "Reduces the physical defenses of the target for 60 seconds.",
+    "description": "Hex - Reduces the physical defenses of the target for 60 seconds.",
+    "obtaining": "Treasure in Grave of Saints .",
+    "acquisition_refs": [
+      {
+        "name": "Grave of Saints",
+        "source_url": "https://darksouls2.wikidot.com/grave-of-saints"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-5",
+      "Slots": "1",
+      "Int": "24",
+      "Faith": "18",
+      "Type / Affinity": "Ranged / Debuff",
+      "Spell Type": "Ranged/Debuff",
+      "Duration": "60 sec",
+      "Intelligence Required": "24",
+      "Faith Required": "18",
+      "Catalyst Required": "Staff"
+    },
+    "mechanics_notes": "On hit, will reduce the physical defenses of the target by 200 for 60 seconds.",
+    "image_source": "https://i.imgur.com/CMKadpU.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "slots": 1,
+      "int_required": 24,
+      "faith_required": 18
+    }
+  },
+  {
+    "id": "chaos-storm",
+    "name": "Chaos Storm",
+    "image": "assets/items/audit-chaos-storm.png",
+    "type": "Pyromancy",
+    "source_url": "https://darksouls2.wikidot.com/chaos-storm",
+    "usage": "Unleashes large pillars of fire around the caster. Also leaves a lingering flame.",
+    "description": "Pyromancy - Unleashes large pillars of fire around the caster. Also leaves a lingering flame.",
+    "obtaining": "Iron Keep treasure.",
+    "acquisition_refs": [
+      {
+        "name": "Iron Keep",
+        "source_url": "https://darksouls2.wikidot.com/iron-keep"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-4",
+      "Slots": "1",
+      "Type / Affinity": "AoE / Fire"
+    },
+    "mechanics_notes": "An area of effect pyromancy that causes pillars of flame to erupt in a circle around the caster, similar to Firestorm and Fire Tempest . This is the second most powerful storm spell, and will leave traces of the pillars for a short time after they expire that deal some extra damage when walked on.",
+    "image_source": "https://i.imgur.com/OtRK275.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "slots": 1
+    }
+  },
+  {
+    "id": "combustion",
+    "name": "Combustion",
+    "image": "assets/items/audit-combustion.png",
+    "type": "Pyromancy",
+    "source_url": "https://darksouls2.wikidot.com/combustion",
+    "usage": "Summon forth a burst of flame from one's finger tips, igniting enemies.",
+    "description": "Pyromancy - Summon forth a burst of flame from one's finger tips, igniting enemies.",
+    "obtaining": "Sold by Rosabeth of Melfia . Huntsman's Copse treasure.",
+    "acquisition_refs": [
+      {
+        "name": "Rosabeth of Melfia",
+        "source_url": "https://darksouls2.wikidot.com/rosabeth-of-melfia"
+      },
+      {
+        "name": "Huntsman's Copse",
+        "source_url": "https://darksouls2.wikidot.com/huntsman-s-copse"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "10-15",
+      "Slots": "1",
+      "Type / Affinity": "Melee / Fire"
+    },
+    "mechanics_notes": "Summon forth a burst of flame from one's finger tips, igniting enemies. Base damage (before enemy resistance) is approximately : 60 + 1.25 * catalyst's fire attack.",
+    "image_source": "https://i.imgur.com/GGtxJdU.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 10,
+      "slots": 1
+    }
+  },
+  {
+    "id": "dance-of-fire",
+    "name": "Dance of Fire",
+    "image": "assets/items/audit-dance-of-fire.png",
+    "type": "Pyromancy",
+    "source_url": "https://darksouls2.wikidot.com/dance-of-fire",
+    "usage": "Cast flame in a sweeping motion across a targeted area. DLC item.",
+    "description": "Pyromancy - Cast flame in a sweeping motion across a targeted area. DLC item.",
+    "obtaining": "Brume Tower treasure.",
+    "acquisition_refs": [
+      {
+        "name": "Brume Tower",
+        "source_url": "https://darksouls2.wikidot.com/brume-tower"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "3-6",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Fire"
+    },
+    "mechanics_notes": "Cast flame in a sweeping motion across a targeted area.",
+    "image_source": "https://i.imgur.com/1SrerZE.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 3,
+      "slots": 1
+    }
+  },
+  {
+    "id": "fireball",
+    "name": "Fireball",
+    "image": "assets/items/audit-fireball.png",
+    "type": "Pyromancy",
+    "source_url": "https://darksouls2.wikidot.com/fireball",
+    "usage": "Throws a ball of flame which creates a small explosion upon impact.",
+    "description": "Pyromancy - Throws a ball of flame which creates a small explosion upon impact.",
+    "obtaining": "Sold by Rosabeth of Melfia . Flame Salamander drop. No-Man's Wharf treasure.",
+    "acquisition_refs": [
+      {
+        "name": "Rosabeth of Melfia",
+        "source_url": "https://darksouls2.wikidot.com/rosabeth-of-melfia"
+      },
+      {
+        "name": "Flame Salamander",
+        "source_url": "https://darksouls2.wikidot.com/flame-salamander"
+      },
+      {
+        "name": "No-Man's Wharf",
+        "source_url": "https://darksouls2.wikidot.com/no-man-s-wharf"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "8-15",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Fire"
+    },
+    "mechanics_notes": "Throws a ball of flame which creates a small explosion upon impact, able to damage tightly packed enemies. Base damage (before enemy resistance) from a direct hit is approximately : 1.25 * catalyst's fire attack.",
+    "image_source": "https://i.imgur.com/YF4qXpR.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 8,
+      "slots": 1
+    }
+  },
+  {
+    "id": "fire-orb",
+    "name": "Fire Orb",
+    "image": "assets/items/audit-fire-orb.png",
+    "type": "Pyromancy",
+    "source_url": "https://darksouls2.wikidot.com/fire-orb",
+    "usage": "A stronger form of Fireball. Creates a fireball that is hurled at foes.",
+    "description": "Pyromancy - A stronger form of Fireball. Creates a fireball that is hurled at foes.",
+    "obtaining": "Sold by Rosabeth of Melfia . Flame Salamander drop.",
+    "acquisition_refs": [
+      {
+        "name": "Rosabeth of Melfia",
+        "source_url": "https://darksouls2.wikidot.com/rosabeth-of-melfia"
+      },
+      {
+        "name": "Flame Salamander",
+        "source_url": "https://darksouls2.wikidot.com/flame-salamander"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Fire"
+    },
+    "mechanics_notes": "A stronger form of Fireball . Creates a fireball that is hurled at foes. Also inflicts damage to foes near point of contact. Base damage (before enemy resistance) from a direct hit is approximately : 1.75 * catalyst's fire attack.",
+    "image_source": "https://i.imgur.com/DGI34rf.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 4,
+      "slots": 1
+    }
+  },
+  {
+    "id": "fire-snake",
+    "name": "Fire Snake",
+    "image": "assets/items/audit-fire-snake.png",
+    "type": "Pyromancy",
+    "source_url": "https://darksouls2.wikidot.com/fire-snake",
+    "usage": "Creates several pillars of flame in front of the caster in a snake pattern. DLC item.",
+    "description": "Pyromancy - Creates several pillars of flame in front of the caster in a snake pattern. DLC item.",
+    "obtaining": "Brume Tower treasure.",
+    "acquisition_refs": [
+      {
+        "name": "Brume Tower",
+        "source_url": "https://darksouls2.wikidot.com/brume-tower"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-4",
+      "Slots": "2",
+      "Type / Affinity": "Melee / Fire"
+    },
+    "mechanics_notes": "Creates several pillars of flame in front of the caster that track down the enemy.",
+    "image_source": "https://i.imgur.com/JXywC6P.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "slots": 2
+    }
+  },
+  {
+    "id": "firestorm",
+    "name": "Firestorm",
+    "image": "assets/items/audit-firestorm.png",
+    "type": "Pyromancy",
+    "source_url": "https://darksouls2.wikidot.com/firestorm",
+    "usage": "Casts pillars of flame around the player",
+    "description": "Pyromancy - Casts pillars of flame around the player",
+    "obtaining": "Sold by Titchy Gren . Drangleic Castle treasure.",
+    "acquisition_refs": [
+      {
+        "name": "Titchy Gren",
+        "source_url": "https://darksouls2.wikidot.com/titchy-gren"
+      },
+      {
+        "name": "Drangleic Castle",
+        "source_url": "https://darksouls2.wikidot.com/drangleic-castle"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Slots": "1",
+      "Type / Affinity": "AoE / Fire"
+    },
+    "mechanics_notes": "Pillars of flame erupt in a circle around the the caster.",
+    "image_source": "https://i.imgur.com/Db2Sgir.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 4,
+      "slots": 1
+    }
+  },
+  {
+    "id": "fire-tempest",
+    "name": "Fire Tempest",
+    "image": "assets/items/audit-fire-tempest.png",
+    "type": "Pyromancy",
+    "source_url": "https://darksouls2.wikidot.com/fire-tempest",
+    "usage": "Giant pillars of flame erupt near the caster.",
+    "description": "Pyromancy - Giant pillars of flame erupt near the caster.",
+    "obtaining": "Shrine of Amana treasure.",
+    "acquisition_refs": [
+      {
+        "name": "Shrine of Amana",
+        "source_url": "https://darksouls2.wikidot.com/shrine-of-amana"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-5",
+      "Slots": "1",
+      "Type / Affinity": "AoE / Fire"
+    },
+    "mechanics_notes": "Damaging area of effect Pyromancy which spouts pillars of flame from the earth that knock enemies on the ground. Useful to note that when your opponent or an enemy is stuck in a poise-immune animation that this spell and Firestorm will do massive amounts of damage to the target as it will not knock them to the ground where they can avoid some of the damage.",
+    "image_source": "https://i.imgur.com/5vPcdm4.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "slots": 1
+    }
+  },
+  {
+    "id": "fire-whip",
+    "name": "Fire Whip",
+    "image": "assets/items/audit-fire-whip.png",
+    "type": "Pyromancy",
+    "source_url": "https://darksouls2.wikidot.com/fire-whip",
+    "usage": "Invokes a flame-like whip in front of the caster that burns foes.",
+    "description": "Pyromancy - Invokes a flame-like whip in front of the caster that burns foes.",
+    "obtaining": "Sold by Titchy Gren . Bell Keeper drop in Belfry Sol .",
+    "acquisition_refs": [
+      {
+        "name": "Titchy Gren",
+        "source_url": "https://darksouls2.wikidot.com/titchy-gren"
+      },
+      {
+        "name": "Bell Keeper",
+        "source_url": "https://darksouls2.wikidot.com/belfry-guardian"
+      },
+      {
+        "name": "Belfry Sol",
+        "source_url": "https://darksouls2.wikidot.com/belfry-sol"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Slots": "1",
+      "Type / Affinity": "Melee / Fire"
+    },
+    "mechanics_notes": "Invokes a flame-like whip in front of the caster that burns foes. Similar to Combustion albeit with increased range and more damage, but a longer casting time.",
+    "image_source": "https://i.imgur.com/xaYXXtH.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 4,
+      "slots": 1
+    }
+  },
+  {
+    "id": "flame-swathe",
+    "name": "Flame Swathe",
+    "image": "assets/items/audit-flame-swathe.png",
+    "type": "Pyromancy",
+    "source_url": "https://darksouls2.wikidot.com/flame-swathe",
+    "usage": "Ignites an area a few feet in front of the caster. Explodes shortly after doing massive damage to all enemies caught in the blast.",
+    "description": "Pyromancy - Ignites an area a few feet in front of the caster. Explodes shortly after doing massive damage to all enemies caught in the blast.",
+    "obtaining": "Sold by Straid of Olaphis . Bell Keeper drop in Belfry Sol .",
+    "acquisition_refs": [
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      },
+      {
+        "name": "Bell Keeper",
+        "source_url": "https://darksouls2.wikidot.com/belfry-guardian"
+      },
+      {
+        "name": "Belfry Sol",
+        "source_url": "https://darksouls2.wikidot.com/belfry-sol"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-5",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Fire"
+    },
+    "mechanics_notes": "Creates a small flame within targetable distance that explodes for massive damage after a short moment. If an enemy moves in between caster and target before the cast is finished, the target will change. This pyromancy is best used in PvE against non-fire resistant foes because of its explosion delay and crazy damage. Players will easily evade it. Base damage (before enemy resistance) is approximately : 2.75 * catalyst's fire attack.",
+    "image_source": "https://i.imgur.com/Rfe0Sj5.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "slots": 1
+    }
+  },
+  {
+    "id": "flash-sweat",
+    "name": "Flash Sweat",
+    "image": "assets/items/audit-flash-sweat.png",
+    "type": "Pyromancy",
+    "source_url": "https://darksouls2.wikidot.com/flash-sweat",
+    "usage": "Sweat profusely, reducing Fire damage.",
+    "description": "Pyromancy - Sweat profusely, reducing Fire damage.",
+    "obtaining": "Sold by Rosabeth of Melfia .",
+    "acquisition_refs": [
+      {
+        "name": "Rosabeth of Melfia",
+        "source_url": "https://darksouls2.wikidot.com/rosabeth-of-melfia"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Slots": "1",
+      "Type / Affinity": "Self / Buff"
+    },
+    "mechanics_notes": "Increases Fire resistance by 300 points.",
+    "image_source": "https://i.imgur.com/2CI5IOU.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 4,
+      "slots": 1
+    }
+  },
+  {
+    "id": "forbidden-sun",
+    "name": "Forbidden Sun",
+    "image": "assets/items/audit-forbidden-sun.png",
+    "type": "Pyromancy",
+    "source_url": "https://darksouls2.wikidot.com/forbidden-sun",
+    "usage": "Casts an enormous fireball with long range and massive destructive power.",
+    "description": "Pyromancy - Casts an enormous fireball with long range and massive destructive power.",
+    "obtaining": "Royal Sorcerer Navlaan quest reward.",
+    "acquisition_refs": [
+      {
+        "name": "Royal Sorcerer Navlaan",
+        "source_url": "https://darksouls2.wikidot.com/royal-sorcerer-navlaan"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "1-3",
+      "Slots": "3",
+      "Type / Affinity": "Ranged / Fire"
+    },
+    "mechanics_notes": "Casts an enormous fireball with long range and massive destructive power. Causes damage on impact, and then explodes.",
+    "image_source": "https://i.imgur.com/vrYtZXL.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 1,
+      "slots": 3
+    }
+  },
+  {
+    "id": "great-chaos-fireball",
+    "name": "Great Chaos Fireball",
+    "image": "assets/items/audit-great-chaos-fireball.png",
+    "type": "Pyromancy",
+    "source_url": "https://darksouls2.wikidot.com/great-chaos-fireball",
+    "usage": "Hurls an enormous, chaotic fireball. The heat and power of this spell leaves molten lava in its wake.",
+    "description": "Pyromancy - Hurls an enormous, chaotic fireball. The heat and power of this spell leaves molten lava in its wake.",
+    "obtaining": "Rank 3 Brotherhood of Blood reward. Sold by Chancellor Wellager in NG++.",
+    "acquisition_refs": [
+      {
+        "name": "Brotherhood of Blood",
+        "source_url": "https://darksouls2.wikidot.com/brotherhood-of-blood"
+      },
+      {
+        "name": "Chancellor Wellager",
+        "source_url": "https://darksouls2.wikidot.com/chancellor-wellager"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-5",
+      "Slots": "2",
+      "Type / Affinity": "Ranged / Fire"
+    },
+    "mechanics_notes": "Hurls an enormous, chaotic fireball. The heat and power of this spell leave molten lava in its wake.",
+    "image_source": "https://i.imgur.com/kofelzH.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "slots": 2
+    }
+  },
+  {
+    "id": "great-combustion",
+    "name": "Great Combustion",
+    "image": "assets/items/audit-great-combustion.png",
+    "type": "Pyromancy",
+    "source_url": "https://darksouls2.wikidot.com/great-combustion",
+    "usage": "An advanced form of Combustion. Summons a large paroxysm of flame to scorch enemies.",
+    "description": "Pyromancy - An advanced form of Combustion. Summons a large paroxysm of flame to scorch enemies.",
+    "obtaining": "Sold by Titchy Gren . Drangleic Castle treasure.",
+    "acquisition_refs": [
+      {
+        "name": "Titchy Gren",
+        "source_url": "https://darksouls2.wikidot.com/titchy-gren"
+      },
+      {
+        "name": "Drangleic Castle",
+        "source_url": "https://darksouls2.wikidot.com/drangleic-castle"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "6-8",
+      "Slots": "1",
+      "Type / Affinity": "Melee / Fire"
+    },
+    "mechanics_notes": "Summon forth a burst of flame from one's finger tips, igniting enemies. Upgraded version of Combustion . Base damage (before enemy resistance) is approximately : 86 + 1.93 * catalyst's fire attack.",
+    "image_source": "https://i.imgur.com/ujBekaU.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 6,
+      "slots": 1
+    }
+  },
+  {
+    "id": "great-fireball",
+    "name": "Great Fireball",
+    "image": "assets/items/audit-great-fireball.png",
+    "type": "Pyromancy",
+    "source_url": "https://darksouls2.wikidot.com/great-fireball",
+    "usage": "Throws a big fireball that has a large area of effect.",
+    "description": "Pyromancy - Throws a big fireball that has a large area of effect.",
+    "obtaining": "Flame Salamander drop. Brightstone Cove Tseldora treasure.",
+    "acquisition_refs": [
+      {
+        "name": "Flame Salamander",
+        "source_url": "https://darksouls2.wikidot.com/flame-salamander"
+      },
+      {
+        "name": "Brightstone Cove Tseldora",
+        "source_url": "https://darksouls2.wikidot.com/brightstone-cove-tseldora"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "3-6",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Fire"
+    },
+    "mechanics_notes": "Throws a ball of flame which creates a small explosion upon impact, able to damage tightly packed enemies. Upgraded version of Fireball . Base damage (before enemy resistance) from a direct hit is approximately : 2.25 * Total Attack Rating (pyromancy glove damage + scaling bonus)",
+    "image_source": "https://i.imgur.com/s7YdU5W.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 3,
+      "slots": 1
+    }
+  },
+  {
+    "id": "immolation",
+    "name": "Immolation",
+    "image": "assets/items/audit-immolation.png",
+    "type": "Pyromancy",
+    "source_url": "https://darksouls2.wikidot.com/immolation",
+    "usage": "Coats the caster with flame, allowing the user to burn nearby enemies.",
+    "description": "Pyromancy - Coats the caster with flame, allowing the user to burn nearby enemies.",
+    "obtaining": "Belfry Sol treasure.",
+    "acquisition_refs": [
+      {
+        "name": "Belfry Sol",
+        "source_url": "https://darksouls2.wikidot.com/belfry-sol"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "8-15",
+      "Slots": "1",
+      "Type / Affinity": "Self / Fire"
+    },
+    "mechanics_notes": "Covers the caster's body with fire, damaging both enemies and the caster.",
+    "image_source": "https://i.imgur.com/9uEbZg1.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 8,
+      "slots": 1
+    }
+  },
+  {
+    "id": "iron-flesh",
+    "name": "Iron Flesh",
+    "image": "assets/items/audit-iron-flesh.png",
+    "type": "Pyromancy",
+    "source_url": "https://darksouls2.wikidot.com/iron-flesh",
+    "usage": "Turns the body into iron, increasing defenses and poise for 25 seconds at the cost of increased equip load.",
+    "description": "Pyromancy - Turns the body into iron, increasing defenses and poise for 25 seconds at the cost of increased equip load.",
+    "obtaining": "Sold by Rosabeth of Melfia .",
+    "acquisition_refs": [
+      {
+        "name": "Rosabeth of Melfia",
+        "source_url": "https://darksouls2.wikidot.com/rosabeth-of-melfia"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-4",
+      "Slots": "1",
+      "Type / Affinity": "Self / Buff"
+    },
+    "mechanics_notes": "A spell that significantly increases resistances while reducing mobility. Increases all physical resistances (Strike, Slash, Thrust) and Poise by 100 points. Increases all elemental and status effect resistances (Magic, Fire, Lightning, Dark, Poison, Bleed, Petrify, Curse) by 200 points. Includes hidden modifiers that apply to the physical and elemental damage resistances (but not status effect resistances), making it more effective than the above numbers indicate. Adds 65 points to equipment load burden.",
+    "image_source": "https://i.imgur.com/lqTrKRz.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "slots": 1
+    }
+  },
+  {
+    "id": "lingering-flame",
+    "name": "Lingering Flame",
+    "image": "assets/items/audit-lingering-flame.png",
+    "type": "Pyromancy",
+    "source_url": "https://darksouls2.wikidot.com/lingering-flame",
+    "usage": "Casts a ball of fire that lingers for 30 seconds until dissipating. If enemies get close enough, it explodes causing massive damage.",
+    "description": "Pyromancy - Casts a ball of fire that lingers for 30 seconds until dissipating. If enemies get close enough, it explodes causing massive damage.",
+    "obtaining": "Sold by Straid of Olaphis . Undead Jailer drop.",
+    "acquisition_refs": [
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      },
+      {
+        "name": "Undead Jailer",
+        "source_url": "https://darksouls2.wikidot.com/undead-jailer"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Slots": "2",
+      "Type / Affinity": "Ranged / Fire"
+    },
+    "mechanics_notes": "Sets an orb of fire that detonates if an enemy comes too close. The orb lingers for ~20 seconds. Base damage (before enemy resistance) from a direct hit is approximately : 4.18 * catalyst's fire attack.",
+    "image_source": "https://i.imgur.com/zVz7wSR.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 4,
+      "slots": 2
+    }
+  },
+  {
+    "id": "poison-mist",
+    "name": "Poison Mist",
+    "image": "assets/items/audit-poison-mist.png",
+    "type": "Pyromancy",
+    "source_url": "https://darksouls2.wikidot.com/poison-mist",
+    "usage": "Creates a cloud of poison mist.",
+    "description": "Pyromancy - Creates a cloud of poison mist.",
+    "obtaining": "Sold by Rosabeth of Melfia .",
+    "acquisition_refs": [
+      {
+        "name": "Rosabeth of Melfia",
+        "source_url": "https://darksouls2.wikidot.com/rosabeth-of-melfia"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-5",
+      "Slots": "1",
+      "Type / Affinity": "Cloud / Poison"
+    },
+    "mechanics_notes": "Poisons enemies that stand in the cloud.",
+    "image_source": "https://i.imgur.com/BGKgjzz.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "slots": 1
+    }
+  },
+  {
+    "id": "warmth",
+    "name": "Warmth",
+    "image": "assets/items/audit-warmth.png",
+    "type": "Pyromancy",
+    "source_url": "https://darksouls2.wikidot.com/warmth",
+    "usage": "Conjures an orb that floats in place for 90 seconds. Heals anyone within its proximity for 150 HP every three seconds.",
+    "description": "Pyromancy - Conjures an orb that floats in place for 90 seconds. Heals anyone within its proximity for 150 HP every three seconds.",
+    "obtaining": "Sold by Grave Warden Agdayne . Corpse Rat drop.",
+    "acquisition_refs": [
+      {
+        "name": "Grave Warden Agdayne",
+        "source_url": "https://darksouls2.wikidot.com/grave-warden-agdayne"
+      },
+      {
+        "name": "Corpse Rat",
+        "source_url": "https://darksouls2.wikidot.com/corpse-rat"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Slots": "1",
+      "Type / Affinity": "Support"
+    },
+    "mechanics_notes": "Casts a stationary glowing orb of fire. Everyone close to the orb gains health. This includes enemies and bosses. Heals everyone nearby for about 150 HP every three second. Lasts for 90 seconds. This means the spell heals 30 times for a total of 4,500 HP. Extremely useful for invaders, as they don't have many ways to heal.",
+    "image_source": "https://i.imgur.com/ihvqkY7.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 4,
+      "slots": 1
+    }
+  },
+  {
+    "id": "bountiful-sunlight",
+    "name": "Bountiful Sunlight",
+    "image": "assets/items/audit-bountiful-sunlight.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/bountiful-sunlight",
+    "usage": "Heals the caster and nearby allies for 840 HP over 120 seconds.",
+    "description": "Miracle - Heals the caster and nearby allies for 840 HP over 120 seconds.",
+    "obtaining": "Rank 3 Blue Sentinels reward. Sold by Chancellor Wellager in NG++.",
+    "acquisition_refs": [
+      {
+        "name": "Blue Sentinels",
+        "source_url": "https://darksouls2.wikidot.com/blue-sentinels"
+      },
+      {
+        "name": "Chancellor Wellager",
+        "source_url": "https://darksouls2.wikidot.com/chancellor-wellager"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-5",
+      "Faith": "38",
+      "Slots": "3",
+      "Type / Affinity": "Support"
+    },
+    "mechanics_notes": "Heals you and nearby allies for 840 HP over 120 seconds.",
+    "image_source": "https://i.imgur.com/N9aTf3W.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "faith_required": 38,
+      "slots": 3
+    }
+  },
+  {
+    "id": "caressing-prayer",
+    "name": "Caressing Prayer",
+    "image": "assets/items/audit-caressing-prayer.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/caressing-prayer",
+    "usage": "Lowers Poison build up levels, cures Poison on the caster and allies.",
+    "description": "Miracle - Lowers Poison build up levels, cures Poison on the caster and allies.",
+    "obtaining": "Sold by Licia of Lindeldt . Sold by Cromwell the Pardoner .",
+    "acquisition_refs": [
+      {
+        "name": "Licia of Lindeldt",
+        "source_url": "https://darksouls2.wikidot.com/licia-of-lindeldt"
+      },
+      {
+        "name": "Cromwell the Pardoner",
+        "source_url": "https://darksouls2.wikidot.com/cromwell-the-pardoner"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "8-15",
+      "Faith": "15",
+      "Slots": "1",
+      "Type / Affinity": "Support"
+    },
+    "mechanics_notes": "Lowers poison buildup levels, cures poison on you and nearby allies.",
+    "image_source": "https://i.imgur.com/DZJjJRR.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 8,
+      "faith_required": 15,
+      "slots": 1
+    }
+  },
+  {
+    "id": "denial",
+    "name": "Denial",
+    "image": "assets/items/audit-denial.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/denial",
+    "usage": "Grants caster extra health when HP reaches 0. DLC item.",
+    "description": "Miracle - Grants caster extra health when HP reaches 0. DLC item.",
+    "obtaining": "Treasure in Dragon's Sanctum .",
+    "acquisition_refs": [
+      {
+        "name": "Dragon's Sanctum",
+        "source_url": "https://darksouls2.wikidot.com/dragon-s-sanctum"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "1",
+      "Faith": "24",
+      "Slots": "3",
+      "Type / Affinity": "Self / Buff"
+    },
+    "mechanics_notes": "If the player receives a killing blow while this miracle is active, they won't die but will survive with under 15 HP instead. Duration depends on Faith .",
+    "image_source": "https://i.imgur.com/C845oww.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 1,
+      "faith_required": 24,
+      "slots": 3
+    }
+  },
+  {
+    "id": "emit-force",
+    "name": "Emit Force",
+    "image": "assets/items/audit-emit-force.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/emit-force",
+    "usage": "A forward-moving shockwave that deals damage and causes stagger.",
+    "description": "Miracle - A forward-moving shockwave that deals damage and causes stagger.",
+    "obtaining": "Sold by Blue Sentinel Targray . Sold by Cromwell the Pardoner . Treasure in No-man's Wharf .",
+    "acquisition_refs": [
+      {
+        "name": "Blue Sentinel Targray",
+        "source_url": "https://darksouls2.wikidot.com/blue-sentinel-targray"
+      },
+      {
+        "name": "Cromwell the Pardoner",
+        "source_url": "https://darksouls2.wikidot.com/cromwell-the-pardoner"
+      },
+      {
+        "name": "No-man's Wharf",
+        "source_url": "https://darksouls2.wikidot.com/no-man-s-wharf"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-10",
+      "Faith": "20",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / AoE"
+    },
+    "mechanics_notes": "A forward-moving shockwave that deals damage and causes stagger. Deals approximately 1.55x the Attack Rating of your weapon + 76.",
+    "image_source": "https://i.imgur.com/oXHk8Jj.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 4,
+      "faith_required": 20,
+      "slots": 1
+    }
+  },
+  {
+    "id": "force",
+    "name": "Force",
+    "image": "assets/items/audit-force.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/force",
+    "usage": "Does no damage but causes stagger.",
+    "description": "Miracle - Does no damage but causes stagger.",
+    "obtaining": "Sold by Licia of Lindeldt . Sold by Cromwell the Pardoner .",
+    "acquisition_refs": [
+      {
+        "name": "Licia of Lindeldt",
+        "source_url": "https://darksouls2.wikidot.com/licia-of-lindeldt"
+      },
+      {
+        "name": "Cromwell the Pardoner",
+        "source_url": "https://darksouls2.wikidot.com/cromwell-the-pardoner"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "10-20",
+      "Faith": "12",
+      "Slots": "1",
+      "Type / Affinity": "Melee / AoE"
+    },
+    "mechanics_notes": "Releases a shockwave that deals no damage, but causes stagger. Very short cast time.",
+    "image_source": "https://i.imgur.com/yg0zGtP.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 10,
+      "faith_required": 12,
+      "slots": 1
+    }
+  },
+  {
+    "id": "great-heal",
+    "name": "Great Heal",
+    "image": "assets/items/audit-great-heal.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/great-heal",
+    "usage": "Heals the caster and nearby allies for 1100 HP.",
+    "description": "Miracle - Heals the caster and nearby allies for 1100 HP.",
+    "obtaining": "Sold by Cromwell the Pardoner . Treasure in Grave of Saints",
+    "acquisition_refs": [
+      {
+        "name": "Cromwell the Pardoner",
+        "source_url": "https://darksouls2.wikidot.com/cromwell-the-pardoner"
+      },
+      {
+        "name": "Grave of Saints",
+        "source_url": "https://darksouls2.wikidot.com/grave-of-saints"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "3-6",
+      "Faith": "28",
+      "Slots": "1",
+      "Type / Affinity": "Support"
+    },
+    "mechanics_notes": "Heals the caster and nearby allies for roughly 1100 HP at required FTH. The healing amount scales with the caster's FTH.",
+    "image_source": "https://i.imgur.com/kgtp5I7.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 3,
+      "faith_required": 28,
+      "slots": 1
+    }
+  },
+  {
+    "id": "great-heal-excerpt",
+    "name": "Great Heal Excerpt",
+    "image": "assets/items/audit-great-heal-excerpt.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/great-heal-excerpt",
+    "usage": "Heals the caster for 1300 HP.",
+    "description": "Miracle - Heals the caster for 1300 HP.",
+    "obtaining": "Sold by Licia of Lindeldt .",
+    "acquisition_refs": [
+      {
+        "name": "Licia of Lindeldt",
+        "source_url": "https://darksouls2.wikidot.com/licia-of-lindeldt"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "1-3",
+      "Faith": "14",
+      "Slots": "1",
+      "Type / Affinity": "Support"
+    },
+    "mechanics_notes": "Heals the caster for roughly 1300 HP at required FTH. The healing amount scales with the caster's FTH. Fewer uses than Great Heal . Does not heal allies. Unique among the heal miracles in that it is cast while walking, rather than in a crouching position. The casting speed is also notably higher.",
+    "image_source": "https://i.imgur.com/n54l1l3.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 1,
+      "faith_required": 14,
+      "slots": 1
+    }
+  },
+  {
+    "id": "great-lightning-spear",
+    "name": "Great Lightning Spear",
+    "image": "assets/items/audit-great-lightning-spear.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/great-lightning-spear",
+    "usage": "A powerful Lightning Spear.",
+    "description": "Miracle - A powerful Lightning Spear.",
+    "obtaining": "Sold by Straid of Olaphis . Treasure in the Pit . Treasure in Undead Crypt .",
+    "acquisition_refs": [
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      },
+      {
+        "name": "the Pit",
+        "source_url": "https://darksouls2.wikidot.com/the-pit"
+      },
+      {
+        "name": "Undead Crypt",
+        "source_url": "https://darksouls2.wikidot.com/undead-crypt"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-10",
+      "Faith": "42",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Lightning"
+    },
+    "mechanics_notes": "A powerful, conjured throwing spear that does Lightning damage. Deals approximately 2.35x the Attack Rating of your weapon. Does 18% of the damage the enemy would take as AOE (area of effect) damage. Example: If you hit a wall beside an enemy with a Spear, the enemy will take 18% of the damage they would normally take if they had been hit directly. When you hit an enemy directly, they also get hit with the AOE (unless they die from the direct hit), therefore they take 118% damage. If a spear hits either the water or an enemy in water, a short range AoE burst deals extra damage to any enemy in the water close to the point of impact. (The water AoE combined with the existing AoE makes this do a large amount of damage).",
+    "image_source": "https://i.imgur.com/yr6BrdJ.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "faith_required": 42,
+      "slots": 1
+    }
+  },
+  {
+    "id": "great-magic-barrier",
+    "name": "Great Magic Barrier",
+    "image": "assets/items/audit-great-magic-barrier.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/great-magic-barrier",
+    "usage": "Increases Magic, Lightning, Fire and Dark resistance by 250 for 90 seconds.",
+    "description": "Miracle - Increases Magic, Lightning, Fire and Dark resistance by 250 for 90 seconds.",
+    "obtaining": "Sold by Chancellor Wellager . Treasure in Aldia's Keep . Treasure in Drangleic Castle (Bonfire Intensity 2+).",
+    "acquisition_refs": [
+      {
+        "name": "Chancellor Wellager",
+        "source_url": "https://darksouls2.wikidot.com/chancellor-wellager"
+      },
+      {
+        "name": "Aldia's Keep",
+        "source_url": "https://darksouls2.wikidot.com/aldia-s-keep"
+      },
+      {
+        "name": "Drangleic Castle",
+        "source_url": "https://darksouls2.wikidot.com/drangleic-castle"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "1-3",
+      "Faith": "28",
+      "Slots": "1",
+      "Type / Affinity": "Self / Buff"
+    },
+    "mechanics_notes": "Increases Magic , Lightning , Fire , and Dark Defense by 250 points. The duration is dependent on the user's Faith . In contrast to its weaker version Magic Barrier , this miracle does not affect allies!",
+    "image_source": "https://i.imgur.com/jq2zg29.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 1,
+      "faith_required": 28,
+      "slots": 1
+    }
+  },
+  {
+    "id": "guidance",
+    "name": "Guidance",
+    "image": "assets/items/audit-guidance.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/guidance",
+    "usage": "Reveals messages left by the developers for 60 seconds.",
+    "description": "Miracle - Reveals messages left by the developers for 60 seconds.",
+    "obtaining": "Sold by Licia of Lindeldt .",
+    "acquisition_refs": [
+      {
+        "name": "Licia of Lindeldt",
+        "source_url": "https://darksouls2.wikidot.com/licia-of-lindeldt"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "10-20",
+      "Faith": "12",
+      "Slots": "1",
+      "Type / Affinity": "Support"
+    },
+    "mechanics_notes": "Reveals hidden messages written by the developers, indicating the locations of illusory walls . These messages are recognizable due to the inability to rate them.",
+    "image_source": "https://i.imgur.com/jrO9dU4.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 10,
+      "faith_required": 12,
+      "slots": 1
+    }
+  },
+  {
+    "id": "heal",
+    "name": "Heal",
+    "image": "assets/items/audit-heal.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/heal",
+    "usage": "Heals the caster and nearby allies for 450 HP.",
+    "description": "Miracle - Heals the caster and nearby allies for 450 HP.",
+    "obtaining": "Starting item for the Cleric class. Sold by Licia of Lindeldt . Sold by Merchant Hag Melentia .",
+    "acquisition_refs": [
+      {
+        "name": "Cleric",
+        "source_url": "https://darksouls2.wikidot.com/cleric"
+      },
+      {
+        "name": "Licia of Lindeldt",
+        "source_url": "https://darksouls2.wikidot.com/licia-of-lindeldt"
+      },
+      {
+        "name": "Merchant Hag Melentia",
+        "source_url": "https://darksouls2.wikidot.com/merchant-hag-melentia"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "3-6",
+      "Faith": "12",
+      "Slots": "1",
+      "Type / Affinity": "Support"
+    },
+    "mechanics_notes": "Heals the caster and nearby allies for roughly 450 HP at required FTH. The healing amount scales with the caster's FTH.",
+    "image_source": "https://i.imgur.com/bjKc5YC.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 3,
+      "faith_required": 12,
+      "slots": 1
+    }
+  },
+  {
+    "id": "heavenly-thunder",
+    "name": "Heavenly Thunder",
+    "image": "assets/items/audit-heavenly-thunder.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/heavenly-thunder",
+    "usage": "Emits several random strikes of lightning around the point of cast.",
+    "description": "Miracle - Emits several random strikes of lightning around the point of cast.",
+    "obtaining": "Sold by Blue Sentinel Targray . Sold by Cromwell the Pardoner .",
+    "acquisition_refs": [
+      {
+        "name": "Blue Sentinel Targray",
+        "source_url": "https://darksouls2.wikidot.com/blue-sentinel-targray"
+      },
+      {
+        "name": "Cromwell the Pardoner",
+        "source_url": "https://darksouls2.wikidot.com/cromwell-the-pardoner"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "5-12",
+      "Faith": "17",
+      "Slots": "1",
+      "Type / Affinity": "AoE / Lightning"
+    },
+    "mechanics_notes": "Emits several random strikes of lightning around the point of cast. Each lightning strike deals approximately 1.65x the Attack Rating of your weapon",
+    "image_source": "https://i.imgur.com/KLiLAsv.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 5,
+      "faith_required": 17,
+      "slots": 1
+    }
+  },
+  {
+    "id": "homeward",
+    "name": "Homeward",
+    "image": "assets/items/audit-homeward.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/homeward",
+    "usage": "Warps the caster to the last bonfire they rested at.",
+    "description": "Miracle - Warps the caster to the last bonfire they rested at.",
+    "obtaining": "Sold by Licia of Lindeldt .",
+    "acquisition_refs": [
+      {
+        "name": "Licia of Lindeldt",
+        "source_url": "https://darksouls2.wikidot.com/licia-of-lindeldt"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "1",
+      "Faith": "18",
+      "Slots": "1",
+      "Type / Affinity": "Support"
+    },
+    "mechanics_notes": "Warps the caster to the last bonfire they rested at.",
+    "image_source": "https://i.imgur.com/GDhpEVd.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 1,
+      "faith_required": 18,
+      "slots": 1
+    }
+  },
+  {
+    "id": "lightning-spear",
+    "name": "Lightning Spear",
+    "image": "assets/items/audit-lightning-spear.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/lightning-spear",
+    "usage": "A miracle that launches a spear of lightning.",
+    "description": "Miracle - A miracle that launches a spear of lightning.",
+    "obtaining": "Sold by Licia of Lindeldt . Treasure in Earthen Peak .",
+    "acquisition_refs": [
+      {
+        "name": "Licia of Lindeldt",
+        "source_url": "https://darksouls2.wikidot.com/licia-of-lindeldt"
+      },
+      {
+        "name": "Earthen Peak",
+        "source_url": "https://darksouls2.wikidot.com/earthen-peak"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-15",
+      "Faith": "22",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Lightning"
+    },
+    "mechanics_notes": "A conjured throwing spear that does Lightning damage. Deals approximately 1.95x the Attack Rating of your weapon. Does 20% of the damage the enemy would take as AOE (area of effect) damage. Example: If you hit a wall beside an enemy with a Spear, the enemy will take 20% of the damage they would normally take if they had been hit directly. When you hit an enemy directly, they also get hit with the AOE (unless they die from the direct hit), therefore they take 120% damage. If a spear hits either the water or an enemy in water, a short range AoE burst deals extra damage to any enemy in the water close to the point of impact.",
+    "image_source": "https://i.imgur.com/7QRWt2W.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "faith_required": 22,
+      "slots": 1
+    }
+  },
+  {
+    "id": "magic-barrier",
+    "name": "Magic Barrier",
+    "image": "assets/items/audit-magic-barrier.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/magic-barrier",
+    "usage": "Increases resistances to Magic, Lightning, Fire and Dark attacks for caster and nearby allies by 150 for 90 seconds.",
+    "description": "Miracle - Increases resistances to Magic, Lightning, Fire and Dark attacks for caster and nearby allies by 150 for 90 seconds.",
+    "obtaining": "Sold by Head of Vengarl . Sold by Felkin the Outcast .",
+    "acquisition_refs": [
+      {
+        "name": "Head of Vengarl",
+        "source_url": "https://darksouls2.wikidot.com/head-of-vengarl"
+      },
+      {
+        "name": "Felkin the Outcast",
+        "source_url": "https://darksouls2.wikidot.com/felkin-the-outcast"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-5",
+      "Faith": "14",
+      "Slots": "1",
+      "Type / Affinity": "Self / Buff"
+    },
+    "mechanics_notes": "Increases Magic, Lightning, Fire and Dark defense by 150 points. Duration depends on Faith . Unlike the stronger version Great Magic Barrier , this miracle can also affect nearby allies if they are close enough.",
+    "image_source": "https://i.imgur.com/bGBGppL.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "faith_required": 14,
+      "slots": 1
+    }
+  },
+  {
+    "id": "med-heal",
+    "name": "Med Heal",
+    "image": "assets/items/audit-med-heal.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/med-heal",
+    "usage": "Heals the caster and nearby allies for 850 HP.",
+    "description": "Miracle - Heals the caster and nearby allies for 850 HP.",
+    "obtaining": "Sold by Licia of Lindeldt .",
+    "acquisition_refs": [
+      {
+        "name": "Licia of Lindeldt",
+        "source_url": "https://darksouls2.wikidot.com/licia-of-lindeldt"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-4",
+      "Faith": "18",
+      "Slots": "1",
+      "Type / Affinity": "Support"
+    },
+    "mechanics_notes": "Heals the caster and nearby allies for 800 HP at required FTH.",
+    "image_source": "https://i.imgur.com/8HI9Bje.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "faith_required": 18,
+      "slots": 1
+    }
+  },
+  {
+    "id": "perseverance",
+    "name": "Perseverance",
+    "image": "assets/items/audit-perseverance.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/perseverance",
+    "usage": "Increases Poison, Bleed, Petrify and Curse resistance for 60 seconds.",
+    "description": "Miracle - Increases Poison, Bleed, Petrify and Curse resistance for 60 seconds.",
+    "obtaining": "Sold by Cromwell the Pardoner .",
+    "acquisition_refs": [
+      {
+        "name": "Cromwell the Pardoner",
+        "source_url": "https://darksouls2.wikidot.com/cromwell-the-pardoner"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Faith": "15",
+      "Slots": "1",
+      "Type / Affinity": "Self / Buff"
+    },
+    "mechanics_notes": "Increases resistance against Poison and Bleed by 150 points, Petrify and Curse by 300 points, for 120 seconds.",
+    "image_source": "https://i.imgur.com/Ci1DLDL.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 4,
+      "faith_required": 15,
+      "slots": 1
+    }
+  },
+  {
+    "id": "replenishment",
+    "name": "Replenishment",
+    "image": "assets/items/audit-replenishment.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/replenishment",
+    "usage": "Slow health regeneration over 120 seconds.",
+    "description": "Miracle - Slow health regeneration over 120 seconds.",
+    "obtaining": "Sold by Licia of Lindeldt . Sold by Cromwell the Pardoner .",
+    "acquisition_refs": [
+      {
+        "name": "Licia of Lindeldt",
+        "source_url": "https://darksouls2.wikidot.com/licia-of-lindeldt"
+      },
+      {
+        "name": "Cromwell the Pardoner",
+        "source_url": "https://darksouls2.wikidot.com/cromwell-the-pardoner"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-5",
+      "Faith": "16",
+      "Slots": "1",
+      "Type / Affinity": "Support"
+    },
+    "mechanics_notes": "Slowly heals 840 HP over 120 seconds. If it is used at a lower faith by using spices, the amount healed drops as low as 420 HP over 120 seconds at 10 faith.",
+    "image_source": "https://i.imgur.com/8qLr3sS.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "faith_required": 16,
+      "slots": 1
+    }
+  },
+  {
+    "id": "resplendent-life",
+    "name": "Resplendent Life",
+    "image": "assets/items/audit-resplendent-life.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/resplendent-life",
+    "usage": "Heals 850 HP over 60 seconds.",
+    "description": "Miracle - Heals 850 HP over 60 seconds.",
+    "obtaining": "Sold by Licia of Lindeldt . Sold by Straid of Olaphis . Treasure in the Lost Bastille (Bonfire Intensity 2+).",
+    "acquisition_refs": [
+      {
+        "name": "Licia of Lindeldt",
+        "source_url": "https://darksouls2.wikidot.com/licia-of-lindeldt"
+      },
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      },
+      {
+        "name": "the Lost Bastille",
+        "source_url": "https://darksouls2.wikidot.com/the-lost-bastille"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-5",
+      "Faith": "25",
+      "Slots": "2",
+      "Type / Affinity": "Support"
+    },
+    "mechanics_notes": "Heals a variable amount of HP based on faith over 60 seconds. At 10 faith, 420 HP is restored. At 25 faith, 755 HP is restored. The amount healed caps at 35 faith, with 1092 HP being restored.",
+    "image_source": "https://i.imgur.com/JvX4LcS.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "faith_required": 25,
+      "slots": 2
+    }
+  },
+  {
+    "id": "soothing-sunlight",
+    "name": "Soothing Sunlight",
+    "image": "assets/items/audit-soothing-sunlight.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/soothing-sunlight",
+    "usage": "Heals the caster and nearby (very large range) allies for 1000 HP.",
+    "description": "Miracle - Heals the caster and nearby (very large range) allies for 1000 HP.",
+    "obtaining": "Acquired by Licia of Lindeldt .",
+    "acquisition_refs": [
+      {
+        "name": "Licia of Lindeldt",
+        "source_url": "https://darksouls2.wikidot.com/licia-of-lindeldt"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-4",
+      "Faith": "52",
+      "Slots": "2",
+      "Type / Affinity": "Support"
+    },
+    "mechanics_notes": "Heals the caster and nearby allies for 1000 HP. Has a much larger healing radius than Great Heal .",
+    "image_source": "https://i.imgur.com/cSeHAR4.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "faith_required": 52,
+      "slots": 2
+    }
+  },
+  {
+    "id": "soul-appease",
+    "name": "Soul Appease",
+    "image": "assets/items/audit-soul-appease.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/soul-appease",
+    "usage": "Releases a wave of energy in a circle around the caster which hits any undead in range for high damage. Does no damage to living entities.",
+    "description": "Miracle - Releases a wave of energy in a circle around the caster which hits any undead in range for high damage. Does no damage to living entities.",
+    "obtaining": "Sold by Stone Trader Chloanne . Sold by Grave Warden Agdayne .",
+    "acquisition_refs": [
+      {
+        "name": "Stone Trader Chloanne",
+        "source_url": "https://darksouls2.wikidot.com/stone-trader-chloanne"
+      },
+      {
+        "name": "Grave Warden Agdayne",
+        "source_url": "https://darksouls2.wikidot.com/grave-warden-agdayne"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Faith": "19",
+      "Slots": "1",
+      "Type / Affinity": "AoE"
+    },
+    "mechanics_notes": "Releases a wave of energy in a wide circle around the caster which hits any undead in range for high damage. Does no damage to living entities. Works against Hollowed hosts when invading.",
+    "image_source": "https://i.imgur.com/sE9byed.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 4,
+      "faith_required": 19,
+      "slots": 1
+    }
+  },
+  {
+    "id": "splintering-lightning-spear",
+    "name": "Splintering Lightning Spear",
+    "image": "assets/items/audit-splintering-lightning-spear.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/splintering-lightning-spear",
+    "usage": "Shoots a Lightning Spear above the target, creating a concentrated circle of lightning projectile rain. DLC item.",
+    "description": "Miracle - Shoots a Lightning Spear above the target, creating a concentrated circle of lightning projectile rain. DLC item.",
+    "obtaining": "Frozen Eleum Loyce treasure.",
+    "acquisition_refs": [
+      {
+        "name": "Frozen Eleum Loyce",
+        "source_url": "https://darksouls2.wikidot.com/frozen-eleum-loyce"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-5",
+      "Faith": "50",
+      "Slots": "1",
+      "Type / Affinity": "Ranged / Lightning",
+      "Spell Type": "Ranged/Lightning",
+      "Duration": "N/A",
+      "Faith Required": "50"
+    },
+    "mechanics_notes": "Shoots a Lightning Spear above the target, creating a concentrated circle of lightning projectile rain.",
+    "image_source": "https://i.imgur.com/oSdwtgq.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "faith_required": 50,
+      "slots": 1
+    }
+  },
+  {
+    "id": "sunlight-spear",
+    "name": "Sunlight Spear",
+    "image": "assets/items/audit-sunlight-spear.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/sunlight-spear",
+    "usage": "A very powerful Lightning Spear.",
+    "description": "Miracle - A very powerful Lightning Spear.",
+    "obtaining": "Rank 3 Heirs of the Sun reward.",
+    "acquisition_refs": [
+      {
+        "name": "Heirs of the Sun",
+        "source_url": "https://darksouls2.wikidot.com/heirs-of-the-sun"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "2-6",
+      "Faith": "55",
+      "Slots": "2",
+      "Type / Affinity": "Ranged / Lightning"
+    },
+    "mechanics_notes": "A very powerful, conjured throwing spear that does Lightning damage. Deals about 3.75 * sacred chimes Lightning ATK in damage. Does 14.25% of the damage the enemy would take as AoE (area of effect) damage. Example: If you hit a wall beside an enemy with a Spear, the enemy will take 14.25% of the damage they would normally take if they had been hit directly. When you hit an enemy directly, they also get hit with the AoE (unless they die from the direct hit), therefore they take 114.25% damage. If a spear hits either the water or an enemy in water, a short range AoE burst deals extra damage to any enemy in the water close to the point of impact.",
+    "image_source": "https://i.imgur.com/l5PpWdT.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 2,
+      "faith_required": 55,
+      "slots": 2
+    }
+  },
+  {
+    "id": "unveil",
+    "name": "Unveil",
+    "image": "assets/items/audit-unveil.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/unveil",
+    "usage": "Casts a red orb above the caster's head that flies towards the location of the nearest enemy or invader.",
+    "description": "Miracle - Casts a red orb above the caster's head that flies towards the location of the nearest enemy or invader.",
+    "obtaining": "Sold by Straid of Olaphis .",
+    "acquisition_refs": [
+      {
+        "name": "Straid of Olaphis",
+        "source_url": "https://darksouls2.wikidot.com/straid-of-olaphis"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "4-8",
+      "Faith": "13",
+      "Slots": "1",
+      "Type / Affinity": "Support"
+    },
+    "mechanics_notes": "Casts a red orb above your head that flies towards the location of the nearest enemy or invader (including NPC invaders). If no enemy is within range, the orb will travel upwards at a slight angle (So be aware that this could mean an enemy is above you, or no enemy is near). Unveil is automatically cast for a member of the Blue Sentinels that directs them to hostile invaders whenever they are summoned to protect a member in the Way of Blue covenant. When this miracle is used by an invader, it will not lock on to the host nor any of his phantoms, making it practically useless as an invader. This miracle does not work against Blue Sentinel Invaders (Arbiter Spirits). [tested]",
+    "image_source": "https://i.imgur.com/68rhnsH.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 4,
+      "faith_required": 13,
+      "slots": 1
+    }
+  },
+  {
+    "id": "wrath-of-the-gods",
+    "name": "Wrath of the Gods",
+    "image": "assets/items/audit-wrath-of-the-gods.png",
+    "type": "Miracle",
+    "source_url": "https://darksouls2.wikidot.com/wrath-of-the-gods",
+    "usage": "Casts a shockwave that deals a lot of Lightning damage and causes stagger.",
+    "description": "Miracle - Casts a shockwave that deals a lot of Lightning damage and causes stagger.",
+    "obtaining": "Rank 2 Blue Sentinels reward. Sold by Chancellor Wellager in NG++ and beyond.",
+    "acquisition_refs": [
+      {
+        "name": "Blue Sentinels",
+        "source_url": "https://darksouls2.wikidot.com/blue-sentinels"
+      },
+      {
+        "name": "Chancellor Wellager",
+        "source_url": "https://darksouls2.wikidot.com/chancellor-wellager"
+      }
+    ],
+    "spell_stats": {
+      "Uses": "1-3",
+      "Faith": "30",
+      "Slots": "1",
+      "Type / Affinity": "AoE / Lightning"
+    },
+    "mechanics_notes": "Casts a shockwave that deals huge amounts of Lightning damage and causes stagger.",
+    "image_source": "https://i.imgur.com/2UcB7Qn.png",
+    "image_verified": true,
+    "filter_stats": {
+      "uses_min": 1,
+      "faith_required": 30,
+      "slots": 1
+    }
+  }
+]

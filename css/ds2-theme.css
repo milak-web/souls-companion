@@ -1,0 +1,759 @@
+/* ============================================================================
+   Dark Souls II - in-game UI theme layer
+   ----------------------------------------------------------------------------
+   Loaded after style.css and overrides it. Everything here is drawn from the
+   game's own presentation: weathered near-black panels, bronze/amber filigree,
+   recessed inventory slots, and serif type with wide-set capital headings.
+   All icons referenced here are the game's real UI art, pulled from the
+   Dark Souls II categories on the wiki into assets/ui/.
+   ========================================================================== */
+
+:root {
+    --ds-void: #08070a;
+    --ds-bg: #0d0c0f;
+    --ds-panel: #141218;
+    --ds-panel-hi: #1b1820;
+    --ds-recess: #0a090c;
+    --ds-gold: #c8a44a;
+    --ds-gold-bright: #e8c877;
+    --ds-bronze: #7a6434;
+    --ds-parchment: #d9cfb8;
+    --ds-muted: #8b8272;
+    --ds-line: #2b2620;
+    --ds-blood: #7b2b24;
+    --ds-font-display: 'Cinzel', serif;
+    --ds-font-ui: 'EB Garamond', 'Crimson Text', serif;
+}
+
+/* --- base canvas: deep vignette rather than a flat black plate ------------- */
+body {
+    background-color: var(--ds-bg);
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    background:
+        radial-gradient(ellipse 120% 90% at 50% -10%, rgba(200, 164, 74, 0.07), transparent 60%),
+        radial-gradient(ellipse 90% 70% at 50% 120%, rgba(123, 43, 36, 0.06), transparent 65%),
+        radial-gradient(ellipse 140% 100% at 50% 50%, transparent 45%, rgba(0, 0, 0, 0.55) 100%);
+}
+
+#app { position: relative; z-index: 1; }
+
+body,
+body.ds-theme {
+    font-family: var(--ds-font-ui);
+    color: var(--ds-parchment);
+}
+
+/* --- sidebar -------------------------------------------------------------- */
+.sidebar {
+    background:
+        linear-gradient(180deg, rgba(200, 164, 74, 0.05), transparent 180px),
+        linear-gradient(90deg, var(--ds-panel) 0%, var(--ds-bg) 100%);
+    border-right: 1px solid var(--ds-line);
+    box-shadow: inset -1px 0 0 rgba(200, 164, 74, 0.10);
+}
+
+.sidebar-toggle {
+    border-bottom: 1px solid var(--ds-line);
+    color: var(--ds-gold);
+}
+
+.logo h1 {
+    font-family: var(--ds-font-display);
+    color: var(--ds-gold-bright);
+    text-shadow: 0 0 18px rgba(200, 164, 74, 0.35), 0 1px 0 #000;
+    letter-spacing: 6px;
+}
+
+.logo p {
+    font-family: var(--ds-font-ui);
+    color: var(--ds-muted);
+    letter-spacing: 8px;
+}
+
+/* nav rows read like the game's menu: a gold rule marks the current entry */
+.sidebar nav li {
+    position: relative;
+    font-family: var(--ds-font-ui);
+    font-size: 0.95rem;
+    letter-spacing: 1.5px;
+    color: var(--ds-muted);
+    border-left: 2px solid transparent;
+}
+
+.sidebar nav li:hover {
+    color: var(--ds-parchment);
+    background: linear-gradient(90deg, rgba(200, 164, 74, 0.10), transparent 85%);
+}
+
+.sidebar nav li.active {
+    color: var(--ds-gold-bright);
+    border-left-color: var(--ds-gold);
+    background: linear-gradient(90deg, rgba(200, 164, 74, 0.16), transparent 90%);
+}
+
+.sidebar nav li.active::after {
+    content: '';
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    width: 5px;
+    height: 5px;
+    margin-top: -2.5px;
+    transform: rotate(45deg);
+    background: var(--ds-gold);
+    box-shadow: 0 0 8px rgba(200, 164, 74, 0.8);
+}
+
+/* the nav glyph is now a real game icon, not an emoji font glyph */
+.sidebar nav li .nav-icon {
+    width: 22px;
+    height: 22px;
+    min-width: 22px;
+    object-fit: contain;
+    opacity: 0.62;
+    filter: grayscale(0.35) sepia(0.25);
+    transition: opacity var(--transition-speed), filter var(--transition-speed);
+}
+
+.sidebar nav li:hover .nav-icon { opacity: 0.85; }
+
+.sidebar nav li.active .nav-icon {
+    opacity: 1;
+    filter: drop-shadow(0 0 6px rgba(200, 164, 74, 0.7));
+}
+
+/* the old rule sized every span at 1.4rem, which fought the label text */
+.sidebar nav li .nav-text {
+    font-size: 0.95rem;
+}
+
+.sidebar.collapsed nav li { justify-content: center; padding-left: 0; padding-right: 0; }
+
+/* --- top bar and search --------------------------------------------------- */
+.top-bar {
+    border-bottom: 1px solid var(--ds-line);
+    background: linear-gradient(180deg, rgba(200, 164, 74, 0.04), transparent);
+}
+
+.search-container {
+    border: 1px solid var(--ds-line);
+    background: var(--ds-recess);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.search-container:focus-within {
+    border-color: var(--ds-bronze);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(200, 164, 74, 0.25);
+}
+
+.search-container input {
+    background: transparent;
+    color: var(--ds-parchment);
+    font-family: var(--ds-font-ui);
+}
+
+.search-container input::placeholder { color: var(--ds-muted); }
+
+.search-icon svg {
+    width: 17px;
+    height: 17px;
+    fill: none;
+    stroke: var(--ds-gold);
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    opacity: 0.8;
+}
+
+/* --- headings ------------------------------------------------------------- */
+.view-title,
+.view-header h2,
+.list-header h2 {
+    font-family: var(--ds-font-display);
+    color: var(--ds-gold-bright);
+    letter-spacing: 2px;
+    text-shadow: 0 1px 0 #000;
+}
+
+.view-title::after,
+.view-header h2::after {
+    content: '';
+    display: block;
+    width: 120px;
+    height: 1px;
+    margin-top: 10px;
+    background: linear-gradient(90deg, var(--ds-gold), transparent);
+}
+
+/* --- hero and stat plates ------------------------------------------------- */
+.hero {
+    border: 1px solid var(--ds-line);
+    border-top-color: rgba(200, 164, 74, 0.35);
+    background:
+        radial-gradient(ellipse 80% 120% at 50% 0%, rgba(200, 164, 74, 0.09), transparent 70%),
+        var(--ds-panel);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03), 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.hero h2 {
+    font-family: var(--ds-font-display);
+    color: var(--ds-gold-bright);
+    letter-spacing: 1.5px;
+}
+
+.hero p { color: var(--ds-muted); }
+
+.stat-card {
+    background:
+        linear-gradient(180deg, var(--ds-panel-hi), var(--ds-panel));
+    border: 1px solid var(--ds-line);
+    border-top-color: rgba(200, 164, 74, 0.3);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03), 0 6px 18px rgba(0, 0, 0, 0.45);
+}
+
+.stat-card:hover {
+    border-color: var(--ds-bronze);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 0 0 1px rgba(200, 164, 74, 0.2), 0 8px 22px rgba(0, 0, 0, 0.55);
+}
+
+.stat-card h3 {
+    font-family: var(--ds-font-ui);
+    color: var(--ds-muted);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.stat-card .count {
+    font-family: var(--ds-font-display);
+    color: var(--ds-gold-bright);
+}
+
+/* --- inventory-slot cards ------------------------------------------------- */
+.item-card {
+    background: var(--ds-panel);
+    border: 1px solid var(--ds-line);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+    transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
+}
+
+.item-card:hover {
+    border-color: var(--ds-gold);
+    transform: translateY(-2px);
+    box-shadow: 0 0 0 1px rgba(200, 164, 74, 0.25), 0 10px 26px rgba(0, 0, 0, 0.65);
+}
+
+.item-card h4 {
+    font-family: var(--ds-font-ui);
+    color: var(--ds-parchment);
+    letter-spacing: 0.5px;
+}
+
+.card-image {
+    background:
+        radial-gradient(ellipse at 50% 40%, #191720, #0c0b0e 75%);
+    box-shadow: inset 0 0 26px rgba(0, 0, 0, 0.9), inset 0 0 0 1px rgba(200, 164, 74, 0.07);
+}
+
+/* the placeholder is now a real game icon supplied per card type */
+.card-image::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 68px;
+    height: 68px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.20;
+    z-index: 0;
+}
+
+.card-image.placeholder-enemy::before { background-image: url('../assets/ui/stat/stat-physical-attack.webp'); }
+.card-image.placeholder-boss::before { background-image: url('../assets/ui/stat/stat-souls.webp'); }
+.card-image.placeholder-area::before { background-image: url('../assets/items/Bonfire_Ascetic.webp'); }
+.card-image.placeholder-weapon::before { background-image: url('../assets/ui/menu-weapons.webp'); }
+.card-image.placeholder-item::before { background-image: url('../assets/ui/menu-item.webp'); }
+.card-image.placeholder-npc::before { background-image: url('../assets/ui/stat/stat-class.webp'); }
+.card-image.placeholder-armor::before { background-image: url('../assets/ui/menu-chest-armor.webp'); }
+
+.card-overlay {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.88));
+    font-family: var(--ds-font-ui);
+    color: var(--ds-parchment);
+    z-index: 2;
+}
+
+/* --- inline game icons ---------------------------------------------------- */
+.ico {
+    width: 1em;
+    height: 1em;
+    object-fit: contain;
+    vertical-align: -0.14em;
+    margin-right: 0.35em;
+    opacity: 0.9;
+}
+
+/* --- detail views --------------------------------------------------------- */
+.detail-view h1 {
+    font-family: var(--ds-font-display);
+    color: var(--ds-gold-bright);
+    letter-spacing: 1.5px;
+    text-shadow: 0 1px 0 #000;
+}
+
+.detail-image {
+    border: 1px solid var(--ds-line);
+    box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.85), 0 8px 26px rgba(0, 0, 0, 0.55);
+}
+
+.detail-header, .detail-grid section, .area-info, .list-group, .drops, .farming, .ai-notes {
+    border-color: var(--ds-line);
+}
+
+.detail-grid section h3,
+.detail-grid h3 {
+    font-family: var(--ds-font-ui);
+    color: var(--ds-gold);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* resistance rows: keep the semantic colour, add the DS2 slot feel */
+.res-item {
+    background: var(--ds-recess);
+    border: 1px solid var(--ds-line);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.res-item .type {
+    font-family: var(--ds-font-ui);
+    color: var(--ds-parchment);
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.res-item .status-label { color: var(--ds-muted); }
+
+.res-item.weak { border-left: 3px solid #4f8a4a; }
+.res-item.neutral { border-left: 3px solid var(--ds-bronze); }
+.res-item.resistant { border-left: 3px solid #a3562f; }
+.res-item.immune { border-left: 3px solid #3a3a3a; }
+
+.drop-icon-img {
+    border: 1px solid var(--ds-line);
+    background: var(--ds-recess);
+}
+
+blockquote {
+    border-left: 2px solid var(--ds-bronze);
+    color: var(--ds-parchment);
+    font-style: italic;
+}
+
+/* --- buttons and controls ------------------------------------------------- */
+.ds-btn, .filter-btn {
+    font-family: var(--ds-font-ui);
+    letter-spacing: 1.5px;
+    background: linear-gradient(180deg, var(--ds-panel-hi), var(--ds-recess));
+    border: 1px solid var(--ds-line);
+    color: var(--ds-parchment);
+}
+
+.ds-btn:hover, .filter-btn:hover {
+    border-color: var(--ds-gold);
+    color: var(--ds-gold-bright);
+}
+
+/* --- scrollbars ----------------------------------------------------------- */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--ds-recess); }
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, var(--ds-bronze), #4a3d20);
+    border: 2px solid var(--ds-recess);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--ds-gold); }
+
+/* ============================================================================
+   Card image glitch
+   ----------------------------------------------------------------------------
+   style.css has `.card-image img { position:absolute; width:100%; height:100% }`
+   which ALSO matched the HP / souls glyphs inside .card-overlay, stretching them
+   across the whole card -- that was the gold band over every enemy picture, and
+   why bosses (no overlay) were unaffected. Scope it to the artwork and reset the
+   nested overlay icons.
+   ========================================================================== */
+.card-image > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    transition: opacity 0.3s;
+}
+
+.card-image > img.error { opacity: 0; }
+
+.card-image .card-overlay img,
+.card-image .card-overlay .ico {
+    position: static;
+    width: 1em;
+    height: 1em;
+    object-fit: contain;
+    z-index: auto;
+}
+
+/* Enemy shots are portrait-ish and were cropped by `cover`; show the whole
+   creature rather than the middle of it. */
+.enemy-card .card-image > img { object-fit: contain; }
+
+/* ============================================================================
+   Fixes found by inspecting the rendered screenshots
+   ========================================================================== */
+
+/* Generated records carried name===title, so every card printed the same
+   label twice. The data is cleaned now; this collapses the empty subtitle. */
+.item-card p:empty { display: none; }
+
+/* The nav glyphs were too dim to read at 22px. */
+.sidebar nav li .nav-icon {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    opacity: 0.82;
+    filter: grayscale(0.2) sepia(0.15);
+}
+
+/* Resistance rows: icon + type + status did not fit one line, so the status
+   wrapped underneath and the glyph crowded the label. */
+/* One column, not two: at two columns the rows were too narrow and the type
+   names were clipped to "SL" / "T" / "SH" instead of Slash / Thrust / Strike. */
+.res-grid {
+    grid-template-columns: 1fr;
+    gap: 6px;
+}
+
+.res-item {
+    gap: 10px;
+    padding: 9px 12px;
+    border-radius: 2px;
+}
+
+.res-item .type {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.res-item .type .ico {
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+    flex: 0 0 auto;
+}
+
+.res-item .status-label {
+    margin: 0 8px 0 auto;
+    font-size: 0.68rem;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    flex: 0 0 auto;
+}
+
+.res-item .status-icon { flex: 0 0 auto; opacity: 0.85; }
+
+/* Drop rows: the item name and its percentage ran together as one word. */
+.drop-name {
+    flex: 1 1 auto;
+    min-width: 0;
+    color: var(--ds-parchment);
+}
+
+.drop-chance {
+    flex: 0 0 auto;
+    margin-left: 12px;
+    color: var(--ds-gold);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.5px;
+}
+
+/* The favourite ring was nearly invisible against the panel. */
+.fav-btn {
+    background: rgba(0, 0, 0, 0.45);
+    border: 1px solid var(--ds-line);
+    border-radius: 2px;
+    padding: 6px;
+    line-height: 0;
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s;
+}
+
+.fav-btn:hover {
+    border-color: var(--ds-bronze);
+    background: rgba(200, 164, 74, 0.12);
+}
+
+.fav-btn.active {
+    border-color: var(--ds-gold);
+    background: rgba(200, 164, 74, 0.18);
+}
+
+.fav-btn .ico { width: 18px; height: 18px; margin: 0; opacity: 0.55; }
+.fav-btn.active .ico { opacity: 1; }
+
+/* Quick stats read as one run-on string; set them like the game's stat row. */
+.quick-stats .stat {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.quick-stats .stat span {
+    color: var(--ds-muted);
+    text-transform: uppercase;
+    font-size: 0.72rem;
+    letter-spacing: 1.5px;
+}
+
+/* ============================================================================
+   Cross-links between entries
+   ========================================================================== */
+.xlink {
+    color: var(--ds-gold);
+    cursor: pointer;
+    border-bottom: 1px dotted rgba(200, 164, 74, 0.55);
+    transition: color 0.15s, border-color 0.15s;
+}
+
+.xlink:hover,
+.xlink:focus-visible {
+    color: var(--ds-gold-bright);
+    border-bottom-color: var(--ds-gold-bright);
+    outline: none;
+}
+
+.xlink-plain { color: var(--ds-parchment); }
+
+.xlink-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.xlink-list .xlink,
+.xlink-list .xlink-plain {
+    display: inline-block;
+    padding: 5px 11px;
+    border: 1px solid var(--ds-line);
+    border-radius: 2px;
+    background: var(--ds-recess);
+    font-size: 0.86rem;
+}
+
+.xlink-list .xlink:hover {
+    border-color: var(--ds-gold);
+    background: rgba(200, 164, 74, 0.10);
+}
+
+/* A location chip that is also a link keeps the chip look. */
+.location-tag.xlink { border-bottom-style: solid; }
+.location-tag.xlink:hover { background: rgba(200, 164, 74, 0.22); }
+
+/* Drop rows: the name is a link, the percentage stays pinned right. */
+.drop-name.xlink, .drop-name.xlink-plain { flex: 1 1 auto; min-width: 0; }
+
+/* ============================================================================
+   Blacksmith and Character Builder
+   ========================================================================== */
+.view-sub {
+    color: var(--ds-muted);
+    font-size: 0.95rem;
+    margin: -6px 0 18px;
+}
+
+.smith-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: flex-end;
+    padding: 16px 18px;
+    margin-bottom: 20px;
+    background: var(--ds-panel);
+    border: 1px solid var(--ds-line);
+    border-top-color: rgba(200, 164, 74, 0.3);
+}
+
+.smith-controls label,
+.builder-weapon label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--ds-muted);
+}
+
+.smith-controls select,
+.builder-weapon select {
+    min-width: 260px;
+    padding: 8px 10px;
+    background: var(--ds-recess);
+    color: var(--ds-parchment);
+    border: 1px solid var(--ds-line);
+    font-family: var(--ds-font-ui);
+    font-size: 0.95rem;
+}
+
+.smith-controls input[type="range"],
+.builder-weapon input[type="range"] {
+    width: 260px;
+    accent-color: var(--ds-gold);
+}
+
+.lvl-readout {
+    color: var(--ds-gold-bright);
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+/* --- tables ---------------------------------------------------------------- */
+.ds-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    margin-top: 8px;
+}
+
+.ds-table th {
+    text-align: left;
+    padding: 8px 10px;
+    color: var(--ds-muted);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.68rem;
+    letter-spacing: 1.2px;
+    border-bottom: 1px solid var(--ds-line);
+}
+
+.ds-table td {
+    padding: 7px 10px;
+    border-bottom: 1px solid rgba(43, 38, 32, 0.6);
+    color: var(--ds-parchment);
+    font-variant-numeric: tabular-nums;
+}
+
+.ds-table tbody tr { cursor: pointer; }
+.ds-table tbody tr:hover { background: rgba(200, 164, 74, 0.07); }
+
+.ds-table tr.current {
+    background: rgba(200, 164, 74, 0.13);
+    box-shadow: inset 2px 0 0 var(--ds-gold);
+}
+
+.ds-table tr.current td { color: var(--ds-gold-bright); }
+.ds-table .lvl { color: var(--ds-gold); }
+.ds-table .total { font-weight: 600; }
+
+/* --- summary panels -------------------------------------------------------- */
+.smith-summary, .builder-stats, .builder-weapon {
+    background: var(--ds-panel);
+    border: 1px solid var(--ds-line);
+    padding: 16px 18px;
+}
+
+.stat-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 14px;
+    padding: 7px 0;
+    border-bottom: 1px solid rgba(43, 38, 32, 0.55);
+    font-size: 0.92rem;
+}
+
+.stat-line span { color: var(--ds-muted); }
+.stat-line span.indent { padding-left: 14px; font-size: 0.84rem; }
+.stat-line strong { color: var(--ds-parchment); font-variant-numeric: tabular-nums; }
+
+.ar-total {
+    font-family: var(--ds-font-display);
+    font-size: 3rem;
+    line-height: 1.1;
+    color: var(--ds-gold-bright);
+    text-align: center;
+    margin: 6px 0 14px;
+    text-shadow: 0 0 22px rgba(200, 164, 74, 0.3);
+}
+
+.fine-print {
+    color: var(--ds-muted);
+    font-size: 0.78rem;
+    line-height: 1.5;
+    margin-top: 12px;
+    font-style: italic;
+}
+
+.fine-print.warn { color: #d8a35a; font-style: normal; }
+
+/* --- builder layout -------------------------------------------------------- */
+.builder-layout {
+    display: grid;
+    grid-template-columns: minmax(260px, 1fr) minmax(320px, 1.4fr);
+    gap: 18px;
+    align-items: start;
+}
+
+.stat-inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.stat-input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: var(--ds-muted);
+}
+
+.stat-input input {
+    padding: 8px 10px;
+    background: var(--ds-recess);
+    color: var(--ds-parchment);
+    border: 1px solid var(--ds-line);
+    font-family: var(--ds-font-ui);
+    font-size: 1.05rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.stat-input input:focus {
+    outline: none;
+    border-color: var(--ds-gold);
+}
+
+.builder-weapon label + label { margin-top: 14px; }
+
+@media (max-width: 1100px) {
+    .builder-layout { grid-template-columns: 1fr; }
+}
+
+
+
+/* Trilogy navigation keeps legacy DS2 routes and saves intact. */
+.game-switch { color: var(--accent-color, #d6b77a); font-size: 12px; margin-right: 14px; white-space: nowrap; text-decoration: none; }
+.game-switch:hover { text-decoration: underline; }

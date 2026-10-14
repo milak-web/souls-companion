@@ -1,0 +1,137 @@
+[
+    {
+        "id": "lucatiel",
+        "name": "Lucatiel of Mirrah",
+        "image": "assets/ui/menu-key-items.webp",
+        "steps": [
+            {
+                "location": "No-man's Wharf",
+                "action": "Talk to her at the bonfire.",
+                "done": false
+            },
+            {
+                "location": "Lost Bastille",
+                "action": "Talk to her in the tower near McDuff.",
+                "done": false
+            },
+            {
+                "location": "Earthen Peak",
+                "action": "Talk to her near the lower bonfire.",
+                "done": false
+            },
+            {
+                "location": "Black Gulch",
+                "action": "Find her on a hidden ledge and talk.",
+                "done": false
+            },
+            {
+                "location": "Aldia's Keep",
+                "action": "Talk to her at the first bonfire (Final step).",
+                "done": false
+            }
+        ],
+        "reward": "Lucatiel's Set + Mirrah Greatsword",
+        "missable": true,
+        "notes": "You must summon her for 3 boss fights and she must survive to get the reward."
+    },
+    {
+        "id": "benhart",
+        "name": "Benhart of Jugo",
+        "image": "assets/npcs/Benhart_of_Jugo.webp",
+        "steps": [
+            {
+                "location": "Majula",
+                "action": "Talk to him near the entrance to Shaded Woods.",
+                "done": false
+            },
+            {
+                "location": "Shaded Woods",
+                "action": "Talk to him after unpetrifying Rosabeth.",
+                "done": false
+            },
+            {
+                "location": "Drangleic Castle",
+                "action": "Talk to him at the Central Castle bonfire.",
+                "done": false
+            },
+            {
+                "location": "Memory of Orro",
+                "action": "Talk to him after the boss fight (Final step).",
+                "done": false
+            }
+        ],
+        "reward": "Bluemoont Greatsword",
+        "missable": true,
+        "notes": "Like Lucatiel, he must survive 3 boss fights as a summon."
+    },
+    {
+        "id": "pate",
+        "name": "Mild-Mannered Pate",
+        "image": "assets/npcs/Mild_Mannered_Pate.webp",
+        "steps": [
+            {
+                "location": "Forest of Fallen Giants",
+                "action": "Talk to him, go through the gate trap, and talk again.",
+                "done": false
+            },
+            {
+                "location": "Earthen Peak",
+                "action": "Talk to him near the central bonfire.",
+                "done": false
+            },
+            {
+                "location": "Brightstone Cove",
+                "action": "Witness the showdown between him and Creighton.",
+                "done": false
+            }
+        ],
+        "reward": "Pate's Spear + Tseldora Den Key",
+        "missable": false,
+        "notes": "Decide who to help in the final encounter."
+    },
+    {
+        "id": "creighton",
+        "name": "Creighton the Wanderer",
+        "image": "assets/npcs/Creighton_the_Wanderer.webp",
+        "steps": [
+            {
+                "location": "Huntsman's Copse",
+                "action": "Talk to him in the jail cell near Undead Lockaway.",
+                "done": false
+            },
+            {
+                "location": "Shaded Woods",
+                "action": "Talk to him at the fork in the road.",
+                "done": false
+            },
+            {
+                "location": "Brightstone Cove",
+                "action": "Final showdown with Pate.",
+                "done": false
+            }
+        ],
+        "reward": "Creighton's Set + Tseldora Den Key",
+        "missable": false,
+        "notes": "Warning: Pate might be the one telling the truth... or maybe neither is."
+    },
+    {
+        "id": "chloanne",
+        "name": "Stone Trader Chloanne",
+        "image": "assets/npcs/Stone_Trader_Chloanne.webp",
+        "steps": [
+            {
+                "location": "Harvest Valley",
+                "action": "Talk to her at the beginning of the area.",
+                "done": false
+            },
+            {
+                "location": "Majula",
+                "action": "Talk to her after she moves to Majula.",
+                "done": false
+            }
+        ],
+        "reward": "Infinite Titanite Shards (later game)",
+        "missable": false,
+        "notes": "She is the daughter of Blacksmith Lenigrast."
+    }
+]

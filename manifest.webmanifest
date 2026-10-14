@@ -1,0 +1,12 @@
+{
+  "id": "./",
+  "name": "Souls Companion",
+  "short_name": "Souls",
+  "description": "Your Dark Souls reference guide, blacksmith and character lab.",
+  "start_url": "./#view=games",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#17150f",
+  "background_color": "#0a0a0a",
+  "icons": [{"src": "icons/souls-companion.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}]
+}

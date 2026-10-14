@@ -1,0 +1,37 @@
+.sidebar nav {overflow-y:auto; min-height:0;}
+.nav-symbol {width:24px; flex-shrink:0; text-align:center; color:var(--accent-gold); font-size:18px;}
+.sidebar.collapsed .nav-symbol {display:block;}
+.user-status {display:flex; align-items:center; gap:12px; flex-wrap:wrap;}
+.game-switch {margin-right:0; font-size:14px;}
+#game-label {font-size:13px; white-space:nowrap;}
+.game-menu .sidebar {display:none;}
+.game-menu .search-container {display:none;}
+.game-menu .game-switch {display:none;}
+.game-hub {max-width:1150px; margin:40px auto;}
+.game-hub h1 {font:42px Cinzel,Georgia,serif; color:var(--accent-gold); margin:12px 0;}
+.hub-eyebrow {font:12px system-ui; letter-spacing:3px; color:var(--accent-gold);}
+.game-cards {display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; margin:35px 0;}
+.game-card {padding:35px 24px; border:1px solid #51472e; border-radius:9px; background:radial-gradient(ellipse at top,#34352a,#141510); color:#e8e4d9; text-decoration:none;}
+.game-card:hover {border-color:var(--accent-gold); background-color:#24251b;}
+.game-card .roman {display:block; font:72px Georgia; color:var(--accent-gold); margin-bottom:25px;}
+.game-card h2 {font:24px Cinzel,Georgia; margin:12px 0;}
+.game-card p,.hub-note {font:14px/1.7 system-ui; color:#abaea0;}
+.game-card strong {display:block; margin-top:25px; font:14px system-ui; color:var(--accent-gold);}
+.game-card.planned {opacity:.5;}
+body.game-ds1 #view-container {max-width:1600px; width:100%; margin:auto;}
+body.game-ds1 #view-container .results {position:static;}
+@media(max-width:700px) {
+ .game-cards {grid-template-columns:1fr; gap:15px;}
+ .game-card {padding:22px;}
+ .game-card .roman {font-size:45px; margin-bottom:10px;}
+ .game-hub {margin:10px auto;}
+ .game-hub h1 {font-size:30px;}
+ #game-label {display:none;}
+ .top-bar {gap:8px; padding:12px;}
+ .search-container {min-width:0; flex:1;}
+ .user-status {flex-shrink:0; gap:0;}
+ .status-indicator {display:none;}
+ .game-switch {font-size:12px; white-space:nowrap;}
+}
+.brand-title {font: 28px Cinzel,Georgia,serif; color:var(--accent-gold); letter-spacing:3px;}
+.sidebar-toggle {width:100%; flex-shrink:0; background:transparent; border:0; border-bottom:1px solid var(--border-color); border-radius:0;} .sidebar-toggle:focus-visible {outline:2px solid var(--accent-gold); outline-offset:-3px;} .sidebar nav li:focus-visible {outline:2px solid var(--accent-gold); outline-offset:-3px;}

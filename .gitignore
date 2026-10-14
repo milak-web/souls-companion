@@ -1,0 +1,9 @@
+audit/
+dist/
+.venv/
+node_modules/
+.env
+.env.*
+*.log
+DarkSouls-Guide/
+__pycache__/

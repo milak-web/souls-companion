@@ -1,0 +1,450 @@
+{
+  "enemy-detail": {
+    "bashful-ray": {
+      "view": "npc-detail",
+      "id": "bashful-ray"
+    },
+    "bradley-of-the-old-guard": {
+      "view": "npc-detail",
+      "id": "bradley-of-the-old-guard"
+    },
+    "lucatiel-of-mirrah": {
+      "view": "npc-detail",
+      "id": "lucatiel-of-mirrah"
+    },
+    "masterless-glencour": {
+      "view": "npc-detail",
+      "id": "masterless-glencour"
+    },
+    "pilgrim-bellclaire": {
+      "view": "npc-detail",
+      "id": "pilgrim-bellclaire"
+    }
+  },
+  "item-detail": {
+    "acid-surge": {
+      "view": "magic-detail",
+      "id": "acid-surge"
+    },
+    "blinding-bolt": {
+      "view": "magic-detail",
+      "id": "blinding-bolt"
+    },
+    "crystal-magic-weapon": {
+      "view": "magic-detail",
+      "id": "crystal-magic-weapon"
+    },
+    "crystal-soul-spear": {
+      "view": "magic-detail",
+      "id": "crystal-soul-spear"
+    },
+    "dark-weapon": {
+      "view": "magic-detail",
+      "id": "dark-weapon"
+    },
+    "flame-weapon": {
+      "view": "magic-detail",
+      "id": "flame-weapon"
+    },
+    "great-magic-weapon": {
+      "view": "magic-detail",
+      "id": "great-magic-weapon"
+    },
+    "heavy-homing-soul-arrow": {
+      "view": "magic-detail",
+      "id": "heavy-homing-soul-arrow"
+    },
+    "lifedrain-patch": {
+      "view": "magic-detail",
+      "id": "lifedrain-patch"
+    },
+    "magic-weapon": {
+      "view": "magic-detail",
+      "id": "magic-weapon"
+    },
+    "numbness": {
+      "view": "magic-detail",
+      "id": "numbness"
+    },
+    "outcry": {
+      "view": "magic-detail",
+      "id": "outcry"
+    },
+    "repel": {
+      "view": "magic-detail",
+      "id": "repel"
+    },
+    "resonant-weapon": {
+      "view": "magic-detail",
+      "id": "resonant-weapon"
+    },
+    "sacred-oath": {
+      "view": "magic-detail",
+      "id": "sacred-oath"
+    },
+    "soul-shower": {
+      "view": "magic-detail",
+      "id": "soul-shower"
+    },
+    "sunlight-blade": {
+      "view": "magic-detail",
+      "id": "sunlight-blade"
+    },
+    "toxic-mist": {
+      "view": "magic-detail",
+      "id": "toxic-mist"
+    },
+    "cast-light": {
+      "view": "magic-detail",
+      "id": "cast-light"
+    },
+    "chameleon": {
+      "view": "magic-detail",
+      "id": "chameleon"
+    },
+    "fall-control": {
+      "view": "magic-detail",
+      "id": "fall-control"
+    },
+    "focus-souls": {
+      "view": "magic-detail",
+      "id": "focus-souls"
+    },
+    "great-heavy-soul-arrow": {
+      "view": "magic-detail",
+      "id": "great-heavy-soul-arrow"
+    },
+    "great-soul-arrow": {
+      "view": "magic-detail",
+      "id": "great-soul-arrow"
+    },
+    "heavy-soul-arrow": {
+      "view": "magic-detail",
+      "id": "heavy-soul-arrow"
+    },
+    "hidden-weapon": {
+      "view": "magic-detail",
+      "id": "hidden-weapon"
+    },
+    "homing-crystal-soulmass": {
+      "view": "magic-detail",
+      "id": "homing-crystal-soulmass"
+    },
+    "homing-soul-arrow": {
+      "view": "magic-detail",
+      "id": "homing-soul-arrow"
+    },
+    "homing-soulmass": {
+      "view": "magic-detail",
+      "id": "homing-soulmass"
+    },
+    "hush": {
+      "view": "magic-detail",
+      "id": "hush"
+    },
+    "repair": {
+      "view": "magic-detail",
+      "id": "repair"
+    },
+    "shockwave": {
+      "view": "magic-detail",
+      "id": "shockwave"
+    },
+    "soul-arrow": {
+      "view": "magic-detail",
+      "id": "soul-arrow"
+    },
+    "soul-bolt": {
+      "view": "magic-detail",
+      "id": "soul-bolt"
+    },
+    "soul-flash": {
+      "view": "magic-detail",
+      "id": "soul-flash"
+    },
+    "soul-geyser": {
+      "view": "magic-detail",
+      "id": "soul-geyser"
+    },
+    "soul-greatsword": {
+      "view": "magic-detail",
+      "id": "soul-greatsword"
+    },
+    "soul-spear": {
+      "view": "magic-detail",
+      "id": "soul-spear"
+    },
+    "soul-spear-barrage": {
+      "view": "magic-detail",
+      "id": "soul-spear-barrage"
+    },
+    "soul-vortex": {
+      "view": "magic-detail",
+      "id": "soul-vortex"
+    },
+    "strong-magic-shield": {
+      "view": "magic-detail",
+      "id": "strong-magic-shield"
+    },
+    "unleash-magic": {
+      "view": "magic-detail",
+      "id": "unleash-magic"
+    },
+    "yearn": {
+      "view": "magic-detail",
+      "id": "yearn"
+    },
+    "affinity": {
+      "view": "magic-detail",
+      "id": "affinity"
+    },
+    "climax": {
+      "view": "magic-detail",
+      "id": "climax"
+    },
+    "darkstorm": {
+      "view": "magic-detail",
+      "id": "darkstorm"
+    },
+    "dark-dance": {
+      "view": "magic-detail",
+      "id": "dark-dance"
+    },
+    "dark-fog": {
+      "view": "magic-detail",
+      "id": "dark-fog"
+    },
+    "dark-greatsword": {
+      "view": "magic-detail",
+      "id": "dark-greatsword"
+    },
+    "dark-hail": {
+      "view": "magic-detail",
+      "id": "dark-hail"
+    },
+    "dark-orb": {
+      "view": "magic-detail",
+      "id": "dark-orb"
+    },
+    "dead-again": {
+      "view": "magic-detail",
+      "id": "dead-again"
+    },
+    "great-resonant-soul": {
+      "view": "magic-detail",
+      "id": "great-resonant-soul"
+    },
+    "profound-still": {
+      "view": "magic-detail",
+      "id": "profound-still"
+    },
+    "promised-walk-of-peace": {
+      "view": "magic-detail",
+      "id": "promised-walk-of-peace"
+    },
+    "recollection": {
+      "view": "magic-detail",
+      "id": "recollection"
+    },
+    "resonant-flesh": {
+      "view": "magic-detail",
+      "id": "resonant-flesh"
+    },
+    "resonant-soul": {
+      "view": "magic-detail",
+      "id": "resonant-soul"
+    },
+    "scraps-of-life": {
+      "view": "magic-detail",
+      "id": "scraps-of-life"
+    },
+    "twisted-barricade": {
+      "view": "magic-detail",
+      "id": "twisted-barricade"
+    },
+    "whisper-of-despair": {
+      "view": "magic-detail",
+      "id": "whisper-of-despair"
+    },
+    "chaos-storm": {
+      "view": "magic-detail",
+      "id": "chaos-storm"
+    },
+    "combustion": {
+      "view": "magic-detail",
+      "id": "combustion"
+    },
+    "dance-of-fire": {
+      "view": "magic-detail",
+      "id": "dance-of-fire"
+    },
+    "fireball": {
+      "view": "magic-detail",
+      "id": "fireball"
+    },
+    "fire-orb": {
+      "view": "magic-detail",
+      "id": "fire-orb"
+    },
+    "fire-snake": {
+      "view": "magic-detail",
+      "id": "fire-snake"
+    },
+    "firestorm": {
+      "view": "magic-detail",
+      "id": "firestorm"
+    },
+    "fire-tempest": {
+      "view": "magic-detail",
+      "id": "fire-tempest"
+    },
+    "fire-whip": {
+      "view": "magic-detail",
+      "id": "fire-whip"
+    },
+    "flame-swathe": {
+      "view": "magic-detail",
+      "id": "flame-swathe"
+    },
+    "flash-sweat": {
+      "view": "magic-detail",
+      "id": "flash-sweat"
+    },
+    "forbidden-sun": {
+      "view": "magic-detail",
+      "id": "forbidden-sun"
+    },
+    "great-chaos-fireball": {
+      "view": "magic-detail",
+      "id": "great-chaos-fireball"
+    },
+    "great-combustion": {
+      "view": "magic-detail",
+      "id": "great-combustion"
+    },
+    "great-fireball": {
+      "view": "magic-detail",
+      "id": "great-fireball"
+    },
+    "immolation": {
+      "view": "magic-detail",
+      "id": "immolation"
+    },
+    "iron-flesh": {
+      "view": "magic-detail",
+      "id": "iron-flesh"
+    },
+    "lingering-flame": {
+      "view": "magic-detail",
+      "id": "lingering-flame"
+    },
+    "poison-mist": {
+      "view": "magic-detail",
+      "id": "poison-mist"
+    },
+    "warmth": {
+      "view": "magic-detail",
+      "id": "warmth"
+    },
+    "bountiful-sunlight": {
+      "view": "magic-detail",
+      "id": "bountiful-sunlight"
+    },
+    "caressing-prayer": {
+      "view": "magic-detail",
+      "id": "caressing-prayer"
+    },
+    "denial": {
+      "view": "magic-detail",
+      "id": "denial"
+    },
+    "emit-force": {
+      "view": "magic-detail",
+      "id": "emit-force"
+    },
+    "force": {
+      "view": "magic-detail",
+      "id": "force"
+    },
+    "great-heal": {
+      "view": "magic-detail",
+      "id": "great-heal"
+    },
+    "great-heal-excerpt": {
+      "view": "magic-detail",
+      "id": "great-heal-excerpt"
+    },
+    "great-lightning-spear": {
+      "view": "magic-detail",
+      "id": "great-lightning-spear"
+    },
+    "great-magic-barrier": {
+      "view": "magic-detail",
+      "id": "great-magic-barrier"
+    },
+    "guidance": {
+      "view": "magic-detail",
+      "id": "guidance"
+    },
+    "heal": {
+      "view": "magic-detail",
+      "id": "heal"
+    },
+    "heavenly-thunder": {
+      "view": "magic-detail",
+      "id": "heavenly-thunder"
+    },
+    "homeward": {
+      "view": "magic-detail",
+      "id": "homeward"
+    },
+    "lightning-spear": {
+      "view": "magic-detail",
+      "id": "lightning-spear"
+    },
+    "magic-barrier": {
+      "view": "magic-detail",
+      "id": "magic-barrier"
+    },
+    "med-heal": {
+      "view": "magic-detail",
+      "id": "med-heal"
+    },
+    "perseverance": {
+      "view": "magic-detail",
+      "id": "perseverance"
+    },
+    "replenishment": {
+      "view": "magic-detail",
+      "id": "replenishment"
+    },
+    "resplendent-life": {
+      "view": "magic-detail",
+      "id": "resplendent-life"
+    },
+    "soothing-sunlight": {
+      "view": "magic-detail",
+      "id": "soothing-sunlight"
+    },
+    "soul-appease": {
+      "view": "magic-detail",
+      "id": "soul-appease"
+    },
+    "splintering-lightning-spear": {
+      "view": "magic-detail",
+      "id": "splintering-lightning-spear"
+    },
+    "sunlight-spear": {
+      "view": "magic-detail",
+      "id": "sunlight-spear"
+    },
+    "unveil": {
+      "view": "magic-detail",
+      "id": "unveil"
+    },
+    "wrath-of-the-gods": {
+      "view": "magic-detail",
+      "id": "wrath-of-the-gods"
+    }
+  }
+}

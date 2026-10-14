@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'">
+    <link rel="stylesheet" href="css/local-fonts.css?v=1.9.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Souls Companion · Dark Souls Guide</title>
+    <link rel="stylesheet" href="css/style.css?v=1.9.1">
+    <link rel="stylesheet" href="css/ds2-theme.css?v=1.9.1">
+    <link rel="stylesheet" href="css/ds1-content.css?v=2.1.0">
+    <link rel="stylesheet" href="css/shell.css?v=2.1.0">
+    <meta name="description" content="Explore Dark Souls I and II, compare equipment, upgrade weapons and plan your character in Souls Companion.">
+    <meta name="theme-color" content="#17150f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Souls">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="icon" type="image/svg+xml" href="icons/souls-companion.svg">
+</head>
+<body class="ds-theme game-menu">
+    <div id="app">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar collapsed" id="sidebar">
+            <button class="sidebar-toggle" id="menu-toggle" type="button" aria-label="Toggle category menu" aria-expanded="false">
+                <span class="hamburger">☰</span>
+            </button>
+            <div class="logo">
+                <div class="brand-title" id="game-title">SOULS</div>
+                <p>COMPANION</p>
+            </div>
+            <nav>
+                <ul>
+                    <li class="active" data-tab="home"><img class="nav-icon" src="assets/items/Human_Effigy.webp" alt=""><span class="nav-text">Home</span></li>
+                    <li data-tab="areas"><img class="nav-icon" src="assets/items/Bonfire_Ascetic.webp" alt=""><span class="nav-text">Areas</span></li>
+                    <li data-tab="enemies"><img class="nav-icon" src="assets/ui/stat/stat-physical-attack.webp" alt=""><span class="nav-text">Enemies</span></li>
+                    <li data-tab="bosses"><img class="nav-icon" src="assets/ui/stat/stat-souls.webp" alt=""><span class="nav-text">Bosses</span></li>
+                    <li data-tab="weapons"><img class="nav-icon" src="assets/ui/menu-weapons.webp" alt=""><span class="nav-text">Weapons</span></li>
+                    <li data-tab="blacksmith"><img class="nav-icon" src="assets/ui/menu-upgrade-materials.webp" alt=""><span class="nav-text">Blacksmith</span></li>
+                    <li data-tab="builder"><img class="nav-icon" src="assets/ui/stat/stat-level.webp" alt=""><span class="nav-text">Builder</span></li>
+                    <li data-tab="items"><img class="nav-icon" src="assets/ui/menu-item.webp" alt=""><span class="nav-text">Items</span></li>
+                    <li data-tab="magic"><img class="nav-icon" src="assets/ui/menu-spells.webp" alt=""><span class="nav-text">Magic</span></li>
+                    <li data-tab="armor"><img class="nav-icon" src="assets/ui/menu-chest-armor.webp" alt=""><span class="nav-text">Armor</span></li>
+                    <li data-tab="covenants"><img class="nav-icon" src="assets/ui/stat/stat-covenant.webp" alt=""><span class="nav-text">Covenants</span></li>
+                    <li data-tab="npcs"><img class="nav-icon" src="assets/ui/stat/stat-class.webp" alt=""><span class="nav-text">NPCs</span></li>
+                    <li data-tab="quests"><img class="nav-icon" src="assets/ui/menu-key-items.webp" alt=""><span class="nav-text">Quests</span></li>
+                    <li data-tab="mechanics"><img class="nav-icon" src="assets/ui/stat/stat-attack-type.webp" alt=""><span class="nav-text">Mechanics</span></li>
+                    <li data-tab="favorites"><img class="nav-icon" src="assets/ui/menu-rings.webp" alt=""><span class="nav-text">Favorites</span></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="content-area">
+            <header class="top-bar">
+                <div class="search-container">
+                    <span class="search-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.4" y1="15.4" x2="21" y2="21"/></svg></span>
+                    <input type="text" id="main-search" placeholder="Search for enemies, items, areas...">
+                </div>
+                <div class="user-status"><a class="game-switch" href="#view=games">← Games</a><span id="game-label"></span>
+                    
+                    
+                    <span class="status-indicator"></span> Guide Library
+                </div>
+            </header>
+
+            <section id="view-container" aria-live="polite"><p>Loading the guide…</p></section>
+        </main>
+    </div>
+
+    <!-- Modals or Overlays -->
+    <div id="modal-container" class="hidden"></div>
+
+    <script src="js/main.js?v=2.1.0" type="module"></script>
+</body>
+</html>
+

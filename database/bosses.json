@@ -1,0 +1,2201 @@
+[
+  {
+    "id": "the-last-giant",
+    "name": "The Last Giant",
+    "title": "",
+    "image": "assets/bosses/The_Last_Giant.webp",
+    "areas": [
+      "Forest of Fallen Giants"
+    ],
+    "hp": "2,530",
+    "souls": 10000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Soldier Key",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Soldier_Key.webp"
+      },
+      {
+        "name": "Soul of the Last Giant",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Soul_of_the_Last_Giant.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "Cardinal Tower",
+      "gear": [],
+      "notes": "Stay near his legs and move away when he starts stomping. His reach increases when he tears off his arm."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/the-last-giant",
+    "aliases": [],
+    "combat": {
+      "strategy": "Stay near his legs and move away when he starts stomping. His reach increases when he tears off his arm.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Med",
+        "lightning": "Med",
+        "dark": "Very Low"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "100%",
+        "thrust": "100%",
+        "slash": "100%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "skeleton-lords",
+    "name": "Skeleton Lords",
+    "title": "",
+    "image": "assets/bosses/Skeleton_Lords.webp",
+    "areas": [
+      "Huntsman's Copse"
+    ],
+    "hp": "Halberd: 780 Scythe: 780 Staff: 520",
+    "souls": 15000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "immune",
+      "bleed": "immune"
+    },
+    "drops": [
+      {
+        "name": "Skeleton Lord's Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Skeleton_Lord_s_Soul.webp"
+      },
+      {
+        "name": "Clear Bluestone Ring +2",
+        "chance": "Bonfire intensity 2+",
+        "icon": "assets/items/verified-clear-bluestone-ring.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Killing each lord releases more skeletons. Clear one wave before defeating another lord to avoid a crowded arena."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/skeleton-lords",
+    "aliases": [],
+    "combat": {
+      "strategy": "Killing each lord releases more skeletons. Clear one wave before defeating another lord to avoid a crowded arena.",
+      "elemental": {
+        "magic": "High",
+        "fire": "Very Low > Med+ *",
+        "lightning": "Med > Low *",
+        "dark": "Med"
+      },
+      "notes": "* only when Water raises fire defense and lowers lightning defense.",
+      "physical": {
+        "strike": "150%",
+        "thrust": "60%",
+        "slash": "100%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "belfry-gargoyles",
+    "name": "Belfry Gargoyles",
+    "title": "",
+    "image": "assets/bosses/Belfry_Gargoyles.webp",
+    "areas": [
+      "Belfry Luna"
+    ],
+    "hp": "5x 1,400",
+    "souls": 25000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "immune"
+    },
+    "drops": [
+      {
+        "name": "Belfry Gargoyle Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Belfry_Gargoyle_Soul.webp"
+      },
+      {
+        "name": "Covetous Gold Serpent Ring +2",
+        "chance": "Bonfire intensity 2+",
+        "icon": "assets/items/verified-covetous-gold-serpent-ring.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Finish a wounded gargoyle before spreading damage across the others. Watch for fire attacks from enemies outside the camera."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/belfry-gargoyles",
+    "aliases": [],
+    "combat": {
+      "strategy": "Finish a wounded gargoyle before spreading damage across the others. Watch for fire attacks from enemies outside the camera.",
+      "elemental": {
+        "magic": "Low",
+        "fire": "Med",
+        "lightning": "Med",
+        "dark": "Med"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "135%",
+        "thrust": "93%",
+        "slash": "93%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "executioner-s-chariot",
+    "name": "Executioner's Chariot",
+    "title": "",
+    "image": "assets/bosses/Executioner_s_Chariot.webp",
+    "areas": [
+      "Undead Purgatory"
+    ],
+    "hp": "4,140",
+    "souls": 19000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Executioner's Chariot Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Executioner_s_Chariot_Soul.webp"
+      },
+      {
+        "name": "Chloranthy Ring +2",
+        "chance": "Bonfire intensity 2+",
+        "icon": "assets/items/verified-chloranthy-ring.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Use the alcoves to shelter from the chariot and eliminate the necromancers. Lower the gate to start the horse fight."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/executioner-s-chariot",
+    "aliases": [],
+    "combat": {
+      "strategy": "Use the alcoves to shelter from the chariot and eliminate the necromancers. Lower the gate to start the horse fight.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Low",
+        "lightning": "Low",
+        "dark": "High"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "85%",
+        "thrust": "100%",
+        "slash": "100%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "dragonrider",
+    "name": "Dragonrider",
+    "title": "",
+    "image": "assets/bosses/Dragonrider.webp",
+    "areas": [
+      "Heide's Tower of Flame"
+    ],
+    "hp": "3,050",
+    "souls": 12000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Dragonrider Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Dragonrider_Soul.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "Heide's Ruin",
+      "gear": [],
+      "notes": "Raise the arena platforms before entering to give yourself room. Circle him and punish the end of his halberd combinations."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/dragonrider",
+    "aliases": [],
+    "combat": {
+      "strategy": "Raise the arena platforms before entering to give yourself room. Circle him and punish the end of his halberd combinations.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Low",
+        "lightning": "Low",
+        "dark": "Med"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "120%",
+        "thrust": "100%",
+        "slash": "93%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "looking-glass-knight",
+    "name": "Looking Glass Knight",
+    "title": "",
+    "image": "assets/bosses/Looking_Glass_Knight.webp",
+    "areas": [
+      "King's Passage"
+    ],
+    "hp": "6,540",
+    "souls": 34000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "immune"
+    },
+    "drops": [
+      {
+        "name": "Looking Glass Knight Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Looking_Glass_Knight_Soul.webp"
+      },
+      {
+        "name": "Ring of Steel Protection +2",
+        "chance": "Bonfire intensity 2+",
+        "icon": "assets/items/verified-ring-of-steel-protection.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Attack around the shield and watch for its lightning attacks. Deal with summoned help before it traps you against the boss."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/looking-glass-knight",
+    "aliases": [],
+    "combat": {
+      "strategy": "Attack around the shield and watch for its lightning attacks. Deal with summoned help before it traps you against the boss.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Med > Very High—",
+        "lightning": "Very High > High+",
+        "dark": "Med"
+      },
+      "notes": "Rain raises fire defense and lowers lightning defense.",
+      "physical": {
+        "strike": "120%",
+        "thrust": "93%",
+        "slash": "93%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "covetous-demon",
+    "name": "Covetous Demon",
+    "title": "",
+    "image": "assets/bosses/Covetous_Demon.webp",
+    "areas": [
+      "Earthen Peak"
+    ],
+    "hp": "4,440",
+    "souls": 13000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Covetous Demon Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Covetous_Demon_Soul.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Keep away from his mouth and leave room for his rolling attacks. His recovery windows let you attack from the flank."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/covetous-demon",
+    "aliases": [],
+    "combat": {
+      "strategy": "Keep away from his mouth and leave room for his rolling attacks. His recovery windows let you attack from the flank.",
+      "elemental": {
+        "magic": "Low",
+        "fire": "Low",
+        "lightning": "High",
+        "dark": "Med"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "70%",
+        "thrust": "135%",
+        "slash": "110%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "the-pursuer",
+    "name": "The Pursuer",
+    "title": "",
+    "image": "assets/bosses/The_Pursuer.webp",
+    "areas": [
+      "Forest of Fallen Giants"
+    ],
+    "hp": "3,110",
+    "souls": 17000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": true,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "immune"
+    },
+    "drops": [
+      {
+        "name": "Soul of the Pursuer",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Soul_of_the_Pursuer.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "Cardinal Tower",
+      "gear": [],
+      "notes": "Roll through his attacks and punish the recovery. A successful parry can create an opening for the arena ballista."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/the-pursuer",
+    "aliases": [],
+    "combat": {
+      "strategy": "Roll through his attacks and punish the recovery. A successful parry can create an opening for the arena ballista.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Med",
+        "lightning": "Very Low",
+        "dark": "High"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "120%",
+        "thrust": "93%",
+        "slash": "93%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "flexile-sentry",
+    "name": "Flexile Sentry",
+    "title": "",
+    "image": "assets/bosses/Flexile_Sentry.webp",
+    "areas": [
+      "No-man's Wharf"
+    ],
+    "hp": "3,150",
+    "souls": 14000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Flexile Sentry Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Flexile_Sentry_Soul.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Fight on the side whose attacks you find easier to avoid. The rising water makes a prolonged fight more dangerous."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/flexile-sentry",
+    "aliases": [],
+    "combat": {
+      "strategy": "Fight on the side whose attacks you find easier to avoid. The rising water makes a prolonged fight more dangerous.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Low",
+        "lightning": "Med",
+        "dark": "Med"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "100%",
+        "thrust": "100%",
+        "slash": "100%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "old-dragonslayer",
+    "name": "Old Dragonslayer",
+    "title": "",
+    "image": "assets/bosses/Old_Dragonslayer.webp",
+    "areas": [
+      "Cathedral of Blue"
+    ],
+    "hp": "2,880",
+    "souls": 20000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Old Dragonslayer Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Old_Dragonslayer_Soul.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "Heide's Ruin",
+      "gear": [],
+      "notes": "Watch for thrust combinations and leave space for his dark area attack. Attack after a completed combination."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/old-dragonslayer",
+    "aliases": [],
+    "combat": {
+      "strategy": "Watch for thrust combinations and leave space for his dark area attack. Attack after a completed combination.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Med",
+        "lightning": "Med",
+        "dark": "High"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "100%",
+        "thrust": "100%",
+        "slash": "100%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "royal-rat-vanguard",
+    "name": "Royal Rat Vanguard",
+    "title": "",
+    "image": "assets/bosses/Royal_Rat_Vanguard.webp",
+    "areas": [
+      "Grave of Saints"
+    ],
+    "hp": "1,410",
+    "souls": 11000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Royal Rat Vanguard Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Royal_Rat_Vanguard_Soul.webp"
+      },
+      {
+        "name": "Rat Tail",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Rat_Tail.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Find the rat with the distinctive mohawk once the boss health bar appears. Keep moving to avoid being surrounded."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/royal-rat-vanguard",
+    "aliases": [],
+    "combat": {
+      "strategy": "Find the rat with the distinctive mohawk once the boss health bar appears. Keep moving to avoid being surrounded.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Very Low",
+        "lightning": "Med",
+        "dark": "Med"
+      },
+      "notes": "This fight uses normal-enemy tiers.",
+      "physical": {
+        "strike": "100%",
+        "thrust": "100%",
+        "slash": "100%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "the-rotten",
+    "name": "The Rotten",
+    "title": "",
+    "image": "assets/bosses/The_Rotten.webp",
+    "areas": [
+      "Black Gulch"
+    ],
+    "hp": "7,080",
+    "souls": 47000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Soul of the Rotten",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Soul_of_the_Rotten.webp"
+      },
+      {
+        "name": "Old Dead One Soul",
+        "chance": "Bonfire intensity 2+",
+        "icon": "assets/items/Old_Dead_One_Soul.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Keep the fight away from burning patches. Dodge his cleaver and move out before the dark area attack."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/the-rotten",
+    "aliases": [],
+    "combat": {
+      "strategy": "Keep the fight away from burning patches. Dodge his cleaver and move out before the dark area attack.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Med",
+        "lightning": "Low",
+        "dark": "High"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "85%",
+        "thrust": "135%",
+        "slash": "110%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "royal-rat-authority",
+    "name": "Royal Rat Authority",
+    "title": "",
+    "image": "assets/bosses/Royal_Rat_Authority.webp",
+    "areas": [
+      "Doors of Pharros"
+    ],
+    "hp": "4,330",
+    "souls": 14000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Royal Rat Authority Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Royal_Rat_Authority_Soul.webp"
+      },
+      {
+        "name": "Rat Tail",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Rat_Tail.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Eliminate the small rats quickly to prevent toxic buildup. Stay close enough to read the large rat’s leg and body attacks."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/royal-rat-authority",
+    "aliases": [],
+    "combat": {
+      "strategy": "Eliminate the small rats quickly to prevent toxic buildup. Stay close enough to read the large rat’s leg and body attacks.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Very Low",
+        "lightning": "Med",
+        "dark": "Med"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "100%",
+        "thrust": "100%",
+        "slash": "100%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "ruin-sentinels",
+    "name": "Ruin Sentinels",
+    "title": "",
+    "image": "assets/bosses/Ruin_Sentinels.webp",
+    "areas": [
+      "The Lost Bastille"
+    ],
+    "hp": "3x 2,330",
+    "souls": 33000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "immune"
+    },
+    "drops": [
+      {
+        "name": "Ruin Sentinel Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Ruin_Sentinel_Soul.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Use the starting platform to isolate the first sentinel. Once on the floor, keep the remaining sentinels together in your field of view."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/ruin-sentinels",
+    "aliases": [],
+    "combat": {
+      "strategy": "Use the starting platform to isolate the first sentinel. Once on the floor, keep the remaining sentinels together in your field of view.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Med",
+        "lightning": "Low",
+        "dark": "Med"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "135%",
+        "thrust": "93%",
+        "slash": "93%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "scorpioness-najka",
+    "name": "Scorpioness Najka",
+    "title": "",
+    "image": "assets/bosses/Scorpioness_Najka.webp",
+    "areas": [
+      "Shaded Woods"
+    ],
+    "hp": "5,741",
+    "souls": 23000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "immune",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Scorpioness Najka Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Scorpioness_Najka_Soul.webp"
+      },
+      {
+        "name": "Southern Ritual Band +2",
+        "chance": "Bonfire intensity 2+",
+        "icon": "assets/items/verified-southern-ritual-band.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "When she burrows, use the stone patch to avoid the underground attack. Dodge the stingers and punish their recovery."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/scorpioness-najka",
+    "aliases": [],
+    "combat": {
+      "strategy": "When she burrows, use the stone patch to avoid the underground attack. Dodge the stingers and punish their recovery.",
+      "elemental": {
+        "magic": "High",
+        "fire": "Low",
+        "lightning": "Med",
+        "dark": "Med"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "100%",
+        "thrust": "135%",
+        "slash": "100%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "demon-of-song",
+    "name": "Demon of Song",
+    "title": "",
+    "image": "assets/bosses/Demon_of_Song.webp",
+    "areas": [
+      "Shrine of Amana"
+    ],
+    "hp": "6,180",
+    "souls": 26000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Demon of Song Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Demon_of_Song_Soul.webp"
+      },
+      {
+        "name": "Key to the Embedded",
+        "chance": "Guaranteed reward",
+        "icon": "assets/weapons/Key_to_the_Embedded.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Attack the exposed face and arms; the closed shell protects it. Keep space to react to its lunges."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/demon-of-song",
+    "aliases": [],
+    "combat": {
+      "strategy": "Attack the exposed face and arms; the closed shell protects it. Keep space to react to its lunges.",
+      "elemental": {
+        "magic": "Low",
+        "fire": "Med > Very High—",
+        "lightning": "Med > Low",
+        "dark": "Low"
+      },
+      "notes": "Water raises fire defense and lowers lightning defense.",
+      "physical": {
+        "strike": "100%",
+        "thrust": "100%",
+        "slash": "100%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "lost-sinner",
+    "name": "Lost Sinner",
+    "title": "",
+    "image": "assets/bosses/Lost_Sinner.webp",
+    "areas": [
+      "Sinner's Rise"
+    ],
+    "hp": "3,560",
+    "souls": 45000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Soul of the Lost Sinner",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Soul_of_the_Lost_Sinner.webp"
+      },
+      {
+        "name": "Old Witch Soul",
+        "chance": "Bonfire intensity 2+",
+        "icon": "assets/items/Old_Witch_Soul.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Lighting the arena side rooms improves visibility. Keep stamina for dodging and attack after her combinations."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/the-lost-sinner",
+    "aliases": [
+      "The Lost Sinner"
+    ],
+    "combat": {
+      "strategy": "Lighting the arena side rooms improves visibility. Keep stamina for dodging and attack after her combinations.",
+      "elemental": {
+        "magic": "Low",
+        "fire": "High",
+        "lightning": "Med",
+        "dark": "Med"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "100%",
+        "thrust": "100%",
+        "slash": "100%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "old-iron-king",
+    "name": "Old Iron King",
+    "title": "",
+    "image": "assets/bosses/Old_Iron_King.webp",
+    "areas": [
+      "Iron Keep"
+    ],
+    "hp": "6,070",
+    "souls": 48000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "immune"
+    },
+    "drops": [
+      {
+        "name": "Old Iron King Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Old_Iron_King_Soul.webp"
+      },
+      {
+        "name": "Old King Soul",
+        "chance": "Bonfire intensity 2+",
+        "icon": "assets/items/Old_King_Soul.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Protect your position near the arena edge; the small hole is a major hazard. Punish his recovery after hand attacks."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/old-iron-king",
+    "aliases": [],
+    "combat": {
+      "strategy": "Protect your position near the arena edge; the small hole is a major hazard. Punish his recovery after hand attacks.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Extreme",
+        "lightning": "Low",
+        "dark": "Med"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "120%",
+        "thrust": "100%",
+        "slash": "100%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "mytha-the-baneful-queen",
+    "name": "Mytha, the Baneful Queen",
+    "title": "",
+    "image": "assets/bosses/Mytha_the_Baneful_Queen.webp",
+    "areas": [
+      "Earthen Peak"
+    ],
+    "hp": "3,650",
+    "souls": 20000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "immune",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Mytha, the Baneful Queen Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Mytha_the_Baneful_Queen_Soul.webp"
+      },
+      {
+        "name": "Covetous Silver Serpent Ring +2",
+        "chance": "Bonfire intensity 2+",
+        "icon": "assets/items/verified-covetous-silver-serpent-ring.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Burn the windmill near the Earthen Peak bonfire to drain the arena poison. Keep clear of her spear combinations and grab."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/mytha-the-baneful-queen",
+    "aliases": [],
+    "combat": {
+      "strategy": "Burn the windmill near the Earthen Peak bonfire to drain the arena poison. Keep clear of her spear combinations and grab.",
+      "elemental": {
+        "magic": "High",
+        "fire": "Low",
+        "lightning": "High",
+        "dark": "Med"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "110%",
+        "thrust": "120%",
+        "slash": "93%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "the-duke-s-dear-freja",
+    "name": "The Duke's Dear Freja",
+    "title": "",
+    "image": "assets/bosses/The_Duke_s_Dear_Freja.webp",
+    "areas": [
+      "Brightstone Cove Tseldora"
+    ],
+    "hp": "4,220",
+    "souls": 42000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "immune",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Soul of the Duke's Dear Freja",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Soul_of_the_Duke_s_Dear_Freja.webp"
+      },
+      {
+        "name": "Old Paledrake Soul",
+        "chance": "Bonfire intensity 2+",
+        "icon": "assets/items/Old_Paledrake_Soul.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Damage her heads and watch for the sweeping beam. In Scholar of the First Sin, a torch helps keep the small spiders away."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/the-duke-s-dear-freja",
+    "aliases": [],
+    "combat": {
+      "strategy": "Damage her heads and watch for the sweeping beam. In Scholar of the First Sin, a torch helps keep the small spiders away.",
+      "elemental": {
+        "magic": "High",
+        "fire": "Med",
+        "lightning": "High",
+        "dark": "High"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "120%",
+        "thrust": "75%",
+        "slash": "100%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "giant-lord",
+    "name": "Giant Lord",
+    "title": "",
+    "image": "assets/bosses/Giant_Lord.webp",
+    "areas": [
+      "Memory of Jeigh"
+    ],
+    "hp": "5,970",
+    "souls": 75000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Giant Lord Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Giant_Lord_Soul.webp"
+      },
+      {
+        "name": "Giant's Kinship",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Giant_s_Kinship.webp"
+      },
+      {
+        "name": "Ring of Giants +2",
+        "chance": "Bonfire intensity 2+",
+        "icon": "assets/items/verified-ring-of-giants.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Avoid the opening bombardment and falling statue. Stay near his feet while watching for stomps."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/giant-lord",
+    "aliases": [],
+    "combat": {
+      "strategy": "Avoid the opening bombardment and falling statue. Stay near his feet while watching for stomps.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Med",
+        "lightning": "Med",
+        "dark": "Very Low"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "100%",
+        "thrust": "100%",
+        "slash": "100%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "nashandra",
+    "name": "Nashandra",
+    "title": "",
+    "image": "assets/bosses/Nashandra.webp",
+    "areas": [
+      "Throne of Want"
+    ],
+    "hp": "8,770",
+    "souls": 90000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "immune"
+    },
+    "drops": [
+      {
+        "name": "Soul of Nashandra",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Soul_of_Nashandra.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Destroy the curse orbs and keep away from their buildup. Dodge the scythe and beam attacks, then punish recovery."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/nashandra",
+    "aliases": [],
+    "combat": {
+      "strategy": "Destroy the curse orbs and keep away from their buildup. Dodge the scythe and beam attacks, then punish recovery.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Med",
+        "lightning": "Low",
+        "dark": "High"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "110%",
+        "thrust": "100%",
+        "slash": "100%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "guardian-dragon",
+    "name": "Guardian Dragon",
+    "title": "",
+    "image": "assets/bosses/Guardian_Dragon.webp",
+    "areas": [
+      "Aldia's Keep"
+    ],
+    "hp": "5,270",
+    "souls": 37000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Guardian Dragon Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Guardian_Dragon_Soul.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Keep moving when he climbs the cage and breathes fire. Attack during grounded recovery windows."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/guardian-dragon",
+    "aliases": [],
+    "combat": {
+      "strategy": "Keep moving when he climbs the cage and breathes fire. Attack during grounded recovery windows.",
+      "elemental": {
+        "magic": "Very Low",
+        "fire": "High",
+        "lightning": "Med",
+        "dark": "Very Low"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "100%",
+        "thrust": "100%",
+        "slash": "100%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "throne-watcher-and-defender",
+    "name": "Throne Watcher and Defender",
+    "title": "",
+    "image": "assets/bosses/Throne_Watcher_and_Defender.webp",
+    "areas": [
+      "Throne of Want"
+    ],
+    "hp": "Defender: 3,910 Watcher: 2,760",
+    "souls": 68000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Throne Defender Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/throne-defender-soul-reference.png"
+      },
+      {
+        "name": "Throne Watcher Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/throne-watcher-soul-reference.png"
+      },
+      {
+        "name": "Ring of the Evil Eye +2",
+        "chance": "Bonfire intensity 2+",
+        "icon": "assets/items/verified-ring-of-the-evil-eye.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Keep their health totals close: a surviving member can revive the other. Save enough stamina to evade both attack patterns."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/throne-defender-throne-watcher",
+    "aliases": [
+      "Throne Defender & Throne Watcher"
+    ],
+    "combat": {
+      "strategy": "Keep their health totals close: a surviving member can revive the other. Save enough stamina to evade both attack patterns.",
+      "elemental": {
+        "magic": "High /Med",
+        "fire": "Med/Med",
+        "lightning": "Low / Low",
+        "dark": "Med/Med"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "100%",
+        "thrust": "100%",
+        "slash": "100%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "darklurker",
+    "name": "Darklurker",
+    "title": "",
+    "image": "assets/bosses/Darklurker.webp",
+    "areas": [
+      "Dark Chasm of Old"
+    ],
+    "hp": "5,770",
+    "souls": 35000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "immune",
+      "bleed": "immune"
+    },
+    "drops": [
+      {
+        "name": "Darklurker Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Darklurker_Soul.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Lightning is a useful elemental option; dark damage faces high resistance. After the split, keep both copies in sight and avoid overlapping spells."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/darklurker",
+    "aliases": [],
+    "combat": {
+      "strategy": "Lightning is a useful elemental option; dark damage faces high resistance. After the split, keep both copies in sight and avoid overlapping spells.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Med",
+        "lightning": "Low",
+        "dark": "Very High"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "50%",
+        "thrust": "50%",
+        "slash": "50%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "ancient-dragon",
+    "name": "Ancient Dragon",
+    "title": "",
+    "image": "assets/bosses/Ancient_Dragon.webp",
+    "areas": [
+      "Dragon Shrine"
+    ],
+    "hp": "19,840",
+    "souls": 120000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Soul of a Giant",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Soul_of_a_Giant.webp"
+      },
+      {
+        "name": "Petrified Dragon Bone",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Petrified_Dragon_Bone.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Leave enough space to escape the aerial fire attack as soon as he takes off. Avoid committing to long attack combinations."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/ancient-dragon",
+    "aliases": [],
+    "combat": {
+      "strategy": "Leave enough space to escape the aerial fire attack as soon as he takes off. Avoid committing to long attack combinations.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Extreme",
+        "lightning": "Med",
+        "dark": "Med"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "100%",
+        "thrust": "100%",
+        "slash": "100%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "velstadt-the-royal-aegis",
+    "name": "Velstadt, the Royal Aegis",
+    "title": "",
+    "image": "assets/bosses/Velstadt_the_Royal_Aegis.webp",
+    "areas": [
+      "Undead Crypt"
+    ],
+    "hp": "6,290",
+    "souls": 50000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Soul of Velstadt",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/soul-of-velstadt-reference.png"
+      },
+      {
+        "name": "Royal Soldier's Ring +2",
+        "chance": "Bonfire intensity 2+",
+        "icon": "assets/items/verified-royal-soldier-s-ring.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Stay alert for delayed hammer swings and punish the end of combinations. His dark power-up changes the pressure in the second phase."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/velstadt-the-royal-aegis",
+    "aliases": [],
+    "combat": {
+      "strategy": "Stay alert for delayed hammer swings and punish the end of combinations. His dark power-up changes the pressure in the second phase.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Med",
+        "lightning": "Low",
+        "dark": "High"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "110%",
+        "thrust": "93%",
+        "slash": "93%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "vendrick",
+    "name": "Vendrick",
+    "title": "",
+    "image": "assets/bosses/Vendrick.webp",
+    "areas": [
+      "Undead Crypt"
+    ],
+    "hp": "11,450",
+    "souls": 90000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "immune",
+      "bleed": "susceptible"
+    },
+    "drops": [],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Collect Souls of a Giant before fighting him: they reduce his exceptional defense. Stay behind him and avoid getting pinned against the wall."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/vendrick",
+    "aliases": [],
+    "combat": {
+      "strategy": "Collect Souls of a Giant before fighting him: they reduce his exceptional defense. Stay behind him and avoid getting pinned against the wall.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Med",
+        "lightning": "Med",
+        "dark": "High"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "100%",
+        "thrust": "100%",
+        "slash": "100%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "smelter-demon",
+    "name": "Smelter Demon",
+    "title": "",
+    "image": "assets/bosses/Smelter_Demon.webp",
+    "areas": [
+      "Iron Keep"
+    ],
+    "hp": "5,970",
+    "souls": 32000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "immune"
+    },
+    "drops": [
+      {
+        "name": "Smelter Demon Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Smelter_Demon_Soul.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Fire protection becomes more valuable as the fight progresses. Expect delayed sword attacks and leave space after his plunging attack."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/smelter-demon",
+    "aliases": [],
+    "combat": {
+      "strategy": "Fire protection becomes more valuable as the fight progresses. Expect delayed sword attacks and leave space after his plunging attack.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Very High",
+        "lightning": "Med",
+        "dark": "Med"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "110%",
+        "thrust": "93%",
+        "slash": "93%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "fume-knight",
+    "name": "Fume Knight",
+    "title": "",
+    "image": "assets/bosses/Fume_Knight.webp",
+    "areas": [
+      "Brume Tower"
+    ],
+    "hp": "10,100",
+    "souls": 84000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "immune",
+      "toxic": "immune",
+      "bleed": "immune"
+    },
+    "drops": [
+      {
+        "name": "Soul of the Fume Knight",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Soul_of_the_Fume_Knight.webp"
+      },
+      {
+        "name": "Soul of Nadalia, Bride of Ash",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Soul_of_Nadalia_Bride_of_Ash.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Use Smelter Wedges on the nearby Ashen Idols so they cannot heal him. Preserve stamina and watch for delayed swings and the second-phase fire attacks."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/fume-knight",
+    "aliases": [],
+    "combat": {
+      "strategy": "Use Smelter Wedges on the nearby Ashen Idols so they cannot heal him. Preserve stamina and watch for delayed swings and the second-phase fire attacks.",
+      "elemental": {
+        "magic": "High",
+        "fire": "Extreme+",
+        "lightning": "Med+",
+        "dark": "Med+"
+      },
+      "notes": ""
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "sinh-the-slumbering-dragon",
+    "name": "Sinh, the Slumbering Dragon",
+    "title": "",
+    "image": "assets/bosses/Sinh_the_Slumbering_Dragon.webp",
+    "areas": [
+      "Dragon's Rest"
+    ],
+    "hp": "10,030",
+    "souls": 96000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "immune"
+    },
+    "drops": [
+      {
+        "name": "Soul of Sinh, the Slumbering Dragon",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Soul_of_Sinh_the_Slumbering_Dragon.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Bring equipment repair supplies because contact can wear weapons quickly. Watch for toxic fire and wait for safe landing openings."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/sinh-the-slumbering-dragon",
+    "aliases": [],
+    "combat": {
+      "strategy": "Bring equipment repair supplies because contact can wear weapons quickly. Watch for toxic fire and wait for safe landing openings.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "High+",
+        "lightning": "Low",
+        "dark": "Med"
+      },
+      "notes": ""
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "elana-the-squalid-queen",
+    "name": "Elana, the Squalid Queen",
+    "title": "",
+    "image": "assets/bosses/Elana_the_Squalid_Queen.webp",
+    "areas": [
+      "Dragon's Rest"
+    ],
+    "hp": "9,280",
+    "souls": 72000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {
+      "strike": "weak"
+    },
+    "status_effects": {
+      "poison": "immune"
+    },
+    "drops": [
+      {
+        "name": "Soul of Elana, Squalid Queen",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Soul_of_Elana_Squalid_Queen.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Watch for summoned allies and reposition before attacking her. Avoid being caught between her spells and a summoned Velstadt."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/elana-the-squalid-queen",
+    "aliases": [],
+    "combat": {
+      "strategy": "Watch for summoned allies and reposition before attacking her. Avoid being caught between her spells and a summoned Velstadt.",
+      "elemental": {
+        "magic": "Low",
+        "fire": "Med",
+        "lightning": "Med",
+        "dark": "High+"
+      },
+      "notes": ""
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "prowling-magus-and-congregation",
+    "name": "Prowling Magus and Congregation",
+    "title": "",
+    "image": "assets/bosses/Prowling_Magus_and_Congregation.webp",
+    "areas": [
+      "Brightstone Cove Tseldora"
+    ],
+    "hp": "",
+    "souls": 7000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Titanite Slab",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Titanite_Slab.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Thin out the congregation before concentrating on the casters. Watch for spells while moving between enemies."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/prowling-magus-congregation",
+    "aliases": [
+      "Prowling Magus & Congregation"
+    ],
+    "combat": {
+      "strategy": "Thin out the congregation before concentrating on the casters. Watch for spells while moving between enemies.",
+      "elemental": {
+        "magic": "High (Magus)",
+        "fire": "Med (Magus)",
+        "lightning": "Very Low (Magus)",
+        "dark": "High (Magus)"
+      },
+      "notes": "The congregation members have their own defenses; this fight uses normal-enemy tiers.",
+      "physical": {
+        "strike": "-%",
+        "thrust": "-%",
+        "slash": "-%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "sir-alonne",
+    "name": "Sir Alonne",
+    "title": "",
+    "image": "assets/bosses/Sir_Alonne.webp",
+    "areas": [
+      "Memory of the Old Iron King"
+    ],
+    "hp": "10,140",
+    "souls": 80000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {
+      "thrust": "weak"
+    },
+    "status_effects": {
+      "poison": "immune"
+    },
+    "drops": [
+      {
+        "name": "Soul of Sir Alonne",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Soul_of_Sir_Alonne.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Dodge his fast lunges and punish recovery with short attacks. Avoid his impaling attack, which can empower his sword."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/sir-alonne",
+    "aliases": [],
+    "combat": {
+      "strategy": "Dodge his fast lunges and punish recovery with short attacks. Avoid his impaling attack, which can empower his sword.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "High",
+        "lightning": "Med",
+        "dark": "Med"
+      },
+      "notes": ""
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "afflicted-graverobber-ancient-soldier-varg-and-cerah-the-old-explorer",
+    "name": "Afflicted Graverobber, Ancient Soldier Varg, and Cerah the Old Explorer",
+    "title": "",
+    "image": "assets/bosses/Afflicted_Graverobber_Ancient_Soldier_Varg_and_Cerah_the_Old_Explorer.webp",
+    "areas": [
+      "Cave of the Dead"
+    ],
+    "hp": "3,350",
+    "souls": 45000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {},
+    "drops": [
+      {
+        "name": "Twinkling Titanite",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Twinkling_Titanite.webp"
+      },
+      {
+        "name": "Petrified Dragon Bone",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Petrified_Dragon_Bone.webp"
+      },
+      {
+        "name": "Titanite Slab",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Titanite_Slab.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Use the terrain to separate the melee fighters from the archer. Avoid trading attacks with all three at once."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/afflicted-graverobber-ancient-soldier-varg-cerah-the-old-exp",
+    "aliases": [
+      "Afflicted Graverobber, Ancient Soldier Varg & Cerah the Old Explorer"
+    ],
+    "combat": {
+      "strategy": "Use the terrain to separate the melee fighters from the archer. Avoid trading attacks with all three at once.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Med > High",
+        "lightning": "Med > Low",
+        "dark": "Med"
+      },
+      "notes": "Shown tiers apply to Graverobber and Cerah. Varg has High tiers before water effects."
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "smelter-demon-iron-passage",
+    "name": "Smelter Demon (Iron Passage)",
+    "title": "",
+    "image": "assets/bosses/Smelter_Demon_Iron_Passage.webp",
+    "areas": [
+      "Iron Passage"
+    ],
+    "hp": "9,260",
+    "souls": 75000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {
+      "strike": "weak",
+      "slash": "resistant"
+    },
+    "status_effects": {
+      "poison": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Smelter Demon Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Smelter_Demon_Soul.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Prepare magic protection for this blue variant. His delayed sword attacks make early rolls dangerous."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/smelter-demon-iron-king-dlc",
+    "aliases": [
+      "Smelter Demon (Iron King DLC)"
+    ],
+    "combat": {
+      "strategy": "Prepare magic protection for this blue variant. His delayed sword attacks make early rolls dangerous.",
+      "elemental": {
+        "magic": "Extreme",
+        "fire": "High",
+        "lightning": "Med",
+        "dark": "Med"
+      },
+      "notes": ""
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "burnt-ivory-king",
+    "name": "Burnt Ivory King",
+    "title": "",
+    "image": "assets/bosses/Burnt_Ivory_King.webp",
+    "areas": [
+      "The Old Chaos"
+    ],
+    "hp": "8,040",
+    "souls": 92000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {},
+    "drops": [
+      {
+        "name": "Soul of the Ivory King",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Soul_of_the_Ivory_King.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Recruit the Loyce Knights before entering the Old Chaos so they can seal the portals. Clear the opening battle before concentrating on the king."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/burnt-ivory-king",
+    "aliases": [],
+    "combat": {
+      "strategy": "Recruit the Loyce Knights before entering the Old Chaos so they can seal the portals. Clear the opening battle before concentrating on the king.",
+      "elemental": {
+        "magic": "High",
+        "fire": "High",
+        "lightning": "Med",
+        "dark": "High"
+      },
+      "notes": ""
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "aldia-scholar-of-the-first-sin",
+    "name": "Aldia, Scholar of the First Sin",
+    "title": "",
+    "image": "assets/bosses/Aldia_Scholar_of_the_First_Sin.webp",
+    "areas": [
+      "Throne of Want"
+    ],
+    "hp": "6,800",
+    "souls": 0,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "immune"
+    },
+    "drops": [],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Wait for the protective flames to subside before attacking. Reposition when he teleports and avoid the large fire projectiles."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/aldia-scholar-of-the-first-sin",
+    "aliases": [],
+    "combat": {
+      "strategy": "Wait for the protective flames to subside before attacking. Reposition when he teleports and avoid the large fire projectiles.",
+      "elemental": {
+        "magic": "Med+",
+        "fire": "High+",
+        "lightning": "Med",
+        "dark": "High+"
+      },
+      "notes": "Flame shield reduces all damage by 70% (phase 1), 90% (phase 2)",
+      "physical": {
+        "strike": "50%",
+        "thrust": "65%",
+        "slash": "77%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "aava-the-king-s-pet",
+    "name": "Aava, the King's Pet",
+    "title": "",
+    "image": "assets/bosses/Aava_the_King_s_Pet.webp",
+    "areas": [
+      "Frozen Eleum Loyce"
+    ],
+    "hp": "8,930",
+    "souls": 78000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "version dependent"
+    },
+    "drops": [
+      {
+        "name": "Soul of Aava, the King's Pet",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Soul_of_Aava_the_King_s_Pet.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Obtain the Eye of the Priestess before fighting so you can see Aava. Watch for leaping attacks and the delayed magic projectiles."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/aava-the-king-s-pet",
+    "aliases": [],
+    "combat": {
+      "strategy": "Obtain the Eye of the Priestess before fighting so you can see Aava. Watch for leaping attacks and the delayed magic projectiles.",
+      "elemental": {
+        "magic": "Med+",
+        "fire": "Low+",
+        "lightning": "Med",
+        "dark": "Med"
+      },
+      "notes": " Poison immunity differs between original DSII and Scholar of the First Sin."
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "lud-the-king-s-pet-zallen-the-king-s-pet",
+    "name": "Lud, the King's Pet & Zallen, the King's Pet",
+    "title": "",
+    "image": "assets/bosses/Lud_the_King_s_Pet_Zallen_the_King_s_Pet.webp",
+    "areas": [
+      "Frigid Outskirts"
+    ],
+    "hp": "Lud: 5,070 Zallen: 5,070",
+    "souls": 56000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {},
+    "drops": [
+      {
+        "name": "Soul of Lud, the King's Pet",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Soul_of_Lud_the_King_s_Pet.webp"
+      },
+      {
+        "name": "Soul of Zallen, the King's Pet",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Soul_of_Zallen_the_King_s_Pet.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Reduce Lud’s health before Zallen joins and finish one pet quickly. Keep both in sight and watch for the remaining pet’s empowered state."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/lud-the-king-s-pet-zallen-the-king-s-pet",
+    "aliases": [],
+    "combat": {
+      "strategy": "Reduce Lud’s health before Zallen joins and finish one pet quickly. Keep both in sight and watch for the remaining pet’s empowered state.",
+      "elemental": {
+        "magic": "Med+",
+        "fire": "Low+",
+        "lightning": "Med",
+        "dark": "Med"
+      },
+      "notes": ""
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  },
+  {
+    "id": "dragonriders",
+    "name": "Dragonriders",
+    "title": "",
+    "image": "assets/bosses/Dragonrider.webp",
+    "areas": [
+      "Drangleic Castle"
+    ],
+    "hp": "3,670 (melee) / 1,470 (archer)",
+    "souls": 26000,
+    "despawn": "",
+    "respawn": "",
+    "can_parry": null,
+    "can_backstab": false,
+    "weaknesses": {},
+    "status_effects": {
+      "poison": "susceptible",
+      "bleed": "susceptible"
+    },
+    "drops": [
+      {
+        "name": "Dragonrider Soul",
+        "chance": "Guaranteed reward",
+        "icon": "assets/items/Dragonrider_Soul.webp"
+      }
+    ],
+    "farming": {
+      "difficulty": 0,
+      "bonfire": "",
+      "gear": [],
+      "notes": "Focus on the archer first when he joins the floor. Keep both riders in sight and avoid getting trapped between them."
+    },
+    "ai_notes": "",
+    "source_url": "https://darksouls2.wikidot.com/dragonrider",
+    "aliases": [],
+    "combat": {
+      "strategy": "Focus on the archer first when he joins the floor. Keep both riders in sight and avoid getting trapped between them.",
+      "elemental": {
+        "magic": "Med",
+        "fire": "Low",
+        "lightning": "Low",
+        "dark": "Med"
+      },
+      "notes": "",
+      "physical": {
+        "strike": "120%",
+        "thrust": "100%",
+        "slash": "93%"
+      }
+    },
+    "stat_context": "NG / bonfire intensity 1; individual members and encounters may vary."
+  }
+]
