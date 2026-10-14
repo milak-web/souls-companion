@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'">
     <link rel="stylesheet" href="css/local-fonts.css?v=1.9.1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Souls Companion · Dark Souls Guide</title>
     <link rel="stylesheet" href="css/style.css?v=1.9.1">
     <link rel="stylesheet" href="css/ds2-theme.css?v=1.9.1">
     <link rel="stylesheet" href="css/ds1-content.css?v=2.1.0">
-    <link rel="stylesheet" href="css/shell.css?v=2.1.0">
+    <link rel="stylesheet" href="css/shell.css?v=2.2.0">
     <meta name="description" content="Explore Dark Souls I and II, compare equipment, upgrade weapons and plan your character in Souls Companion.">
     <meta name="theme-color" content="#17150f">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -19,11 +19,10 @@
 </head>
 <body class="ds-theme game-menu">
     <div id="app">
+        <button id="menu-backdrop" class="menu-backdrop" type="button" aria-label="Close category menu" hidden></button>
         <!-- Sidebar Navigation -->
         <aside class="sidebar collapsed" id="sidebar">
-            <button class="sidebar-toggle" id="menu-toggle" type="button" aria-label="Toggle category menu" aria-expanded="false">
-                <span class="hamburger">☰</span>
-            </button>
+
             <div class="logo">
                 <div class="brand-title" id="game-title">SOULS</div>
                 <p>COMPANION</p>
@@ -52,6 +51,9 @@
         <!-- Main Content Area -->
         <main class="content-area">
             <header class="top-bar">
+                <button class="sidebar-toggle" id="menu-toggle" type="button" aria-label="Toggle category menu" aria-expanded="false" aria-controls="sidebar">
+                <span class="hamburger">☰</span>
+            </button>
                 <div class="search-container">
                     <span class="search-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.4" y1="15.4" x2="21" y2="21"/></svg></span>
                     <input type="text" id="main-search" placeholder="Search for enemies, items, areas...">
@@ -59,7 +61,7 @@
                 <div class="user-status"><a class="game-switch" href="#view=games">← Games</a><span id="game-label"></span>
                     
                     
-                    <span class="status-indicator"></span> Guide Library
+                    <span class="library-status"><span class="status-indicator"></span> Guide Library</span>
                 </div>
             </header>
 
@@ -70,7 +72,7 @@
     <!-- Modals or Overlays -->
     <div id="modal-container" class="hidden"></div>
 
-    <script src="js/main.js?v=2.1.0" type="module"></script>
+    <script src="js/main.js?v=2.2.0" type="module"></script>
 </body>
 </html>
 

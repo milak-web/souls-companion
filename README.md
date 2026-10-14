@@ -23,7 +23,7 @@ Dark Souls I includes Remastered and Artorias of the Abyss content. Dark Souls I
 
 ## On your phone
 
-Open the live guide in Safari, Chrome, or another modern browser. Use **← Games** to switch games and the menu button to expand categories. You can bookmark the guide or add it to your home screen using your browser’s sharing/menu options.
+Open the live guide in Safari, Chrome, or another modern browser. Use **← Games** to switch games and the menu button to expand categories. Choose **Large**, **Compact**, or **Small** above a catalog to change card size; phone layouts show one, two, or three columns. Your choice stays saved across both games. Open **Filters & sorting** when you need the category controls. You can bookmark the guide or add it to your home screen using your browser’s sharing/menu options.
 
 Favorites, builds, filters, and journal progress are stored in your browser on each device. They do not automatically sync between your computer and phone. Export a build from the character lab to move it between devices. The hosted guide needs internet access to load; its content and images are served from this repository without third-party runtime dependencies.
 

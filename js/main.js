@@ -1,6 +1,20 @@
+import {installGallery} from './gallery.js?v=2.2.0';
 // One application shell and router. Game modules own only their reference data and rules.
 const container = document.getElementById('view-container');
 const sidebar = document.getElementById('sidebar');
+const menuToggle = document.getElementById('menu-toggle');
+const backdrop = document.getElementById('menu-backdrop');
+const mobile = matchMedia('(max-width: 768px)');
+function setMenu(open) {
+    sidebar.classList.toggle('collapsed', !open);
+    menuToggle.setAttribute('aria-expanded', String(open));
+    sidebar.inert = mobile.matches && !open;
+    sidebar.setAttribute('aria-hidden', String(mobile.matches && !open));
+    backdrop.hidden = !mobile.matches || !open;
+}
+mobile.addEventListener('change', () => setMenu(false));
+setMenu(false);
+installGallery(container);
 const nav = sidebar.querySelector('nav ul');
 const search = document.getElementById('main-search');
 const ds2Nav = nav.innerHTML;
@@ -42,6 +56,7 @@ function menu() {
         <p class="hub-note">Your builds, favorites, and journals stay saved on this device for each game.</p></div>`;
 }
 async function show() {
+    if (mobile.matches) setMenu(false);
     const token = ++revision, r = route();
     if (r.game && !['ds1','ds2'].includes(r.game)) {
         location.hash = 'view=games'; return;
@@ -80,10 +95,14 @@ async function show() {
         container.replaceChildren(Object.assign(document.createElement('p'), {textContent: `Could not load the archive: ${error.message}`}));
     }
 }
-function openTab(li) { if (li && activeGame) location.hash = new URLSearchParams({game:activeGame, view:li.dataset.tab}); }
+function openTab(li) { if (li && activeGame) {if (mobile.matches) setMenu(false);location.hash = new URLSearchParams({game:activeGame, view:li.dataset.tab});} }
 nav.addEventListener('click', e => openTab(e.target.closest('[data-tab]')));
 nav.addEventListener('keydown', e => {if (e.key === 'Enter' || e.key === ' ') {e.preventDefault();openTab(e.target.closest('[data-tab]'));}});
-document.getElementById('menu-toggle').addEventListener('click', () => {sidebar.classList.toggle('collapsed');document.getElementById('menu-toggle').setAttribute('aria-expanded', String(!sidebar.classList.contains('collapsed')));});
+menuToggle.addEventListener('click', () => setMenu(sidebar.classList.contains('collapsed')));
+backdrop.addEventListener('click', () => setMenu(false));
+document.addEventListener('keydown', event => {if (event.key === 'Escape' && !sidebar.classList.contains('collapsed')) {setMenu(false);menuToggle.focus();}});
+search.addEventListener('focus', () => {if (mobile.matches) setMenu(false);});
+search.addEventListener('pointerdown', () => {if (mobile.matches) setMenu(false);});
 search.addEventListener('input', async () => {
     const game = activeGame, value = search.value, token = revision;
     if (!game) return;
