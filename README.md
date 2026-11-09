@@ -47,6 +47,8 @@ For data maintenance and verification, see [the tools guide](tools/README.md).
 
 ## References and scope
 
+The DS2 reference review restores skipped enemy stat tables, separates encounter variants and source differences, adds local effects and merchant inventories, and expands the quest tracker. Read the [review and remaining source gaps](docs/DS2_REFERENCE_REVIEW.md) for its exact scope. A missing published parry/backstab flag is not interpreted as immunity, and player invaders do not have one fixed health value.
+
 This is an unofficial fan guide. Dark Souls and its game artwork belong to their respective owners. Reference records retain source credits; the archive draws on community wikis including Wikidot, Fandom, Fextralife, and wiki.gg. Generated illustrations are identified where used and are not original game artwork.
 
 The labs show documented attack ratings, reinforcement values and supported stat effects. Final combat damage depends on the target and the attack; some conditional effects and spell interactions are documented rather than simulated. Check in-game behavior when making a build decision.

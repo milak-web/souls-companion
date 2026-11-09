@@ -38,7 +38,65 @@
     "farming": [],
     "online_method": "Equip the ring and wait for a Blue Sentinel to assist you when invaded.",
     "source_url": "https://darksouls2.wikidot.com/way-of-blue",
-    "join_notes": "Speak to Saulden, the Crestfallen Warrior , at the monument in Majula . Go through his dialogue until he offers the option to join."
+    "join_notes": "Speak to Saulden, the Crestfallen Warrior , at the monument in Majula . Go through his dialogue until he offers the option to join.",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Way_of_the_Blue",
+      "title": "Way of the Blue",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [
+        {
+          "heading": "Ranks",
+          "headers": [
+            "Rank",
+            "Requirement",
+            "Rewards"
+          ],
+          "rows": [
+            [
+              "0",
+              "Initial",
+              "Blue Seal"
+            ],
+            [
+              "1",
+              "Defeat one invading phantom",
+              "Bloodbite Ring"
+            ],
+            [
+              "2",
+              "Defeat 5 invading phantoms",
+              "Hush"
+            ],
+            [
+              "3",
+              "Defeat 10 invading phantoms",
+              "Blue Tearstone Ring"
+            ]
+          ]
+        }
+      ],
+      "mechanics": [
+        "This covenant would reappear in Dark Souls 3 ."
+      ],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Red Soapstone",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Red_Sign_Soapstone"
+        },
+        {
+          "name": "Blue Seal",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Blue_Seal"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Way_of_the_Blue"
+    ],
+    "aliases": [
+      "Way of the Blue"
+    ]
   },
   {
     "id": "heirs_of_the_sun",
@@ -86,7 +144,58 @@
     ],
     "online_method": "Help other players defeat bosses as a gold phantom.",
     "source_url": "https://darksouls2.wikidot.com/heirs-of-the-sun",
-    "join_notes": "In Harvest Valley , take the right path in the area after The Mines bonfire. Cross the bridge over the poison gas and fight the hammer-wielding Undead Steelworker . Before going inside Earthen Peak , venture left down a path. At the end of this path, there will be an altar bathed in sunlight (and an Artificial Undead guarding it). Kneeling at the altar and joining the covenant will grant you the Sun Seal ."
+    "join_notes": "In Harvest Valley , take the right path in the area after The Mines bonfire. Cross the bridge over the poison gas and fight the hammer-wielding Undead Steelworker . Before going inside Earthen Peak , venture left down a path. At the end of this path, there will be an altar bathed in sunlight (and an Artificial Undead guarding it). Kneeling at the altar and joining the covenant will grant you the Sun Seal .",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Heirs_of_the_Sun",
+      "title": "Heirs of the Sun",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [
+        {
+          "heading": "Rank",
+          "headers": [
+            "Rank",
+            "Requirement",
+            "Reward"
+          ],
+          "rows": [
+            [
+              "0",
+              "Initial",
+              "Sun Seal"
+            ],
+            [
+              "1",
+              "10 Sunlight Medals",
+              "Sunlight Parma"
+            ],
+            [
+              "2",
+              "20 Sunlight Medals",
+              "Sun Sword"
+            ],
+            [
+              "3",
+              "30 Sunlight Medals",
+              "Sunlight Spear"
+            ]
+          ]
+        }
+      ],
+      "mechanics": [
+        "Unlike in Dark Souls 1, there is no Faith requirement to join this covenant."
+      ],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Guardian Dragon",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Guardian_Dragon"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Heirs_of_the_Sun"
+    ]
   },
   {
     "id": "blue_sentinels",
@@ -127,7 +236,78 @@
     "farming": [],
     "online_method": "Use the Guardian's Seal to be summoned to help Way of Blue members.",
     "source_url": "https://darksouls2.wikidot.com/blue-sentinels",
-    "join_notes": "To join, you must speak to Blue Sentinel Targray while having at least one Token of Fidelity in your inventory. Targray is located in the Cathedral of Blue after defeating the Old Dragonslayer . Tokens of Fidelity are awarded after successful White Phantom co-op . A single Token of Fidelity can also be found on a secluded platform just outside of the Bridge Approach bonfire in Huntsman's Copse . The tokens may be used at one of the statues in the basement of the cathedral to spar with another member of the Sentinels."
+    "join_notes": "To join, you must speak to Blue Sentinel Targray while having at least one Token of Fidelity in your inventory. Targray is located in the Cathedral of Blue after defeating the Old Dragonslayer . Tokens of Fidelity are awarded after successful White Phantom co-op . A single Token of Fidelity can also be found on a secluded platform just outside of the Bridge Approach bonfire in Huntsman's Copse . The tokens may be used at one of the statues in the basement of the cathedral to spar with another member of the Sentinels.",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Blue_Sentinels",
+      "title": "Blue Sentinels",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [
+        {
+          "heading": "Rank",
+          "headers": [
+            "Rank",
+            "Requirement",
+            "Reward"
+          ],
+          "rows": [
+            [
+              "0",
+              "Initial",
+              "Guardian's Seal"
+            ],
+            [
+              "1",
+              "50 victories",
+              "Spirit Tree Shield , aesthetic blue aura as a Blue phantom"
+            ],
+            [
+              "2",
+              "150 victories",
+              "Wrath of the Gods , aesthetic neon blue glow as a Blue phantom"
+            ],
+            [
+              "3",
+              "500 victories",
+              "Bountiful Sunlight , Targray's Set"
+            ]
+          ]
+        }
+      ],
+      "mechanics": [
+        "This covenant would reappear in Dark Souls 3 ."
+      ],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Blue Sentinel Targray",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Blue_Sentinel_Targray"
+        },
+        {
+          "name": "Way of Blue",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Way_of_the_Blue"
+        },
+        {
+          "name": "Guardian's Seal",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Guardian%27s_Seal"
+        },
+        {
+          "name": "Cracked Blue Eye Orb",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Cracked_Blue_Eye_Orb"
+        },
+        {
+          "name": "Heide's Tower of Flame",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Heide%27s_Tower_of_Flame"
+        },
+        {
+          "name": "Cracked Blue Eye Orbs",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Cracked_Blue_Eye_Orb"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Blue_Sentinels"
+    ]
   },
   {
     "id": "bell_keepers",
@@ -175,7 +355,68 @@
     ],
     "online_method": "Equip the Bell Keeper's Seal to be summoned to invade players in the Belfries.",
     "source_url": "https://darksouls2.wikidot.com/bell-keepers",
-    "join_notes": "Talk to the Belfry Guard in Belfry Luna or Belfry Sol just inside either belfry. He is sitting on a piece of furniture to the right of the entrance."
+    "join_notes": "Talk to the Belfry Guard in Belfry Luna or Belfry Sol just inside either belfry. He is sitting on a piece of furniture to the right of the entrance.",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Bell_Keepers",
+      "title": "Bell Keepers",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [
+        {
+          "heading": "Rank",
+          "headers": [
+            "Rank",
+            "Requirement",
+            "Reward"
+          ],
+          "rows": [
+            [
+              "0",
+              "Initial",
+              "Bell Keeper's Seal , 5 Rusted coins"
+            ],
+            [
+              "1",
+              "Defeat 10 trespassers",
+              "Titanite Slab"
+            ],
+            [
+              "2",
+              "Defeat 30 trespassers",
+              "Hidden Weapon"
+            ],
+            [
+              "3",
+              "Defeat 100 trespassers",
+              "Bell Keeper Set"
+            ]
+          ]
+        }
+      ],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Mad Warrior",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Mad_Warrior"
+        },
+        {
+          "name": "Estus Flask",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Estus_Flask"
+        },
+        {
+          "name": "Dragon Stone Armor",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Dragon_Torso_Stone"
+        },
+        {
+          "name": "Titanite Chunks",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Titanite_Chunk"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Bell_Keepers"
+    ]
   },
   {
     "id": "rat_king",
@@ -223,7 +464,80 @@
     ],
     "online_method": "Force players in your world and defeat them using the area's traps.",
     "source_url": "https://darksouls2.wikidot.com/rat-king-covenant",
-    "join_notes": "Royal Rat Vanguard OR Royal Rat Authority must be killed before joining the covenant. Talk to the the Rat King . He gives the player the Crest of the Rat ring. Wearing this ring in the Grave of Saints and Doors of Pharros automatically summons other players to your world for PvP as a Gray Phantom."
+    "join_notes": "Royal Rat Vanguard OR Royal Rat Authority must be killed before joining the covenant. Talk to the the Rat King . He gives the player the Crest of the Rat ring. Wearing this ring in the Grave of Saints and Doors of Pharros automatically summons other players to your world for PvP as a Gray Phantom.",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Rat_King_Covenant",
+      "title": "Rat King Covenant",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [
+        {
+          "heading": "Rank",
+          "headers": [
+            "Rank",
+            "Requirement",
+            "Reward"
+          ],
+          "rows": [
+            [
+              "0",
+              "Upon entering covenant",
+              "Crest of the Rat"
+            ],
+            [
+              "1",
+              "10 Rat Tails",
+              "10 Small Smooth & Silky Stone"
+            ],
+            [
+              "2",
+              "20 Rat Tails",
+              "10 Smooth & Silky Stone"
+            ],
+            [
+              "3",
+              "35 Rat Tails",
+              "Slumbering Dragoncrest Ring"
+            ]
+          ]
+        }
+      ],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Crest of the Rat",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Crest_of_the_Rat"
+        },
+        {
+          "name": "Pharros' Lockstones",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Pharros%27_Lockstones"
+        },
+        {
+          "name": "Door of Pharros",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Doors_of_Pharros"
+        },
+        {
+          "name": "Grave of Saints",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Grave_of_Saints"
+        },
+        {
+          "name": "Rat Tails",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Rat_Tail"
+        },
+        {
+          "name": "Pharros' Lockstones",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Pharros%27_Lockstone"
+        },
+        {
+          "name": "Old Radiant Lifegems",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Old_Radiant_Lifegem"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Rat_King_Covenant"
+    ]
   },
   {
     "id": "pilgrims_of_dark",
@@ -264,7 +578,53 @@
     "farming": [],
     "online_method": "Single-player focus. Complete all three Dark Chasm of Old dungeons and defeat Darklurker.",
     "source_url": "https://darksouls2.wikidot.com/pilgrims-of-dark",
-    "join_notes": "Talk to Darkdiver Grandahl in all three of his locations and exhaust his dialogue. You can visit him in any order. Black Gulch Drop down near the two worms, you should see a door. In order to open it, drop down again. Continue into the cave to find two Elite Giants , killing them will give you the Forgotten Key to the door. He can be found behind it. Shaded Woods Go right from the Giant Basilisk (after the Shaded Ruins bonfire) until you come to the path to the boss between the two buildings. Instead of going through, look"
+    "join_notes": "Talk to Darkdiver Grandahl in all three of his locations and exhaust his dialogue. You can visit him in any order. Black Gulch Drop down near the two worms, you should see a door. In order to open it, drop down again. Continue into the cave to find two Elite Giants , killing them will give you the Forgotten Key to the door. He can be found behind it. Shaded Woods Go right from the Giant Basilisk (after the Shaded Ruins bonfire) until you come to the path to the boss between the two buildings. Instead of going through, look",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Pilgrims_of_Dark",
+      "title": "Pilgrims of Dark",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [
+        {
+          "heading": "Rank",
+          "headers": [
+            "Rank",
+            "Requirement",
+            "Reward"
+          ],
+          "rows": [
+            [
+              "0",
+              "Initial",
+              "Abyss Seal"
+            ],
+            [
+              "1",
+              "Clear one of the three Abyssal Dungeons (3 locations)",
+              "Resonant Soul (Hex)"
+            ],
+            [
+              "2",
+              "Clear all three Abyssal Dungeons (Also: Light up the fire beacons inside each dungeon)",
+              "Great Resonant Soul ; (Hex)"
+            ],
+            [
+              "3",
+              "Defeat the boss Darklurker",
+              "Climax ; (Hex) ; Xanthous Set ; Unlimited access to Dark Chasm ; Dragon Chime ; (After talking to him)"
+            ]
+          ]
+        }
+      ],
+      "mechanics": [
+        "Teleported from second dungeon, still got rank 2 after completion of all 3."
+      ],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Pilgrims_of_Dark"
+    ]
   },
   {
     "id": "company_of_champions",
@@ -312,7 +672,96 @@
     ],
     "online_method": "N/A - This covenant disables co-op and makes enemies tougher.",
     "source_url": "https://darksouls2.wikidot.com/company-of-champions",
-    "join_notes": ""
+    "join_notes": "",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Company_of_Champions",
+      "title": "Company of Champions",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [
+        {
+          "heading": "Rank",
+          "headers": [
+            "Rank",
+            "Requirement",
+            "Reward"
+          ],
+          "rows": [
+            [
+              "0",
+              "(Initial)",
+              "Champion's Tablet"
+            ],
+            [
+              "1",
+              "Offer 10 Awestones",
+              "Great Magic Weapon"
+            ],
+            [
+              "2",
+              "Offer 25 Awestones",
+              "First Dragon Ring"
+            ],
+            [
+              "3",
+              "Offer 50 Awestones",
+              "Vanquisher's Seal"
+            ]
+          ]
+        }
+      ],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Bell Keeper",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Bell_Keeper"
+        },
+        {
+          "name": "Bowman Guthry",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Bowman_Guthry"
+        },
+        {
+          "name": "Rhoy the Explorer",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Rhoy_the_Explorer"
+        },
+        {
+          "name": "Royal Sorcerer Navlaan",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Royal_Sorcerer_Navlaan"
+        },
+        {
+          "name": "Jester's Robes",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Jester%27s_Robes"
+        },
+        {
+          "name": "Item Discovery",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Item_Discovery"
+        },
+        {
+          "name": "Santier's Spear",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Santier%27s_Spear"
+        },
+        {
+          "name": "twinblade",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Twinblades"
+        },
+        {
+          "name": "curse pots",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Curse_Jar"
+        },
+        {
+          "name": "Iron Arrow",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Iron_Arrow"
+        },
+        {
+          "name": "Dark Orb",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Dark_Orb"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Company_of_Champions"
+    ]
   },
   {
     "id": "brotherhood_of_blood",
@@ -353,7 +802,117 @@
     "farming": [],
     "online_method": "Win duels in the arena or successfully invade players as a red phantom.",
     "source_url": "https://darksouls2.wikidot.com/brotherhood-of-blood",
-    "join_notes": "Defeat the Executioner's Chariot in Undead Purgatory and proceed through the boss fight area. You need to have a Token of Spite in order to join. Talk to Titchy Gren and accept his offer to join the Brotherhood of Blood."
+    "join_notes": "Defeat the Executioner's Chariot in Undead Purgatory and proceed through the boss fight area. You need to have a Token of Spite in order to join. Talk to Titchy Gren and accept his offer to join the Brotherhood of Blood.",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Brotherhood_of_Blood",
+      "title": "Brotherhood of Blood",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [
+        {
+          "heading": "Rank",
+          "headers": [
+            "Rank",
+            "Requirement",
+            "Reward"
+          ],
+          "rows": [
+            [
+              "0",
+              "1 Token of Spite",
+              "Crest of Blood"
+            ],
+            [
+              "1",
+              "50 rank points",
+              "Curved Twinblade ; aesthetic red aura as a dark spirit"
+            ],
+            [
+              "2",
+              "150 rank points",
+              "Crescent Sickle ; aesthetic neon red glow as a dark spirit"
+            ],
+            [
+              "3",
+              "500 rank points",
+              "Great Chaos Fireball , Nahr Alma Set , Scythe of Nahr Alma"
+            ]
+          ]
+        },
+        {
+          "heading": "List of Usable Items in Arena",
+          "headers": [
+            "Useable Items",
+            "Unusable Items"
+          ],
+          "rows": [
+            [
+              "Repair Powder",
+              "Estus Flask"
+            ],
+            [
+              "Firebomb, Black Firebomb",
+              "Amber Herb / Twilight Herb / Wilted Dusk Herb"
+            ],
+            [
+              "Throwing Knives",
+              "Monastery Charm / Dragon Charm"
+            ],
+            [
+              "Witching / Hexing / Lightning / Corrosive / Holy Water Urn",
+              "Divine Blessing"
+            ],
+            [
+              "Poison Moss",
+              "Lifegem"
+            ]
+          ]
+        }
+      ],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Titchy Gren,",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Gren"
+        },
+        {
+          "name": "Amber Herb",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Amber_Herb"
+        },
+        {
+          "name": "Repair Powder",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Repair_Powder"
+        },
+        {
+          "name": "Great Heal",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Great_Heal"
+        },
+        {
+          "name": "Warmth",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Warmth"
+        },
+        {
+          "name": "Ring of Restoration",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Ring_of_Restoration"
+        },
+        {
+          "name": "Loyce Shield",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Loyce_Shield"
+        },
+        {
+          "name": "Crown of the Ivory King",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Crown_of_the_Ivory_King_helm"
+        },
+        {
+          "name": "Butcher's Knife",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Butcher%27s_Knife"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Brotherhood_of_Blood"
+    ]
   },
   {
     "id": "dragon_remnants",
@@ -401,6 +960,59 @@
     ],
     "online_method": "Place your Dragon Eye for 1v1 duels. Winner gets a Dragon Scale.",
     "source_url": "https://darksouls2.wikidot.com/dragon-remnants",
-    "join_notes": "You must acquire the Petrified Egg from the Dragon Shrine . After doing so, give the egg to Magerold of Lanafir , a merchant who resides in Iron Keep ."
+    "join_notes": "You must acquire the Petrified Egg from the Dragon Shrine . After doing so, give the egg to Magerold of Lanafir , a merchant who resides in Iron Keep .",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Dragon_Remnants",
+      "title": "Dragon Remnants",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [
+        {
+          "heading": "Rank",
+          "headers": [
+            "Rank",
+            "Requirement",
+            "Reward"
+          ],
+          "rows": [
+            [
+              "0",
+              "Initial",
+              "Dragon Eye , Ancient Dragon Seal"
+            ],
+            [
+              "1",
+              "10 Dragon Scales",
+              "Dragon Head Stone"
+            ],
+            [
+              "2",
+              "20 Dragon Scales",
+              "Dragon Torso Stone"
+            ],
+            [
+              "3",
+              "30 Dragon Scales",
+              "Black Dragon Greatsword"
+            ]
+          ]
+        }
+      ],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Iron Keep",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Iron_Keep"
+        },
+        {
+          "name": "Petrified Egg",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Petrified_Egg"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Dragon_Remnants"
+    ]
   }
 ]

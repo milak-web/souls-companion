@@ -96,3 +96,34 @@ body #view-container .mobile-filters .catalog-controls,body #view-container .mob
  body #view-container .mobile-filters>summary {display:list-item; min-height:44px; padding:10px 12px; border:1px solid var(--border-color); border-radius:5px; font:14px/1.6 system-ui,sans-serif; color:var(--accent-gold); cursor:pointer;}
 }
 @media(max-width:768px) {body #app .content-area #view-container {padding-left:max(12px,env(safe-area-inset-left)); padding-right:max(12px,env(safe-area-inset-right)); padding-bottom:calc(18px + env(safe-area-inset-bottom));}}
+.wiki-reference-facts {margin:26px 0; padding:20px; border:1px solid var(--border-color); background:var(--bg-card); min-width:0;}
+.wiki-reference-facts h2 {font:24px Cinzel,Georgia,serif; color:var(--accent-gold); margin-bottom:16px;}
+.wiki-reference-facts h3 {font-size:17px; margin:16px 0 10px;}
+.wiki-reference-facts details {border-top:1px solid var(--border-color); margin:14px 0; min-width:0;}
+.wiki-reference-facts summary,.enemy-stat-profiles summary {min-height:44px; padding:12px 0; color:var(--accent-gold); cursor:pointer;}
+.wiki-reference-facts .fact-grid dd {font-size:15px; overflow-wrap:anywhere;}
+.wiki-reference-facts ul {padding-left:22px;}
+.wiki-reference-facts li {margin:9px 0; line-height:1.6;}
+.wiki-reference-facts .table-scroll,.enemy-stat-profiles .table-scroll {max-height:460px; overflow:auto; min-width:0;}
+.wiki-acquisition {margin:18px 0;}
+@media(max-width:768px) {.wiki-reference-facts {padding:14px;} .wiki-reference-facts .ds-table {font-size:12px;} .wiki-reference-facts h2 {font-size:21px;}}
+/* Grid tracks must be allowed to shrink; hiding overflow only clipped the hero. */
+.game-ds2 .detail-header > * {min-width:0;}
+.game-ds2 .enemy-detail .detail-header,.game-ds2 .npc-detail .detail-header {grid-template-columns:minmax(0,1fr) minmax(0,1.5fr);}
+.game-ds2 .detail-title-box h1 {overflow-wrap:anywhere;}
+.game-ds2 .quick-stats {flex-wrap:wrap; gap:12px 20px; align-items:flex-start;}
+.game-ds2 .quick-stats .stat {max-width:100%; flex-wrap:wrap;}
+.game-ds2 .quick-stats > .data-note,.game-ds2 .quick-stats .stat > .data-note {flex-basis:100%;}
+.game-ds2 .quick-stats .stat > .data-note {text-transform:none; letter-spacing:0; line-height:1.5;}
+.game-ds2 .location-tag {max-width:100%; white-space:normal; overflow-wrap:anywhere;}
+@media(max-width:768px) {
+ .game-ds2 .enemy-detail .detail-header,.game-ds2 .npc-detail .detail-header {grid-template-columns:minmax(0,1fr); gap:18px; padding:16px; margin-bottom:22px;}
+ .game-ds2 .enemy-detail .detail-image,.game-ds2 .npc-detail .detail-image {height:180px; display:flex; justify-content:center; align-items:center;}
+ .game-ds2 .enemy-detail .detail-image img,.game-ds2 .npc-detail .detail-image img {width:100%; height:100%; object-fit:contain; border:0;}
+ .game-ds2 .enemy-detail .detail-title-box h1,.game-ds2 .npc-detail .detail-title-box h1 {font-size:clamp(1.5rem,6vw,2rem); line-height:1.35; letter-spacing:.7px;}
+ .game-ds2 .enemy-detail .subtitle {font-size:1rem; margin-bottom:16px;}
+ .game-ds2 .res-item {min-width:0; gap:5px; padding:8px 6px; flex-wrap:wrap;}
+ .game-ds2 .res-item .status-label {margin-right:0; overflow-wrap:anywhere;}
+ .game-ds2 .detail-grid {grid-template-columns:minmax(0,1fr); gap:18px;}
+ .game-ds2 .detail-grid section {padding:16px;}
+}

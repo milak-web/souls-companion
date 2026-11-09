@@ -71,6 +71,24 @@
           }
         ]
       }
+    ],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Majula",
+      "title": "Majula",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Sin",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Sin"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Majula"
     ]
   },
   {
@@ -180,7 +198,20 @@
       }
     ],
     "bonfire_video": "https://www.youtube.com/watch?v=fHkXSLde_Hs",
-    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Forest_of_Fallen_Giants",
+      "title": "Forest of Fallen Giants",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Forest_of_Fallen_Giants"
+    ]
   },
   {
     "id": "heides_tower_of_flame",
@@ -199,7 +230,7 @@
       "Executioner Phantom",
       "Sentinel Phantom",
       "Heide Knight",
-      "Guardian Dragon"
+      "Guardian Dragon (field encounters)"
     ],
     "npcs": [
       "Licia of Lindeldt",
@@ -241,7 +272,20 @@
       }
     ],
     "bonfire_video": "https://www.youtube.com/watch?v=nEQbov82x9Q",
-    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Heide%27s_Tower_of_Flame",
+      "title": "Heide's Tower of Flame",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Heide%27s_Tower_of_Flame"
+    ]
   },
   {
     "id": "lost_bastille",
@@ -337,7 +381,20 @@
       }
     ],
     "bonfire_video": "https://www.youtube.com/watch?v=iUVp7KGTpq4",
-    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/The_Lost_Bastille",
+      "title": "The Lost Bastille",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/The_Lost_Bastille"
+    ]
   },
   {
     "id": "no_mans_wharf",
@@ -399,6 +456,19 @@
         "source_url": "https://darksouls2.wikidot.com/no-man-s-wharf",
         "screenshots": []
       }
+    ],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/No-man%27s_Wharf",
+      "title": "No-man's Wharf",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/No-man%27s_Wharf"
     ]
   },
   {
@@ -458,6 +528,19 @@
         "source_url": "https://darksouls2.wikidot.com/things-betwixt",
         "screenshots": []
       }
+    ],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Things_Betwixt",
+      "title": "Things Betwixt",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Things_Betwixt"
     ]
   },
   {
@@ -537,7 +620,20 @@
       }
     ],
     "bonfire_video": "https://www.youtube.com/watch?v=CcMDhtGSf0A",
-    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Huntsman%27s_Copse",
+      "title": "Huntsman's Copse",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Huntsman%27s_Copse"
+    ]
   },
   {
     "id": "undead-purgatory",
@@ -581,6 +677,19 @@
         "source_url": "https://darksouls2.wikidot.com/undead-purgatory",
         "screenshots": []
       }
+    ],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Undead_Purgatory",
+      "title": "Undead Purgatory",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Undead_Purgatory"
     ]
   },
   {
@@ -620,6 +729,19 @@
         "source_url": "https://darksouls2.wikidot.com/cathedral-of-blue",
         "screenshots": []
       }
+    ],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Cathedral_of_Blue",
+      "title": "Cathedral of Blue",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Cathedral_of_Blue"
     ]
   },
   {
@@ -672,6 +794,19 @@
         "source_url": "https://darksouls2.wikidot.com/sinner-s-rise",
         "screenshots": []
       }
+    ],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Sinners%27_Rise",
+      "title": "Sinners' Rise",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Sinners%27_Rise"
     ]
   },
   {
@@ -765,7 +900,20 @@
       }
     ],
     "bonfire_video": "https://www.youtube.com/watch?v=4Ey8rBqLYZk",
-    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Shaded_Woods",
+      "title": "Shaded Woods",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Shaded_Woods"
+    ]
   },
   {
     "id": "earthen-peak",
@@ -844,7 +992,20 @@
       }
     ],
     "bonfire_video": "https://www.youtube.com/watch?v=Njm8_1bOjxs",
-    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Earthen_Peak",
+      "title": "Earthen Peak",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Earthen_Peak"
+    ]
   },
   {
     "id": "harvest-valley",
@@ -906,7 +1067,37 @@
       }
     ],
     "bonfire_video": "https://www.youtube.com/watch?v=Njm8_1bOjxs",
-    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Harvest_Valley",
+      "title": "Harvest Valley",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Skeleton Lords",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Skeleton_Lords"
+        },
+        {
+          "name": "Huntsman's Copse",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Huntsman%27s_Copse"
+        },
+        {
+          "name": "Stone Trader Chloanne",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Stone_Trader_Chloanne"
+        },
+        {
+          "name": "Majula",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Majula"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Harvest_Valley"
+    ]
   },
   {
     "id": "brightstone-cove-tseldora",
@@ -1001,7 +1192,118 @@
       }
     ],
     "bonfire_video": "https://www.youtube.com/watch?v=kqDbmL0Rpuk",
-    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Brightstone_Cove_Tseldora",
+      "title": "Brightstone Cove Tseldora",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [
+        {
+          "name": "Doors of Pharros",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Doors_of_Pharros"
+        },
+        {
+          "name": "Radiant Lifegem",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Radiant_Lifegem"
+        },
+        {
+          "name": "Hollow Peasants",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Hollow_Peasant"
+        },
+        {
+          "name": "Hollow Falconers",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Falconer"
+        },
+        {
+          "name": "Undead Devourers",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Undead_Devourer"
+        },
+        {
+          "name": "Majula",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Majula"
+        },
+        {
+          "name": "Dark",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Upgrades"
+        },
+        {
+          "name": "Soul of a Nameless Soldier",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Soul_of_a_Nameless_Soldier"
+        },
+        {
+          "name": "Large Soul of a Proud Knight",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Large_Soul_of_a_Proud_Knight"
+        },
+        {
+          "name": "Falconers",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Falconer"
+        },
+        {
+          "name": "Pigs",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Undead_Devourer"
+        },
+        {
+          "name": "Lacerating Arrows",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Lacerating_Arrow"
+        },
+        {
+          "name": "Large Soul of a Nameless Soldier",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Large_Soul_of_a_Nameless_Soldier"
+        },
+        {
+          "name": "Titanite Shard",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Titanite_Shard"
+        },
+        {
+          "name": "Holy Water Urn",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Holy_Water_Urn"
+        },
+        {
+          "name": "Pig",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Undead_Devourer"
+        },
+        {
+          "name": "Mimic",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Mimic"
+        },
+        {
+          "name": "Dark Leggings",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Dark_Armor"
+        },
+        {
+          "name": "Staff of Wisdom",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Staff_of_Wisdom"
+        }
+      ],
+      "related": [
+        {
+          "name": "Pickaxe",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Pickaxe"
+        },
+        {
+          "name": "The Duke's Dear Freja",
+          "source_url": "https://darksouls2.wiki.fextralife.com/The_Duke%27s_Dear_Freja"
+        },
+        {
+          "name": "The Duke's Dear Frejawill",
+          "source_url": "https://darksouls2.wiki.fextralife.com/The_Duke%27s_Dear_Freja"
+        },
+        {
+          "name": "Heavy Bolt",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Heavy_Bolt"
+        },
+        {
+          "name": "Magic Bol",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Magic_Bolt"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Brightstone_Cove_Tseldora"
+    ]
   },
   {
     "id": "grave-of-saints",
@@ -1061,7 +1363,45 @@
       }
     ],
     "bonfire_video": "https://www.youtube.com/watch?v=n7wLGtNIE6A",
-    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Grave_of_Saints",
+      "title": "Grave of Saints",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Rat Covenant",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Rat_King_Covenant"
+        },
+        {
+          "name": "Doors of Pharros",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Doors_of_Pharros"
+        },
+        {
+          "name": "Royal Rat Authority",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Royal_Rat_Authority"
+        },
+        {
+          "name": "Bonfire Ascetic",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Bonfire_Ascetic"
+        },
+        {
+          "name": "Rhoy the Explorer",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Rhoy_the_Explorer"
+        },
+        {
+          "name": "Awestones",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Awestone"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Grave_of_Saints"
+    ]
   },
   {
     "id": "belfry-luna",
@@ -1108,6 +1448,32 @@
         "source_url": "https://darksouls2.wikidot.com/belfry-luna",
         "screenshots": []
       }
+    ],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Belfry_Luna",
+      "title": "Belfry Luna",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Bell Keepers covenant",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Bell_Keepers"
+        },
+        {
+          "name": "Human Effigy",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Human_Effigy"
+        },
+        {
+          "name": "Bone of Order",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Bone_of_Order"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Belfry_Luna"
     ]
   },
   {
@@ -1183,7 +1549,37 @@
       }
     ],
     "bonfire_video": "https://www.youtube.com/watch?v=jpGw41qSTAo",
-    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Iron_Keep",
+      "title": "Iron Keep",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Fencer Sharron",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Fencer_Sharron"
+        },
+        {
+          "name": "Armorer Dennis",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Armorer_Dennis"
+        },
+        {
+          "name": "Alonne Knight Captains",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Alonne_Knight_Captain"
+        },
+        {
+          "name": "Ironclad Soldiers",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Ironclad_Soldier"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Iron_Keep"
+    ]
   },
   {
     "id": "doors-of-pharros",
@@ -1240,7 +1636,25 @@
       }
     ],
     "bonfire_video": "https://www.youtube.com/watch?v=4Ey8rBqLYZk",
-    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Doors_of_Pharros",
+      "title": "Doors of Pharros",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Pharros' Lockstone",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Pharros%27_Lockstone"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Doors_of_Pharros"
+    ]
   },
   {
     "id": "the-gutter",
@@ -1309,7 +1723,20 @@
       }
     ],
     "bonfire_video": "https://www.youtube.com/watch?v=i8UTGPkj8Kk",
-    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/The_Gutter",
+      "title": "The Gutter",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/The_Gutter"
+    ]
   },
   {
     "id": "belfry-sol",
@@ -1354,6 +1781,36 @@
         "source_url": "https://darksouls2.wikidot.com/belfry-sol",
         "screenshots": []
       }
+    ],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Belfry_Sol",
+      "title": "Belfry Sol",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Mad Warrior",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Mad_Warrior"
+        },
+        {
+          "name": "Mad Warrior Set",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Mad_Warrior_Set"
+        },
+        {
+          "name": "Berserker Blade",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Berserker_Blade"
+        },
+        {
+          "name": "Bell Keeper",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Bell_Keepers"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Belfry_Sol"
     ]
   },
   {
@@ -1415,7 +1872,94 @@
       }
     ],
     "bonfire_video": "https://www.youtube.com/watch?v=i8UTGPkj8Kk",
-    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Black_Gulch",
+      "title": "Black Gulch",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [
+        {
+          "name": "Great Giant Warrior",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Great_Giant_Warrior"
+        },
+        {
+          "name": "Giants",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Great_Giant_Warrior"
+        },
+        {
+          "name": "Dragonrider Bow",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Dragonrider_Bow"
+        },
+        {
+          "name": "Dark Fog",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Dark_Fog"
+        },
+        {
+          "name": "Soul of a Giant",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Soul_of_a_Giant"
+        },
+        {
+          "name": "Forgotten Key",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Forgotten_Key"
+        },
+        {
+          "name": "Ring of Giants",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Ring_of_Giants"
+        },
+        {
+          "name": "Petrified Dragon Bone",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Petrified_Dragon_Bone"
+        }
+      ],
+      "related": [
+        {
+          "name": "Darksuckers",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Darksucker"
+        },
+        {
+          "name": "Forgotten Key",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Forgotten_Key"
+        },
+        {
+          "name": "The Gutter",
+          "source_url": "https://darksouls2.wiki.fextralife.com/The_Gutter"
+        },
+        {
+          "name": "Havel's Armor Set",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Havel%27s_Armor_Set"
+        },
+        {
+          "name": "Majula",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Majula"
+        },
+        {
+          "name": "Soul Vortex",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Soul_Vortex"
+        },
+        {
+          "name": "Witchtree Branch",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Witchtree_Branch"
+        },
+        {
+          "name": "Witchtree Bellvine",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Witchtree_Bellvine"
+        },
+        {
+          "name": "Great Lightning Spear",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Great_Lightning_Spear"
+        },
+        {
+          "name": "Dragon Talon",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Dragon_Talon"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Black_Gulch"
+    ]
   },
   {
     "id": "shrine-of-amana",
@@ -1506,7 +2050,20 @@
       }
     ],
     "bonfire_video": "https://www.youtube.com/watch?v=K5JVw6Ws7uc",
-    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Shrine_of_Amana",
+      "title": "Shrine of Amana",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Shrine_of_Amana"
+    ]
   },
   {
     "id": "drangleic-castle",
@@ -1602,7 +2159,45 @@
       }
     ],
     "bonfire_video": "https://www.youtube.com/watch?v=6gQzgZNlbmY",
-    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Drangleic_Castle",
+      "title": "Drangleic Castle",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Great Magic Barrier",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Great_Magic_Barrier"
+        },
+        {
+          "name": "Old Radiant Lifegem",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Old_Radiant_Lifegem"
+        },
+        {
+          "name": "Monastery Charm",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Monastery_Charm"
+        },
+        {
+          "name": "Soul of a Hero",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Soul_of_a_Hero"
+        },
+        {
+          "name": "Bonfire Ascetic",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Bonfire_Ascetic"
+        },
+        {
+          "name": "King's Passage",
+          "source_url": "https://darksouls2.wiki.fextralife.com/King%27s_Passage"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Drangleic_Castle"
+    ]
   },
   {
     "id": "dragon-aerie",
@@ -1614,11 +2209,11 @@
     ],
     "bosses": [],
     "enemies": [
-      "Guardian Dragon",
       "Crystal Lizard",
       "Undead Citizen",
       "Royal Sorcerer Navlaan",
-      "Fencer Sharron"
+      "Fencer Sharron",
+      "Guardian Dragon (field encounters)"
     ],
     "npcs": [
       "Emerald Herald"
@@ -1650,6 +2245,36 @@
         "source_url": "https://darksouls2.wikidot.com/dragon-aerie",
         "screenshots": []
       }
+    ],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Dragon_Aerie",
+      "title": "Dragon Aerie",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Rupturing Hollow",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Rupturing_Hollow"
+        },
+        {
+          "name": "Elizabeth Mushroom",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Elizabeth_Mushroom"
+        },
+        {
+          "name": "Shrine of Dragon",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Dragon_Shrine"
+        },
+        {
+          "name": "Dragon Shrine",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Dragon_Shrine"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Dragon_Aerie"
     ]
   },
   {
@@ -1724,7 +2349,29 @@
       }
     ],
     "bonfire_video": "https://www.youtube.com/watch?v=ILFLbH_f02E",
-    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Aldia%27s_Keep",
+      "title": "Aldia's Keep",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Dragon Acolytes",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Dragon_Acolyte"
+        },
+        {
+          "name": "Petrified Dragon Bones",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Petrified_Dragon_Bone"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Aldia%27s_Keep"
+    ]
   },
   {
     "id": "dragon-shrine",
@@ -1783,6 +2430,19 @@
         "landmark": "",
         "notes": ""
       }
+    ],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Dragon_Shrine",
+      "title": "Dragon Shrine",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Dragon_Shrine"
     ]
   },
   {
@@ -1816,7 +2476,62 @@
     "overview_notes": "Opens after the Four Primal Bonfires are lit.",
     "region": "Drangleic",
     "version_notes": "Heide Knight Royal Swordsman Crystal Lizard",
-    "bonfire_details": []
+    "bonfire_details": [],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Shrine_of_Winter",
+      "title": "Shrine of Winter",
+      "checked_on": "2026-10-16",
+      "properties": [
+        {
+          "heading": "Access",
+          "facts": [
+            {
+              "label": "NewGame State",
+              "value": "Souls Required"
+            },
+            {
+              "label": "NewGame",
+              "value": "1,000,000"
+            },
+            {
+              "label": "NewGame+",
+              "value": "2,000,000"
+            },
+            {
+              "label": "NewGame++",
+              "value": "3,000,000"
+            },
+            {
+              "label": "NewGame+++",
+              "value": "4,000,000"
+            },
+            {
+              "label": "NewGame+4",
+              "value": "5,000,000"
+            },
+            {
+              "label": "NewGame+5",
+              "value": "6,000,000"
+            },
+            {
+              "label": "NewGame+6",
+              "value": "7,000,000"
+            },
+            {
+              "label": "NewGame+7(cap)",
+              "value": "8,000,000"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Shrine_of_Winter"
+    ]
   },
   {
     "id": "throne-of-want",
@@ -1841,7 +2556,41 @@
     "mini_bosses": [],
     "overview_notes": "Requires King's Ring to access Final boss available after acquiring Giant's Kinship",
     "region": "Drangleic",
-    "bonfire_details": []
+    "bonfire_details": [],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Throne_of_Want",
+      "title": "Throne of Want",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Giant Lord",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Giant_Lord"
+        },
+        {
+          "name": "Giant Lord Soul",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Giant_Lord_Soul"
+        },
+        {
+          "name": "Giant's Kinship",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Giant%27s_Kinship"
+        },
+        {
+          "name": "Aged Feather",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Aged_Feather"
+        },
+        {
+          "name": "Want ps3",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Want_ps3"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Throne_of_Want"
+    ]
   },
   {
     "id": "memory-of-jeigh",
@@ -1873,7 +2622,56 @@
     "overview_notes": "Your visit here has a time limit",
     "region": "Drangleic",
     "version_notes": "Royal Soldier Elite Giant",
-    "bonfire_details": []
+    "bonfire_details": [],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Memory_of_Jeigh",
+      "title": "Memory of Jeigh",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [
+        "Roughly 955 damage under 65int+faith and Dark Caitha's Chime.",
+        "If you do it by yourself, you get roughly 540,000+ souls."
+      ],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Great Resonant Soul",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Great_Resonant_Soul"
+        },
+        {
+          "name": "Long Bow",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Long_Bow"
+        },
+        {
+          "name": "Hawk Ring",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Hawk_Ring"
+        },
+        {
+          "name": "Royal Sorcerer Navlaan",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Royal_Sorcerer_Navlaan"
+        },
+        {
+          "name": "Awestone",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Awestone"
+        },
+        {
+          "name": "Havel's Set",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Havel%27s_Set"
+        },
+        {
+          "name": "Captain Drummond",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Captain_Drummond"
+        },
+        {
+          "name": "Benhart of Jugo",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Benhart_of_Jugo"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Memory_of_Jeigh"
+    ]
   },
   {
     "id": "lord-s-private-chamber",
@@ -1900,7 +2698,20 @@
     "overview_notes": "Primal Bonfire Location",
     "region": "Drangleic",
     "version_notes": "Duke Tseldora Vengarl's Body",
-    "bonfire_details": []
+    "bonfire_details": [],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Lord%27s_Private_Chamber",
+      "title": "Lord's Private Chamber",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Lord%27s_Private_Chamber"
+    ]
   },
   {
     "id": "undead-crypt",
@@ -1969,7 +2780,39 @@
       }
     ],
     "bonfire_video": "https://www.youtube.com/watch?v=K5JVw6Ws7uc",
-    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487"
+    "bonfire_video_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2108626487",
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Undead_Crypt",
+      "title": "Undead Crypt",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [
+        "You can stand in the boss room and pick off the respawning Leydia Pyromancers for 750 souls each."
+      ],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "King's Ring",
+          "source_url": "https://darksouls2.wiki.fextralife.com/King%27s_Ring"
+        },
+        {
+          "name": "Darkdrift",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Darkdrift"
+        },
+        {
+          "name": "Agdayne's armor",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Agdayne%27s_Set"
+        },
+        {
+          "name": "Imperious Knights",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Undead_Crypt_Knight"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Undead_Crypt"
+    ]
   },
   {
     "id": "dark-chasm-of-old",
@@ -2004,7 +2847,25 @@
     "overview_notes": "Only accessible through the Pilgrims of Dark covenant",
     "region": "Drangleic",
     "version_notes": "Forest Spirit Roaming Soul Abyss Ironclad Roaming Soul Pretender to the Xanthous Throne Roaming Soul Tenebrous Rogue Roaming Soul Underworld Deadeye Roaming Soul Shadowveil Assasin Roaming Soul The Ghost of Princes Past Roaming Soul A Chip Off the Ol' Rock",
-    "bonfire_details": []
+    "bonfire_details": [],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Dark_Chasm_of_Old",
+      "title": "Dark Chasm of Old",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Bonfire Ascetics",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Bonfire_Ascetic"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Dark_Chasm_of_Old"
+    ]
   },
   {
     "id": "dragon-memories",
@@ -2025,7 +2886,25 @@
     "mini_bosses": [],
     "overview_notes": "Your visit here has a time limit",
     "region": "Drangleic",
-    "bonfire_details": []
+    "bonfire_details": [],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Dragon_Memories",
+      "title": "Dragon Memories",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Curved Dragon Greatsword",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Curved_Dragon_Greatsword"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Dragon_Memories"
+    ]
   },
   {
     "id": "memory-of-vammar",
@@ -2060,7 +2939,25 @@
     "overview_notes": "Your visit here has a time limit",
     "region": "Drangleic",
     "version_notes": "Royal Soldier Giant Elite Giant",
-    "bonfire_details": []
+    "bonfire_details": [],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Memory_of_Vammar",
+      "title": "Memory of Vammar",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Club Giant",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Giant_Warrior_Club"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Memory_of_Vammar"
+    ]
   },
   {
     "id": "memory-of-the-king",
@@ -2084,7 +2981,20 @@
     "overview_notes": "Your visit here has a time limit. Vendrick is an NPC. Requires Crown of the Sunken King DLC",
     "region": "Drangleic",
     "version_notes": "None",
-    "bonfire_details": []
+    "bonfire_details": [],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Memory_of_the_King",
+      "title": "Memory of the King",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Memory_of_the_King"
+    ]
   },
   {
     "id": "memory-of-orro",
@@ -2119,7 +3029,20 @@
     "overview_notes": "Your visit here has a time limit",
     "region": "Drangleic",
     "version_notes": "Royal Soldier Royal Infantry Giant Elite Giant",
-    "bonfire_details": []
+    "bonfire_details": [],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Memory_of_Orro",
+      "title": "Memory of Orro",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Memory_of_Orro"
+    ]
   },
   {
     "id": "shulva-sanctum-city",
@@ -2185,6 +3108,24 @@
         "source_url": "https://darksouls2.wikidot.com/shulva-sanctum-city",
         "screenshots": []
       }
+    ],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Shulva_-_Sanctum_City",
+      "title": "Shulva - Sanctum City",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Poison Statue Cluster",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Poison_Statue_Cluster"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Shulva_-_Sanctum_City"
     ]
   },
   {
@@ -2231,6 +3172,19 @@
         "source_url": "https://darksouls2.wikidot.com/dragon-s-rest",
         "screenshots": []
       }
+    ],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Dragon%27s_Rest",
+      "title": "Dragon's Rest",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Dragon%27s_Rest"
     ]
   },
   {
@@ -2303,6 +3257,24 @@
         "source_url": "https://darksouls2.wikidot.com/dragon-s-sanctum",
         "screenshots": []
       }
+    ],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Dragon%27s_Sanctum",
+      "title": "Dragon's Sanctum",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Sanctum Soldiers",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Sanctum_Soldier"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Dragon%27s_Sanctum"
     ]
   },
   {
@@ -2349,6 +3321,19 @@
         "source_url": "https://darksouls2.wikidot.com/iron-passage",
         "screenshots": []
       }
+    ],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Iron_Passage",
+      "title": "Iron Passage",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Iron_Passage"
     ]
   },
   {
@@ -2384,7 +3369,20 @@
     "overview_notes": "Crown of the Old Iron King DLC",
     "region": "DLC",
     "version_notes": "Flame Salamander Alonne Knight Alonne Knight Captain",
-    "bonfire_details": []
+    "bonfire_details": [],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Memory_of_the_Old_Iron_King",
+      "title": "Memory of the Old Iron King",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Memory_of_the_Old_Iron_King"
+    ]
   },
   {
     "id": "brume-tower",
@@ -2479,6 +3477,19 @@
         "source_url": "https://darksouls2.wikidot.com/brume-tower",
         "screenshots": []
       }
+    ],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Brume_Tower",
+      "title": "Brume Tower",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Brume_Tower"
     ]
   },
   {
@@ -2513,7 +3524,29 @@
     "overview_notes": "Crown of the Sunken King DLC",
     "region": "DLC",
     "version_notes": "Sanctum Soldier Razorback Nightcrawler Petrifying Statue Cluster",
-    "bonfire_details": []
+    "bonfire_details": [],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Cave_of_the_Dead",
+      "title": "Cave of the Dead",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Petrifying Statue Clusters",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Petrifying_Statue_Cluster"
+        },
+        {
+          "name": "Promised Walk of Peace",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Promised_Walk_of_Peace"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Cave_of_the_Dead"
+    ]
   },
   {
     "id": "frigid-outskirts",
@@ -2549,7 +3582,31 @@
     "overview_notes": "Crown of the Ivory King DLC",
     "region": "DLC",
     "version_notes": "Ice Stallion Exiled Brave Undead Laborer Rampart Golem",
-    "bonfire_details": []
+    "bonfire_details": [],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Frigid_Outskirts",
+      "title": "Frigid Outskirts",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [
+        "The horses have a small chance (like 5%) of dropping a Petrified Dragon Bone."
+      ],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Garrison Ward Key",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Garrison_Ward_Key"
+        },
+        {
+          "name": "Expulsion Chamber bonfire",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Bonfires"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Frigid_Outskirts"
+    ]
   },
   {
     "id": "frozen-eleum-loyce",
@@ -2648,6 +3705,19 @@
         "source_url": "https://darksouls2.wikidot.com/frozen-eleum-loyce",
         "screenshots": []
       }
+    ],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Frozen_Eleum_Loyce",
+      "title": "Frozen Eleum Loyce",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Frozen_Eleum_Loyce"
     ]
   },
   {
@@ -2678,7 +3748,20 @@
     "overview_notes": "Crown of the Ivory King DLC",
     "region": "DLC",
     "version_notes": "Charred Loyce Knights",
-    "bonfire_details": []
+    "bonfire_details": [],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/The_Old_Chaos",
+      "title": "The Old Chaos",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/The_Old_Chaos"
+    ]
   },
   {
     "id": "grand-cathedral",
@@ -2717,6 +3800,19 @@
         "source_url": "https://darksouls2.wikidot.com/grand-cathedral",
         "screenshots": []
       }
+    ],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/Grand_Cathedral",
+      "title": "Grand Cathedral",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/Grand_Cathedral"
     ]
   },
   {
@@ -2749,7 +3845,20 @@
     "overview_notes": "Players can be summoned by Looking Glass Knight Candles indicate if online. Candles increase every death to Looking Glass Knight",
     "region": "Drangleic",
     "version_notes": "Stone Knight Royal Guard",
-    "bonfire_details": []
+    "bonfire_details": [],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/King%27s_Passage",
+      "title": "King's Passage",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": []
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/King%27s_Passage"
+    ]
   },
   {
     "id": "the-pit",
@@ -2781,6 +3890,24 @@
     "overview_notes": "Forgotten Key door Not official location",
     "region": "Drangleic",
     "version_notes": "None",
-    "bonfire_details": []
+    "bonfire_details": [],
+    "wiki_reference": {
+      "source_url": "https://darksouls2.wiki.fextralife.com/The_Pit",
+      "title": "The Pit",
+      "checked_on": "2026-10-16",
+      "properties": [],
+      "tables": [],
+      "mechanics": [],
+      "acquisition": [],
+      "related": [
+        {
+          "name": "Fall Control",
+          "source_url": "https://darksouls2.wiki.fextralife.com/Fall_Control"
+        }
+      ]
+    },
+    "additional_sources": [
+      "https://darksouls2.wiki.fextralife.com/The_Pit"
+    ]
   }
 ]

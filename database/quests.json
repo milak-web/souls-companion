@@ -1,137 +1,410 @@
 [
-    {
-        "id": "lucatiel",
-        "name": "Lucatiel of Mirrah",
-        "image": "assets/ui/menu-key-items.webp",
-        "steps": [
-            {
-                "location": "No-man's Wharf",
-                "action": "Talk to her at the bonfire.",
-                "done": false
-            },
-            {
-                "location": "Lost Bastille",
-                "action": "Talk to her in the tower near McDuff.",
-                "done": false
-            },
-            {
-                "location": "Earthen Peak",
-                "action": "Talk to her near the lower bonfire.",
-                "done": false
-            },
-            {
-                "location": "Black Gulch",
-                "action": "Find her on a hidden ledge and talk.",
-                "done": false
-            },
-            {
-                "location": "Aldia's Keep",
-                "action": "Talk to her at the first bonfire (Final step).",
-                "done": false
-            }
-        ],
-        "reward": "Lucatiel's Set + Mirrah Greatsword",
-        "missable": true,
-        "notes": "You must summon her for 3 boss fights and she must survive to get the reward."
-    },
-    {
-        "id": "benhart",
-        "name": "Benhart of Jugo",
-        "image": "assets/npcs/Benhart_of_Jugo.webp",
-        "steps": [
-            {
-                "location": "Majula",
-                "action": "Talk to him near the entrance to Shaded Woods.",
-                "done": false
-            },
-            {
-                "location": "Shaded Woods",
-                "action": "Talk to him after unpetrifying Rosabeth.",
-                "done": false
-            },
-            {
-                "location": "Drangleic Castle",
-                "action": "Talk to him at the Central Castle bonfire.",
-                "done": false
-            },
-            {
-                "location": "Memory of Orro",
-                "action": "Talk to him after the boss fight (Final step).",
-                "done": false
-            }
-        ],
-        "reward": "Bluemoont Greatsword",
-        "missable": true,
-        "notes": "Like Lucatiel, he must survive 3 boss fights as a summon."
-    },
-    {
-        "id": "pate",
-        "name": "Mild-Mannered Pate",
-        "image": "assets/npcs/Mild_Mannered_Pate.webp",
-        "steps": [
-            {
-                "location": "Forest of Fallen Giants",
-                "action": "Talk to him, go through the gate trap, and talk again.",
-                "done": false
-            },
-            {
-                "location": "Earthen Peak",
-                "action": "Talk to him near the central bonfire.",
-                "done": false
-            },
-            {
-                "location": "Brightstone Cove",
-                "action": "Witness the showdown between him and Creighton.",
-                "done": false
-            }
-        ],
-        "reward": "Pate's Spear + Tseldora Den Key",
-        "missable": false,
-        "notes": "Decide who to help in the final encounter."
-    },
-    {
-        "id": "creighton",
-        "name": "Creighton the Wanderer",
-        "image": "assets/npcs/Creighton_the_Wanderer.webp",
-        "steps": [
-            {
-                "location": "Huntsman's Copse",
-                "action": "Talk to him in the jail cell near Undead Lockaway.",
-                "done": false
-            },
-            {
-                "location": "Shaded Woods",
-                "action": "Talk to him at the fork in the road.",
-                "done": false
-            },
-            {
-                "location": "Brightstone Cove",
-                "action": "Final showdown with Pate.",
-                "done": false
-            }
-        ],
-        "reward": "Creighton's Set + Tseldora Den Key",
-        "missable": false,
-        "notes": "Warning: Pate might be the one telling the truth... or maybe neither is."
-    },
-    {
-        "id": "chloanne",
-        "name": "Stone Trader Chloanne",
-        "image": "assets/npcs/Stone_Trader_Chloanne.webp",
-        "steps": [
-            {
-                "location": "Harvest Valley",
-                "action": "Talk to her at the beginning of the area.",
-                "done": false
-            },
-            {
-                "location": "Majula",
-                "action": "Talk to her after she moves to Majula.",
-                "done": false
-            }
-        ],
-        "reward": "Infinite Titanite Shards (later game)",
-        "missable": false,
-        "notes": "She is the daughter of Blacksmith Lenigrast."
-    }
+  {
+    "id": "lucatiel",
+    "name": "Lucatiel of Mirrah",
+    "image": "assets/enemies/Lucatiel_of_Mirrah.webp",
+    "steps": [
+      {
+        "location": "No-man's Wharf",
+        "action": "Speak to her by the bonfire in original DS2, or in the first upper building in Scholar. Exhaust her dialogue.",
+        "done": false
+      },
+      {
+        "location": "Lost Bastille",
+        "action": "Talk to her in the tower near McDuff.",
+        "done": false
+      },
+      {
+        "location": "Earthen Peak",
+        "action": "Talk to her near the lower bonfire.",
+        "done": false
+      },
+      {
+        "location": "Black Gulch",
+        "action": "Find her on a hidden ledge and talk.",
+        "done": false
+      },
+      {
+        "location": "Aldia's Keep",
+        "action": "Talk to her at the first bonfire (Final step).",
+        "done": false
+      }
+    ],
+    "reward": "Lucatiel's Set + Mirrah Greatsword",
+    "missable": true,
+    "notes": "Lucatiel must survive three victories against Flexile Sentry, Lost Sinner, Smelter Demon or the Rotten before the final Aldia’s Keep conversation. Repeated victories using Ascetics count. Her meeting spots differ by edition.",
+    "source_url": "https://darksouls2.wikidot.com/lucatiel-of-mirrah",
+    "npc_id": "lucatiel-of-mirrah"
+  },
+  {
+    "id": "benhart",
+    "name": "Benhart of Jugo",
+    "image": "assets/npcs/Benhart_of_Jugo.webp",
+    "steps": [
+      {
+        "location": "Majula",
+        "action": "Talk to him near the entrance to Shaded Woods.",
+        "done": false
+      },
+      {
+        "location": "Shaded Woods",
+        "action": "Talk to him after unpetrifying Rosabeth.",
+        "done": false
+      },
+      {
+        "location": "Drangleic Castle",
+        "action": "Talk to him at the Central Castle bonfire.",
+        "done": false
+      },
+      {
+        "location": "Memory of Orro",
+        "action": "Talk to him after the boss fight (Final step).",
+        "done": false
+      }
+    ],
+    "reward": "Bluemoon Greatsword; Benhart’s Set; Benhart’s Parma",
+    "missable": true,
+    "notes": "Benhart must survive three qualifying boss victories before the final conversation in Memory of Orro. Prowling Magus and Congregation, Looking Glass Knight and Giant Lord count; repeated victories using Ascetics count. Elana does not count.",
+    "source_url": "https://darksouls2.wikidot.com/benhart-of-jugo",
+    "npc_id": "benhart-of-jugo"
+  },
+  {
+    "id": "pate",
+    "name": "Mild-Mannered Pate",
+    "image": "assets/npcs/Mild_Mannered_Pate.webp",
+    "steps": [
+      {
+        "location": "Forest of Fallen Giants",
+        "action": "Talk to him, go through the gate trap, and talk again.",
+        "done": false
+      },
+      {
+        "location": "Earthen Peak",
+        "action": "Talk to him near the central bonfire.",
+        "done": false
+      },
+      {
+        "location": "Brightstone Cove",
+        "action": "Witness the showdown between him and Creighton.",
+        "done": false
+      }
+    ],
+    "reward": "Pate's Spear + Tseldora Den Key",
+    "missable": false,
+    "notes": "Decide who to help in the final encounter.",
+    "source_url": "https://darksouls2.wikidot.com/mild-mannered-pate",
+    "npc_id": "mild-mannered-pate"
+  },
+  {
+    "id": "creighton",
+    "name": "Creighton the Wanderer",
+    "image": "assets/npcs/Creighton_the_Wanderer.webp",
+    "steps": [
+      {
+        "location": "Huntsman's Copse",
+        "action": "Talk to him in the jail cell near Undead Lockaway.",
+        "done": false
+      },
+      {
+        "location": "Shaded Woods",
+        "action": "Talk to him at the fork in the road.",
+        "done": false
+      },
+      {
+        "location": "Brightstone Cove",
+        "action": "Final showdown with Pate.",
+        "done": false
+      }
+    ],
+    "reward": "Creighton's Set + Tseldora Den Key",
+    "missable": false,
+    "notes": "Warning: Pate might be the one telling the truth... or maybe neither is.",
+    "source_url": "https://darksouls2.wikidot.com/creighton-the-wanderer",
+    "npc_id": "creighton-the-wanderer"
+  },
+  {
+    "id": "chloanne",
+    "name": "Stone Trader Chloanne",
+    "image": "assets/npcs/Stone_Trader_Chloanne.webp",
+    "steps": [
+      {
+        "location": "Harvest Valley",
+        "action": "Talk to her at the beginning of the area.",
+        "done": false
+      },
+      {
+        "location": "Majula",
+        "action": "Talk to her after she moves to Majula.",
+        "done": false
+      }
+    ],
+    "reward": "Infinite Titanite Shards (later game)",
+    "missable": false,
+    "notes": "She is the daughter of Blacksmith Lenigrast.",
+    "source_url": "https://darksouls2.wikidot.com/stone-trader-chloanne",
+    "npc_id": "stone-trader-chloanne"
+  },
+  {
+    "id": "navlaan",
+    "name": "Royal Sorcerer Navlaan",
+    "steps": [
+      {
+        "location": "Aldia's Keep",
+        "action": "Stay hollow and leave the barrier lever untouched. Speak to Navlaan to begin his requests.",
+        "done": false
+      },
+      {
+        "location": "Aldia's Keep",
+        "action": "Show a Ladder Miniature bought from Gilligan to receive a Dispelling Ring.",
+        "done": false
+      },
+      {
+        "location": "Aldia's Keep",
+        "action": "Show Cale’s Helm, earned by completing Cale’s map objectives, to receive Simpleton’s Spice.",
+        "done": false
+      },
+      {
+        "location": "Aldia's Keep",
+        "action": "Show the Sunset Staff: Felkin gives one at 20 base INT and 20 base FTH; another is found outside Aldia’s Keep. Receive Forbidden Sun.",
+        "done": false
+      },
+      {
+        "location": "Aldia's Keep",
+        "action": "Show the Aged Feather given by the Emerald Herald in Dragon Aerie. Receive Unleash Magic, then talk again for the Chaos Set.",
+        "done": false
+      }
+    ],
+    "reward": "Dispelling Ring; Simpleton’s Spice; Forbidden Sun; Unleash Magic; Chaos Set",
+    "missable": true,
+    "notes": "All four proof items can be obtained without killing the requested NPCs. Releasing Navlaan ends the quest and Bonfire Ascetics do not reset the lever.",
+    "source_url": "https://darksouls2.wikidot.com/royal-sorcerer-navlaan",
+    "image": "assets/enemies/Royal_Sorcerer_Navlaan.webp",
+    "npc_id": "royal-sorcerer-navlaan"
+  },
+  {
+    "id": "rosabeth",
+    "name": "Rosabeth of Melfia",
+    "steps": [
+      {
+        "location": "Shaded Woods entrance; Majula",
+        "action": "Use a Fragrant Branch of Yore on the petrified woman blocking the gatehouse switch.",
+        "done": false
+      },
+      {
+        "location": "Shaded Woods entrance; Majula",
+        "action": "Give her at least one piece of wearable clothing and exhaust her dialogue.",
+        "done": false
+      },
+      {
+        "location": "Shaded Woods entrance; Majula",
+        "action": "Meet her in Majula to buy pyromancies and reinforce Pyromancy Flames with Fire Seeds.",
+        "done": false
+      }
+    ],
+    "reward": "Pyromancy merchant and reinforcement service",
+    "missable": false,
+    "notes": "Clothing given to Rosabeth is not returned.",
+    "source_url": "https://darksouls2.wikidot.com/rosabeth-of-melfia",
+    "image": "assets/npcs/Rosabeth_of_Melfia.webp",
+    "npc_id": "rosabeth-of-melfia"
+  },
+  {
+    "id": "ornifex",
+    "name": "Weaponsmith Ornifex",
+    "steps": [
+      {
+        "location": "Shaded Woods; Brightstone Cove Tseldora",
+        "action": "Obtain the Fang Key from the petrified Lion Warrior near the Shaded Ruins bonfire.",
+        "done": false
+      },
+      {
+        "location": "Shaded Woods; Brightstone Cove Tseldora",
+        "action": "Unlock Ornifex’s cell in the underground cave and exhaust her dialogue.",
+        "done": false
+      },
+      {
+        "location": "Shaded Woods; Brightstone Cove Tseldora",
+        "action": "Meet her in her workshop in Lower Brightstone Cove to exchange boss souls for equipment.",
+        "done": false
+      }
+    ],
+    "reward": "Boss soul trades; the first weapon trade has its soul fee waived",
+    "missable": true,
+    "notes": "The boss soul itself is still required for the first trade. Keep nearby enemies away from her.",
+    "source_url": "https://darksouls2.wikidot.com/weaponsmith-ornifex",
+    "image": "assets/npcs/Weaponsmith_Ornifex.webp",
+    "npc_id": "weaponsmith-ornifex"
+  },
+  {
+    "id": "grandahl",
+    "name": "Darkdiver Grandahl",
+    "steps": [
+      {
+        "location": "Shaded Woods; Black Gulch; Drangleic Castle",
+        "action": "Find Grandahl at all three locations and accept membership in the Pilgrims of Dark.",
+        "done": false
+      },
+      {
+        "location": "Shaded Woods; Black Gulch; Drangleic Castle",
+        "action": "Explore each of the three Dark Chasm of Old branches, light its brazier and defeat its enemies before leaving.",
+        "done": false
+      },
+      {
+        "location": "Shaded Woods; Black Gulch; Drangleic Castle",
+        "action": "Complete the covenant trials and defeat Darklurker, then speak to Grandahl for the final rewards.",
+        "done": false
+      }
+    ],
+    "reward": "Covenant ranks; Dragon Chime; Xanthous Set",
+    "missable": false,
+    "notes": "Re-entry normally costs a Human Effigy. Bring a flame source to light the braziers.",
+    "source_url": "https://darksouls2.wikidot.com/darkdiver-grandahl",
+    "image": "assets/npcs/Darkdiver_Grandahl.webp",
+    "npc_id": "darkdiver-grandahl"
+  },
+  {
+    "id": "vengarl",
+    "name": "Head of Vengarl",
+    "steps": [
+      {
+        "location": "Shaded Woods",
+        "action": "Find the disembodied head in the foggy woods and listen to his full story for Vengarl’s Helm.",
+        "done": false
+      },
+      {
+        "location": "Shaded Woods",
+        "action": "Defeat his hostile body: after Freja in original DS2, or behind a petrified Lion Warrior in Shaded Woods in Scholar.",
+        "done": false
+      },
+      {
+        "location": "Shaded Woods",
+        "action": "Return to the head to unlock additional weapon stock and his summon availability.",
+        "done": false
+      }
+    ],
+    "reward": "Vengarl’s Helm; body armor drops; expanded stock and summons",
+    "missable": false,
+    "notes": "Head and body are different encounters. Killing the friendly head is not required.",
+    "source_url": "https://darksouls2.wikidot.com/head-of-vengarl",
+    "image": "assets/npcs/audit-head-of-vengarl.jpg",
+    "npc_id": "head-of-vengarl"
+  },
+  {
+    "id": "alsanna",
+    "name": "Alsanna, Silent Oracle",
+    "steps": [
+      {
+        "location": "Grand Cathedral; The Old Chaos",
+        "action": "Defeat Aava and speak to Alsanna so the blizzard ends and frozen routes reopen.",
+        "done": false
+      },
+      {
+        "location": "Grand Cathedral; The Old Chaos",
+        "action": "Recruit the three scattered Loyce Knights, then defeat the Burnt Ivory King with their help.",
+        "done": false
+      },
+      {
+        "location": "Grand Cathedral; The Old Chaos",
+        "action": "Collect 5 Loyce Souls for gauntlets and leggings, 15 for the armor, and 35 for the helm.",
+        "done": false
+      },
+      {
+        "location": "Grand Cathedral; The Old Chaos",
+        "action": "At 50 Loyce Souls, the stairs clear completely. Speak to her for her soul; Maughlin can then sell the Ivory King Set.",
+        "done": false
+      }
+    ],
+    "reward": "Loyce Set; Soul of Alsanna; Ivory King Set purchase unlocked",
+    "missable": false,
+    "notes": "Keep the Loyce Souls for her progression; killing Alsanna is not equivalent to completing her collection rewards.",
+    "source_url": "https://darksouls2.wikidot.com/alsanna-silent-oracle",
+    "image": "assets/npcs/Alsanna_Silent_Oracle.webp",
+    "npc_id": "alsanna-silent-oracle"
+  },
+  {
+    "id": "cale",
+    "name": "Cale the Cartographer",
+    "steps": [
+      {
+        "location": "Forest of Fallen Giants; Majula",
+        "action": "Exhaust Cale’s dialogue in the cave for the House Key. Defeat the Last Giant and clear the mansion basement so he can move in.",
+        "done": false
+      },
+      {
+        "location": "Forest of Fallen Giants; Majula",
+        "action": "Defeat the Last Giant, Lost Sinner, Old Iron King, the Rotten and the Duke’s Dear Freja.",
+        "done": false
+      },
+      {
+        "location": "Forest of Fallen Giants; Majula",
+        "action": "Obtain the King’s Ring and Ashen Mist Heart, then defeat Throne Watcher and Throne Defender.",
+        "done": false
+      },
+      {
+        "location": "Forest of Fallen Giants; Majula",
+        "action": "Return to Cale after all eight map flames are lit to receive his equipment.",
+        "done": false
+      }
+    ],
+    "reward": "Cale’s Set; Curious Map achievement",
+    "missable": false,
+    "notes": "Cale’s Helm also serves as proof for Navlaan’s second request.",
+    "source_url": "https://darksouls2.wikidot.com/cale-the-cartographer",
+    "image": "assets/npcs/Cale_the_Cartographer.webp",
+    "npc_id": "cale-the-cartographer"
+  },
+  {
+    "id": "tark",
+    "name": "Manscorpion Tark",
+    "steps": [
+      {
+        "location": "Shaded Woods",
+        "action": "Wear the Ring of Whispers to understand Tark and exhaust his dialogue.",
+        "done": false
+      },
+      {
+        "location": "Shaded Woods",
+        "action": "Defeat Scorpioness Najka and return to him for a Fragrant Branch of Yore.",
+        "done": false
+      },
+      {
+        "location": "Shaded Woods",
+        "action": "Return after defeating the Duke’s Dear Freja for the Second Dragon Ring.",
+        "done": false
+      }
+    ],
+    "reward": "Fragrant Branch of Yore; Second Dragon Ring",
+    "missable": false,
+    "notes": "Speaking to him before Najka unlocks his summon sign.",
+    "source_url": "https://darksouls2.wikidot.com/manscorpion-tark",
+    "image": "assets/npcs/Manscorpion_Tark.webp",
+    "npc_id": "manscorpion-tark"
+  },
+  {
+    "id": "crown-blessing",
+    "name": "Vendrick — crown blessing",
+    "steps": [
+      {
+        "location": "Undead Crypt; Memory of the King",
+        "action": "Obtain the Ashen Mist Heart and use Vendrick’s discarded armor to enter the Memory of the King.",
+        "done": false
+      },
+      {
+        "location": "Undead Crypt; Memory of the King",
+        "action": "Defeat Vendrick and acquire his crown, plus the crowns of the Sunken King, Old Iron King and Ivory King.",
+        "done": false
+      },
+      {
+        "location": "Undead Crypt; Memory of the King",
+        "action": "Return to the memory with all four crowns and speak to Vendrick for the blessing.",
+        "done": false
+      }
+    ],
+    "reward": "Blessed crowns prevent hollowing and curse while worn",
+    "missable": false,
+    "notes": "The blessing is for the current playthrough and must be earned again in NG+.",
+    "source_url": "https://darksouls2.wikidot.com/vendrick",
+    "image": "assets/bosses/Vendrick.webp",
+    "npc_id": "vendrick"
+  }
 ]

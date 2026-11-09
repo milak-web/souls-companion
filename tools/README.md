@@ -2,6 +2,8 @@
 
 The committed JSON catalogs are the app's editable data. Every imported record carries a source URL where available. Raw cached reference HTML in `audit/` is ignored by Git.
 
+Version 2.3 adds the DS2 wiki collection, extraction and curation pipeline. Run `research_ds2_wiki.py`, then `enrich_ds2_wiki.py --apply`, then `curate_ds2_references.py`, each with `--cache <research-cache>` from the project directory. Curated corrections must run after an import; do not publish a raw import alone. `sync_ds2_roster.py` resolves the wiki's alternate enemy names; review its proposed mappings before recollecting sources. `verify_ds2_research.py` checks the known parsing failures and encounter distinctions, while `verify_reference_ui.cjs` checks local source links, merchant stock, NPC roles and actual detail-element bounds at four screen widths. `write_ds2_research_audit.py --cache <research-cache>` regenerates [the coverage report](../docs/DS2_REFERENCE_REVIEW.md). These new checks run from the project directory.
+
 Run from `C:/Users/MK2/Desktop/PRO` while the guide server is on port 8765:
 
 - `node DarkSouls-Guide/tools/verify.cjs`: render every catalog entry and validate generated internal destinations.

@@ -7,7 +7,7 @@ const fs=require('fs'),assert=require('assert/strict');let browser;
  async function shot(path,fullPage=true){await page.waitForFunction(()=>Array.from(document.querySelectorAll('#view-container img:not([loading=lazy])')).every(i=>i.complete));await page.screenshot({path,fullPage,animations:'disabled'});}
  page.on('pageerror',e=>errors.push(e.message));
  await page.route('**/*',r=>r.request().url().startsWith('http://127.0.0.1:8765/')||r.request().url().startsWith('data:')?r.continue():r.abort());
- await page.goto('http://127.0.0.1:8765/?v=1.5.2');await page.waitForFunction(()=>window.app?.ready === true);
+ await page.goto('http://127.0.0.1:8765/#game=ds2&view=home');await page.waitForFunction(()=>window.app?.ready === true);
  const data=await page.evaluate(()=>{
   const a=window.app,w=a.data.weapons.find(w=>w.id==='moonlight-greatsword');
   const ar20=a.computeAr(w,5,40,40,20,10),ar50=a.computeAr(w,5,40,40,50,10);

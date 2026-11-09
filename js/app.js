@@ -1,3 +1,4 @@
+import {referenceMethods} from './reference-facts.js?v=2.3.0';
 import { blacksmithMethods } from './blacksmith.js?v=2.1.0';
 import { characterMethods } from './character.js?v=2.1.0';
 /**
@@ -5,7 +6,7 @@ import { characterMethods } from './character.js?v=2.1.0';
  */
 
 const OFFLINE_PLACEHOLDER = `data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%231a1a1a%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-family%3D%22serif%22%20font-size%3D%2224%22%20fill%3D%22%23c5a059%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EDARK%20SOULS%20II%3C/text%3E%3C/svg%3E`;
-const DATA_VERSION = '1.9.1';
+const DATA_VERSION = '2.3.0';
 
 export class CodexApp {
     constructor() {
@@ -164,6 +165,7 @@ export class CodexApp {
                 this.data.bosses = this.data.enemies.filter(e => typeof e.despawn === 'string' && e.despawn.includes('Boss'));
             }
             this.data.redirects = await this.loadAux('redirects.json', {});
+            this.data.npcRedirects = await this.loadAux('npc_redirects.json', {});
             this.data.areaRedirects = await this.loadAux('area_redirects.json', {});
             this.data.armorRedirects = await this.loadAux('armor_redirects.json', {});
             this.data.articles = await this.loadAux('articles.json', []);
@@ -171,6 +173,7 @@ export class CodexApp {
             this.favorites = this.favorites.map(f => ({...f, type: f.type === 'weapon' && ['binoculars','eternal-sanctum-key','iron-key','scorching-iron-scepter'].includes(f.id) ? 'item' : f.type, id: f.type === 'enemy' ? this.data.redirects[f.id] || f.id : f.type === 'armor' ? this.data.armorRedirects[f.id] || f.id : f.id}));
             this.favorites=this.favorites.map(f=>{const moved=f.type==='enemy' && this.data.categoryRedirects?.['enemy-detail']?.[f.id];return moved ? {...f,id:moved.id,type:'npc'} : f;});
             this.favorites = this.favorites.map(f => f.type === 'item' && this.data.magic.some(m => m.id === f.id) ? {...f, type:'magic'} : f);
+            this.favorites=this.favorites.map(f=>f.type==='npc'?{...f,id:this.data.npcRedirects[f.id] || f.id}:f).filter((f,i,all)=>all.findIndex(other=>other.id===f.id && other.type===f.type)===i);
             try {localStorage.setItem('ds2_favorites', JSON.stringify(this.favorites));} catch {}
             console.log('Data loaded:', this.data);
         } catch (error) {
@@ -245,6 +248,7 @@ export class CodexApp {
         if (viewName === 'armor-detail' && this.data.armorRedirects?.[params.id]) params = {...params, id: this.data.armorRedirects[params.id]};
         if (viewName === 'area-detail' && this.data.areaRedirects?.[params.id]) params = {...params, id: this.data.areaRedirects[params.id]};
         if (viewName === 'enemy-detail' && this.data.redirects?.[params.id]) params = {...params, id: this.data.redirects[params.id]};
+        if (viewName === 'npc-detail' && this.data.npcRedirects?.[params.id]) params = {...params, id: this.data.npcRedirects[params.id]};
         this.currentView = viewName;
         this.currentParams = {...params};
         const route = new URLSearchParams({game: 'ds2', view: viewName});
@@ -288,6 +292,7 @@ export class CodexApp {
         if (!container.innerHTML.trim()) {
             container.innerHTML = '<p class="empty-msg">This entry could not be found. Choose a category or use search.</p>';
         }
+        this.renderWikiReference(viewName, params, container);
         container.querySelector('.detail-view')?.insertAdjacentHTML('afterbegin', '<div class="detail-navigation"><button class="ds-btn" onclick="history.back()">Back</button></div>');
         document.querySelector('.content-area').scrollTop = 0;
     }
@@ -452,8 +457,8 @@ export class CodexApp {
                 <div class="card-image placeholder-enemy">
                     <img src="${imageUrl}" crossorigin="anonymous" referrerpolicy="no-referrer" onerror="window.app.handleImageError(this, '${enemy.name.replace(/'/g, "\\'")}', 'enemy')">
                     <div class="card-overlay">
-                        <span class="enemy-hp"><img class="ico" src="assets/ui/stat/stat-hp.webp" alt=""> ${enemy.hp || 'Not verified'}</span>
-                        <span class="enemy-souls"><img class="ico" src="assets/ui/stat/stat-souls.webp" alt=""> ${enemy.souls === 0 ? 0 : enemy.souls || 'Not verified'}</span>
+                        <span class="enemy-hp"><img class="ico" src="assets/ui/stat/stat-hp.webp" alt=""> ${this.escapeHtml(enemy.hp || enemy.stat_notes?.hp || 'See encounter details')}</span>
+                        <span class="enemy-souls"><img class="ico" src="assets/ui/stat/stat-souls.webp" alt=""> ${this.escapeHtml(enemy.souls === 0 ? 0 : enemy.souls || enemy.stat_notes?.souls || 'See encounter details')}</span>
                     </div>
                 </div>
                 <div class="card-info">
@@ -553,7 +558,7 @@ export class CodexApp {
         const seen = new Set();
         return [...this.data.bosses, ...this.data.enemies].filter(enemy => {
             if (seen.has(enemy.id)) return false;
-            const found = (enemy.drops || []).some(drop => {
+            const found = this.enemyDrops(enemy).some(drop => {
                 const target = this.findDropTarget(drop.name);
                 return target && target.view === view && target.record.id === record.id;
             });
@@ -605,20 +610,15 @@ export class CodexApp {
                             }).join('')}
                         </div>
                         <p class="data-note">${this.escapeHtml(enemy.stat_context || 'Stats may vary with location and bonfire intensity.')}</p>${enemy.image_verified===false ? '<p class="data-note">Portrait unavailable; a labeled placeholder is shown.</p>' : ''}
-                        <div class="quick-stats">
-                            <div class="stat"><img class="ico" src="assets/ui/stat/stat-hp.webp" alt=""><span>HP:</span> ${enemy.hp || 'Not verified'}</div>
-                            <div class="stat"><img class="ico" src="assets/ui/stat/stat-souls.webp" alt=""><span>Souls:</span> ${enemy.souls === 0 ? 0 : enemy.souls || 'Not verified'}</div>
-                            <div class="stat"><span>Parry:</span> ${enemy.can_parry == null ? 'Not verified' : enemy.can_parry ? 'Yes' : 'No'}</div>
-                            <div class="stat"><span>Backstab:</span> ${enemy.can_backstab == null ? 'Not verified' : enemy.can_backstab ? 'Yes' : 'No'}</div>
-                        </div>
+                        <div class="quick-stats">${this.enemyQuickFacts(enemy)}</div>
                     </div>
                 </header>
 
                 <div class="detail-grid">
-                    ${this.renderBossCombat(enemy)}${enemy.stat_profiles?.length ? `<section><details class="enemy-stat-profiles"><summary>Stats by location and bonfire intensity</summary><div class="table-scroll"><table class="ds-table"><thead><tr><th>Context / variant</th><th>Intensity</th><th>HP</th><th>Souls</th></tr></thead><tbody>${enemy.stat_profiles.map(row=>`<tr><td>${this.escapeHtml(row.context)}</td><td>${this.escapeHtml(row.intensity)}</td><td>${this.escapeHtml(row.hp)}</td><td>${this.escapeHtml(row.souls)}</td></tr>`).join('')}</tbody></table></div></details></section>` : ''}
+                    ${this.renderBossCombat(enemy)}${this.enemyStatProfiles(enemy)}
                     <section class="resistances">
                         <h3>Strengths & Weaknesses</h3>${enemy.effectiveness_notes ? `<p>${this.escapeHtml(enemy.effectiveness_notes)}</p>` : ''}
-                        ${!Object.keys(enemy.weaknesses || {}).length ? '<p class="data-note">Physical damage weaknesses have not been verified.</p>' : ''}
+                        ${!Object.keys(enemy.weaknesses || {}).length ? '<p class="data-note">No comparative damage modifiers are published for this reference variant.</p>' : ''}
                         <div class="res-grid">
                             ${Object.entries(enemy.weaknesses || {}).map(([type, status]) => `
                                 <div class="res-item ${status}">
@@ -632,7 +632,7 @@ export class CodexApp {
 
                     <section class="status-effects">
                         <h3>Immunities & Status</h3>
-                        ${!Object.keys(enemy.status_effects || {}).length ? '<p class="data-note">Status immunities have not been verified.</p>' : ''}
+                        ${!Object.keys(enemy.status_effects || {}).length ? '<p class="data-note">The reference does not provide status thresholds for this variant.</p>' : ''}
                         <div class="res-grid">
                             ${Object.entries(enemy.status_effects || {}).map(([type, status]) => `
                                 <div class="res-item ${status}">
@@ -647,7 +647,7 @@ export class CodexApp {
                     <section class="drops">
                         <h3>Item Drops (Chances)</h3>
                         <ul class="drop-list">
-                            ${enemy.drops.map(drop => `
+                            ${this.enemyDrops(enemy).map(drop => `
                                 <li>
                                     <img src="${this.getProxiedUrl(drop.icon, drop.name)}" crossorigin="anonymous" class="drop-icon-img" referrerpolicy="no-referrer" onerror="window.app.handleImageError(this, '${drop.name.replace(/'/g, "\\'")}', 'item')">
                                     ${this.dropLink(drop.name)}
@@ -659,9 +659,10 @@ export class CodexApp {
 
                     <section class="farming">
                         <h3>Tactical Guide</h3>
-                        <p><strong>Nearest Bonfire:</strong> ${enemy.farming.bonfire || 'Not verified'}</p>
-                        <p><strong>Recommended Gear:</strong> ${enemy.farming.gear.join(', ') || 'Not verified'}</p>
-                        <p><strong>Strategy:</strong> ${enemy.farming.notes || enemy.combat?.strategy || 'Tactics have not been verified.'}</p>
+                        ${enemy.farming.bonfire ? `<p><strong>Nearby bonfire:</strong> ${this.escapeHtml(enemy.farming.bonfire)}</p>` : ''}
+                        ${enemy.farming.gear.length ? `<p><strong>Equipment suggestions:</strong> ${this.escapeHtml(enemy.farming.gear.join(', '))}</p>` : ''}
+                        ${enemy.farming.notes || enemy.combat?.strategy ? `<p><strong>Strategy:</strong> ${this.escapeHtml(enemy.farming.notes || enemy.combat.strategy)}</p>` : ''}
+                        ${enemy.encounter_notes?.length ? `<ul>${enemy.encounter_notes.map(note=>`<li>${this.escapeHtml(note)}</li>`).join('')}</ul>` : ''}
                         <div class="difficulty">Threat Level: ${enemy.farming.difficulty ? '★'.repeat(enemy.farming.difficulty) + '☆'.repeat(5-enemy.farming.difficulty) : 'Not rated'}</div>
                     </section>
                 </div>
@@ -741,16 +742,32 @@ export class CodexApp {
     }
 
     localReferenceTarget(name, url) {
-        const catalogs=[['magic-detail',this.data.magic],['item-detail',this.data.items],['weapon-detail',this.data.weapons],['armor-detail',this.data.armor],['npc-detail',this.data.npcs],['area-detail',this.data.areas],['enemy-detail',this.data.bosses],['enemy-detail',this.data.enemies],['article-detail',this.data.articles || []]];
-        const source = url?.split('#')[0].replace(/\/$/,'');
-        if (source) for (const [view,records] of catalogs) {
-            const record=records.find(r=>r.source_url?.split('#')[0].replace(/\/$/,'')===source);
-            if(record)return {view,record};
+        const normalized=value=>{try{return decodeURIComponent(String(value||'').split('#')[0]).replace(/\/$/,'').replace('http://','https://');}catch{return String(value||'');}};
+        if(!this.referenceIndex) {
+            const byName=new Map(),bySource=new Map();
+            const catalogs=[['magic-detail',this.data.magic],['item-detail',this.data.items],['weapon-detail',this.data.weapons],['armor-detail',this.data.armor],['npc-detail',this.data.npcs],['area-detail',this.data.areas],['enemy-detail',this.data.bosses],['enemy-detail',this.data.enemies],['article-detail',this.data.articles || []]];
+            for(const [view,records] of catalogs)for(const record of records) {
+                const target={view,record};
+                for(const value of [record.name,...(record.aliases||[])]) {
+                    const key=this.normalizeImageKey(value);
+                    if(!byName.has(key))byName.set(key,[]);
+                    byName.get(key).push(target);
+                }
+                for(const value of new Set([record.source_url,record.wiki_reference?.source_url,...(record.additional_sources||[])].filter(Boolean).map(normalized))) {
+                    if(!bySource.has(value))bySource.set(value,[]);
+                    bySource.get(value).push(target);
+                }
+            }
+            this.referenceIndex={byName,bySource};
         }
-        for(const [view,records] of catalogs) {
-            const record=this.resolveByName(records,name);
-            if(record)return {view,record};
-        }
+        const source=normalized(url), key=this.normalizeImageKey(name);
+        const named=this.referenceIndex.byName.get(key)||[],sourced=this.referenceIndex.bySource.get(source)||[];
+        // Names preserve ring ranks and merchant identities even when a wiki link
+        // points at a shared set page or at the general Merchants index.
+        const intersection=named.find(target=>sourced.includes(target));
+        if(intersection)return intersection;
+        if(named.length)return named.find(target=>this.normalizeImageKey(target.record.name)===key)||named[0];
+        if(sourced.length===1)return sourced[0];
         return null;
     }
 
@@ -843,7 +860,7 @@ export class CodexApp {
         const areas = this.data.areas.filter(area => (area.npcs || []).some(name => this.resolveByName(this.data.npcs, name)?.id === npc.id));
         document.getElementById('view-container').innerHTML = `<div class="detail-view npc-detail">
             <header class="detail-header"><div class="detail-image"><img src="${this.getProxiedUrl(npc.image, npc.name)}" alt="${this.escapeHtml(npc.name)}${npc.image_kind==='generated'?' — generated interpretation':''}"></div><div class="detail-title-box"><h1>${this.escapeHtml(npc.name)}</h1><p>${this.escapeHtml(npc.role || npc.title || '')}</p>${npc.image_kind==='generated'?'<span class="image-art-badge">Generated lore illustration · non-canonical appearance</span>':''}</div></header>
-            <div class="detail-grid"><section><h3>Locations</h3><div class="xlink-list">${areas.map(area => this.detailLink('area-detail', area, area.name)).join('') || this.escapeHtml(npc.location || 'Location has not been verified.')}</div></section><section><h3>About</h3><p>${this.escapeHtml(npc.description || 'Character details have not been verified.')}</p>${npc.use_notes ? `<h3>Interactions</h3><p>${this.escapeHtml(npc.use_notes)}</p>` : ''}</section></div>${this.referenceSection(npc)}</div>`;
+            <div class="detail-grid"><section><h3>${npc.role==='Lore figure'?'Lore reference':'Locations'}</h3><div class="xlink-list">${areas.map(area => this.detailLink('area-detail', area, area.name)).join('')}</div><p>${this.escapeHtml(npc.location || '')}</p>${npc.related?.length?`<div class="xlink-list">${npc.related.map(ref=>this.namedReference(ref.name,ref.source_url)).join('')}</div>`:''}</section><section><h3>About</h3><p>${this.escapeHtml(npc.description || '')}</p>${npc.use_notes ? `<h3>Interactions</h3><p>${this.escapeHtml(npc.use_notes)}</p>` : ''}${npc.interaction_details?.length?`<ul>${npc.interaction_details.map(note=>`<li>${this.escapeHtml(note)}</li>`).join('')}</ul>`:''}</section></div>${this.referenceSection(npc)}</div>`;
     }
 
     renderArmorList() {
@@ -1017,6 +1034,9 @@ export class CodexApp {
                         </li>
                     `).join('')}
                 </ul>
+                ${quest.notes ? `<p class="quest-notes">${this.escapeHtml(quest.notes)}</p>` : ''}
+                ${quest.npc_id ? this.detailLink('npc-detail',this.data.npcs.find(npc=>npc.id===quest.npc_id),'Character details') : ''}
+                ${this.referenceSection(quest)}
             `;
             container.appendChild(card);
         });
@@ -1112,7 +1132,7 @@ export class CodexApp {
     // Which enemies/bosses list this item in their drop table.
     renderItemSources(item, view = 'item-detail') {
         const holders = this.dropSources(item, view);
-        if (!holders.length) return '<section class="sources"><h3>Dropped By</h3><p class="data-note">No verified drop source is recorded in this catalog.</p></section>';
+        if (!holders.length) return ''; // Purchased, found and traded items use their acquisition references.
         const links = holders.map(e => this.detailLink('enemy-detail', e, e.name)).join('');
         return `<section class="sources"><h3>Dropped By (${holders.length})</h3><div class="xlink-list">${links}</div></section>`;
     }
@@ -1194,6 +1214,7 @@ export class CodexApp {
 
 }
 
+Object.assign(CodexApp.prototype, referenceMethods);
 Object.assign(CodexApp.prototype, blacksmithMethods);
 Object.assign(CodexApp.prototype, characterMethods);
 

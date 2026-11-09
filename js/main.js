@@ -36,7 +36,7 @@ async function loadGame(game) {
             await module.load();
             return module;
         }
-        const {CodexApp} = await import('./app.js?v=2.1.0');
+        const {CodexApp} = await import('./app.js?v=2.3.0');
         const app = new CodexApp();
         await app.loading;
         window.app = app;
